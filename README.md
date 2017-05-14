@@ -1,0 +1,1 @@
+# rubykaigi_static

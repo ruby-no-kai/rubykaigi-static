@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:ical="http://www.w3.org/2002/12/cal/icaltzd#" xml:lang="ja" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/"><channel rdf:about="http://linode.rubykaigi.org/2011/ja/advent_calendar"><title>RubyKaigi AdventCalender 2011</title><link>http://linode.rubykaigi.org/2011/ja/advent_calendar</link><dc:date>2011-05-20 00:00:00 +0900</dc:date><description>RubyKaigi AdventCalender 2011</description><items><rdf:Seq><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#tokyurubykaigi03"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#tech_lion02"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_07"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_birthday"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#mitaka_rb"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#metacon2011"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_08"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#photo_exhibition_rubykaigi"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#amagasakirb"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#kintsuba_sweets"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_workshop_in_sapporo"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#matsuerubykaigi03"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby55th"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_hf_ruby"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#herokuja_meetup_01"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#enishitech_cafe"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_tokai"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#unagi_rubykaigi"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#tkbb_rubykaigi"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#asakusacruising2011"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#trbmeetup"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#hamamatsu_rb"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#cookpad_ja"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#jrubykaigi2011"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#rubykaigi2011"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#agileuxlive"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo64"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#rubyhackingnight"/><rdf:li rdf:resource="http://linode.rubykaigi.org/2011/ja/advent_calendar#rails3recipebook_talks_junkudo"/></rdf:Seq></items></channel><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#tokyurubykaigi03"><title>TokyuRuby&#20250;&#35696;03</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#tokyurubykaigi03'>TokyuRuby会議03</a>
+</div>
+<div class='time'>11/05/29 14:30 - 11/05/29 19:30</div>
+<div class='location'>EC Navi Company (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://regional.rubykaigi.org/tokyu03' target='_blank'>http://regional.rubykaigi.org/tokyu03</a>
+</div>
+<div class='hosted_by'> Hosted By: TokyuRubyKaigi03実行委員会</div>
+]]></description><dc:date>2011-05-20 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#tokyurubykaigi03</link><foaf:topic><ical:Vevent><ical:dtstart>2011-05-29 14:30:00 +0900</ical:dtstart><ical:dtend>2011-05-29 19:30:00 +0900</ical:dtend><ical:location>EC Navi Company (Tokyo, Japan)</ical:location><ical:url>http://regional.rubykaigi.org/tokyu03</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#tech_lion02"><title>Tech LION vol.2</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#tech_lion02'>Tech LION vol.2</a>
+</div>
+<div class='time'>11/06/17 19:30 - 11/06/17 22:00</div>
+<div class='location'>Naked Loft (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://www.usptomonokai.jp/techlion' target='_blank'>http://www.usptomonokai.jp/techlion</a>
+</div>
+<div class='hosted_by'> Hosted By: USP友の会</div>
+]]></description><dc:date>2011-05-11 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#tech_lion02</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-17 19:30:00 +0900</ical:dtstart><ical:dtend>2011-06-17 22:00:00 +0900</ical:dtend><ical:location>Naked Loft (Tokyo, Japan)</ical:location><ical:url>http://www.usptomonokai.jp/techlion</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo"><title>Rails&#21193;&#24375;&#20250;@&#26481;&#20140; &#31532;63&#22238;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo'>Rails勉強会@東京 第63回</a>
+</div>
+<div class='time'>11/06/18 13:00 - 11/06/18 18:00</div>
+<div class='location'>Eiwa System Management,Inc. (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0063' target='_blank'>http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0063</a>
+</div>
+<div class='hosted_by'> Hosted By: Rails Meeting Tokyo</div>
+]]></description><dc:date>2011-06-14 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-18 13:00:00 +0900</ical:dtstart><ical:dtend>2011-06-18 18:00:00 +0900</ical:dtend><ical:location>Eiwa System Management,Inc. (Tokyo, Japan)</ical:location><ical:url>http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0063</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_07"><title>The RSpec Book Reading Sapporo 07</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_07'>The RSpec Book Reading Sapporo 07</a>
+</div>
+<div class='time'>11/06/20 19:00 - 11/06/20 21:00</div>
+<div class='location'>粋 Laboratory (Sapporo, Japan) [<a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&ie=UTF8&hl=ja&brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&ll=43.058337,141.349883&spn=0.001521,0.001912&z=19">Map</a>]</div>
+<div class='url'>
+  <a href='http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_07.html' target='_blank'>http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_07.html</a>
+</div>
+<div class='hosted_by'> Hosted By: Sapporo.rb</div>
+]]></description><dc:date>2011-06-16 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_07</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-20 19:00:00 +0900</ical:dtstart><ical:dtend>2011-06-20 21:00:00 +0900</ical:dtend><ical:location>&#31883; Laboratory (Sapporo, Japan) [&lt;a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&amp;ie=UTF8&amp;hl=ja&amp;brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&amp;ll=43.058337,141.349883&amp;spn=0.001521,0.001912&amp;z=19"&gt;Map&lt;/a&gt;]</ical:location><ical:url>http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_07.html</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_birthday"><title>DevLOVE Birthday! &#65374;RubyKaigi&#12398;&#24112;&#12426;&#36947;&#12395;&#29983;&#12414;&#12428;&#12375;&#12418;&#12398;&#65374;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_birthday'>DevLOVE Birthday! ～RubyKaigiの帰り道に生まれしもの～</a>
+</div>
+<div class='time'>11/06/21 19:30 - 11/06/21 22:00</div>
+<div class='location'>Classmethod,Inc. (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://kokucheese.com/event/index/12560/' target='_blank'>http://kokucheese.com/event/index/12560/</a>
+</div>
+<div class='hosted_by'> Hosted By: DevLOVE</div>
+]]></description><dc:date>2011-06-08 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_birthday</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-21 19:30:00 +0900</ical:dtstart><ical:dtend>2011-06-21 22:00:00 +0900</ical:dtend><ical:location>Classmethod,Inc. (Tokyo, Japan)</ical:location><ical:url>http://kokucheese.com/event/index/12560/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#mitaka_rb"><title>Mitaka.rb&#31532;12&#22238;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#mitaka_rb'>Mitaka.rb第12回</a>
+</div>
+<div class='time'>11/06/21 20:00 - 11/06/21 23:00</div>
+<div class='location'>Little Star Restaurant  (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://atnd.org/events/16665' target='_blank'>http://atnd.org/events/16665</a>
+</div>
+<div class='hosted_by'> Hosted By: Mitaka.rb</div>
+]]></description><dc:date>2011-06-07 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#mitaka_rb</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-21 20:00:00 +0900</ical:dtstart><ical:dtend>2011-06-21 23:00:00 +0900</ical:dtend><ical:location>Little Star Restaurant  (Tokyo, Japan)</ical:location><ical:url>http://atnd.org/events/16665</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#metacon2011"><title>&#21193;&#24375;&#20250;&#12459;&#12531;&#12501;&#12449;&#12524;&#12531;&#12473;2011</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#metacon2011'>勉強会カンファレンス2011</a>
+</div>
+<div class='time'>11/06/25 10:00 - 11/06/25 19:00</div>
+<div class='location'>Rakuten Tower 2, Rakuten Inc.  (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='https://sites.google.com/site/metacon2011/' target='_blank'>https://sites.google.com/site/metacon2011/</a>
+</div>
+<div class='hosted_by'> Hosted By: 勉強会勉強会</div>
+]]></description><dc:date>2011-06-08 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#metacon2011</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-25 10:00:00 +0900</ical:dtstart><ical:dtend>2011-06-25 19:00:00 +0900</ical:dtend><ical:location>Rakuten Tower 2, Rakuten Inc.  (Tokyo, Japan)</ical:location><ical:url>https://sites.google.com/site/metacon2011/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_08"><title>The RSpec Book Reading Sapporo 08</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_08'>The RSpec Book Reading Sapporo 08</a>
+</div>
+<div class='time'>11/06/27 19:00 - 11/06/27 21:00</div>
+<div class='location'>粋 Laboratory (Sapporo, Japan) [<a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&ie=UTF8&hl=ja&brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&ll=43.058337,141.349883&spn=0.001521,0.001912&z=19">Map</a>]</div>
+<div class='url'>
+  <a href='http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_08.html' target='_blank'>http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_08.html</a>
+</div>
+<div class='hosted_by'> Hosted By: Sapporo.rb</div>
+]]></description><dc:date>2011-06-17 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#rspec_sapporo_08</link><foaf:topic><ical:Vevent><ical:dtstart>2011-06-27 19:00:00 +0900</ical:dtstart><ical:dtend>2011-06-27 21:00:00 +0900</ical:dtend><ical:location>&#31883; Laboratory (Sapporo, Japan) [&lt;a href="http://maps.google.co.jp/maps?q=%E7%B2%8B+Laboratory&amp;ie=UTF8&amp;hl=ja&amp;brcurrent=3,0x5f0b299b45607ae1:0x850628b2828d8342,0&amp;ll=43.058337,141.349883&amp;spn=0.001521,0.001912&amp;z=19"&gt;Map&lt;/a&gt;]</ical:location><ical:url>http://qwik.jp/RubySapporo/The_RSpec_Book_Reading_Sapporo_08.html</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#photo_exhibition_rubykaigi"><title>RubyKaigi2006-2010 &#20889;&#30495;&#23637;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#photo_exhibition_rubykaigi'>RubyKaigi2006-2010 写真展</a>
+</div>
+<div class='time'>11/07/02 10:00 - 11/07/22 23:00</div>
+<div class='location'>ジュンク堂書店　池袋本店 6F [<a href="http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html">Map</a>]</div>
+<div class='url'>
+  <a href='http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html#event' target='_blank'>http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html#event</a>
+</div>
+<div class='hosted_by'> Hosted By: ジュンク堂書店　池袋本店</div>
+]]></description><dc:date>2011-06-24 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#photo_exhibition_rubykaigi</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-02 10:00:00 +0900</ical:dtstart><ical:dtend>2011-07-22 23:00:00 +0900</ical:dtend><ical:location>&#12472;&#12517;&#12531;&#12463;&#22530;&#26360;&#24215;&#12288;&#27744;&#34955;&#26412;&#24215; 6F [&lt;a href="http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html"&gt;Map&lt;/a&gt;]</ical:location><ical:url>http://www.junkudo.co.jp/tenpo/shop-ikebukuro.html#event</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#amagasakirb"><title>Coders at Work &#35501;&#26360;&#20250; #1</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#amagasakirb'>Coders at Work 読書会 #1</a>
+</div>
+<div class='time'>11/07/02 13:00 - 11/07/02 17:00</div>
+<div class='location'>JR尼崎駅 徒歩２分　小田公民館 [<a href="http://maps.google.co.jp/maps/place?q=%E5%B0%8F%E7%94%B0%E5%85%AC%E6%B0%91%E9%A4%A8&ie=UTF8&cid=1117781217423606293">Map</a>]</div>
+<div class='url'>
+  <a href='http://www.cuzic.com/coders-at-work' target='_blank'>http://www.cuzic.com/coders-at-work</a>
+</div>
+<div class='hosted_by'> Hosted By: Ruby勉強会＠尼崎</div>
+]]></description><dc:date>2011-06-17 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#amagasakirb</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-02 13:00:00 +0900</ical:dtstart><ical:dtend>2011-07-02 17:00:00 +0900</ical:dtend><ical:location>JR&#23612;&#23822;&#39365; &#24466;&#27497;&#65298;&#20998;&#12288;&#23567;&#30000;&#20844;&#27665;&#39208; [&lt;a href="http://maps.google.co.jp/maps/place?q=%E5%B0%8F%E7%94%B0%E5%85%AC%E6%B0%91%E9%A4%A8&amp;ie=UTF8&amp;cid=1117781217423606293"&gt;Map&lt;/a&gt;]</ical:location><ical:url>http://www.cuzic.com/coders-at-work</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#kintsuba_sweets"><title>&#12365;&#12435;&#12388;&#12400;&#12473;&#12452;&#12540;&#12484;&#12398;&#20250;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#kintsuba_sweets'>きんつばスイーツの会</a>
+</div>
+<div class='time'>11/07/02 13:30 - 11/07/02 17:30</div>
+<div class='location'>Seika-cho, Kyoto, JAPAN</div>
+<div class='url'>
+  <a href='https://gist.github.com/1043321' target='_blank'>https://gist.github.com/1043321</a>
+</div>
+<div class='hosted_by'> Hosted By: きんつばスイーツの会 (#kintsuba)</div>
+]]></description><dc:date>2011-06-27 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#kintsuba_sweets</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-02 13:30:00 +0900</ical:dtstart><ical:dtend>2011-07-02 17:30:00 +0900</ical:dtend><ical:location>Seika-cho, Kyoto, JAPAN</ical:location><ical:url>https://gist.github.com/1043321</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_workshop_in_sapporo"><title>Ruby&#21193;&#24375;&#20250;@&#26413;&#24140;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_workshop_in_sapporo'>Ruby勉強会@札幌</a>
+</div>
+<div class='time'>11/07/02 13:30 - 11/07/02 16:30</div>
+<div class='location'>Higashi Kumin Center (Sapporo, Japan)</div>
+<div class='url'>
+  <a href='http://atnd.org/events/16027' target='_blank'>http://atnd.org/events/16027</a>
+</div>
+<div class='hosted_by'> Hosted By: Ruby札幌</div>
+]]></description><dc:date>2011-05-20 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_workshop_in_sapporo</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-02 13:30:00 +0900</ical:dtstart><ical:dtend>2011-07-02 16:30:00 +0900</ical:dtend><ical:location>Higashi Kumin Center (Sapporo, Japan)</ical:location><ical:url>http://atnd.org/events/16027</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#matsuerubykaigi03"><title>&#26494;&#27743;Ruby&#20250;&#35696;03</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#matsuerubykaigi03'>松江Ruby会議03</a>
+</div>
+<div class='time'>11/07/03 13:00 - 11/07/03 18:00</div>
+<div class='location'>松江テルサ 4F 大会議室 (島根県松江市朝日町478番地18)</div>
+<div class='url'>
+  <a href='http://regional.rubykaigi.org/matsue03' target='_blank'>http://regional.rubykaigi.org/matsue03</a>
+</div>
+<div class='hosted_by'> Hosted By: 松江Ruby会議03実行委員会</div>
+]]></description><dc:date>2011-07-03 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#matsuerubykaigi03</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-03 13:00:00 +0900</ical:dtstart><ical:dtend>2011-07-03 18:00:00 +0900</ical:dtend><ical:location>&#26494;&#27743;&#12486;&#12523;&#12469; 4F &#22823;&#20250;&#35696;&#23460; (&#23798;&#26681;&#30476;&#26494;&#27743;&#24066;&#26397;&#26085;&#30010;478&#30058;&#22320;18)</ical:location><ical:url>http://regional.rubykaigi.org/matsue03</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby55th"><title>toRuby 55th (RubyKaigi2011&#20104;&#32722;&#12398;&#20250;)</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby55th'>toRuby 55th (RubyKaigi2011予習の会)</a>
+</div>
+<div class='time'>11/07/06 18:30 - 11/07/06 21:30</div>
+<div class='location'>Nishinasuno community center (Tochigi, Japan)</div>
+<div class='url'>
+  <a href='http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby' target='_blank'>http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby</a>
+</div>
+<div class='hosted_by'> Hosted By: toRuby</div>
+]]></description><dc:date>2011-07-01 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby55th</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-06 18:30:00 +0900</ical:dtstart><ical:dtend>2011-07-06 21:30:00 +0900</ical:dtend><ical:location>Nishinasuno community center (Tochigi, Japan)</ical:location><ical:url>http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_hf_ruby"><title>DevLOVE HangarFlight - Ruby&#32232;&#12300;&#12354;&#12394;&#12383;&#12398;&#35441;&#12364;&#32862;&#12365;&#12383;&#12356;&#12290;&#12301;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_hf_ruby'>DevLOVE HangarFlight - Ruby編「あなたの話が聞きたい。」</a>
+</div>
+<div class='time'>11/07/06 19:00 - 11/07/06 21:30</div>
+<div class='location'>IBM Innovation Center (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://kokucheese.com/event/index/12933/' target='_blank'>http://kokucheese.com/event/index/12933/</a>
+</div>
+<div class='hosted_by'> Hosted By: DevLOVE</div>
+]]></description><dc:date>2011-06-20 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#devlove_hf_ruby</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-06 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-06 21:30:00 +0900</ical:dtend><ical:location>IBM Innovation Center (Tokyo, Japan)</ical:location><ical:url>http://kokucheese.com/event/index/12933/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#herokuja_meetup_01"><title>Heroku-ja Meetup #1</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#herokuja_meetup_01'>Heroku-ja Meetup #1</a>
+</div>
+<div class='time'>11/07/07 19:00 - 11/07/07 21:30</div>
+<div class='location'>リクルート メディアテクノロジーラボ MTL Cafe</div>
+<div class='url'>
+  <a href='http://atnd.org/events/17223' target='_blank'>http://atnd.org/events/17223</a>
+</div>
+<div class='hosted_by'> Hosted By: Heroku-ja</div>
+]]></description><dc:date>2011-06-22 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#herokuja_meetup_01</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-07 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-07 21:30:00 +0900</ical:dtend><ical:location>&#12522;&#12463;&#12523;&#12540;&#12488; &#12513;&#12487;&#12451;&#12450;&#12486;&#12463;&#12494;&#12525;&#12472;&#12540;&#12521;&#12508; MTL Cafe</ical:location><ical:url>http://atnd.org/events/17223</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#enishitech_cafe"><title>&#12360;&#12395;&#12375;&#12486;&#12483;&#12463;&#12459;&#12501;&#12455;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#enishitech_cafe'>えにしテックカフェ</a>
+</div>
+<div class='time'>11/07/08 19:00 - 11/07/08 21:00</div>
+<div class='location'>EnishiTech (Sapporo, Japan)</div>
+<div class='url'>
+  <a href='http://atnd.org/events/17509' target='_blank'>http://atnd.org/events/17509</a>
+</div>
+<div class='hosted_by'> Hosted By: えにしテック</div>
+]]></description><dc:date>2011-05-20 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#enishitech_cafe</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-08 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-08 21:00:00 +0900</ical:dtend><ical:location>EnishiTech (Sapporo, Japan)</ical:location><ical:url>http://atnd.org/events/17509</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_tokai"><title>Ruby&#26481;&#28023;&#31532;22&#22238;&#21193;&#24375;&#20250;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_tokai'>Ruby東海第22回勉強会</a>
+</div>
+<div class='time'>11/07/08 19:00 - 11/07/08 21:00</div>
+<div class='location'>株式会社ニューキャスト 名古屋本社 [<a href="http://maps.google.com/maps/ms?msid=212189921490393774253.00046a8dab003297e65de&msa=0&ll=35.169752,136.927848&spn=0.002863,0.004506">Google Map</a>]</div>
+<div class='url'>
+  <a href='http://wiki.ruby-tokai.org/?%C2%E822%B2%F3%CA%D9%B6%AF%B2%F1' target='_blank'>http://wiki.ruby-tokai.org/?%C2%E822%B2%F3%CA%D9%B6%AF%B2%F1</a>
+</div>
+<div class='hosted_by'> Hosted By: Ruby東海 (@rubytokai)</div>
+]]></description><dc:date>2011-06-28 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#ruby_tokai</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-08 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-08 21:00:00 +0900</ical:dtend><ical:location>&#26666;&#24335;&#20250;&#31038;&#12491;&#12517;&#12540;&#12461;&#12515;&#12473;&#12488; &#21517;&#21476;&#23627;&#26412;&#31038; [&lt;a href="http://maps.google.com/maps/ms?msid=212189921490393774253.00046a8dab003297e65de&amp;msa=0&amp;ll=35.169752,136.927848&amp;spn=0.002863,0.004506"&gt;Google Map&lt;/a&gt;]</ical:location><ical:url>http://wiki.ruby-tokai.org/?%C2%E822%B2%F3%CA%D9%B6%AF%B2%F1</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#unagi_rubykaigi"><title>&#12358;&#12394;&#12366;Ruby&#20250;&#35696;2011</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#unagi_rubykaigi'>うなぎRuby会議2011</a>
+</div>
+<div class='time'>11/07/10 11:00 - 11/07/10 15:00</div>
+<div class='location'>Meguro Station(Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://twitter.com/koichiroo/status/86410248239325184' target='_blank'>http://twitter.com/koichiroo/status/86410248239325184</a>
+</div>
+<div class='hosted_by'> Hosted By: うなぎRubyKaigi会議2011実行委員会 (#unagirb)</div>
+]]></description><dc:date>2011-06-30 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#unagi_rubykaigi</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-10 11:00:00 +0900</ical:dtstart><ical:dtend>2011-07-10 15:00:00 +0900</ical:dtend><ical:location>Meguro Station(Tokyo, Japan)</ical:location><ical:url>http://twitter.com/koichiroo/status/86410248239325184</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#tkbb_rubykaigi"><title>&#26481;&#20140;&#12508;&#12523;&#12480;&#12522;&#12531;&#12464;Ruby&#20250;&#35696;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#tkbb_rubykaigi'>東京ボルダリングRuby会議</a>
+</div>
+<div class='time'>11/07/10 19:00 - 11/07/10 21:00</div>
+<div class='location'>Rhino and Bird [<a href="http://www.rhino-bird.com/">URL</a>]</div>
+<div class='url'>
+  <a href='http://atnd.org/events/17309' target='_blank'>http://atnd.org/events/17309</a>
+</div>
+<div class='hosted_by'> Hosted By: 東京ボルダリング部 (#tkbb)</div>
+]]></description><dc:date>2011-06-24 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#tkbb_rubykaigi</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-10 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-10 21:00:00 +0900</ical:dtend><ical:location>Rhino and Bird [&lt;a href="http://www.rhino-bird.com/"&gt;URL&lt;/a&gt;]</ical:location><ical:url>http://atnd.org/events/17309</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#asakusacruising2011"><title>Asakusa Cruising 2011</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#asakusacruising2011'>Asakusa Cruising 2011</a>
+</div>
+<div class='time'>11/07/12 10:00 - 11/07/12 19:00</div>
+<div class='location'>Taito-ku, Asakusa</div>
+<div class='url'>
+  <a href='http://qwik.jp/asakusarb/hack113.html' target='_blank'>http://qwik.jp/asakusarb/hack113.html</a>
+</div>
+<div class='hosted_by'> Hosted By: Asakusa.rb</div>
+]]></description><dc:date>2011-06-16 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#asakusacruising2011</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-12 10:00:00 +0900</ical:dtstart><ical:dtend>2011-07-12 19:00:00 +0900</ical:dtend><ical:location>Taito-ku, Asakusa</ical:location><ical:url>http://qwik.jp/asakusarb/hack113.html</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#trbmeetup"><title>Ruby in the Park</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#trbmeetup'>Ruby in the Park</a>
+</div>
+<div class='time'>11/07/13 18:00 - 11/07/13 22:00</div>
+<div class='location'>Yoyogi Park</div>
+<div class='url'>
+  <a href='http://www.tokyorubyistmeetup.org/' target='_blank'>http://www.tokyorubyistmeetup.org/</a>
+</div>
+<div class='hosted_by'> Hosted By: Tokyo Rubyist Meetup</div>
+]]></description><dc:date>2011-06-13 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#trbmeetup</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-13 18:00:00 +0900</ical:dtstart><ical:dtend>2011-07-13 22:00:00 +0900</ical:dtend><ical:location>Yoyogi Park</ical:location><ical:url>http://www.tokyorubyistmeetup.org/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#hamamatsu_rb"><title>Hamamatsu.rb#5</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#hamamatsu_rb'>Hamamatsu.rb#5</a>
+</div>
+<div class='time'>11/07/13 19:00 - 11/07/13 21:00</div>
+<div class='location'>Hi-Cube (Hamamatsu, Japan)</div>
+<div class='url'>
+  <a href='http://atnd.org/events/16961' target='_blank'>http://atnd.org/events/16961</a>
+</div>
+<div class='hosted_by'> Hosted By: Hamamatsu.rb</div>
+]]></description><dc:date>2011-06-17 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#hamamatsu_rb</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-13 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-13 21:00:00 +0900</ical:dtend><ical:location>Hi-Cube (Hamamatsu, Japan)</ical:location><ical:url>http://atnd.org/events/16961</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#cookpad_ja"><title>Ruby Recipes and Japanese Cooking at COOKPAD (&#26085;&#26412;&#35486;)</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#cookpad_ja'>Ruby Recipes and Japanese Cooking at COOKPAD (日本語)</a>
+</div>
+<div class='time'>11/07/14 19:00 - 11/07/14 22:00</div>
+<div class='location'>Minato-ku, Shirokanedai</div>
+<div class='url'>
+  <a href='http://techlife.cookpad.com/2011/06/15/rrjcc/' target='_blank'>http://techlife.cookpad.com/2011/06/15/rrjcc/</a>
+</div>
+<div class='hosted_by'> Hosted By: COOKPAD Inc.</div>
+]]></description><dc:date>2011-06-15 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#cookpad_ja</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-14 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-14 22:00:00 +0900</ical:dtend><ical:location>Minato-ku, Shirokanedai</ical:location><ical:url>http://techlife.cookpad.com/2011/06/15/rrjcc/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#jrubykaigi2011"><title>JRuby&#20250;&#35696;2011</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#jrubykaigi2011'>JRuby会議2011</a>
+</div>
+<div class='time'>11/07/15 19:00 - 11/07/15 22:00</div>
+<div class='location'>Oracle Japan (Tokyo, Japan) [<a href="http://maps.google.co.jp/maps/ms?hl=ja&brcurrent=3,0x60188bbbb41922f3:0x33ebfd75f2f06cac,0&ie=UTF8&view=map&ctz=-540&msa=0&msid=202961999718225286524.0004a47a191e1332a4b13&ll=35.671249,139.718542&spn=0.001201,0.002642&z=19">Map</a>]</div>
+<div class='url'>
+  <a href='http://jrubykaigi.org/2011' target='_blank'>http://jrubykaigi.org/2011</a>
+</div>
+<div class='hosted_by'> Hosted By: JRubyユーザ会</div>
+]]></description><dc:date>2011-05-01 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#jrubykaigi2011</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-15 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-15 22:00:00 +0900</ical:dtend><ical:location>Oracle Japan (Tokyo, Japan) [&lt;a href="http://maps.google.co.jp/maps/ms?hl=ja&amp;brcurrent=3,0x60188bbbb41922f3:0x33ebfd75f2f06cac,0&amp;ie=UTF8&amp;view=map&amp;ctz=-540&amp;msa=0&amp;msid=202961999718225286524.0004a47a191e1332a4b13&amp;ll=35.671249,139.718542&amp;spn=0.001201,0.002642&amp;z=19"&gt;Map&lt;/a&gt;]</ical:location><ical:url>http://jrubykaigi.org/2011</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#rubykaigi2011"><title>&#26085;&#26412;Ruby&#20250;&#35696;2011</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#rubykaigi2011'>日本Ruby会議2011</a>
+</div>
+<div class='time'>11/07/16 10:30 - 11/07/18 18:30</div>
+<div class='location'>Nerima Culture Center (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://rubykaigi.org/2011' target='_blank'>http://rubykaigi.org/2011</a>
+</div>
+<div class='hosted_by'> Hosted By: 日本Ruby会議2011実行委員会</div>
+]]></description><dc:date>2011-05-01 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#rubykaigi2011</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-16 10:30:00 +0900</ical:dtstart><ical:dtend>2011-07-18 18:30:00 +0900</ical:dtend><ical:location>Nerima Culture Center (Tokyo, Japan)</ical:location><ical:url>http://rubykaigi.org/2011</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#agileuxlive"><title>Agile UX &#20844;&#38283;&#23455;&#28436;&#8213;Agile UX + Ruby + Cloud &#12391;3&#26085;&#38291;&#12391;&#24441;&#31435;&#12388;&#12469;&#12452;&#12488;&#12434;&#20316;&#12427;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#agileuxlive'>Agile UX 公開実演―Agile UX + Ruby + Cloud で3日間で役立つサイトを作る</a>
+</div>
+<div class='time'>11/07/16 13:30 - 11/07/18 15:40</div>
+<div class='location'>Nerima Culture Center (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='https://sites.google.com/site/agileucdja/' target='_blank'>https://sites.google.com/site/agileucdja/</a>
+</div>
+<div class='hosted_by'> Hosted By: アジャイルUCD研究会</div>
+]]></description><dc:date>2011-07-13 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#agileuxlive</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-16 13:30:00 +0900</ical:dtstart><ical:dtend>2011-07-18 15:40:00 +0900</ical:dtend><ical:location>Nerima Culture Center (Tokyo, Japan)</ical:location><ical:url>https://sites.google.com/site/agileucdja/</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby"><title>toRuby &#20986;&#24373;&#29256;(&#21332;&#36059; guRuby, yokohama.rb)</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby'>toRuby 出張版(協賛 guRuby, yokohama.rb)</a>
+</div>
+<div class='time'>11/07/17 11:30 - 11/07/17 13:30</div>
+<div class='location'>Nerima Culture Center (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby' target='_blank'>http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby</a>
+</div>
+<div class='hosted_by'> Hosted By: toRuby</div>
+]]></description><dc:date>2011-07-17 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#to_ruby</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-17 11:30:00 +0900</ical:dtstart><ical:dtend>2011-07-17 13:30:00 +0900</ical:dtend><ical:location>Nerima Culture Center (Tokyo, Japan)</ical:location><ical:url>http://pub.cozmixng.org/~the-rwiki/rw-cgi.rb?cmd=view;name=toRuby</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo64"><title>Rails&#21193;&#24375;&#20250;@&#26481;&#20140; &#31532;64&#22238;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo64'>Rails勉強会@東京 第64回</a>
+</div>
+<div class='time'>11/07/18 12:00 - 11/07/18 13:30</div>
+<div class='location'>Nerima Culture Center (Tokyo, Japan)</div>
+<div class='url'>
+  <a href='http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0064' target='_blank'>http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0064</a>
+</div>
+<div class='hosted_by'> Hosted By: Rails勉強会@東京 (#railstokyo)</div>
+]]></description><dc:date>2011-07-12 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#railstokyo64</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-18 12:00:00 +0900</ical:dtstart><ical:dtend>2011-07-18 13:30:00 +0900</ical:dtend><ical:location>Nerima Culture Center (Tokyo, Japan)</ical:location><ical:url>http://wiki.fdiary.net/rails/?RailsMeetingTokyo-0064</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#rubyhackingnight"><title>Ruby Hacking Night w/ Asakusa.rb</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#rubyhackingnight'>Ruby Hacking Night w/ Asakusa.rb</a>
+</div>
+<div class='time'>11/07/19 19:00 - 11/07/19 22:00</div>
+<div class='location'>To Be Determined. We're looking for nice place to hold our meetup :)</div>
+<div class='url'>
+  <a href='http://qwik.jp/asakusarb/hack114.html' target='_blank'>http://qwik.jp/asakusarb/hack114.html</a>
+</div>
+<div class='hosted_by'> Hosted By: Asakusa.rb</div>
+]]></description><dc:date>2011-06-16 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#rubyhackingnight</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-19 19:00:00 +0900</ical:dtstart><ical:dtend>2011-07-19 22:00:00 +0900</ical:dtend><ical:location>To Be Determined. We're looking for nice place to hold our meetup :)</ical:location><ical:url>http://qwik.jp/asakusarb/hack114.html</ical:url></ical:Vevent></foaf:topic></item><item about="http://linode.rubykaigi.org/2011/ja/advent_calendar#rails3recipebook_talks_junkudo"><title>&#12302;Rails3&#12524;&#12471;&#12500;&#12502;&#12483;&#12463;&#12303;&#21002;&#34892;&#35352;&#24565;&#12488;&#12540;&#12463;&#12475;&#12483;&#12471;&#12519;&#12531;&#12300;&#26368;&#26032;&#12398;Ruby on Rails&#12398;&#39749;&#21147;&#12434;&#35486;&#12427;&#65374;3.0&#12289;3.1&#12289;3.2&#12289;&#12381;&#12375;&#12390;4.0&#12408;&#65374;&#12301;</title><description><![CDATA[<div class='summary'>
+  <a href='http://linode.rubykaigi.org/2011/ja/advent_calendar#rails3recipebook_talks_junkudo'>『Rails3レシピブック』刊行記念トークセッション「最新のRuby on Railsの魅力を語る～3.0、3.1、3.2、そして4.0へ～」</a>
+</div>
+<div class='time'>11/07/21 19:30 - 11/07/21 21:00</div>
+<div class='location'>ジュンク堂書店　池袋本店4F喫茶</div>
+<div class='url'>
+  <a href='http://www.junkudo.co.jp/tenpo/evtalk.html#20110721ikebukuro' target='_blank'>http://www.junkudo.co.jp/tenpo/evtalk.html#20110721ikebukuro</a>
+</div>
+<div class='hosted_by'> Hosted By: ジュンク堂書店池袋本店 (@junkudo_ike_pc)</div>
+]]></description><dc:date>2011-07-01 00:00:00 +0900</dc:date><link>http://linode.rubykaigi.org/2011/ja/advent_calendar#rails3recipebook_talks_junkudo</link><foaf:topic><ical:Vevent><ical:dtstart>2011-07-21 19:30:00 +0900</ical:dtstart><ical:dtend>2011-07-21 21:00:00 +0900</ical:dtend><ical:location>&#12472;&#12517;&#12531;&#12463;&#22530;&#26360;&#24215;&#12288;&#27744;&#34955;&#26412;&#24215;4F&#21931;&#33590;</ical:location><ical:url>http://www.junkudo.co.jp/tenpo/evtalk.html#20110721ikebukuro</ical:url></ical:Vevent></foaf:topic></item></rdf:RDF>

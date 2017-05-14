@@ -1,0 +1,207 @@
+/*--- mix-in ----------------------------------------------*/
+/*--- default tag setting ----------------------------------------------*/
+* {
+  color: #160f0d;
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+  font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; }
+
+html {
+  background: #f5f2ed url(/2011/images/commonBodyBg.png) top center repeat; }
+
+body {
+  border-top: 7px solid #160f0d;
+  line-height: 120%; }
+
+a:link, a:visited, a:active {
+  color: #5b5755; }
+a:hover {
+  color: #8a8786; }
+a:link img, a:visited img, a:hover img, a:active img {
+  text-decoration: none;
+  border: none; }
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+address {
+  font-style: normal; }
+
+hr {
+  margin: 10px 0; }
+
+nav {
+  margin: 0;
+  padding: 0; }
+  nav span {
+    height: 32px;
+    margin-right: 10px;
+    color: #efeae8; }
+  nav .name {
+    color: #efeae8;
+    margin: 0 10px;
+    float: right;
+    line-height: 170%; }
+  nav ul li {
+    line-height: 200%;
+    background: url(/2011/images/navigationMark.png) no-repeat top left;
+    padding: 0 5px 0 20px;
+    list-style: none;
+    margin-right: 20px; }
+  nav a:link, nav a:visited, nav a:active {
+    color: #efeae8;
+    text-decoration: none; }
+  nav a:hover {
+    color: #efeae8;
+    text-decoration: underline; }
+
+article p {
+  margin-bottom: 10px; }
+
+h2,
+h3,
+h2 time {
+  color: #160f0d;
+  font-weight: bold;
+  margin: 15px 0 10px 0; }
+  h2 a,
+  h3 a,
+  h2 time a {
+    font-weight: bold; }
+
+h2 {
+  padding-bottom: 10px;
+  background: url(/2011/images/commonHeader2Bg.png) bottom center no-repeat; }
+
+h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #999; }
+
+strong {
+  font-weight: bold; }
+
+ol {
+  padding: 0 5px 0 20px; }
+
+/*--- common id, class ----------------------------------------------*/
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.cboth {
+  clear: both; }
+
+.cleft {
+  clear: left; }
+
+.cright {
+  clear: right; }
+
+.linkMark {
+  list-style: none;
+  background: url("/2011/images/linkMark.png") no-repeat top left;
+  padding: 0 5px 0 20px; }
+
+.listMark {
+  margin-bottom: 10px; }
+  .listMark li {
+    list-style: none;
+    background: url("/2011/images/listMark.png") no-repeat top left;
+    padding: 0 5px 0 20px;
+    margin-bottom: 5px; }
+
+.avatar {
+  clear: left; }
+  .avatar img {
+    border: 1px solid #b9b7b6;
+    float: left;
+    margin: 0 5px 0 0; }
+  .avatar p {
+    vertical-align: middle;
+    padding-top: 12px;
+    margin-top: 10px; }
+
+.backToTop {
+  text-align: right; }
+
+.icon a img {
+  margin-right: 5px; }
+
+.rss {
+  float: right; }
+
+.btnInput:hover, .btnInput:active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha( opacity=80 )"; }
+
+#flashMessage {
+  width: 940px;
+  margin: 0 auto; }
+
+/*--- index ----------------------------------------------*/
+#index #tags dl,
+#phone_index #tags dl {
+  margin: 5px 0 0 10px; }
+#index #tags dt,
+#phone_index #tags dt {
+  clear: both;
+  float: left;
+  width: 5em; }
+
+#news ul {
+  margin: 5px 0;
+  padding: 0 0 10px 0; }
+  #news ul li {
+    list-style: none;
+    background: url("/2011/images/indexNewsMark.png") no-repeat top left;
+    padding: 0 5px 0 20px; }
+#news time {
+  display: block; }
+
+#information {
+  border-bottom: 1px dotted #999; }
+  #information ul {
+    margin: 5px 0;
+    padding: 0 0 10px 0; }
+    #information ul li {
+      list-style: none;
+      background: url("/2011/images/indexInformationMark.png") no-repeat top left;
+      padding: 0 5px 0 20px; }
+    #information ul a {
+      color: #e61f19; }
+  #information time {
+    color: #e61f19;
+    display: block; }
+
+/*--- forAttendees ----------------------------------------------*/
+/*--- schedule ----------------------------------------------*/
+#schedule table h3 {
+  font-weight: normal; }
+  #schedule table h3 a {
+    font-weight: bold; }
+
+#abstract,
+#speaker {
+  line-height: 150%; }

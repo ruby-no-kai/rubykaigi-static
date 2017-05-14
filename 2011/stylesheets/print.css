@@ -1,0 +1,77 @@
+/*--- mix-in ----------------------------------------------*/
+/*--- default tag setting ----------------------------------------------*/
+#topBar,
+#global,
+footer,
+aside {
+  display: none; }
+
+h1 {
+  color: #160f0d;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background: none;
+  border: 3px solid #160f0d; }
+
+h2 {
+  background: none;
+  border-bottom: 1px solid #160f0d; }
+
+/*--- common id, class ----------------------------------------------*/
+#main {
+  width: 660px; }
+  #main h2,
+  #main h3 {
+    padding: 3px;
+    margin: 3px; }
+
+#schedule #sponsorsList {
+  display: none; }
+#schedule .backToTop,
+#schedule .btnDetails,
+#schedule .tip span {
+  display: none; }
+#schedule table {
+  page-break-after: always;
+  border: 1px solid #8a8786;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 980px; }
+  #schedule table th,
+  #schedule table td {
+    padding: 5px;
+    border: 1px solid #8a8786;
+    border-collapse: collapse; }
+  #schedule table * {
+    vertical-align: top;
+    padding: 1px;
+    margin: 1px; }
+  #schedule table td {
+    font-size: 80%; }
+    #schedule table td .language {
+      float: left;
+      background: #160f0d;
+      color: #fff;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      border: 1px solid #b9b7b6;
+      text-align: center;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 60%; }
+    #schedule table td .Japanese {
+      background: #fff;
+      color: #160f0d; }
+    #schedule table td .presenter li {
+      list-style: none; }
+    #schedule table td h3 {
+      border-bottom: none; }
+  #schedule table .hours {
+    white-space: nowrap;
+    background-color: rgba(138, 135, 134, 0.3); }
+  #schedule table .hall {
+    width: 400px; }
+
+.screen_only {
+  display: none; }

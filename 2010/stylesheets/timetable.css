@@ -1,0 +1,16 @@
+/* coding: utf-8 */
+@charset "utf-8";
+#timetables td.room {
+  width: 60px; }
+#timetables th.room {
+  font-size: 110%;
+  width: 60px; }
+#timetables th.room_hall {
+  font-size: 110%;
+  width: 100px; }
+#timetables td.room_hall {
+  width: 100px; }
+#timetables p.title {
+  font-size: 150%; }
+#timetables p.speaker {
+  font-size: 140%; }

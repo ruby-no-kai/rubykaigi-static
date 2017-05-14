@@ -1,0 +1,63 @@
+/*--- mix-in ----------------------------------------------*/
+#advent_events ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  #advent_events ul li {
+    background: #CCC;
+    margin: 5px 0 5px 0;
+    padding: 0;
+    border: 2px solid #000;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.3); }
+    #advent_events ul li div {
+      padding: 0.4em; }
+    #advent_events ul li .summary {
+      background-color: rgba(138, 135, 134, 0.3);
+      border-bottom: 1px dotted #999; }
+    #advent_events ul li .summary a {
+      font-weight: bold; }
+    #advent_events ul li .summary a:hover {
+      color: #160f0d; }
+    #advent_events ul li .time {
+      font-family: 'Oswald', arial, serif;
+      letter-spacing: 1px;
+      -webkit-border-top-left-radius: 20px;
+      -moz-border-radius-topleft: 20px;
+      border-top-left-radius: 20px;
+      -webkit-border-top-right-radius: 20px;
+      -moz-border-radius-topright: 20px;
+      border-top-right-radius: 20px;
+      -webkit-border-bottom-left-radius: 20px;
+      -moz-border-radius-bottomleft: 20px;
+      border-bottom-left-radius: 20px;
+      -webkit-border-bottom-right-radius: 20px;
+      -moz-border-radius-bottomright: 20px;
+      border-bottom-right-radius: 20px;
+      -webkit-box-shadow: -1px -1px 0.5px #453f3d;
+      -moz-box-shadow: -1px -1px 0.5px #453f3d;
+      box-shadow: -1px -1px 0.5px #453f3d;
+      width: 350px;
+      color: #fff;
+      text-align: center;
+      margin: 7px;
+      padding: 5px;
+      background: #a29f9e; }
+    #advent_events ul li .location {
+      font-size: 0.8em;
+      margin: 0 0 0 1em; }
+    #advent_events ul li .url {
+      font-size: 0.8em;
+      margin: 0 0 0 1em;
+      padding-bottom: 0.8em; }
+    #advent_events ul li .hosted_by {
+      font-size: 0.8em;
+      margin: 0 0 0 1em; }
+  #advent_events ul li.todays_event .summary {
+    background: #e61f19; }
+    #advent_events ul li.todays_event .summary a {
+      color: #fff; }
+
+#other_formats {
+  margin-top: -1em;
+  text-align: right; }

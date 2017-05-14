@@ -1,0 +1,66 @@
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+
+#errorExplanation h2 {
+  border-top: none;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #cc0000;
+  color: white; }
+
+#errorExplanation p {
+  color: #333333;
+  margin-bottom: 0;
+  padding: 5px; }
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square; }
+
+#flash {
+  position: absolute;
+  top: 200px;
+  margin: 0 auto;
+  width: 960px;
+  font-size: 18px;
+  color: black; }
+  #flash .error {
+    background: #ffcccc;
+    border: 3px solid red;
+    padding: 30px; }
+  #flash .warning {
+    background: #fee37a;
+    border: 3px solid #fd9b5b;
+    padding: 30px; }
+  #flash .notice {
+    background: #cbf285;
+    border: 3px solid #3cab09;
+    padding: 30px; }
+
+form dl dt {
+  display: block; }
+
+dt div {
+  margin-bottom: 0; }
+
+#errorExplanation h2 {
+  background-image: none; }
+#errorExplanation ul li {
+  background-image: none; }
+
+div.formError {
+  color: red;
+  font-weight: bold; }
