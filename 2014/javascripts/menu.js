@@ -1,0 +1,1 @@
+$(function(){var l="closed";$("#navBtn").click(function(){"closed"==l?($("#globalNav").slideDown(),l="opened"):($("#globalNav").slideUp(),l="closed")})});

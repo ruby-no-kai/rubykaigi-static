@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      Rhebok, High Performance Rack Handler
+      - RubyKaigi 2015
+    </title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='RubyKaigi 2015, 11-13 Dec. #rubykaigi' property='og:title'>
+    <meta content='RubyKaigi 2015' property='og:site_name'>
+    <meta content='http://rubykaigi.org/2015' property='og:url'>
+    <meta content='activity' property='og:type'>
+    <meta content='http://rubykaigi.org/2015/images/og_image.png' property='og:image'>
+    <meta content='@rubykaigi' name='twitter:site'>
+    <meta content='RubyKaigi 2015, 11-13 Dec.' name='description'>
+    <meta content='rubykaigi, ruby会議, 2015' name='keywords'>
+    <link href='/2015/images/apple-touch-icon.png' rel='apple-touch-icon'>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,200,300,700" rel="stylesheet" media="all" />
+    <script src="/2015/javascripts/all.js"></script>
+    <link href="/2015/stylesheets/all.css" rel="stylesheet" media="all" />
+    <link href="/2015/images/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <header class='header'>
+    <nav class='navbar navbar-default'>
+      <div class='container'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class='navbar-header'>
+          <button class='navbar-toggle collapsed' data-target='#navbar-collapse' data-toggle='collapse' type='button'>
+            <i class='fa fa-bars'></i>
+          </button>
+          <a class='navbar-brand' href='/'>
+            <img alt="RubyKaigi2015" class="navbar-brand__image" src="/2015/images/logo-header.svg" />
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class='collapse navbar-collapse' id='navbar-collapse'>
+          <ul class='nav navbar-nav header__nav'>
+            <li>
+              <a href='/2015/schedule'>Schedule</a>
+            </li>
+            <li>
+              <a href='/2015/speakers'>Speakers</a>
+            </li>
+            <li>
+              <a href='/2015/venue'>Venue</a>
+            </li>
+            <li>
+              <a href='/2015/parties'>Parties</a>
+            </li>
+            <li>
+              <a href='/2015/goodies'>Goodies</a>
+            </li>
+            <li>
+              <a href='/2015/sponsors'>Sponsors</a>
+            </li>
+            <li>
+              <a href='/2015/code-of-conduct'>Anti Harassment Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body id=''>
+    <div class='container presentation'>
+      <div class='row'>
+        <div class='col-sm-8 content presentation__content'>
+          <div class='page-header presentation__header'>
+            <div class='presentation__header-attr'><span class='presentation__lang'>JA</span>        </div>
+            <h1 class='presentation__title'>Rhebok, High Performance Rack Handler</h1>
+          </div>
+          <div class='section presentation__description'>
+            <p>Rhebok is High Performance Rack Handler/Web Server. 2x performance when compared against Unicorn.</p>
+            
+            <p>In this presentation, I'll introduce the Rack interface spec, the architecture of widely used rack servers, and technology that supports performance of Rhebok includes prefork_engine, picohttpparser, system calls.
+            </p>
+          </div>
+          <section class='section presentation__video'>
+            <h2>Recorded video</h2>
+            <div class='presentation__video-embed'>
+              <iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/EPxWD_2Yekg' width='560'></iframe>
+            </div>
+            <div class='presentation__video-link'>
+              <a href="https://www.youtube.com/watch?v=EPxWD_2Yekg"></a>
+              <nbsp></nbsp>
+              from
+              <nbsp></nbsp>
+              <a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi</a>
+              <nbsp></nbsp>
+              on
+              <a href="https://www.youtube.com">YouTube</a>
+            </div>
+          </section>
+          <section class='section presentation__materials'>
+            <h2>
+              Presentation Material
+            </h2>
+            <ul class='presentation__materials-list'>
+              <li>
+                <a target="_blank" href="http://www.slideshare.net/kazeburo/rhebok-high-performance-rack-handker-rubykaigi-2015"><i class='fa fa-caret-right'></i>
+                Rhebok, High Performance Rack Handler
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class='col-sm-4 presentation__speakers'>
+          <h2>
+            Speaker
+          </h2>
+          <div class='presentation__speaker'>
+            <div class='member'>
+              <div class='avatar-frame'>
+                <div class='avatar'><img alt="Masahiro Nagano" class="avatar-image" src="https://www.gravatar.com/avatar/700669515ee872152d8b9403c2a0cf8c?s=220" /></div>
+              </div>
+              <div class='member-content'>
+                <div class='name'>Masahiro Nagano</div>
+                <div class='id'>@kazeburo</div>
+                <div class='channels'>
+                  <ul>
+                    <li>
+                      <a target="_blank" href="https://twitter.com/kazeburo"><i class='fa fa-twitter'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://github.com/kazeburo"><i class='fa fa-github'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class='bio'>Principal Site Reliability Engineer at Mercari, Inc. Author of rhebok - High Performance Rack Handler/Web Server.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer class='footer'>
+    <div class='content'>
+      <div class='footer-nav'>
+        <ul class='float-list'>
+          <li><a href="/2015/team">Team</a></li>
+          <li><a target="_blank" href="http://blog.rubykaigi.org">Blog</a></li>
+          <li><a href="/2015/code-of-conduct">Anti Harassment Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <p id='copyright'>
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">RubyKaigi 2015 Team</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+          <br>
+          Designed by Taeko Akatsuka
+          <a target="_blank" href="http://twitter.com/ken_c_lo">(@ken_c_lo)</a>
+        </p>
+      </div>
+      <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-6972157-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+    </div>
+  </footer>
+</html>
+<div class='sushi-on-rails js-sushi-on-rails'></div>

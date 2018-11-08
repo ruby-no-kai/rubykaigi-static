@@ -1,0 +1,1 @@
+function Vector2d(t,e){this.x=t,this.y=e}Vector2d.prototype.add=function(t){return new Vector2d(this.x+t.x,this.y+t.y)},Vector2d.prototype.get_angle=function(){return Math.atan2(this.y,this.x)};

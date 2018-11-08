@@ -1,0 +1,660 @@
+---
+yukihiro_matz:
+  title: Ruby3 Typing
+  type: keynote
+  language: JA
+  description: |-
+    <p>Static typing is very popular among recent languages, e.g. TypeScript, Flow, Go, Swift, etc. Even Python has introduced type annotation.  How about Ruby?<br>
+    Can Ruby statically typed? Has dynamic typing become obsolete?</p>
+
+    <p>I will show you the answer. You will see the future of the type system in Ruby3.</p>
+  speakers:
+  - id: yukihiro_matz
+  video:
+    youtube_id: 2Ag8l-wq5qk
+m_seki:
+  title: dRuby in the last century.
+  type: presentation
+  language: JA
+  description: |-
+    <p>My first dRuby talk was in 2000, here in Kyoto. After the talk, I got many opportunities to write books and to talk on various topics including OSS, XP, and software testing. So, I'm glad to talk again here this year.<br>
+    Nowadays, concurrent processing has become more familiar with many people as one of their solutions. It's time for us to begin understanding dRuby.<br>
+    In this talk, I will introduce dRuby, sometimes called an OOPArt, to all generations of Rubyists.</p>
+
+
+    <p>私の最初のdRubyの講演は、2000年、この会場でした。<br>
+    この講演以降、本の出版や絶版、Rubyだけでなく様々なテーマ（OSSやXP、software testingなど）で講演する機会を得ました。<br>
+    2016年、再び同じ場所で話せることに喜んでいます。</p>
+
+    <p>並行処理は多くの人たちの解決策として身近に考えられるようになってきました。<br>
+    いまこそdRubyを理解する環境が整ってきたと思います。<br>
+    本講演では、再びdRubyを紹介します。</p>
+
+    <p>全ての世代のRubyistのみなさんに、20世紀のオーパーツと呼ばれている dRubyをお届けします。</p>
+  speakers:
+  - id: m_seki
+  materials:
+    - title: dRuby2016
+      url: https://speakerdeck.com/m_seki/druby2016
+  video:
+    youtube_id: Z7wTY3xZ7G0
+johnlinvc:
+  title: 'ErRuby: Ruby on Erlang/OTP'
+  type: presentation
+  language: EN
+  description: |-
+    <p>Concurrency will be an important feature for future Ruby, and Erlang programming language is famous for its concurrency features such as Actor model, Lightweight process and ability to build fault tolerant distributed systems such as the telecom.<br>
+    ErRuby, an Ruby interpreter on Erlang/OTP, tries to bring Ruby to the concurrent world. ErRuby use Actor and process to create an Object-Oriented realm in immutable Erlang universe. I'll talk about how to implement key Ruby features in a functional way and demonstrate experimental concurrency features of ErRuby.<br>
+    ErRuby is at github.com/johnlinvc/erruby</p>
+  speakers:
+  - id: johnlinvc
+  materials:
+    - title: 'ErRuby - Ruby on Erlang'
+      url: https://speakerdeck.com/johnlinvc/erruby-ruby-on-erlang
+  video:
+    youtube_id: Yl7F3wyEMlQ
+pitr_ch:
+  title: Who reordered my code?!
+  type: presentation
+  language: EN
+  description: |-
+    <p>There is a hidden problem waiting as Ruby becomes 3x faster and starts to support parallel computation - reordering by JIT compilers and CPUs.</p>
+
+    <p>In this talk, we’ll start by trying to optimize a few simple Ruby snippets. We’ll play the role of a JIT and a CPU and order operations as the rules of the system allow. Then we add a second thread to the snippets and watch it as it breaks horribly.</p>
+
+    <p>In the second part, we’ll fix the unwanted reorderings by introducing a memory model to Ruby. We’ll discuss in detail how it fixes the snippets and how it can be used to write faster code for parallel execution.</p>
+  speakers:
+  - id: pitr_ch
+  materials:
+    - title: 'Who reordered my code?!'
+      url: https://speakerdeck.com/pitr_ch/who-reordered-my-code
+  video:
+    youtube_id: 3FS1xnCEMq0
+udzura:
+  title: Welcome to haconiwa - the (m)Ruby on Container
+  type: presentation
+  language: EN
+  description: |-
+    In the current tech scene, many developers use so-called Container-based virtualization such as Docker or LXC.
+
+    The speaker will talk about Linux container technologies and his tools. He develops haconiwa (https://github.com/haconiwa/haconiwa), a tool helping developers combine container features such as cgroup, namespaces and capabilities which they want to use.
+
+    The speaker has about 2 years experiences on Docker (in-house CI basis) and LXC (PaaS service). The talk has background of (some) issues found in these experiences, and includes why he's creating a new container in Ruby and why he switched to *m*ruby.
+  speakers:
+  - id: udzura
+  materials:
+    - title: The introduction of mRuby on Container /mruby-on-container
+      url: https://speakerdeck.com/udzura/mruby-on-container
+  video:
+    youtube_id: ZKMC5uFlo9s
+ko1:
+  title: A proposal of new concurrency model for Ruby 3
+  type: presentation
+  language: EN
+  description: |-
+    <p>This presentation proposes a new concurrency model to support parallel execution for Ruby 3.<br>
+    Now, Ruby has "Thread" to support concurrency.<br>
+    However, making thread-safe programs is very hard because we need to manage all of the concurrent object mutations.<br>
+    To overcome such difficulty, we propose a new concurrency model that enables parallel execution.<br>
+    This presentation shows the following topics.</p>
+
+    <p>(1) Why is thread programming difficult?<br>
+    (2) New concurrent model proposal and why is this model easy?<br>
+    (3) Current design and implementation of this idea.</p>
+  speakers:
+  - id: ko1
+  materials:
+    - title: 'A proposal of new concurrency model for Ruby 3'
+      url: http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf
+  video:
+    youtube_id: WIrYh14H9kA
+elct9620:
+  title: Play with GLSL on OpenFrameworks
+  type: presentation
+  language: EN
+  description: |-
+    <p>Learning GLSL (OpenGL Shader Language) is a little harder to me, but if I can create shader like Unreal Engine 4's material design tool? Let's play with Shader on OpenFrameworks. </p>
+
+    <p>I using mruby and OpenFrameworks to create a scriptable GLSL generator to create shader. By the power of Ruby DSL, the shader generate becomes very fun and simplely.</p>
+  speakers:
+  - id: elct9620
+  materials:
+    - title: 'Play GLSL on mruby with OpenFrameworks'
+      url: https://speakerdeck.com/elct9620/play-glsl-on-mruby-with-openframeworks
+  video:
+    youtube_id: C2t05Y3dOFQ
+nirvdrum:
+  title: A Tale of Two String Representations
+  type: presentation
+  language: EN
+  description: |-
+    <p>Strings are used pervasively in Ruby. If we can make them faster, we can make many apps faster.</p>
+
+    <p>In this talk, I will be introducing ropes: an immutable tree-based data structure for implementing strings. While an old idea, ropes provide a new way of looking at string performance and mutability in Ruby. I will describe how we replaced a byte array-oriented string representation with a rope-based one in JRuby+Truffle. Then we’ll look at how moving to ropes affects common string operations, its immediate performance impact, and how ropes can have cascading performance implications for apps.</p>
+  speakers:
+  - id: nirvdrum
+  materials:
+    - title: 'A Tale of Two String Representations'
+      url: https://speakerdeck.com/nirvdrum/a-tale-of-two-string-representations
+  video:
+    youtube_id: UQnxukip368
+youchan:
+  title: Isomorphic web programming in Ruby
+  type: presentation
+  language: JA
+  description: |-
+    Last year at RubyKaigi, I introduced Hyalite, a virtual DOM implemented in Ruby.
+    Hyalite allows Rubyists to write front and back-end code in Ruby, an approach that has proven to provide many benefits. Using a single language across an application stack is sometimes referred to as isomorphic programming.
+    This talk introduces a new framework for isomorphic programming with the Opal: Menilite.
+    Menilite shares model code between the server side and the client side by marshalling objects and storing them in the database automatically.
+    As a result, code duplication is reduced and APIs are no longer a necessity.
+    Isomorphic programming can significantly accelerate your progress on a project; I sincerely hope you find it helpful in developing web applications.
+    Menilite aims to expand the playing field for the Ruby language, a language optimized for developer happiness. I'm sure you will agree that we will find even more happiness by bringing Ruby to the front-end as well.
+  speakers:
+  - id: youchan
+  materials:
+    - title: 'Isomorphic web programming in Ruby'
+      url: http://rubykaigi.youchan.org/
+  video:
+    youtube_id: gKDs4V5D_k0
+tanaka_akr:
+  title: Unifying Fixnum and Bignum into Integer
+  type: presentation
+  language: JA
+  description: |-
+    <p>Ruby has three classes to represent integers: Fixnum, Bignum and Integer.
+    Integer is the abstract super class of Fixnum and Bignum.
+    Fixnum represents small integers that fit in a word.
+    Bignum can represent any integers until the memory is full.
+    The exact range of Fixnum varies depending on the machine architecture and Ruby implementation.
+    Since Fixnum and Bignum are implementation details,
+    applications which depend on the Fixnum range is not portable at least, and just wrong in most cases.
+    We'll unify Fixnum and Bignum into Integer for Ruby 2.4.
+    This makes Ruby programs a bit more portable.
+    Also, hiding the implementation detail makes Ruby easier for beginners to learn.</p>
+  speakers:
+  - id: tanaka_akr
+  materials:
+    - title: 'Unifying Fixnum and Bignum into Integer'
+      url: http://www.a-k-r.org/pub/2016-09-08-rubykaigi-unified-integer.pdf
+  video:
+    youtube_id: -k_ZhC5Lkgg
+narittan:
+  title: How to create multiprocess server on Windows with Ruby
+  type: presentation
+  language: EN
+  description: |-
+    <p>Unicorn is the most used multiprocess server framework implemented in ruby. But it doesn't work on Windows unfortunately.<br>
+    Serverengine is a robust multiprocess server implemented in ruby and it works on windows now. This is the first multiprocess server with ruby which can work on windows.</p>
+
+    <p>I'll talk about what only ruby can do and my original effort for realizing a robust multiprocess server for restricted environment.<br>
+    And in the end, I'll introduce real demos on windows.</p>
+  speakers:
+  - id: narittan
+  materials:
+    - title: 'How to create multiprocess server on windows with ruby'
+      url: http://www.slideshare.net/RittaNarita/how-to-create-multiprocess-server-on-windows-with-ruby-rubykaigi2016-ritta-narita
+  video:
+    youtube_id: h3Vg6B-mg6o
+duerst:
+  title: Ups and Downs of Ruby Internationalization
+  type: presentation
+  language: EN
+  description: "<p>Currently many of Ruby's String methods, such as upcase and downcase,
+    are limited to ASCII and ignore the rest of the world. This is finally going to
+    change in Ruby 2.4, where this functionality will be extended to cover full Unicode.
+    You will get to know what will change, how your programs may be affected, and
+    how these changes are implemented behind the scenes. We will also look at the
+    overall state of internationalization functionality in Ruby, and potential future
+    directions.</p>"
+  speakers:
+  - id: duerst
+  materials:
+    - title: 'Ups and Downs of Ruby Internationalization'
+      url: http://www.sw.it.aoyama.ac.jp/2016/pub/RubyKaigi/
+  video:
+    youtube_id: vfJp4mkf0EQ
+k0kubun:
+  title: Scalable job queue system built with Docker
+  type: presentation
+  language: JA
+  description: |-
+    <p>While job queue system has been indispensable to execute a task asynchronously  for a long time, we have some problems in typical job queue systems built with Ruby. Have you ever suffered from job queue system's availability, scalability or operation cost? Don't you want to implement a job with another language which is suitable for the job?</p>
+
+    <p>We built a new job queue system using Docker this year. In this talk, you'll know how these problems can be solved with the system constructed with Ruby.</p>
+  speakers:
+  - id: k0kubun
+  materials:
+    - title: 'Scalable Job Queue System Built with Docker'
+      url: https://speakerdeck.com/k0kubun/scalable-job-queue-system-built-with-docker
+  video:
+    youtube_id: MO2Zs0q6T9Y
+searls:
+  title: Fearlessly Refactoring Legacy Ruby
+  type: keynote
+  language: EN
+  description: "Until recently, we didn't talk much about \"legacy Ruby\". But today,
+    so many companies rely on Ruby that legacy code is inevitable. \n\nWhen code is
+    hard-to-understand, we fear our changes may silently break something. This fear
+    erodes the courage to improve code's design, making future change even harder.\n\nIf
+    we combine proven refactoring techniques with Ruby's flexibility, we can safely
+    add features while gradually improving our design. This talk will draw on code
+    analysis, testing, and object-oriented design to equip attendees with a process
+    for refactoring legacy code without fear."
+  speakers:
+  - id: searls
+  materials:
+    - title: 'Surgical Refactors'
+      url: https://speakerdeck.com/searls/surgical-refactors
+  video:
+    youtube_id: lQvDd9GPSB4
+ktou:
+  title: How to create bindings 2016
+  type: presentation
+  language: JA
+  description: |-
+    <p>This talk describes how to create Ruby bindings of a C library. I want to increase Ruby bindings developers. If you're interested in using C libraries from Ruby and/or using Ruby more cases, this talk will help you.</p>
+
+    <p>This talk includes the following topics:</p>
+
+    <p>* List of methods to create Ruby bindings of a C library.<br>
+    * Small example of each method.<br>
+    * Pros and cons of each method.</p>
+  speakers:
+  - id: ktou
+  materials:
+    - title: 'How to create bindings 2016'
+      url: https://slide.rabbit-shocker.org/authors/kou/rubykaigi-2016/
+  video:
+    youtube_id: Iw0ha41Ty6I
+0xColby:
+  title: Writing A Gameboy Emulator in Ruby
+  type: presentation
+  language: EN
+  description: |-
+    Released in 1989 the Gameboy was the first handheld console of the Gameboy series to be released by Nintendo. It featured games such as Pokemon Red & Blue, Tetris, Super Mario Land and went on to sell 64 million units worldwide.
+
+    My talk will be discussing what components make up a Gameboy, such as the CPU, RAM, Graphics and Game Cartridge. How each component works individually and how they work together to let trainers catch em all. Then how to replicate the behavior of the Gameboy in code to eventually make an emulator.
+  speakers:
+  - id: 0xColby
+  materials:
+    - title: 'Making A Gameboy Emulator in Ruby'
+      url: https://speakerdeck.com/colby/making-a-gameboy-emulator-in-ruby
+  video:
+    youtube_id: _mHdUhVQOb8
+the_thagomizer:
+  title: Exploring Big Data with rubygems.org Download Data
+  type: presentation
+  language: EN
+  description: Many people strive to be armchair data scientists. Google BigQuery
+    provides an easy way for anyone with basic SQL knowledge to dig into large data
+    sets and just explore. Using the rubygems.org download data we'll see how the
+    Ruby and SQL you already know can help you parse, upload, and analyze multiple
+    gigabytes of data quickly and easily without any previous Big Data experience.
+  speakers:
+  - id: the_thagomizer
+  materials:
+    - title: 'Big Data with rubygems.org Download Data'
+      url: http://www.thagomizer.com/files/ruby_kaigi_2016.pdf
+  video:
+    youtube_id: kLzkkL_V2Ts
+hsbt:
+  title: How DSL works on Ruby
+  type: presentation
+  language: JA
+  description: |-
+    <p>Domain-Specific Language(DSL) is a useful tool for communication between programmers and businesses. One of the greatest present from Ruby to programmers is to allow them to develop DSL easily. Ruby has a variety of functionalities for DSL making. </p>
+
+    <p>I started to maintain Rake last year. I found interesting techniques in Rake and felt different things on other popular DSLs like rspec examples, rails routes, and thor tasks etc. And I found patterns of code for DSL with Ruby. </p>
+
+    <p>I’m going to try to improve Rake 12 using these patterns. So I will describe  these  patterns of code for DSL with Ruby and talk on the future of Rake 12.</p>
+  speakers:
+  - id: hsbt
+  materials:
+    - title: 'How DSL works on Ruby'
+      url: http://www.slideshare.net/hsbt/how-dsl-works-on-ruby
+  video:
+    youtube_id: JwjwnPTt_k8
+takkanm:
+  title: Learn Programming Essence from Ruby patches
+  type: presentation
+  language: JA
+  description: |-
+    <p>Various patches are sent to Ruby. Those patches contain various ideas on programming.<br>
+    In this session, I would like to discuss the knowledge underlying programming, such as the original algorithm and data structure patches of Ruby and some libraries.</p>
+  speakers:
+  - id: takkanm
+  materials:
+    - title: 'Learn Programming Essence from Ruby patches'
+      url: https://speakerdeck.com/takkanm/learn-programming-essence-from-ruby-patches
+  video:
+    youtube_id: ktuMYe-Q9SY
+ericqweinstein:
+  title: A Nil Device, a Lonely Operator, & a Voyage to the Void Star
+  type: presentation
+  language: EN
+  description: 'This talk, framed as an illustrated story around Ruby 2.3''s new "lonely
+    operator" (`&.`) for safely handling `nil`, explores the nature of nothingness:
+    what it is, how other programming languages think about it, and how we should
+    treat it in our Ruby codebases (including why—and whether—we need it).'
+  speakers:
+  - id: ericqweinstein
+  materials:
+    - title: 'A Nil Device, A Lonely Operator, and a Voyage to the Void Star'
+      url: https://speakerdeck.com/ericqweinstein/a-nil-device-a-lonely-operator-and-a-voyage-to-the-void-star
+wyhaines:
+  title: Web Server Concurrency Architecture
+  type: presentation
+  language: EN
+  description: |-
+    <p>Ruby has many different web server options, covering a gamut of possible concurrency architectures. We will look at what those concurrency options are, and at what their respective theoretical costs and benefits are.</p>
+
+    <p>We will then look at a reference ruby web server implementation that can have each of these different concurrency architectures plugged into it, and examine how its performance under load varies with each of those architectures.</p>
+
+    <p>We'll wrap it all up with a summary of the results, and a look at which Ruby web servers fall into which categories of concurrency architecture.</p>
+  speakers:
+  - id: wyhaines
+  materials:
+    - title: 'Web Server Concurrency Architecture'
+      url: https://engineyard.github.io/rubykaigi2016-concurrency/
+  video:
+    youtube_id: 4FsZfcv28ig
+okkez:
+  title: Ruby Reference Manual 2016 Autumn
+  type: presentation
+  language: JA
+  description: |-
+    <p>I report activities on Ruby Reference Manual since 2013. Two years have passed since the last report. I'll provide more information about how to contribute on it.<br>
+    <br>
+    2013年以降のRubyリファレンスマニュアルまわりの活動について報告します。前回の報告から丸2年以上空いているので、Rubyリファレンスマニュアルについて広く知ってもらい、どのようにすれば貢献できるのか説明します。</p>
+  speakers:
+  - id: okkez
+  materials:
+    - title: 'Ruby Reference Manual 2016 Autumn'
+      url: http://slide.rabbit-shocker.org/authors/okkez/rubykaigi2016/
+masa16tanaka:
+  title: 'Pwrake: Distributed Workflow Engine based on Rake'
+  type: presentation
+  language: JA
+  description: Pwrake aims at the high-performance parallel execution of data-intensive
+    scientific workflows using multi-node clusters with >~10,000 cores. In the design
+    of Pwrake, I made use of existing powerful tools. First, Pwrake is implemented
+    as an extension to Rake. In this talk, I show that Rake is so powerful that it
+    enables portable definition of workflow DAGs comprised of many tasks. Second,
+    Pwrake has an option to make use of Gfarm distributed file system for high-performance
+    parallel file I/O. Also, I will talk about other studies on Pwrake such as locality-aware
+    task scheduling.
+  speakers:
+  - id: masa16tanaka
+  materials:
+    - title: 'Pwrake: Distributed Workflow Engine based on Rake'
+      url: https://speakerdeck.com/masa16tanaka/pwrake-distributed-workflow-engine-based-on-rake
+  video:
+    youtube_id: a4kMUrETrLk
+drbrain:
+  title: Building maintainable command-line tools with mruby
+  type: presentation
+  language: EN
+  description: |-
+    mruby and mruby-cli makes it possible to ship single binary command-line tools that can be used without setup effort. How can we make these easy to write too?
+
+    Existing libraries for making command-line tools are built for experienced rubyists. This makes them a poor choice for porting to mruby.
+
+    In this talk we'll explore how to build a command-line tool with mruby-cli along with a design and philosophy that makes it easy to create new commands and maintain existing commands even for unfamiliar developers.
+  speakers:
+  - id: drbrain
+  materials:
+    - title: 'Building maintainable command-line tools with MRuby'
+      url: https://speakerdeck.com/drbrain/building-maintainable-command-line-tools-with-mruby
+  video:
+    youtube_id: u6SB-Alat9E
+v0dro:
+  title: Data Analysis in RUby with daru
+  type: presentation
+  language: EN
+  description: |-
+    Easy and fast analysis of data is an uphill task for any Rubyist today. Ruby has been mostly restricted to web development and scripting, until now. In this talk we will have a look at daru, a gem from the Ruby Science Foundation specifically developed for simplifying data analysis tasks for Rubyists.
+
+    You will learn how you can use daru for analyzing large data sets and get a tour of daru being coupled with other Ruby tools like pry, iruby and nyaplot for interactive and standalone data analysis and plotting for gaining quick insights into your data &mdash; all with a few lines of Ruby code.
+  speakers:
+  - id: v0dro
+  materials:
+    - title: 'Data Analysis in RUby with daru'
+      url: https://speakerdeck.com/v0dro/data-analysis-in-ruby-with-daru
+  video:
+    youtube_id: ZLBGyACJJS4
+tagomoris:
+  title: Modern Black Mages Fighting in the Real World
+  type: presentation
+  language: JA
+  description: |-
+    <p>Fluentd v0.14, which has drastically updated Plugin APIs, also has a layer to provide compatibility for old-fashioned plugins to support them and huge amount of existing configuration files in user environments.<br>
+    It was far from easy, and developers had to do everything possible, including any kind of black magics.</p>
+
+    <p>This talk will show some stories with code and commits of a software used in real world:<br>
+    * How to provide compatibility between different APIs<br>
+    * How to provide required methods on existing objects<br>
+    * How to make sure to call <code>super</code> for existing methods without <code>super</code></p>
+  speakers:
+  - id: tagomoris
+  materials:
+    - title: 'Modern Black Mages Fighting in the Real World'
+      url: http://www.slideshare.net/tagomoris/modern-black-mages-fighting-in-the-real-world
+  video:
+    youtube_id: fXbVT_Afzsw
+mrkn:
+  title: SciRuby Machine Learning Current Status and Future
+  type: presentation
+  language: JA
+  description: |-
+    <p>How do we do machine-learning things by using Ruby?</p>
+
+    <p>In this talk, I will show you the current status of SciRuby by comparing it with other language stacks such as the SciPy stack on Python.</p>
+  speakers:
+  - id: mrkn
+  materials:
+    - title: 'SciRuby Machine Learning Current Status and Future'
+      url: https://speakerdeck.com/mrkn/sciruby-machine-learning-current-status-and-future
+  video:
+    youtube_id: gfQ8XEy7vO4
+tom_enebo:
+  title: JRuby 9000 Last Year, Today, and Tomorrow
+  type: presentation
+  language: EN
+  description: JRuby 9000 was released over a year ago after a lengthy set of pre-releases.  Our
+    most significant major release in nearly 10 years.  New runtime.  Native IO subsystem.  Complete
+    port of C Ruby's transcoding facilities.  How did things go?  Is the new runtime
+    faster?  Did it enable more aggressive optimizations?  Does it help aid debugging
+    in development?  This talk will discuss lessons learned and where we are focused
+    for upcoming improvements.
+  speakers:
+  - id: tom_enebo
+  video:
+    youtube_id: vAEFVQQwo1c
+cruby_committers:
+  title: Ruby Committers vs the World
+  type: discussion
+  language: JA
+  description: TBA
+  speakers:
+  - id: cruby_committers
+  video:
+    youtube_id: gcqbvLHNPTM
+MattStudies:
+  title: 'Ruby3x3: How are we going to measure 3x?'
+  type: presentation
+  language: EN
+  description: To hit Ruby3x3, we must first figure out **what** we're going to measure,
+    **how** we're going to measure it, in order to get what we actually want. I'll
+    cover some standard definitions of benchmarking in dynamic languages, as well
+    as the tradeoffs that must be made when benchmarking. I'll look at some of the
+    possible benchmarks that could be considered for Ruby 3x3, and evaluate them for
+    what they're good for measuring, and what they're less good for measuring, in
+    order to help the Ruby community decide what the 3x goal is going to be measured
+    against.
+  speakers:
+  - id: MattStudies
+  materials:
+    - title: 'Ruby3x3: How are we going to measure 3x?'
+      url: http://www.slideshare.net/MatthewGaudet/ruby3x3-how-are-we-going-to-measure-3x
+  video:
+    youtube_id: kJDOpucaUR4
+tkawa:
+  title: Web Clients for Ruby and What they should be in the future
+  type: presentation
+  language: JA
+  description: |-
+    REST and Hypermedia Web APIs such as Amazon Web Services are getting more common every day. Of course it is also common to integrate those APIs into Ruby app. There are so many HTTP clients we use for integration written in Ruby but all of them lack the feature "state management" for taking advantage of Web APIs.
+
+    I implemented the feature on Faraday, a typical HTTP client in Ruby. I'll show you the key point and the usefulness of the implementation.
+  speakers:
+  - id: tkawa
+  materials:
+    - title: 'Web Clients for Ruby and What they should be in the future'
+      url: http://www.slideshare.net/tkawa1/rubykaigi2016-web-clients-for-ruby
+  video:
+    youtube_id: DeK6EDzEMI0
+yuri_at_earth:
+  title: High Tech Seat in mruby
+  type: presentation
+  language: JA
+  description: |-
+    <p>How do you write software for controlling home appliance such as High Tech Seat (a.k.a. Washlet) ?<br>
+    When you write bad code, water may flood or may not be flushed...<br>
+    Even after you write correct code, you might want to add some nice features like open and close the cover working with flusher. How do you verify the behavior of it?</p>
+
+    <p>State machine diagram is usually used to verify the behavior, especially for embedded systems.<br>
+    In UML 2.x, nested states and orthogonal regions are supported to describe complex behaviors.<br>
+    Through the diagrams, you can learn what is "good" design for controlling devices.<br>
+    In addition, Ruby lets us convert the diagrams into executable code easily.<br>
+    Let's try to implement High Tech Seat from state machine with mruby.</p>
+  speakers:
+  - id: yuri_at_earth
+  materials:
+    - title: 'High Tech Seat in mruby'
+      url: http://www.slideshare.net/yamanekko/rubykaigi2016-high-tech-seat-in-mruby
+  video:
+    youtube_id: z93299YHVYI
+chrisarcand:
+  title: 'Deletion Driven Development: Code to delete code!'
+  type: presentation
+  language: EN
+  description: "<p>Good news! Ruby is a successful and mature programming language
+    with a wealth of libraries and legacy applications that have been contributed
+    to for many years. The bad news: Those projects might contain a large amount of
+    useless, unused code which adds needless complexity and confuses new developers.
+    In this talk I'll explain how to build a static analysis tool to help you clear
+    out the cruft - because there's no code that's easier to maintain than no code
+    at all!</p>"
+  speakers:
+  - id: chrisarcand
+  materials:
+    - title: 'Deletion Driven Development: Code to delete code!'
+      url: https://chrisarcand.com/talks/deletion-driven-development-code-to-delete-code/
+  video:
+    youtube_id: UlfyX8zRVc8
+juliancheal:
+  title: It's More Fun to Compute
+  type: presentation
+  language: EN
+  description: |-
+    Come with us now on a journey through time and space. As we explore the world of analog/digital synthesis. From computer generated music to physical synthesisers and everything in between.
+
+    So you want to write music with code, but don’t know the difference between an LFO, ADSR, LMFAO, etc. Or a Sine wave, Saw wave, Google wave. We’ll explore what these mean, and how Ruby can be used to make awesome sounds. Ever wondered what Fizz Buzz sounds like, or which sounds better bubble sort or quick sort? So hey Ruby, let’s make music!
+  speakers:
+  - id: juliancheal
+  video:
+    youtube_id: z7So-iCJSUY
+kazuho:
+  title: Recent Advances in HTTP and Controlling them using ruby
+  type: presentation
+  language: JA
+  description: |-
+    <p>Configuration of a web server is becoming more and more complex, as technologies such as <a href="http://oauth.net/">OAuth</a>, <a href="http://httpwg.org/http-extensions/client-hints.html">Client Hints</a>, <a href="https://http2.github.io/">HTTP/2</a> push become standardized.</p>
+
+    <p>This talk introduces the recent advances in HTTP and related technology, as well as explaining how they can be configured and maintained by writing ruby code based on the Rack interface.</p>
+  speakers:
+  - id: kazuho
+  materials:
+    - title: 'Recent Advances in HTTP, controlling them using ruby'
+      url: http://www.slideshare.net/kazuho/recent-advances-in-http-controlling-them-using-ruby
+  video:
+    youtube_id: _YroMCap4y8
+shyouhei:
+  title: Optimizing Ruby
+  type: presentation
+  language: JA
+  description: "<p>I made ruby 10x faster.  Let me show you how.</p>"
+  speakers:
+  - id: shyouhei
+  materials:
+    - title: 'Optimizing Ruby'
+      url: https://speakerdeck.com/shyouhei/optimizing-ruby
+  video:
+    youtube_id: spxcAHidm5o
+anildigital:
+  title: Ruby Concurrency compared
+  type: presentation
+  language: EN
+  description: |-
+    Ruby is used everywhere now. In this talk we will compare Ruby concurrency with Node.js, JVM, Erlang and others.
+
+    Ruby supports concurrency but with GIL, it can't run threads parallely. We will explore options available that makes this problem irrelevant.
+
+    Node.js doesn’t support concurrency or parallelism. Node.js is single threaded. It runs an event loop which makes non blocking IO possible. We will explore why Node.js fits well to only certain types of problems only
+
+    JVM supports native threads and can do parallelism. But in JVM memory is still shared among different objects. We will explore JVM architecture in regards with memory. Where JVM gets it wrong.
+
+    Erlang/Elixir achieves concurrency and parallelism with shared nothing, immutable data, first class processes, actor model.  We will explore whether this approach is better for solving every kind of problem.
+
+    Talk will have deep comparison with all of these platforms in regards with what most real world project need,
+  speakers:
+  - id: anildigital
+  materials:
+    - title: 'Ruby Concurrency Compared'
+      url: https://speakerdeck.com/anildigital/ruby-concurrency-compared
+  video:
+    youtube_id: lbX-9mDUOIw
+franckverrot:
+  title: Hijacking syscalls with (m)ruby
+  type: presentation
+  language: EN
+  description: |-
+    <p>mruby's unique packaging strategy gives developers the possibility to inject Ruby code in any program, written in any language.</p>
+
+    <p>In this talk we'll discover how a mruby application can be distributed, how one could replace OS system calls with custom Ruby apps, and real-world usages of this technique.</p>
+  speakers:
+  - id: franckverrot
+  materials:
+    - title: 'Hijacking syscalls with Ruby'
+      url: https://speakerdeck.com/franckverrot/rubykaigi-2016-hijacking-syscalls-with-ruby
+  video:
+    youtube_id: zRoiX0BES0s
+amirrajan:
+  title: Game Development + Ruby = Happiness
+  type: presentation
+  language: EN
+  description: 'Amir Rajan (creator of the #1 iOS Game: A Dark Room), will speak about
+    his journey to becoming a game developer using Ruby. He''ll explore the source
+    code for his games, showing how elegance in code becomes elegance on screen.'
+  speakers:
+  - id: amirrajan
+  materials:
+    - title: 'Game Dev + Ruby = Happiness?'
+      url: http://slides.com/amirrajan/deck
+  video:
+    youtube_id: jfTM_0ezZuI
+nalsh:
+  title: Dive into CRuby
+  type: keynote
+  language: JA
+  description: |-
+    <p>People sometimes want to involve CRuby development, but won't. I guess it's because they couldn't embody the motivation and don't know how to work about it.</p>
+    <p>I explain how to find an entry point, write code, make matz merge it.</p>
+  speakers:
+  - id: nalsh
+  materials:
+    - title: 'Dive into CRuby'
+      url: https://speakerdeck.com/naruse/dive-into-cruby
+  video:
+    youtube_id: iMtpCes8VqU

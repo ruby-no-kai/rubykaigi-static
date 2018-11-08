@@ -1,0 +1,1 @@
+function Point(i,t){this.x=i,this.y=t}
