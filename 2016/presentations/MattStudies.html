@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      Ruby3x3: How are we going to measure 3x?
+      - RubyKaigi 2016
+    </title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='RubyKaigi 2016, September 8..10, Kyoto, Japan #rubykaigi' property='og:title'>
+    <meta content='RubyKaigi 2016' property='og:site_name'>
+    <meta content='http://rubykaigi.org/2016' property='og:url'>
+    <meta content='activity' property='og:type'>
+    <meta content='http://rubykaigi.org/2016/images/og_image.png' property='og:image'>
+    <meta content='@rubykaigi' name='twitter:site'>
+    <meta content='September 8..10, Kyoto, Japan' name='description'>
+    <meta content='rubykaigi, ruby会議, 2016' name='keywords'>
+    <link href='/2016/images/apple-touch-icon.png' rel='apple-touch-icon'>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,200,300,700" rel="stylesheet" media="all" />
+    <script src="/2016/javascripts/all.js"></script>
+    <link href="/2016/stylesheets/all.css" rel="stylesheet" media="all" />
+    <link href="/2016/images/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <body id='Ruby3x3: How are we going to measure 3x?'>
+    <header class='header'>
+      <nav class='navbar navbar-default'>
+        <div class='header-wrapper'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle' data-target='#navbar-collapse' data-toggle='collapse' type='button'>
+              <i class='fa fa-bars'></i>
+            </button>
+            <div class='header-wrapper__page-logo'>
+              <a class="page-logo__link" href="/2016/"><img class="page-logo__image" src="/2016/images/page_logo.png" />
+              </a>
+            </div>
+          </div>
+          <div class='collapse navbar-collapse' id='navbar-collapse'>
+            <ul class='nav navbar-nav navbar-right header__nav header-wrapper__page-nav'>
+              <li class='header-wrapper__page-nav-item'>
+                <a class="page-nav-item__link" href="/2016/schedule/">Schedule</a>
+              </li>
+              <li class='header-wrapper__page-nav-item'>
+                <a class="page-nav-item__link" href="/2016/speakers/">Speakers</a>
+              </li>
+              <li class='header-wrapper__page-nav-item'>
+                <a class="page-nav-item__link" href="/2016/venue/">Venue</a>
+              </li>
+              <li class='header-wrapper__page-nav-item'>
+                <a class="page-nav-item__link" href="/2016/parties/">Parties</a>
+              </li>
+              <li class='header-wrapper__page-nav-item'>
+                <a class="page-nav-item__link" href="/2016/goodies/">Goodies</a>
+              </li>
+              <li class='header-wrapper__page-nav-item page-nav-item__still'>
+                <a class="page-nav-item__link" href="/2016/sponsors/">Sponsors</a>
+              </li>
+              <li class='header-wrapper__page-nav-item page-nav-item__current'>
+                <a class="page-nav-item__link" href="/2016/code-of-conduct/">Anti Harassment Policy</a>
+              </li>
+              <li class='header-wrapper__page-nav-icon'>
+                <a target="_blank" class="page-nav-icon__link--twitter" href="https://twitter.com/rubykaigi"><i class='fa fa-twitter page-nav-icon__twitter-icon'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 class='page__frist-title'>
+      Schedule
+    </h1>
+    <div class='page-wrapper'>
+      <div class='presentation-container__content'>
+        <div class='presentation__speakers'>
+          <div class='presentation__speaker'>
+            <div class='member-list clearfix'>
+              <div class='member-list__avatar'><img alt="Matthew Gaudet" class="member-list__avatar-image" src="https://www.gravatar.com/avatar/da1b038f633613bb7e6c2a95a503e34b" /></div>
+              <div class='member-content'>
+                <div class='member-list__name'>Matthew Gaudet</div>
+                <div class='member-list__channels'>
+                  <ul class='channels-list'>
+                    <li class='channels-list-item'>
+                      <a target="_blank" class="channels-list__link-twitter" href="https://twitter.com/MattStudies"><i class='fa fa-twitter channels-list__twitter-icon'></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class='channels-list__id'>@MattStudies</div>
+                </div>
+                <div class='channels-list__bio'>A developer at IBM Toronto on the OMR project, Matthew Gaudet is focused on helping to Open Source IBM's JIT technology, with the goal of making it usable by many language implementations.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='presentation__header'>
+          <div class='schedule-table__title-meta'><span class='presentation__lang'>EN</span>      </div>
+          <h1 class='presentation__title'>Ruby3x3: How are we going to measure 3x?</h1>
+          <div class='section presentation__description'><p>To hit Ruby3x3, we must first figure out **what** we're going to measure, **how** we're going to measure it, in order to get what we actually want. I'll cover some standard definitions of benchmarking in dynamic languages, as well as the tradeoffs that must be made when benchmarking. I'll look at some of the possible benchmarks that could be considered for Ruby 3x3, and evaluate them for what they're good for measuring, and what they're less good for measuring, in order to help the Ruby community decide what the 3x goal is going to be measured against.</p></div>
+          <section class='section presentation__materials'>
+            <h2 class='page__sub-title'>
+              Presentation Material
+            </h2>
+            <ul class='presentation__materials-list'>
+              <li>
+                <a target="_blank" href="http://www.slideshare.net/MatthewGaudet/ruby3x3-how-are-we-going-to-measure-3x"><i class='fa fa-caret-right'></i>
+                Ruby3x3: How are we going to measure 3x?
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class='section presentation__video'>
+            <h2 class='page__sub-title'>Recorded video</h2>
+            <div class='presentation__video-embed'>
+              <iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/kJDOpucaUR4' width='560'></iframe>
+            </div>
+            <div class='presentation__video-link'>
+              <a href="https://www.youtube.com/watch?v=kJDOpucaUR4"></a>
+              <nbsp></nbsp>
+              from
+              <nbsp></nbsp>
+              <a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer class='footer'>
+      <div class='page-footer__icon'>
+        <img class="page-footer__icon-image" src="/2016/images/page_footer_icon.png" />
+      </div>
+      <ul class='page-footer__other-page-list'>
+        <li class='page-footer__other-page-list-item'>
+          <a class="page-footer__other-page-list-link" href="/2016/">Home</a>
+        </li>
+        <li class='page-footer__other-page-list-item'>
+          <a class="page-footer__other-page-list-link" href="/2016/team/">Team</a>
+        </li>
+      </ul>
+      <p class='page-footer__license'>
+        <span>This work by RubyKaigi 2016 Team is licensed under a</span>
+        <a class="page-footer__license-link" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License.</a>
+      </p>
+      <p class='page-footer__design'>
+        <span>Designed by</span>
+        <a target="blank" class="page-footer__design-link" href="http://www.4696.co.jp/">Shiro Kuro Inc.</a>
+        (
+        <a target="blank" class="page-footer__design-link" href="https://twitter.com/9d?lang=ja">@9d</a>
+        )
+      </p>
+    </footer>
+    <footer class='footer'>
+      <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-6972157-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+    </footer>
+  </body>
+</html>

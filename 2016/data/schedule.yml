@@ -1,0 +1,179 @@
+---
+sep08:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '10:00'
+    name: Door Open
+  - type: break
+    begin: '10:00'
+    end: '10:10'
+    name: Opening
+  - type: keynote
+    begin: '10:10'
+    end: '11:10'
+    talks:
+      main_hall: yukihiro_matz
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      main_hall: m_seki
+      room_d: johnlinvc
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      main_hall: pitr_ch
+      room_d: udzura
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      main_hall: ko1
+      room_d: elct9620
+  - type: break
+    begin: '15:00'
+    end: '15:30'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:30'
+    end: '16:10'
+    talks:
+      main_hall: nirvdrum
+      room_d: youchan
+  - type: talk
+    begin: '16:20'
+    end: '17:00'
+    talks:
+      main_hall: tanaka_akr
+      room_d: narittan
+  - type: talk
+    begin: '17:10'
+    end: '17:50'
+    talks:
+      main_hall: duerst
+      room_d: k0kubun
+sep09:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '09:20'
+    name: Door Open
+  - type: keynote
+    begin: '09:20'
+    end: '10:20'
+    talks:
+      main_hall: searls
+  - type: talk
+    begin: '10:30'
+    end: '11:10'
+    talks:
+      main_hall: ktou
+      room_d: 0xColby
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      main_hall: the_thagomizer
+      room_d: hsbt
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      main_hall: takkanm
+      room_d: ericqweinstein
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      main_hall: wyhaines
+      room_d: okkez
+  - type: break
+    begin: '15:00'
+    end: '15:30'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:30'
+    end: '16:10'
+    talks:
+      main_hall: masa16tanaka
+      room_d: drbrain
+  - type: talk
+    begin: '16:20'
+    end: '17:00'
+    talks:
+      main_hall: v0dro
+      room_d: tagomoris
+  - type: talk
+    begin: '17:10'
+    end: '17:50'
+    talks:
+      main_hall: mrkn
+      room_d: tom_enebo
+sep10:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '09:20'
+    name: Door Open
+  - type: talk
+    begin: '09:20'
+    end: '10:20'
+    talks:
+      main_hall: cruby_committers
+  - type: talk
+    begin: '10:30'
+    end: '11:10'
+    talks:
+      main_hall: MattStudies
+      room_d: tkawa
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      main_hall: yuri_at_earth
+      room_d: chrisarcand
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      main_hall: juliancheal
+      room_d: kazuho
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      main_hall: shyouhei
+      room_d: anildigital
+  - type: break
+    begin: '15:00'
+    end: '15:30'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:30'
+    end: '16:10'
+    talks:
+      main_hall: franckverrot
+      room_d: amirrajan
+  - type: keynote
+    begin: '16:20'
+    end: '17:20'
+    talks:
+      main_hall: nalsh
+  - type: break
+    begin: '17:30'
+    end: '18:00'
+    name: Closing

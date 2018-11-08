@@ -1,0 +1,367 @@
+---
+keynotes:
+  yukihiro_matz:
+    id: yukihiro_matz
+    name: Yukihiro "Matz" Matsumoto
+    bio: The Creator of Ruby
+    github_id: matz
+    twitter_id: yukihiro_matz
+    avatar_url: https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b
+  nalsh:
+    id: nalsh
+    name: NARUSE, Yui
+    bio: Ruby committer, nkf maintainer, working at Treasure Data Inc.
+    github_id: nurse
+    twitter_id: nalsh
+    avatar_url: https://www.gravatar.com/avatar/9361878d459f1709feec780518946ee5
+  searls:
+    id: searls
+    name: Justin Searls
+    bio: Nobody knows bad code like Justin Searls—he writes bad code effortlessly.
+      And it's given him the chance to study why the industry has gotten so good at
+      making bad software. He co-founded Test Double, an agency focused on fixing
+      what's broken in software.
+    github_id: searls
+    twitter_id: searls
+    avatar_url: https://www.gravatar.com/avatar/4fdf06ef4b312b864accf921af6c2f79
+speakers:
+  0xColby:
+    id: 0xColby
+    name: Colby Swandale
+    bio: Working in Melbourne at Marketplacer. I enjoy working on Ruby on Rails projects,
+      low level computing and encryption.
+    github_id: colby-swandale
+    twitter_id: 0xColby
+    avatar_url: https://www.gravatar.com/avatar/68c6cbe82595ac9e51ee1c160756ad55
+  amirrajan:
+    id: amirrajan
+    name: Amir Rajan
+    bio: "Amir Rajan is a pretty decent dev and is constantly trying to improve in
+      his craft. He’s a jack of all trades, being comfortable with a number of platforms
+      and languages. \n\nLast but certainly not least, Amir is the creator of A Dark
+      Room iOS. This RPG conquered the world and took the #1 spot in the App Store
+      and placed in the top #10 paid apps across 70 countries. It has been downloaded
+      over 2.5 millions times and is a staple game in the App Store with over 25,000
+      five star reviews."
+    github_id: amirrajan
+    twitter_id: amirrajan
+    avatar_url: https://www.gravatar.com/avatar/433d6daba7a9f7e563b793c0890ef906
+  anildigital:
+    id: anildigital
+    name: Anil Wadghule
+    bio: I am a geek but a senior software developer by profession, currently working
+      for Equal Experts, India. When not programming, I spent time in exploring music
+      around the world. Emacs is my text editor of choice. I love watching Japanese
+      animes.
+    github_id: anildigital
+    twitter_id: anildigital
+    avatar_url: https://www.gravatar.com/avatar/2ad20e87f55ce79b113a12c516ec9d09
+  chrisarcand:
+    id: chrisarcand
+    name: Chris Arcand
+    bio: Chris is a Ruby developer at Red Hat on the ManageIQ core team. He enjoys
+      working full time on open source software to manage The Cloud™ and has contributed
+      to various projects in the Ruby ecosystem. Chris hails from Minnesota in the
+      United States and also enjoys hockey, hiking, and tasty beers.
+    github_id: chrisarcand
+    twitter_id: chrisarcand
+    avatar_url: https://www.gravatar.com/avatar/956593b947dfddf6d89168fe09aa628a
+  drbrain:
+    id: drbrain
+    name: Eric Hodel
+    bio: Eric Hodel is a ruby committer and maintainer of many gems.  He works at
+      Fastly on the API features team maintaining and building ruby services that
+      customers use to configure their CDN services.
+    github_id: drbrain
+    twitter_id: drbrain
+    avatar_url: https://www.gravatar.com/avatar/58479f76374a3ba3c69b9804163f39f4
+  duerst:
+    id: duerst
+    name: Martin J. Dürst
+    bio: Martin is a Professor of Computer Science at Aoyama Gakuin University in
+      Japan. He has been one of the main drivers of Internationalization (I18N) and
+      the use of Unicode on the Web and the Internet. He published the first proposals
+      for DNS I18N and NFC character normalization, and is the main author of the
+      W3C Character Model and the IRI specification (RFC 3987). Since 2007, he and
+      his students have contributed to the implementation of Ruby, mostly in the area
+      of I18N.
+    github_id: duerst
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/f52e87b92cafb1e8c6d155076b56ecff
+  elct9620:
+    id: elct9620
+    name: 蒼時弦也
+    bio: A Web Developer focus on Interaction Design, and love Game, Animation and
+      Comic. Current working on develop game and website.
+    github_id: elct9620
+    twitter_id: elct9620
+    avatar_url: https://www.gravatar.com/avatar/888339de9e7a88688b6acb30d33e66cd
+  ericqweinstein:
+    id: ericqweinstein
+    name: Eric Weinstein
+    bio: Eric Weinstein is the author of Ruby Wizardry (No Starch Press), an illustrated
+      guide to the language for children. He enjoys writing Ruby, Clojure, Elixir,
+      Idris, and Swift.
+    github_id: ericqweinstein
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/facce030b679bda34eb7c64885a741fc
+  franckverrot:
+    id: franckverrot
+    name: Franck Verrot
+    bio: Franck is a software engineer. He specializes in Ruby and JavaScript, with
+      a focus on performance.
+    github_id: 
+    twitter_id: franckverrot
+    avatar_url: https://www.gravatar.com/avatar/0256f4863b3a08d20a382766f842e63c
+  hsbt:
+    id: hsbt
+    name: SHIBATA Hiroshi
+    bio: Ruby Committer, Chief Engineer at GMO Pepabo, Inc.
+    github_id: hsbt
+    twitter_id: hsbt
+    avatar_url: https://www.gravatar.com/avatar/eabad423977cfc6873b8f5df62b848a6
+  johnlinvc:
+    id: johnlinvc
+    name: Lin Yu Hsiang
+    bio: Senior Cloud Engineer at iCHEF. Ruby lover. Full-stack developer.Organizer
+      of Swift Taipei.  iOS developer. FP lover.
+    github_id: johnlinvc
+    twitter_id: johnlinvc
+    avatar_url: https://www.gravatar.com/avatar/3f7d9611fc919c98512b779cde637dfc
+  juliancheal:
+    id: juliancheal
+    name: Julian Cheal
+    bio: A British Ruby/Rails developer, with a penchant for tweed, fine coffee, and
+      homebrewing. When not deploying enterprise clouds, I help organise fun events
+      around the world that teach people to program flying robots. I also occasionally
+      speak at international conferences on the intersection of programming and robotics.
+    github_id: juliancheal
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/ba5ce2541928927c1ea3ceeaf3a4d604
+  k0kubun:
+    id: k0kubun
+    name: Takashi Kokubun
+    bio: A software engineer working to improve developer's productivity at Cookpad
+      Inc.
+    github_id: k0kubun
+    twitter_id: k0kubun
+    avatar_url: https://www.gravatar.com/avatar/08d5432a5bc31e6d9edec87b94cb1db1
+  kazuho:
+    id: kazuho
+    name: Kazuho Oku
+    bio: N/A
+    github_id: kazuho
+    twitter_id: kazuho
+    avatar_url: https://www.gravatar.com/avatar/a1f8ed12fefd7759ef8838e62ee409a6
+  ko1:
+    id: ko1
+    name: Koichi Sasada
+    bio: Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI).
+      He received Ph.D (Information Science and Technology) from the University of
+      Tokyo, 2007. He became a faculty of University of Tokyo (Assistant associate
+      2006-2008, Assistant professor 2008-2012). After the 13 years life in university,
+      now, he is a member of Matz's team in Heroku, Inc. He is also a director of
+      Ruby Association.
+    github_id: ko1
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/990397e8b38d6f5f4ae8ff343e8b883a
+  ktou:
+    id: ktou
+    name: Kouhei Sutou
+    bio: 'He is a free software programmer and the president of ClearCode Inc. He
+      is also the namer of ClearCode Inc. The origin of the company name is "clear
+      code". We will be programmers that code clear code as our company name suggests.
+      He is interested in how to tell other programmers about how he codes clear code.
+
+'
+    github_id: kou
+    twitter_id: ktou
+    avatar_url: https://www.gravatar.com/avatar/2d9386b1504e581be390af978e05a8b9
+  m_seki:
+    id: m_seki
+    name: Masatoshi SEKI
+    bio: Masatoshi Seki is a Ruby committer and the author of several Ruby standard
+      libraries including dRuby, ERB, and Rinda. He’s an expert in object-oriented
+      programming, distributed systems, and eXtreme programming. He has been speaking
+      at RubyKaigi every year since 2006 when the Kaigi first started.
+    github_id: seki
+    twitter_id: m_seki
+    avatar_url: https://www.gravatar.com/avatar/40f4d1f2e77078955bd01e9fb4a503ba
+  masa16tanaka:
+    id: masa16tanaka
+    name: Masahiro TANAKA
+    bio: Research Fellow at CCS, University of Tsukuba. The author of NArray, a numerical
+      library for Ruby.
+    github_id: masa16
+    twitter_id: masa16tanaka
+    avatar_url: https://www.gravatar.com/avatar/2cadef577a1d0de8edc459a8b45da21f
+  MattStudies:
+    id: MattStudies
+    name: Matthew Gaudet
+    bio: 'A developer at IBM Toronto on the OMR project, Matthew Gaudet is focused
+      on helping to Open Source IBM''s JIT technology, with the goal of making it
+      usable by many language implementations. '
+    github_id: 
+    twitter_id: MattStudies
+    avatar_url: https://www.gravatar.com/avatar/da1b038f633613bb7e6c2a95a503e34b
+  mrkn:
+    id: mrkn
+    name: Kenta Murata
+    bio: A Ruby committer.  A BigDecimal maintainer.
+    github_id: mrkn
+    twitter_id: mrkn
+    avatar_url: https://www.gravatar.com/avatar/819b3c0a25f9708fd32261b8ae2d23f6
+  narittan:
+    id: narittan
+    name: Ritta Narita
+    bio: "Ritta graduated from university last September and now is working at Treasure
+      Data.Inc. \nAnd he is maintainer of serverengine."
+    github_id: naritta
+    twitter_id: narittan
+    avatar_url: https://www.gravatar.com/avatar/a9744697f9c3c315194115d530ac7b14
+  nirvdrum:
+    id: nirvdrum
+    name: Kevin Menard
+    bio: Kevin is a researcher at Oracle Labs where he works as part of a team developing
+      a high performance Ruby implementation in conjunction with the JRuby team. He’s
+      been involved with the Ruby community since 2008 and has been doing open source
+      in some capacity since 1999. In his spare time he’s a father of two and enjoys
+      playing drums.
+    github_id: nirvdrum
+    twitter_id: nirvdrum
+    avatar_url: https://www.gravatar.com/avatar/303aae3354beb438eaa44000b1f2f3fd
+  okkez:
+    id: okkez
+    name: okkez
+    bio: Working in ClearCode Inc. He is interested in how to write clear code.
+    github_id: okkez
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/9673ac7770ee09f76ff5d839820db157
+  pitr_ch:
+    id: pitr_ch
+    name: Petr Chalupa
+    bio: He is a core maintainer of concurrent-ruby, where he has contributed concurrent
+      abstractions and a synchronisation layer, providing volatile and atomic instance
+      variables. He is part of the team working on JRuby+Truffle Ruby implementation
+      at Oracle Labs. He is a happy Ruby user for 10 years.
+    github_id: pitr-ch
+    twitter_id: pitr_ch
+    avatar_url: https://www.gravatar.com/avatar/95bcc8d80c505fda705d5c33098f0136
+  shyouhei:
+    id: shyouhei
+    name: Urabe, Shyouhei
+    bio: Money Forward, Inc. hire Shyouhei, a long-time ruby-core committer, to contribute
+      to the whole ruby ecosystem. Being a full-time ruby-core developer, his current
+      interest is to speed up ruby execution by modifying its internals. Doing so
+      is not straight-forward because of ruby's highly dynamic nature. To tackle this
+      problem he is implementing a deoptimization engine onto ruby, which enables
+      lots of optimization techniques that are yet to be applied to it.
+    github_id: shyouhei
+    twitter_id: shyouhei
+    avatar_url: https://www.gravatar.com/avatar/9d2f78236e45a335301ba1195026105d
+  tagomoris:
+    id: tagomoris
+    name: Satoshi "moris" Tagomori
+    bio: |-
+      OSS developer/maintainer: Fluentd, Norikra, MessagePack-Ruby, Woothee and many others mainly about Web services, data collecting and distributed/streaming data processing.
+      Living in Tokyo, and day job is for Treasure Data.
+    github_id: tagomoris
+    twitter_id: tagomoris
+    avatar_url: https://www.gravatar.com/avatar/002525eada5741b7954ce22c1a066d32
+  takkanm:
+    id: takkanm
+    name: Mitsutaka Mimura
+    bio: 'member of Asakusa.rb, eiwa-system-management. '
+    github_id: takkanm
+    twitter_id: 
+    avatar_url: https://www.gravatar.com/avatar/8f39a252784d5a99589be6e20c4553fb
+  tanaka_akr:
+    id: tanaka_akr
+    name: Tanaka Akira
+    bio: |-
+      Ruby committer,
+      Researcher of National Institute of Advanced Industrial Science and Technology (AIST)
+    github_id: 
+    twitter_id: tanaka_akr
+    avatar_url: https://www.gravatar.com/avatar/b11f10c4cd9d53970e7be20caa43f940
+  the_thagomizer:
+    id: the_thagomizer
+    name: Aja Hammerly
+    bio: Aja lives in Seattle where she is a developer advocate at Google and a member
+      of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She
+      also loves working with large piles of data. In her free time she enjoys skiing,
+      cooking, knitting, and long coding sessions on the beach.
+    github_id: thagomizer
+    twitter_id: the_thagomizer
+    avatar_url: https://www.gravatar.com/avatar/ff9072f60e25730674ad0d18a140ff65
+  tkawa:
+    id: tkawa
+    name: Toru Kawamura
+    bio: "RESTafarian, freelance programmer,\ntechnology assistance partner at SonicGarden
+      Inc.,\nco-organizer of Sendagaya.rb (regional rubyist meetup), and \nfacilitator
+      of RESTful-towa (“What is RESTful”) Workshop."
+    github_id: tkawa
+    twitter_id: tkawa
+    avatar_url: https://www.gravatar.com/avatar/4bc8a6fb46ecbd1a5432e58225954ea3
+  tom_enebo:
+    id: tom_enebo
+    name: Thomas E Enebo
+    bio: Thomas Enebo co-leads the JRuby project. He has been passionately working
+      on JRuby for many years. When not working on JRuby, he is writing Ruby applications,
+      playing with Java, and enjoying a decent beer.
+    github_id: enebo
+    twitter_id: tom_enebo
+    avatar_url: https://www.gravatar.com/avatar/13313ac2ec7ba7c43b1b952db034ff3b
+  udzura:
+    id: udzura
+    name: Uchio KONDO
+    bio: |-
+      An 8 y.o. Rubyist, Hashicorp freak, DevOps enthusiast, system programming novice. One of the writers of books "Perfect Ruby" / "Perfect Ruby on Rails" (both in Japanese).
+      He lives in Fukuoka - the "coast" city of "west" Japan, works at GMO Pepabo, Inc. as SRE/R&D/Dev Productivity Engineer, and holds Fukuoka.rb local meetup. He also is a organizer of RailsGirls Fukuoka #1.
+    github_id: udzura
+    twitter_id: udzura
+    avatar_url: https://www.gravatar.com/avatar/2cf373725ded741824c50fd571eda6e1
+  v0dro:
+    id: v0dro
+    name: Sameer Deshmukh
+    bio: |-
+      Sameer is a student and a contributor to the Ruby Science Foundation, where he helps build scientific computation tools in Ruby. He is currently maintaining daru, a library for data analysis and manipulation in Ruby.
+
+      He enjoys spending spare time with friends, books and his bass guitar.
+    github_id: v0dro
+    twitter_id: v0dro
+    avatar_url: https://www.gravatar.com/avatar/5083e35c5075b75473919524286239b3
+  wyhaines:
+    id: wyhaines
+    name: Kirk Haines
+    bio: I started using Ruby back in the Ruby 1.6 days, and I have used it in my
+      daily professional life ever since. I'm fascinated by issues of application
+      design, distributed architecture, and making hard things easy. I was also the
+      last Ruby 1.8.6 maintainer. For entertainment, I read studies on exercise and
+      nutrition physiology, and I like to run and bicycle long distances. This year
+      will include my first 50k and 50m running races, and at least one 75 mile gravel
+      bike race.
+    github_id: wyhaines
+    twitter_id: wyhaines
+    avatar_url: https://www.gravatar.com/avatar/ca8efd0ba834b02b9b7dd34b5c6c2721
+  youchan:
+    id: youchan
+    name: Yoh Osaki
+    bio: |-
+      Software engineer at Ubiregi inc.
+      Author of Hyalite which is react like virtual DOM library.
+      Member of Asakusa.rb, Chidoriashi.rb
+    github_id: youchan
+    twitter_id: youchan
+    avatar_url: https://www.gravatar.com/avatar/b54abc5e7463fe6470c379e97e3f2477
+  yuri_at_earth:
+    id: yuri_at_earth
+    name: Yurie Yamane
+    bio: |-
+      "nora" mrubyist.
+      A member of Team Yamanekko.
+      A member of TOPPERS Project.
+      A staff of ET robocon TOKYO.
+    github_id: yurie
+    twitter_id: yuri_at_earth
+    avatar_url: https://www.gravatar.com/avatar/0607f2778a478327d55f9b4fb7954a60

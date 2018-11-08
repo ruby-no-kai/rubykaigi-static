@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>RubyKaigi 2014 | Lightning Talks</title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='RubyKaigi 2014 | Lightning Talks' property='og:title'>
+    <meta content='RubyKaigi 2014' property='og:site_name'>
+    <meta content='http://rubykaigi.org/2014/LT/' property='og:url'>
+    <meta content='activity' property='og:type'>
+    <meta content='http://rubykaigi.org/2014/images/og-image.png' property='og:image'>
+    <meta content='@rubykaigi' name='twitter:site'>
+    <meta content='RubyKaigi 2014, 18-20 september' name='description'>
+    <meta content='rubykaigi, ruby会議, 2014' name='keywords'>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="http://www.google.com/jsapi/" type="text/javascript"></script>
+    <script src="/2014/javascripts/all.js" type="text/javascript"></script>
+    <link href="/2014/stylesheets/all.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/2014/images/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <body id='presentation'>
+    <header>
+      <h1><a href="/2014"><img alt="RUBYKAIGI2014" src="/2014/images/rubykaigi-2014-logo.svg" /></a></h1>
+      <nav id='globalNav'>
+        <div class='outerContainer'>
+          <ul><li><a href="/2014">HOME</a></li><li><a href="/2014/schedule">SCHEDULE</a></li><li><a href="/2014/speakers">SPEAKERS</a></li><li><a href="/2014/venue">VENUE</a></li><li><a href="/2014/goodies">GOODIES</a></li><li><a href="/2014/sponsors">SPONSORS</a></li></ul>
+        </div>
+      </nav>
+      <nav id='navBtn'>
+        <p>
+          MENU
+        </p>
+      </nav>
+    </header>
+    <div class='outerContainer'>
+      <article class='content'>
+        <h1>
+          Detail
+        </h1>
+        <h2>
+          Lightning Talks
+          <span class='noTranslation'>
+            *No translation provided for this session
+          </span>
+        </h2>
+        <div id='shareButtons'>
+          <script>
+            $.esb.twitter.defaults.label = 'Twitter';
+            $.esb.facebook.defaults.label = 'Facebook';
+            $('div#shareButtons').easySocialButtons({
+              orders: ['twitter', 'facebook'],
+              tempalte :
+                '<div class="btn-group esb">' +
+                  '<a class="esb-label esb-entry"></a>' +
+                  '<a class="esb-counter esb-search"></a>' +
+                '</div>'
+              });
+            $('.esb-entry').attr("title", "Share");
+            $('.esb-search').attr("title", "Search");
+          </script>
+        </div>
+        <h3>Recorded Video</h3>
+        <iframe allowfullscreen='allowFullScreen' frameborder='0' height='315' src='//www.youtube.com/embed/rZ7rzVAWu7E' width='560'></iframe>
+        <p>
+          <a target="_blank" href="http://youtu.be/rZ7rzVAWu7E">Lightning Talks</a>
+          from
+          <a target="_blank" href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">rubykaigi</a>
+          on
+          <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+          .
+        </p>
+        <h3 id='kenchan'>
+          <span class='language'>
+            [JA]
+          </span>
+          Practical factory_girl
+        </h3>
+        <div class='description'>
+          <p>factory_girlを代表とするFixture Replacementライブラリによって、柔軟なテストデータの準備が容易にできるようになりました。</p>
+          
+          <p>しかしながら、Fixture Replacementの使い方を知るだけでは、変化し続けるプロダクトに合わせてテストデータをメンテナンス可能な形で更新し続けるのは困難です。</p>
+          
+          <p>本発表では、factory_girlの機能紹介だけなく、テストデータとテストコードを継続的にメンテナンスし続けるための考え方と、実践的なTipsを紹介します。</p>
+          
+          <p>あなたのアプリケーションのテストデータとテストコードの両方を書きやすく、そして読みやすくするために、明日からできることを持って帰ってください。</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/676954675cda206b7baae939a82a8ef4?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/kenchan' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/kenchan' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Kenichi TAKAHASHI</dd>
+            <dt>Company</dt>
+            <dd>Senior Engineer at GMO Pepabo, Inc.</dd>
+          </dl>
+        </div>
+        <h3 id='Kagetsuki'>
+          <span class='language'>
+            [EN]
+          </span>
+          Native Libs and Gems on Heroku with Hammer
+        </h3>
+        <div class='description'>
+          <p>Deploying apps to Heroku that require native [system] libraries or Ruby native extensions can seem like a complex task, 
+          but with the [not well documented] tool "hammer" and knowing how to compile native extensions/gems and vendorize them 
+          it's actually quite simple! This lightning talk will give a quick run through of the process, from start to finish, 
+          of how to quickly get native libs and gems up and running on Heroku.</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/6a2af8d921d00af499b39f980b693709?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/Kagetsuki' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/kagetsuki0' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Rei Kagetsuki</dd>
+            <dt>Company</dt>
+            <dd>Genshin Souzou K.K. CEO</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>Open Source developer and GPL believer. Weapons of choice include Ruby and C++. I also do AR/MR and Device development.
+              When not making or developing I play with cars and do technical driving (I drive a GT86; circuit, drift, gymkhana). </p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='ongaeshi'>
+          <span class='language'>
+            [JA]
+          </span>
+          ofruby - Ruby running on the iPhone
+        </h3>
+        <div class='description'>
+          <p>mrubyで作ったiPhone上で動くグラフィックプログラミング環境のofrubyを紹介します。
+          openFrameworksをmrubyを使ってiPhoneアプリに組み込みました。
+          iPhoneやiPadさえあれば誰でもRubyを使ってマルチメディアプログラムを作ることが出来ます。</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/6377451175704e2d367ce508bffc1fa5?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/ongaeshi' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/ongaeshi' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>ongaeshi</dd>
+            <dt>Company</dt>
+            <dd>Programmer</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>Open source programmer. I'm making the software will be fun programming.
+              I am making the ofruby and the Milkode of source code search engine, now.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='nay'>
+          <span class='language'>
+            [JA]
+          </span>
+          Keep Freedom on Ruby - A magical world, 'Diversity'
+        </h3>
+        <div class='description'>
+          <p>Consistency is import in coding.
+          But I generally want to write code as I want at the time. With Ruby that's easy,
+          but sometimes we are asked to write code in a unified manner.
+          I’ll talk about the conflicted feeling at those cases and some solution patterns.</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/b5689026d84bb3a823c82590eefc3b8f?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/nay' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/nay3' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Yasuko Ohba</dd>
+            <dt>Company</dt>
+            <dd>President of Everyleaf Corporation</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>A programmer using Ruby on Rails. Wrote and translated some books on Ruby.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3>
+          <span class='language'>
+            [JA]
+          </span>
+          10th anniversary of Rubyist Magazine
+        </h3>
+        <div class='description'>
+          <p>Rubyist Magazine is web-zine about Ruby programming language in Japanese from 2004.
+          So that this year 2014 is great 10th anniversary of Rubyist Magazine.
+          We will show you the 10 years history of Rubyist Magazine.</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btnDisabled'>
+                <a>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btnDisabled'>
+                <a>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Rubyist Magazine editors</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p><a href="http://magazine.rubyist.net/">Rubyist Magazine</a> is a web-zine of the Rubyist, by the Rubyist for the Rubyist.
+              We can continue 10 years because of many contributors. This activity is a part of Nihon-Ruby-no-Kai.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='yasuyuki'>
+          <span class='language'>
+            [JA]
+          </span>
+          Let's try mruby's edge cases
+        </h3>
+        <div class='description'>
+          <p>mrubyはおおむね安定している。しかし、まだ、あまり利用されていないエッジケースに遭遇すると、時に問題にぶつかることがある。
+          mruby本体ではなく、mrbgemsを利用していると、mruby本体よりさらに問題にぶつかりやすい。
+          今なら、高度なことをしなくても、あまり利用されていない機能や設定を利用するだけで、簡単に問題を見つけ、mrubyに貢献することができる。
+          実際に、エッジケースで利用して遭遇した問題を例に、今がmrubyに貢献するチャンスであることを示す。</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/d7bce94364f3cf0aa22b592e16fc1c53?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/yasuyuki' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/yasuyuki' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>INOUE Yasuyuki</dd>
+            <dt>Company</dt>
+            <dd>Friendic corporation</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>A very rude, lazy rubyist.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='ohai'>
+          <span class='language'>
+            [JA]
+          </span>
+          Probabilistic model for inspirations and significance of programming
+        </h3>
+        <div class='description'>
+          <p>「発想」「アイデア」などと呼ばれる概念は謎に包まれています。この発表では確率モデルを用いてこの概念について考察し、
+          何故我々がコードを書き続けねばならないのか、プログラミングの技術を磨かなければならないのか、について考えます。
+          確率モデルといっても簡単なものですし数学ジョークのようなものなので気楽に聞いてください。</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/ohai' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/_ohai' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Ippei Obayashi</dd>
+            <dt>Company</dt>
+            <dd>Project Researcher, Dept. of Math., Kyoto University</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>Developer of Ruby/SDL, rurema, and some numerical computation softwares for ruby.
+              A mathematician making a study on dynamical systems.
+              I began to use Ruby in the late 1990s, and it is my favorite language.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='eagletmt'>
+          <span class='language'>
+            [JA]
+          </span>
+          R/W splitting in Rails
+        </h3>
+        <div class='description'>
+          <p>データベースの R/W splitting を行う方法が標準では用意されていない Rails で
+          R/W splitting を行うために switch_point を作り、実際に cookpad.com で利用しています。
+          その switch_point について、設計ポリシーや実装について話します。
+          https://github.com/eagletmt/switch_point</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/3ae3ff708873315b88b49667b1227c79?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/eagletmt' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/eagletmt' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Kohei Suzuki</dd>
+            <dt>Company</dt>
+            <dd>Cookpad Inc.</dd>
+          </dl>
+        </div>
+        <h3 id='tagomoris'>
+          <span class='language'>
+            [EN]
+          </span>
+          Invitation for v1.0.0
+        </h3>
+        <div class='description'>
+          <p>Releasing gems as version 1.0.0 is very hard for many library or product owners!
+          We know that our software products have many bugs, and also does not have enough features.
+          But we should release v1.0.0, I think. In this session,
+          I'll talk about the reason why we should release v1.0.0,
+          and about my experience after v1.0.0 of my product.</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/002525eada5741b7954ce22c1a066d32?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/tagomoris' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/tagomoris' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>tagomoris</dd>
+            <dt>Company</dt>
+            <dd>LINE Corporation</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>Software engineer.</p>
+            </dd>
+          </dl>
+        </div>
+        <h3 id='yujinakayama'>
+          <span class='language'>
+            [JA]
+          </span>
+          How the RSpec team and I built the smooth upgrade process for RSpec 3
+        </h3>
+        <div class='description'>
+          <p>Sometimes frameworks need to introduce breaking API changes to keep
+          growing in the future. However users may suffer from adapting their
+          codebase to the new API, while developers don't hope so.</p>
+          
+          <p>The RSpec core team and I tackled this problem. We made the upgrade
+          process for RSpec 3 very smooth by a combination of an
+          upgrade-specific version and an automatic code conversion tool.</p>
+          
+          <p>I'll talk about how we've done it and a knowledge from the experience.</p>
+        </div>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/520b23dc9027ee642ea39a4c273fed7b?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/yujinakayama' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/nkym37' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Name</dt>
+            <dd>Yuji Nakayama</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>An OSS enthusiast, a core developer of RuboCop, and the creator of Transpec.</p>
+            </dd>
+          </dl>
+        </div>
+        <p class='backToSchedule'>
+          <a href="/2014/schedule/"><i class="fa fa-arrow-right"></i> Back to SCHEDULE</a>
+        </p>
+      </article>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <nav>
+        <ul>
+          <li><a target="_blank" href="http://lanyrd.com/2014/rubykaigi/">lanyrd</a></li>
+          <li><a target="_blank" href="http://blog.rubykaigi.org">Blog</a></li>
+          <li><a href="/2014/anti-harassment-policy">Anti Harassment Policy</a></li>
+          <li><a href="/2014/team">Team</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <ul><li id='toFacebook'><a target="_blank" href="https://www.facebook.com/rubykaigi"><i class="fa fa-facebook"></i></a></li><li id='toTwitter'><a target="_blank" href="https://twitter.com/rubykaigi"><i class="fa fa-twitter"></i></a></li></ul>
+      </aside>
+    </div>
+    <div>
+      <p id='copyright'>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">RubyKaigi 2014 Team</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+        <script>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-6972157-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+      </p>
+    </div>
+  </footer>
+</html>

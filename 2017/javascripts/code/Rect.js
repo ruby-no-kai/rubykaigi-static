@@ -1,0 +1,1 @@
+function Rect(h,t,i,s){this.x=h,this.y=t,this.width=i,this.height=s,this.w=this.width,this.h=this.height}

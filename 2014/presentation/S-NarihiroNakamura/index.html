@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>RubyKaigi 2014 | Symbol GC</title>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='RubyKaigi 2014 | Symbol GC' property='og:title'>
+    <meta content='RubyKaigi 2014' property='og:site_name'>
+    <meta content='http://rubykaigi.org/2014/presentation/S-NarihiroNakamura/' property='og:url'>
+    <meta content='activity' property='og:type'>
+    <meta content='http://rubykaigi.org/2014/images/og-image.png' property='og:image'>
+    <meta content='@rubykaigi' name='twitter:site'>
+    <meta content='RubyKaigi 2014, 18-20 september' name='description'>
+    <meta content='rubykaigi, ruby会議, 2014' name='keywords'>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="http://www.google.com/jsapi/" type="text/javascript"></script>
+    <script src="/2014/javascripts/all.js" type="text/javascript"></script>
+    <link href="/2014/stylesheets/all.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/2014/images/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <body id='presentation'>
+    <header>
+      <h1><a href="/2014"><img alt="RUBYKAIGI2014" src="/2014/images/rubykaigi-2014-logo.svg" /></a></h1>
+      <nav id='globalNav'>
+        <div class='outerContainer'>
+          <ul><li><a href="/2014">HOME</a></li><li><a href="/2014/schedule">SCHEDULE</a></li><li><a href="/2014/speakers">SPEAKERS</a></li><li><a href="/2014/venue">VENUE</a></li><li><a href="/2014/goodies">GOODIES</a></li><li><a href="/2014/sponsors">SPONSORS</a></li></ul>
+        </div>
+      </nav>
+      <nav id='navBtn'>
+        <p>
+          MENU
+        </p>
+      </nav>
+    </header>
+    <div class='outerContainer'>
+      <article class='content'>
+        <h1>Detail</h1>
+        <h2>
+          <span class='language'>
+            [JA]
+          </span>
+          Symbol GC
+        </h2>
+        <div class='description'>
+          <p>I'll introduce Symbol GC for Ruby 2.2.0.<br />
+          I'll talk about these topics.</p>
+          
+          <ul>
+            <li>Is Symbol of other programming languages collectable?</li>
+            <li>How difficult do CRuby collect Symbol.</li>
+            <li>How do I implement Symbol GC.</li>
+          </ul>
+        </div>
+        <div id='shareButtons'></div>
+        <script>
+          $.esb.twitter.defaults.label = 'Twitter';
+          $.esb.facebook.defaults.label = 'Facebook';
+          $('div#shareButtons').easySocialButtons({
+            orders: ['twitter', 'facebook'],
+            tempalte :
+              '<div class="btn-group esb">' +
+                '<a class="esb-label esb-entry"></a>' +
+                '<a class="esb-counter esb-search"></a>' +
+              '</div>'
+            });
+          $('.esb-entry').attr("title", "Share");
+          $('.esb-search').attr("title", "Search");
+        </script>
+        <h3>Recorded Video</h3>
+        <iframe allowfullscreen='allowFullScreen' frameborder='0' height='315' src='//www.youtube.com/embed/rAnK9UHs_Kc' width='560'></iframe>
+        <p>
+          <a target="_blank" href="http://youtu.be/rAnK9UHs_Kc">Symbol GC</a>
+          from
+          <a target="_blank" href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">rubykaigi</a>
+          on
+          <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+          .
+        </p>
+        <h3>Presentation Material(s)</h3>
+        <ul class='presentation-materials'>
+          <li>
+            <a target="_blank" href="http://www.slideshare.net/authorNari/symbol-gc">Symbol GC
+            <i class='fa fa-external-link'></i>
+            </a>
+          </li>
+        </ul>
+        <h3>
+          <span class='name'>
+            Narihiro Nakamura
+          </span>
+        </h3>
+        <div class='speakerProfile'>
+          <div class='avatarAndLinks'>
+            <p class='avatar'>
+              <img src="http://www.gravatar.com/avatar/9f859654c118bcd2f67cc763baf0de7a?s=400&amp;d=http%3A%2F%2Frubykaigi.org%2F2014%2Fimages%2Fno-image.png" />
+            </p>
+            <p class='links'>
+              <span class='btn'>
+                <a href='https://github.com/authorNari' target='_blank'>
+                  <i class='fa fa-github-alt'></i>
+                </a>
+              </span>
+              <span class='btn'>
+                <a href='https://twitter.com/nari3' target='_blank'>
+                  <i class='fa fa-twitter'></i>
+                </a>
+              </span>
+            </p>
+          </div>
+          <dl>
+            <dt>Company</dt>
+            <dd>Network Applied Communication Laboratory Co.,Ltd.</dd>
+            <dt>Bio</dt>
+            <dd class='bio'>
+              <p>This is a CRuby committer and a GC lover.</p>
+            </dd>
+            <dt>Location</dt>
+            <dd>Matsue-shi, Shimane, Japan</dd>
+          </dl>
+        </div>
+        <p class='backToSchedule'>
+          <a href="/2014/schedule/"><i class="fa fa-arrow-right"></i> Back to SCHEDULE</a>
+        </p>
+      </article>
+    </div>
+  </body>
+  <footer>
+    <div>
+      <nav>
+        <ul>
+          <li><a target="_blank" href="http://lanyrd.com/2014/rubykaigi/">lanyrd</a></li>
+          <li><a target="_blank" href="http://blog.rubykaigi.org">Blog</a></li>
+          <li><a href="/2014/anti-harassment-policy">Anti Harassment Policy</a></li>
+          <li><a href="/2014/team">Team</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <ul><li id='toFacebook'><a target="_blank" href="https://www.facebook.com/rubykaigi"><i class="fa fa-facebook"></i></a></li><li id='toTwitter'><a target="_blank" href="https://twitter.com/rubykaigi"><i class="fa fa-twitter"></i></a></li></ul>
+      </aside>
+    </div>
+    <div>
+      <p id='copyright'>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">RubyKaigi 2014 Team</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+        <script>
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-6972157-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+      </p>
+    </div>
+  </footer>
+</html>
