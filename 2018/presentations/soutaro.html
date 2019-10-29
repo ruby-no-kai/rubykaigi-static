@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      Ruby Programming with Type Checking
+      - RubyKaigi 2018
+    </title>
+    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ' media='all' rel='stylesheet'>
+    <link href="/2018/stylesheets/all.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,600,700' media='all' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500i' media='all' rel='stylesheet'>
+    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' media='all' rel='stylesheet'>
+    <script crossorigin='anonymous' integrity='sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n' src='https://code.jquery.com/jquery-3.1.1.slim.min.js'></script>
+    <script crossorigin='anonymous' integrity='sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb' src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'></script>
+    <script crossorigin='anonymous' integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='RubyKaigi 2018, 5/31...6/2, Sendai, Miyagi, Japan #rubykaigi' property='og:title'>
+    <meta content='RubyKaigi 2018' property='og:site_name'>
+    <meta content='http://rubykaigi.org/2018' property='og:url'>
+    <meta content='activity' property='og:type'>
+    <meta content='http://rubykaigi.org/2018/images/og_image.png' property='og:image'>
+    <meta content='@rubykaigi' name='twitter:site'>
+    <meta content='RubyKaigi 2018, 5/31...6/2, Sendai, Miyagi, Japan' name='description'>
+    <meta content='rubykaigi, ruby会議, 2018' name='keywords'>
+    <link href='/2018/images/apple-touch-icon.png' rel='apple-touch-icon'>
+    <link href="/2018/images/favicon.png" rel="icon" type="image/png" />
+  </head>
+  <body class='static' id='presentation'>
+    <div class='mobile-nav-button' id='js-mobile-nav-button'>
+      <div class='mobile-nav-button__inner'>
+        <div class='mobile-nav-button__lines'></div>
+      </div>
+    </div>
+    <nav class='mobile-nav' id='js-mobile-nav'>
+      <div class='mobile-nav__inner'>
+        <ul class='mobile-nav__items'>
+          <li class='mobile-nav__item'>
+            <a href="/2018/schedule" class="mobile-nav__item-link">Schedule
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/speakers" class="mobile-nav__item-link">Speakers
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/venue" class="mobile-nav__item-link">Venue
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/parties" class="mobile-nav__item-link">Parties
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/goodies" class="mobile-nav__item-link">Goodies
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/sponsors" class="mobile-nav__item-link">Sponsors
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="/2018/policies" class="mobile-nav__item-link">Policies
+            </a>
+          </li>
+          <li class='mobile-nav__item'>
+            <a href="https://twitter.com/rubykaigi" class="mobile-nav__item-link is-twitter" target="_blank"><i class='fa fa-twitter'></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class='is-presentation page'>
+      <div class='page__inner is-animate'>
+        <header class='header'>
+          <div class='container'>
+            <div class='header__inner'>
+              <div class='header__title'>
+                <a href="/2018/#quick" class="header__title-link"><img src="/2018/images/logo.svg" alt="RubyKaigi 2018" />
+                </a>
+              </div>
+              <nav class='header-nav'>
+                <ul class='header-nav__items'>
+                  <li class='header-nav__item'>
+                    <a href="/2018/schedule" class="header-nav__item-link ">Schedule
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/speakers" class="header-nav__item-link ">Speakers
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/venue" class="header-nav__item-link ">Venue
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/parties" class="header-nav__item-link ">Parties
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/goodies" class="header-nav__item-link ">Goodies
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/sponsors" class="header-nav__item-link ">Sponsors
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="/2018/policies" class="header-nav__item-link ">Policies
+                    </a>
+                  </li>
+                  <li class='header-nav__item'>
+                    <a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fa fa-twitter'></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <script>
+          var urlHash = location.hash;
+          document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("js-back").setAttribute("href", document.getElementById("js-back").getAttribute("href") + urlHash);
+          }, false);
+        </script>
+        <div class='page__contents'>
+          <div class='container'>
+            <section class='main-content'>
+              <div class='main-content__inner'>
+                <header class='main-content-header'>
+                  <div class='main-content-header__icon-container'></div>
+                  <h1 class='main-content-header__title'>
+                    Schedule
+                  </h1>
+                  <a href="/2018/schedule" class="main-content-header__back" id="js-back"><i class='fa fa-angle-left'></i>
+                  Back
+                  </a>
+                </header>
+              </div>
+              <section class='presentation'>
+                <div class='row'>
+                  <div class='col-lg-3 col-md-4'>
+                    <div class='presentation-speakers'>
+                      <div class='speaker__inner'>
+                        <div class='speaker__img'>
+                          <img src="https://www.gravatar.com/avatar/1fab9d01b25e99522f3dfd01e3d4cb51?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2018%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Soutaro Matsumoto" />
+                        </div>
+                        <div class='speaker__body'>
+                          <div class='speaker__name'>
+                            Soutaro Matsumoto
+                          </div>
+                          <div class='speaker__meta'>
+                            <div class='speaker__id'>
+                              @soutaro
+                            </div>
+                            <div class='speaker__role'>
+                            </div>
+                            <ul class='speaker__channels'>
+                              <li class='speaker__channel-github speaker__channels-item'>
+                                <a href="https://github.com/soutaro" target="_blank" class="speaker__channels-item-link is-github"><i class='fa fa-github'></i>
+                                </a>
+                              </li>
+                              <li class='speaker__channel-twitter'>
+                                <a href="https://twitter.com/soutaro" target="_blank" class="speaker__channels-item-link is-twitter"><i class='fa fa-twitter'></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class='speaker__description'>
+                            <p>
+                              Soutaro is CTO at SideCI, a code review automation service. The position is ideal for him because it allows testing his analyzers with its customers by adding new tool support.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-lg-9 col-md-8'>
+                    <div class='presentation-content'>
+                      <div class='presentation-content__meta'>
+                        <span>EN</span>
+                      </div>
+                      <h1 class='presentation-content__title'>
+                        Ruby Programming with Type Checking
+                      </h1>
+                      <div class='section presentation-content__description long-text'>
+                        <p>Last year, I had a presentation to introduce Steep, a type checker for Ruby. However, the implementation is so experimental that it cannot be used for production at all.</p>
+                        
+                        <p>In this talk, I will report the nine months progress of the project and share the experience how the tool helps Ruby programming.</p>
+                      </div>
+                      <section class='presentation-materials'>
+                        <h2>
+                          Presentation Material
+                        </h2>
+                        <ul class='presentation-materials__list'>
+                          <li>
+                            <a href="https://speakerdeck.com/soutaro/ruby-programming-with-type-checking" target="_blank"><i class='fa fa-file-o'></i>
+                            Ruby Programming with Type Checking
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                      <section class='presentation-video'>
+                        <h2>Recorded video</h2>
+                        <div class='presentation-video__embed'>
+                          <iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/QK_v0XN8kXc' width='560'></iframe>
+                        </div>
+                        <div class='presentation-video__link'>
+                          <a href="https://www.youtube.com/watch?v=QK_v0XN8kXc"></a>
+                          <nbsp></nbsp>
+                          from
+                          <nbsp></nbsp>
+                          <a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+        <img src="/2018/images/sun.svg" class="home-content__sun is-animate" alt="Sun" />
+        <nav class='common-nav'>
+          <div class='container'>
+            <ul class='common-nav__items'>
+              <li class='common-nav__item'>
+                <a href="/2018/policies" class="common-nav__item-link ">Policies
+                </a>
+              </li>
+              <li class='common-nav__item'>
+                <a href="/2018/team" class="common-nav__item-link ">Team
+                </a>
+              </li>
+              <li class='common-nav__item'>
+                <a href="/2018/past_kaigis" class="common-nav__item-link ">Past Kaigis
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <footer class='home-footer page__footer is-animate'>
+        <div class='home-footer-bg is-animate'></div>
+        <div class='home-footer__inner page__footer-inner is-animate'>
+          <div class='home-footer__ship-container'>
+            <img src="/2018/images/ship3.svg" class="ship is-animate is-wake" alt="" />
+            <img src="/2018/images/ship.svg" class="ship is-animate is-main" alt="" />
+            <img src="/2018/images/ship2.svg" class="ship is-animate is-shadow" alt="" />
+          </div>
+          <div class='container'>
+            <!-- / Shadow -->
+            <div class='home-footer__blocks-wrapper is-animate is-shadow'>
+              <img src="/2018/images/blocks12.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <!-- / green-3 -->
+            <div class='home-footer__blocks-wrapper is-animate is-5'>
+              <img src="/2018/images/blocks5.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <!-- / yellow-2 -->
+            <div class='home-footer__blocks-wrapper is-animate is-3'>
+              <img src="/2018/images/blocks3.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <!-- / yellow-3 -->
+            <div class='home-footer__blocks-wrapper is-animate is-7'>
+              <img src="/2018/images/blocks7.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-1'>
+              <img src="/2018/images/blocks1.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-2'>
+              <img src="/2018/images/blocks2.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-4'>
+              <img src="/2018/images/blocks4.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-6'>
+              <img src="/2018/images/blocks6.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-8'>
+              <img src="/2018/images/blocks8.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-9'>
+              <img src="/2018/images/blocks9.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-10'>
+              <img src="/2018/images/blocks10.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-shadow'>
+              <img src="/2018/images/blocks13.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__blocks-wrapper is-animate is-11'>
+              <img src="/2018/images/blocks11.svg" class="home-footer__blocks" alt="" />
+            </div>
+            <div class='home-footer__content'>
+              <p class='home-footer__about'>
+                This work by RubyKaigi 2018 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      $(window).resize(function() {
+        var timer = false;
+        if (timer !== false) {
+            clearTimeout(timer);
+        }
+        timer = setTimeout(function() {
+            console.log('resized');
+            $("body").addClass("is-no-animated");
+        }, 200);
+      });
+      
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6972157-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+      function openNav() {
+        const getTheMenu = document.getElementById("js-mobile-nav")
+        if (getTheMenu.className === "mobile-nav") {
+          getTheMenu.classList += " is-opened"
+          $("body").addClass("is-opened-mobile-nav")
+        } else {
+          getTheMenu.className = "mobile-nav"
+          $("body").removeClass("is-opened-mobile-nav")
+        }
+      }
+      const pushMyButton = document.getElementById("js-mobile-nav-button")
+      pushMyButton.addEventListener("click", openNav)
+    </script>
+  </body>
+</html>
