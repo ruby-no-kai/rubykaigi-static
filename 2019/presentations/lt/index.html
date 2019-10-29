@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>
+LT
+- RubyKaigi 2019
+</title>
+<link crossorigin='anonymous' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' media='all' rel='stylesheet'>
+<link href="/2019/stylesheets/all.css" rel="stylesheet" />
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' media='all' rel='stylesheet'>
+<script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='RubyKaigi 2019' property='og:title'>
+<meta content='RubyKaigi 2019' property='og:site_name'>
+<meta content='https://rubykaigi.org/2019' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2019/images/og_image.png' property='og:image'>
+<meta content='RubyKaigi 2019, 4/18...4/20, Fukuoka, Japan #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2019' name='keywords'>
+<link href='/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link href="/2019/images/favicon.png" rel="icon" type="image/png" />
+</head>
+<body class='static is-lt' id='presentation'>
+<div class='mobile-nav-button' id='js-mobile-nav-button'>
+<div class='mobile-nav-button__inner'>
+<div class='mobile-nav-button__lines'></div>
+</div>
+</div>
+<nav class='mobile-nav' id='js-mobile-nav'>
+<div class='mobile-nav__inner'>
+<ul class='mobile-nav__items'>
+<li class='mobile-nav__item'>
+<a href="/2019/schedule" class="mobile-nav__item-link">Schedule
+</a><a href="/2019/speakers" class="mobile-nav__item-link">Speakers
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/venue" class="mobile-nav__item-link">Venue
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/transport" class="mobile-nav__item-link">Transport
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/parties" class="mobile-nav__item-link">Parties
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/goodies" class="mobile-nav__item-link">Goodies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/sponsors" class="mobile-nav__item-link">Sponsors
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/policies" class="mobile-nav__item-link">Policies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="mobile-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</nav>
+
+<div class='is-presentation page'>
+<div class='page__inner'>
+<header>
+<div class='container'>
+<div class='header__inner'>
+<div class='header__title'>
+<a href="/2019" class="header__title-link"><img src="/2019/images/logo-simple.svg" alt="RubyKaigi 2019" />
+</a></div>
+<nav class='header-nav'>
+<ul class='header-nav__items'>
+<li class='header-nav__item'>
+<a href="/2019/schedule" class="header-nav__item-link ">Schedule
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/speakers" class="header-nav__item-link ">Speakers
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/venue" class="header-nav__item-link ">Venue
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/transport" class="header-nav__item-link ">Transport
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/parties" class="header-nav__item-link ">Parties
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/goodies" class="header-nav__item-link ">Goodies
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/sponsors" class="header-nav__item-link ">Sponsors
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/policies" class="header-nav__item-link ">Policies
+</a></li>
+<li class='header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+<script>
+  var urlHash = location.hash;
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("js-back").setAttribute("href", document.getElementById("js-back").getAttribute("href") + urlHash);
+  }, false);
+</script>
+<div class='page__contents'>
+<div class='container'>
+<section class='main-content'>
+<div class='main-content__inner'>
+<header class='main-content-header'>
+<div class='main-content-header__icon-container'></div>
+<h1 class='main-content-header__title'>
+Lightning Talks
+</h1>
+<a href="/2019/schedule" class="main-content-header__back" id="js-back"><i class='fa fa-angle-left'></i>
+Back
+</a></header>
+</div>
+<section class='presentation'>
+<section class='presentation-video is-lt'>
+<h2>Recorded video</h2>
+<div class='presentation-video__embed'>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/B2NTL_J62JE' width='560'></iframe>
+</div>
+<div class='presentation-video__link'>
+<a href="https://www.youtube.com/watch?v=B2NTL_J62JE">Lightning Talks</a>
+<nbsp></nbsp>
+from
+<nbsp></nbsp>
+<a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/9e840766611f942c7c0a9ad6987a5d78?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Naoki Kishida" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+How does TruffleRuby work
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Naoki Kishida
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@kis
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/kishida" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/kis" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Working for LINE Fukuoka
+主に眠い
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/002525eada5741b7954ce22c1a066d32?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Satoshi &quot;moris&quot; Tagomori" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Invitation to Dark Side of Ruby
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Satoshi "moris" Tagomori
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@tagomoris
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/tagomoris" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/tagomoris" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+OSS developer/maintainer: Fluentd, Norikra, MessagePack-Ruby, Woothee, and many others mainly about Web services, data collecting and distributed/streaming data processing.
+Living in Tokyo, and working for Arm Treasure Data.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/3f7d9611fc919c98512b779cde637dfc?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Lin Yu Hsiang" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Automatic Differentiation for Ruby
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Lin Yu Hsiang
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@johnlinvc
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/johnlinvc" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/johnlinvc" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Cloud Platform Engineer at Exosite. Ruby lover. Full-stack developer. Organizer of Swift Taipei. FP lover.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/f52e87b92cafb1e8c6d155076b56ecff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Martin J. Dürst" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+From Emperors to Zombies: Ruby from Unicode 10 to 12.1
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Martin J. Dürst
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@duerst
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/duerst" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Martin is a Professor of Computer Science at Aoyama Gakuin University in Japan. He has been one of the main drivers of Internationalization (I18N) and the use of Unicode on the Web and the Internet. He published the first proposals for DNS I18N and NFC character normalization, and is the main author of the W3C Character Model and the IRI specification (RFC 3987). Since 2007, he and his students have contributed to the implementation of Ruby, mostly in the area of I18N.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/66342ecb106aed81b83d9fb608d73c92?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="MITSUBOSH" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+From ㍻ to U+32FF
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+MITSUBOSH
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@Y_MITSUBOSHI
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/MITSUBOSHI" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/Y_MITSUBOSHI" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Currently, I work for Money Forward, Inc.
+I develop accounting cloud service which is named "マネーフォワード クラウド会計(MoneyForward Cloud Kaikei)" with Ruby.
+For me, Ruby is a programming language which I enjoy from the bottom of my heart when coding and was able to start my career as a programer.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/b3ba3ccedfbf4d605f00bafd1a732529?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yuichiro Kaneko" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Dive into middleware with mruby
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Yuichiro Kaneko
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@spikeolaf
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/yui-knk" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/spikeolaf" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Ruby committer.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/c4f076f658dd3464f1d8785ad53a0d99?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Sorah Fukumori" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+VXLAN VTEPs with Ruby
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Sorah Fukumori
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@sorah
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/sorah" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+SRE at Cookpad Inc. Interested in IP network and systems. NOC at AS59128 KMC. Also a Ruby committer, and NOC & Organizer at RubyKaigi. https://sorah.jp/
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/464f7715290af1c0cd41e6bf9d1ee8cc?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hiroyuki Inoue" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Write ETL or ELT data processing jobs with bricolage.
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Hiroyuki Inoue
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@inohiro
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/inohiro" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/inohiro" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+He is a data engineer works for Cookpad Inc. remotely. 
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/f2303338d513b1bf21478af01079ada0?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Shunsuke Onishi" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Applying mruby to World-first Small SAR Satellite
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Shunsuke Onishi
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@ShunsukeOnishi
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/ShunsukeOnishi" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+President and representative director (CEO) at iQPS Inc.
+Ph.D. in Engineering, Kyushu University Department of Aeronautics and Astronautics
+From May 2008 to November 2014, QSAT-EOS Project leader
+(Directed satellite development and launching).
+Participated in more than 10 satellite projects conducted by universities,
+companies, and JAXA.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/72e4a8bf47620de5381ff20f3deda977?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="ODA Hirohito" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+How to Make Bad Source
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+ODA Hirohito
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@jimlock
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/jinroq" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/jimlock" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/023b04c98f39cc041293d780352432ff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi ITO" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+The TracePoint Bomb!
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+Koichi ITO
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@koic
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/koic" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/koic" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+Koichi ITO is an OSS Programmer,  a member of RuboCop's core developers team, a committer of Active Record Oracle enhanced adapter, and Community Manager at ESM, Inc. He is a practitioner of Ruby/Rails application development with eXtreme Programming for over 10 years.
+</p>
+</div>
+</div>
+</div>
+</section>
+<section class='lt-presentation'>
+<div class='lp-presentation-inner'>
+<div class='lt-presentation-img'>
+<img src="https://www.gravatar.com/avatar/250aeda838f8596050901d8f7db3ef31?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2019%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="nagachika" />
+</div>
+<div class='lt-presentation-content'>
+<h3 class='lt-presentation-content__title'>
+Make Ruby Differentiable
+</h3>
+<div class='lt-presentation-speaker'>
+<div class='lt-presentation-speaker__name speaker__name'>
+nagachika
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@nagachika
+</div>
+<ul class='lt-presentation-speaker__channels speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/nagachika" class="speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter speaker__channels-item'>
+<a href="https://twitter.com/nagachika" class="speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='lt-presentation-speaker__bio'>
+<p>
+CRuby committer. CRuby stable branch maintainer.
+Programmer at Groovenauts, Inc.
+</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+</div>
+</div>
+
+<nav class='common-nav'>
+<div class='container'>
+<ul class='common-nav__items'>
+<li class='common-nav__item'>
+<a href="/2019/policies" class="common-nav__item-link ">Policies
+</a></li>
+<li class='common-nav__item'>
+<a href="/2019/team" class="common-nav__item-link ">Team
+</a></li>
+<li class='common-nav__item'>
+<a href="/2019/past_kaigis" class="common-nav__item-link ">Past Kaigis
+</a></li>
+</ul>
+</div>
+</nav>
+
+</div>
+<footer class='home-footer'>
+<div class='home-footer__city'>
+<div class='home-footer__lamps'></div>
+<div class='home-footer__shops'></div>
+</div>
+<div class='home-footer-bg'></div>
+<div class='home-footer__inner'>
+<div class='container'>
+<div class='home-footer__content'>
+<p class='home-footer__about'>
+This work by RubyKaigi 2019 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+  function openNav() {
+    const getTheMenu = document.getElementById("js-mobile-nav")
+    if (getTheMenu.className === "mobile-nav") {
+      getTheMenu.classList += " is-opened"
+      $("body").addClass("is-opened-mobile-nav")
+    } else {
+      getTheMenu.className = "mobile-nav"
+      $("body").removeClass("is-opened-mobile-nav")
+    }
+  }
+  const pushMyButton = document.getElementById("js-mobile-nav-button")
+  pushMyButton.addEventListener("click", openNav)
+</script>
+</body>
+</html>

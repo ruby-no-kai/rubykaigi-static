@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>
+Transport
+- RubyKaigi 2019
+</title>
+<link crossorigin='anonymous' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' media='all' rel='stylesheet'>
+<link href="/2019/stylesheets/all.css" rel="stylesheet" />
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' media='all' rel='stylesheet'>
+<script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='RubyKaigi 2019' property='og:title'>
+<meta content='RubyKaigi 2019' property='og:site_name'>
+<meta content='https://rubykaigi.org/2019' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2019/images/og_image.png' property='og:image'>
+<meta content='RubyKaigi 2019, 4/18...4/20, Fukuoka, Japan #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2019' name='keywords'>
+<link href='/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link href="/2019/images/favicon.png" rel="icon" type="image/png" />
+</head>
+<body class='static' id='transport'>
+<div class='mobile-nav-button' id='js-mobile-nav-button'>
+<div class='mobile-nav-button__inner'>
+<div class='mobile-nav-button__lines'></div>
+</div>
+</div>
+<nav class='mobile-nav' id='js-mobile-nav'>
+<div class='mobile-nav__inner'>
+<ul class='mobile-nav__items'>
+<li class='mobile-nav__item'>
+<a href="/2019/schedule" class="mobile-nav__item-link">Schedule
+</a><a href="/2019/speakers" class="mobile-nav__item-link">Speakers
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/venue" class="mobile-nav__item-link">Venue
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/transport" class="mobile-nav__item-link">Transport
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/parties" class="mobile-nav__item-link">Parties
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/goodies" class="mobile-nav__item-link">Goodies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/sponsors" class="mobile-nav__item-link">Sponsors
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2019/policies" class="mobile-nav__item-link">Policies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="mobile-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</nav>
+
+<div class='is-transport page'>
+<div class='page__inner'>
+<header>
+<div class='container'>
+<div class='header__inner'>
+<div class='header__title'>
+<a href="/2019" class="header__title-link"><img src="/2019/images/logo-simple.svg" alt="RubyKaigi 2019" />
+</a></div>
+<nav class='header-nav'>
+<ul class='header-nav__items'>
+<li class='header-nav__item'>
+<a href="/2019/schedule" class="header-nav__item-link ">Schedule
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/speakers" class="header-nav__item-link ">Speakers
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/venue" class="header-nav__item-link ">Venue
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/transport" class="header-nav__item-link is-current">Transport
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/parties" class="header-nav__item-link ">Parties
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/goodies" class="header-nav__item-link ">Goodies
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/sponsors" class="header-nav__item-link ">Sponsors
+</a></li>
+<li class='header-nav__item'>
+<a href="/2019/policies" class="header-nav__item-link ">Policies
+</a></li>
+<li class='header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+<div class='page__contents'>
+<div class='container'>
+<div class='main-content'>
+<div class='main-content__inner'>
+<header class='main-content-header'>
+<h1 class='main-content-header__title'>
+<span class='main-content-header__title-inner'>
+Transport
+</span>
+</h1>
+<nav class='tabs-nav main-content__nav'>
+<ul class='nav tabs-nav__items main-content__nav-items' role='tablist'>
+<li class='tabs-nav__item nav-item'>
+<a href="#en" class="tabs-nav__item-link active" data-toggle="tab" role="tab" aria-controls="English">En
+</a></li>
+<li class='tabs-nav__item nav-item'>
+<a href="#ja" class="tabs-nav__item-link" data-toggle="tab" role="tab" aria-controls="Japanese">Ja
+</a></li>
+</ul>
+</nav>
+</header>
+<div class='tab-content main-content-body'>
+<div class='tab-pane active' id='en' role='tabpanel'>
+<div class='row'>
+<div class='col-md-6'>
+<h2 class='main-content__sub-title'>
+Shuttle Bus
+</h2>
+<div class='is-en long-text is-policy'>
+<p><img src="/2019/images/transport/smarthr-bnr.png" alt="SmartHR Shuttle Bus" /></p>
+
+<p>SmartHR, our shuttle bus sponsor, runs shuttle busses to/from the venue during RubyKaigi 2019.</p>
+
+<h3>Days</h3>
+
+<p>Apr 18th - Apr 20th</p>
+
+<h3>Locations</h3>
+
+<p>The busses are available at:</p>
+
+<ul>
+<li>Hakata station (博多駅, Hakata Station Tsukushi-exit, <a href="https://goo.gl/maps/AM7k4V5RYYd86tFL7">tour bus parking lot</a>)</li>
+<li>Tenjin Station area (天神駅付近, front of <a href="https://goo.gl/maps/FyTuVFAxAQ67A9wS6">Bank of Japan Fukuoka Branch</a>)</li>
+<li>Fukuoka Airport (福岡空港, Domestic Terminal, Bus parking lot)</li>
+</ul>
+
+<p>Also the busses departing from the venue stops the above places.</p>
+
+<h3>How to ride</h3>
+
+<ul>
+<li>Show your RubyKaigi 2019 name tag (lanyard) or <a href="https://smarthr.co.jp/news/20400">this page</a> to the shuttle bus staff.</li>
+<li>This service is provided free of charge.</li>
+</ul>
+
+<h3>Notes</h3>
+
+<ul>
+<li>The shuttle busses don&#39;t have &quot;SmartHR&quot; logo printed.</li>
+<li>The shuttle busses will exactly follow the time schedule. Please cooporate to keep the schedule on time.</li>
+<li>Don&#39;t leave your belongings behind.</li>
+<li>You may not be able to ride a bus when it&#39;s full.</li>
+</ul>
+
+<h3>Time Schedule</h3>
+
+<h4>To the venue</h4>
+
+<p><strong>from Hakata Station</strong> (博多駅, Hakata Station Tsukushi-exit, <a href="https://goo.gl/maps/AM7k4V5RYYd86tFL7">tour bus parking lot</a>)</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td>08:00</td><td>08:00</td></tr>
+  <tr><td></td><td>08:20</td><td>08:20</td></tr>
+  <tr><td></td><td>08:40</td><td>08:40</td></tr>
+  <tr><td>09:10</td><td>09:00</td><td>09:00</td></tr>
+  <tr><td>09:20</td><td>09:20</td><td>09:20</td></tr>
+  <tr><td></td><td>09:40</td><td>09:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>from Tenjin Station Area</strong> (天神駅付近, front of <a href="https://goo.gl/maps/FyTuVFAxAQ67A9wS6">Bank of Japan Fukuoka Branch</a>)</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td>08:00</td><td>08:00</td></tr>
+  <tr><td></td><td>08:20</td><td>08:20</td></tr>
+  <tr><td></td><td>08:40</td><td>08:40</td></tr>
+  <tr><td></td><td>09:00</td><td>09:00</td></tr>
+  <tr><td>09:20</td><td>09:20</td><td>09:20</td></tr>
+  <tr><td></td><td>09:40</td><td>09:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>from Fukuoka Airport</strong> (福岡空港, Domestic Terminal, Bus parking lot)</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>08:50</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<h4>From the venue</h4>
+
+<p><strong>to Hakata Station</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td></td><td>18:35</td><td></td></tr>
+  <tr><td></td><td>18:50</td><td></td></tr>
+  <tr><td></td><td></td><td>19:00</td></tr>
+  <tr><td></td><td></td><td>19:20</td></tr>
+  <tr><td></td><td></td><td>19:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>to Tenjin Station</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td></td><td>18:35</td><td></td></tr>
+  <tr><td></td><td>18:50</td><td></td></tr>
+  <tr><td></td><td></td><td>19:00</td></tr>
+  <tr><td></td><td></td><td>19:20</td></tr>
+  <tr><td></td><td></td><td>19:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>to Kushida Shrine (official party)</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td>18:35</td><td></td><td></td></tr>
+  <tr><td>18:45</td><td></td><td></td></tr>
+  <tr><td>18:55</td><td></td><td></td></tr>
+  <tr><td>19:05</td><td></td><td></td></tr>
+  <tr><td>19:15</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<p><strong>to Fukuoka Airport</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td></td><td>16:20</td></tr>
+  <tr><td></td><td></td><td>16:40</td></tr>
+  <tr><td></td><td></td><td>17:00</td></tr>
+  <tr><td></td><td></td><td>18:00</td></tr>
+  <tr><td></td><td></td><td>18:20</td></tr>
+  <tr><td></td><td></td><td>18:40</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class='col-md-6'>
+<h2 class='main-content__sub-title'>
+Taxi (only on Apr 19th)
+</h2>
+<div class='is-en long-text is-policy'>
+<p><img src="/2019/images/transport/japantaxi-bnr.png" alt="Complimentary Taxi Service by JapanTaxi" /></p>
+
+<p>JapanTaxi, our taxi sponsor, provides &quot;Complimentary Taxi Service&quot; with 100 chartered taxis to the RubyKaigi attendees, on Apr 19th night.</p>
+
+<h3>How to ride</h3>
+
+<ul>
+<li>JapanTaxi hands out a special taxi ticket to attendees at the JapanTaxi sponsor booth; located on 2nd floor.
+
+<ul>
+<li>Up to 4 people are allowed to ride by a single ticket</li>
+</ul></li>
+<li>Come to the JapanTaxi complimentary taxi service stand after 6:15pm. If you want to ride with multiple persons, please get together before lining up.</li>
+<li>To make things smooth, write your destination on your ticket before riding.</li>
+</ul>
+
+<h3>Schedule</h3>
+
+<p>2nd day, Apr 19th 6:30pm-7:10pm</p>
+
+<ul>
+<li>Get off from a taxi before 7:30pm since we have chartered the taxis until 7:30pm.</li>
+<li>Since the number of chartered taxis is limited, we may close this service before 7:10pm.</li>
+</ul>
+
+<h3>Destination</h3>
+
+<p>Anywhere in Chuo-ku and Hakata-ku of Fukuoka city is allowed. (福岡市中央区, 福岡市博多区)
+Please use this service for going to the parties on the 2nd day!</p>
+
+<h3>Where to ride</h3>
+
+<p>JapanTaxi taxi stand</p>
+
+<p><img src="/2019/images/transport/taxi-stand.png" alt="Taxi Stand Map" /></p>
+
+<h3>Notes</h3>
+
+<ul>
+<li>Since the number of chartered taxis is limited, we may close this service before 7:10pm.</li>
+<li>This ticket is valid only for JapanTaxi complimentary taxi service at RubyKaigi 2019.</li>
+<li>If you left your belongings in a taxi, contact Fukukou Taxi (福交運輸) at +81-92-822-1234</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='ja' role='tabpanel'>
+<div class='row'>
+<div class='col-md-6'>
+<h2 class='main-content__sub-title'>
+Shuttle Bus
+</h2>
+<div class='is-ja long-text is-policy'>
+<p><img src="/2019/images/transport/smarthr-bnr.png" alt="SmartHR Shuttle Bus" /></p>
+
+<p>Shuttle Sponsor の SmartHR 様の提供により、会期3日間を通してシャトルバスが運行されます。</p>
+
+<p>乗降場所や運行スケジュールは下記の通りです。詳細に関しては SmartHR 様のお知らせページも参照ください
+<a href="https://smarthr.co.jp/news/20400">https://smarthr.co.jp/news/20400</a></p>
+
+<h3>期間</h3>
+
+<p>4/18(木) - 4/20(土)</p>
+
+<h3>会場行きバスの乗降場所</h3>
+
+<ul>
+<li>博多駅 (博多区博多駅中央街4: 博多駅筑紫口 観光バス専用駐車場)</li>
+<li>福岡空港 (博多区下臼井: 福岡空港 国内線 バス駐車場)</li>
+<li>天神駅付近 (福岡市中央区天神4丁目2−1: 日本銀行 福岡支店前)</li>
+</ul>
+
+<h3>乗車方法</h3>
+
+<ul>
+<li>RubyKaigi 2019 の名札もしくは <a href="https://smarthr.co.jp/news/20400">お知らせページ</a> を乗車時スタッフにご提示ください。 </li>
+<li>運賃は無料です。</li>
+</ul>
+
+<h3>留意事項</h3>
+
+<ul>
+<li>実際のシャトルバスに SmartHR のラッピングはされていません。</li>
+<li>運行ダイヤの関係上、定刻通りの発車を予定しています。ご協力をお願いします。</li>
+<li>座席にお忘れ物のないようご注意ください。</li>
+<li>満席で乗車できない可能性がございます。ご了承ください。</li>
+</ul>
+
+<h3>運行ダイヤ</h3>
+
+<h4>会場行きバス</h4>
+
+<p><strong>博多駅発</strong> (博多区博多駅中央街4: 博多駅筑紫口 観光バス専用駐車場)</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td>08:00</td><td>08:00</td></tr>
+  <tr><td></td><td>08:20</td><td>08:20</td></tr>
+  <tr><td></td><td>08:40</td><td>08:40</td></tr>
+  <tr><td>09:10</td><td>09:00</td><td>09:00</td></tr>
+  <tr><td>09:20</td><td>09:20</td><td>09:20</td></tr>
+  <tr><td></td><td>09:40</td><td>09:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>天神発</strong> 福岡市中央区天神4丁目2−1: 日本銀行 福岡支店前</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td>08:00</td><td>08:00</td></tr>
+  <tr><td></td><td>08:20</td><td>08:20</td></tr>
+  <tr><td></td><td>08:40</td><td>08:40</td></tr>
+  <tr><td></td><td>09:00</td><td>09:00</td></tr>
+  <tr><td>09:20</td><td>09:20</td><td>09:20</td></tr>
+  <tr><td></td><td>09:40</td><td>09:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>福岡空港発</strong> 博多区下臼井: 福岡空港 国内線 バス駐車場)</p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>08:50</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<h4>会場発バス</h4>
+
+<p><strong>博多駅行</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td></td><td>18:35</td><td></td></tr>
+  <tr><td></td><td>18:50</td><td></td></tr>
+  <tr><td></td><td></td><td>19:00</td></tr>
+  <tr><td></td><td></td><td>19:20</td></tr>
+  <tr><td></td><td></td><td>19:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>天神駅行</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td></td><td>18:35</td><td></td></tr>
+  <tr><td></td><td>18:50</td><td></td></tr>
+  <tr><td></td><td></td><td>19:00</td></tr>
+  <tr><td></td><td></td><td>19:20</td></tr>
+  <tr><td></td><td></td><td>19:40</td></tr>
+</tbody>
+</table>
+
+<p><strong>櫛田神社行 (Official Party)</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td>18:15</td><td></td><td></td></tr>
+  <tr><td>18:30</td><td></td><td></td></tr>
+  <tr><td>18:35</td><td></td><td></td></tr>
+  <tr><td>18:45</td><td></td><td></td></tr>
+  <tr><td>18:55</td><td></td><td></td></tr>
+  <tr><td>19:05</td><td></td><td></td></tr>
+  <tr><td>19:15</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<p><strong>福岡空港行</strong></p>
+
+<table>
+<thead>
+<tr>
+  <th>Apr 18</th>
+  <th>Apr 19</th>
+  <th>Apr 20</th>
+</tr>
+</thead>
+<tbody>
+  <tr><td></td><td></td><td>16:20</td></tr>
+  <tr><td></td><td></td><td>16:40</td></tr>
+  <tr><td></td><td></td><td>17:00</td></tr>
+  <tr><td></td><td></td><td>18:00</td></tr>
+  <tr><td></td><td></td><td>18:20</td></tr>
+  <tr><td></td><td></td><td>18:40</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div class='col-md-6'>
+<h2 class='main-content__sub-title'>
+Taxi (4/19 のみ)
+</h2>
+<div class='is-ja long-text is-policy'>
+<p><img src="/2019/images/transport/japantaxi-bnr.png" alt="JapanTaxi 貸切タクシー" /></p>
+
+<p>Taxi Sponsor の JapanTaxi 様の提供により、会期 2 日目 4/19 の終了後に「JapanTaxi 貸切タクシー」としてタクシーを100台貸し切り、参加者の皆様に提供されます。</p>
+
+<h3>ご乗車方法</h3>
+
+<ul>
+<li>JapanTaxi スポンサーブース (2F) にて乗車券を配布します(4/19 10:00-17:00 まで)</li>
+<li>乗車券 1 枚につき 4 名まで乗車できます</li>
+<li>18:15 以降に乗車券を持って JapanTaxi 貸切タクシー乗り場にお越しください。複数名の場合は全員揃った状態でお並びください。</li>
+<li>スムーズに乗車いただくため、あらかじめ乗車券へ目的地の住所を記入いただきますようご協力をお願いします。</li>
+</ul>
+
+<h3>乗車可能時間</h3>
+
+<ul>
+<li>2日目 4/19 18:30 - 19:10</li>
+<li>貸切時間の都合、19:30 までに降車をお願いします</li>
+<li>タクシーの台数に限りがあるため、最終乗車時刻より前にサービスを終了する可能性があります。</li>
+</ul>
+
+<h3>行き先</h3>
+
+<p>福岡市中央区、博多区内であれば、降車場所の制限はございません。Kaigi 後に行われる懇親会会場への移動などにお役立てください!</p>
+
+<h3>乗車場所</h3>
+
+<p>福岡国際会議場 JapanTaxi 貸切タクシー乗り場</p>
+
+<p><img src="/2019/images/transport/taxi-stand.png" alt="Taxi Stand Map" /></p>
+
+<h3>注意事項</h3>
+
+<ul>
+<li>タクシーの台数に限りがあるため、最終乗車時間より前にサービスを終了させていただく可能性がありますことをご了承ください</li>
+<li>お渡しする乗車券は4/19 18:30 - 19:10の期間中JapanTaxi貸切タクシー乗り場からのご乗車のみ有効です。他の場所からのご乗車や一般のタクシーには使用できませんのでご注意ください。</li>
+<li>降車後お忘れ物等でタクシーにご連絡が必要な場合は福交運輸事業協同組合 (092-822-1234) にお問い合わせください</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<nav class='common-nav'>
+<div class='container'>
+<ul class='common-nav__items'>
+<li class='common-nav__item'>
+<a href="/2019/policies" class="common-nav__item-link ">Policies
+</a></li>
+<li class='common-nav__item'>
+<a href="/2019/team" class="common-nav__item-link ">Team
+</a></li>
+<li class='common-nav__item'>
+<a href="/2019/past_kaigis" class="common-nav__item-link ">Past Kaigis
+</a></li>
+</ul>
+</div>
+</nav>
+
+</div>
+<footer class='home-footer'>
+<div class='home-footer__city'>
+<div class='home-footer__lamps'></div>
+<div class='home-footer__shops'></div>
+</div>
+<div class='home-footer-bg'></div>
+<div class='home-footer__inner'>
+<div class='container'>
+<div class='home-footer__content'>
+<p class='home-footer__about'>
+This work by RubyKaigi 2019 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+  function openNav() {
+    const getTheMenu = document.getElementById("js-mobile-nav")
+    if (getTheMenu.className === "mobile-nav") {
+      getTheMenu.classList += " is-opened"
+      $("body").addClass("is-opened-mobile-nav")
+    } else {
+      getTheMenu.className = "mobile-nav"
+      $("body").removeClass("is-opened-mobile-nav")
+    }
+  }
+  const pushMyButton = document.getElementById("js-mobile-nav-button")
+  pushMyButton.addEventListener("click", openNav)
+</script>
+</body>
+</html>
