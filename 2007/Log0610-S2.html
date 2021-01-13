@@ -1,0 +1,693 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="Hiki 0.9dev">
+  <title>日本 Ruby 会議 2007 - Log0610-S2</title>
+  <link rel="stylesheet" type="text/css" href="/2007/hiki_base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/2007/rk7/ruby_kaigi.css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss">  <link rel="icon" type="image/png" href="http://jp.rubyist.net/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+<a name="top"> </a>
+<div class="main">
+  <div class="logo"><a href="index.html"><img style="border: 0;" src="ruby_kaigi_logo.png" alt="日本Rubyカンファレンス2006"></a></div>
+  
+  <div><div class="day">
+  <h2><span class="date"><a name="l0"> </a></span><span class="title"><a href="Sponsors.html" class="external">Sponsors</a>' Session</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>このセッションの司会は、かくたにさんと高橋会長です。
+会長は羽織袴での登場。
+「残念ながら」鈴木さんではありません。</p>
+<p>スポンサーセッションでは、スポンサーの方のRubyの熱い想いを一般の方に語っていただきます。
+10社中3社はリジェクトされました。</p>
+<ul>
+<li>Sun<ul>
+<li>他にも発表があるので</li>
+</ul></li>
+<li>永和システムマネージメント</li>
+<li>ツインスパーク<ul>
+<li>おふたりが司会として壇上に</li>
+</ul></li>
+</ul>
+<p>質問はあとでまとめて。</p>
+<img alt="rubykaigi_sponsor_1.jpg" width="256" height="192" src="rubykaigi_sponsor_1.jpg">
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l1"> </a></span><span class="title">RubyとDB2 (日本アイ・ビー・エム・システムズ・エンジニアリング株式会社)</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>佐々木様</p>
+<dl>
+<dt>発表による資料</dt>
+<dd> <a href="RubyKaigi2007_IBM.pdf">RubyKaigi2007_IBM.pdf</a> （344 KB）
+</dd>
+</dl>
+<img alt="rubykaigi_sponsor2.jpg" width="256" height="192" src="rubykaigi_sponsor2.jpg">
+<p>Specialist集団。最先端の技術の調査、ノウハウの蓄積をやっている。</p>
+<p>今年にはいってから社内のRubyのコミュニティもできた。
+個人的にRubyへの想いを語ってもいいが、ここは会社の紹介を</p>
+<h3><a name="l2"><span class="sanchor"> </span></a>IBMといえばJava?</h3>
+<p>Scripting in IBM</p>
+<ul>
+<li>ZendCore for IBM<ul>
+<li>エンタープライズ向けPHP</li>
+<li>System-I (オフコン)での事例も</li>
+</ul></li>
+<li>Jython<ul>
+<li>Python/WebSphere</li>
+<li>J2EE上で動く</li>
+</ul></li>
+<li>Perl for z/OS<ul>
+<li>メインフレームでも動く！</li>
+</ul></li>
+<li>PHP for z/OS<ul>
+<li>メインフレームでも動く！</li>
+</ul></li>
+<li>Python(以前)<ul>
+<li>ThinkPad Rescue and Recovery</li>
+<li>すべてPythonで動いている</li>
+<li>「あとからPythonを加える方は気をつけてください」</li>
+</ul></li>
+</ul>
+<h3><a name="l3"><span class="sanchor"> </span></a>Ruby?</h3>
+<p>Starter Toolkit for DB2 on Rails</p>
+<ul>
+<li><a href="http://alphaworks.ibm.com/tech/db2onrails" class="external">http://alphaworks.ibm.com/tech/db2onrails</a></li>
+</ul>
+<p>RubyとRailsとDB2が入っている。線路の上にDB2が乗っているロゴ。
+マスコットはありませんが。</p>
+<p>実際これはなにか？ - Instant railsのDB2版です。</p>
+<ul>
+<li>DB2 Express-C (無償版)</li>
+<li>Ruby</li>
+<li>Rails</li>
+</ul>
+<p>インストールは30分から1時間くらいです。Windows版とLinux版があります。
+Macの方はせっかくIntelのCPUが載ったのでWindowsを入れていただいて :P</p>
+<p>DB2へのアダプタがはいっています。ibm_db2。</p>
+<p>DB2以外もやります - IBMのデータベースアダプタ</p>
+<ul>
+<li><a href="http://rubyforge.org/projects/ibm_db" class="external">http://rubyforge.org/projects/ibm_db</a> …ではなく <a href="http://rubyforge.org/projects/rubyibm" class="external">http://rubyforge.org/projects/rubyibm</a> でしょうか？ (ロガー)</li>
+</ul>
+<p>DB2はXML-DBなので、XMLに対する問い合わせもサポートしている。</p>
+<p><a href="http://jp.rubyist.net/magazine/?0018-RubyOnRails" class="external">るびま18号にも記事</a>がありますし、
+<a href="http://www-06.ibm.com/jp/developerworks/linux/050708/j_l-rubyrails.html" class="external">Ruby on RailsによるWebアプリケーションの開発</a>
+(developerWorks Japan)は2年間ずっと10位以内の人気記事にはいっている。</p>
+<p>「JavaからRubyへ」- 著者はもともとIBMの人で、「<a href="http://www-06.ibm.com/jp/developerworks/java/lib_series.shtml#cb" class="external">境界を越える</a>」という記事も書いて
+いる。</p>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l4"> </a></span><span class="title">RubyとRuby on Railsの活用事例（Nifty株式会社）</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>発表者による資料</dt>
+<dd><a href="http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html" class="external">http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html</a>
+</dd>
+</dl>
+<p>ポータルサイトの開発（ディレクション）をやっている部署</p>
+<h3><a name="l5"><span class="sanchor"> </span></a>@nifty TimeLine β</h3>
+<ul>
+<li>@niftyラボでβ版として</li>
+<li>リリース後の反応</li>
+<li>はてブで590users!</li>
+<li>ニフティらしくないサービス</li>
+</ul>
+<h3><a name="l6"><span class="sanchor"> </span></a>なぜ作ったのか？</h3>
+<ul>
+<li>新しい開発手法</li>
+<li>新しいコミュニティ</li>
+</ul>
+<h3><a name="l7"><span class="sanchor"> </span></a>なぜRails導入にいたったか</h3>
+<ul>
+<li>企画／開発一体型のトライアル<ul>
+<li>社内受注みたいな形でやっていた</li>
+</ul></li>
+<li>技術系社員の技術力向上<ul>
+<li>CMSでの作業が多い</li>
+</ul></li>
+<li>Web開発プラットフォームの選定</li>
+</ul>
+<h3><a name="l8"><span class="sanchor"> </span></a>開発スタイル</h3>
+<ul>
+<li>本業の合間に</li>
+<li>木曜はRailsの日<ul>
+<li>ラボルームにこもって開発</li>
+</ul></li>
+<li>アジャイル開発</li>
+</ul>
+<h3><a name="l9"><span class="sanchor"> </span></a>システム構成各種データについて</h3>
+<p>TimeLineはなにでできているか
+<img alt="rubykaigi_sponsor3.jpg" width="256" height="192" src="rubykaigi_sponsor3.jpg"></p>
+<ul>
+<li>NaClが３５％</li>
+<li>毎週木曜日と土日２９％</li>
+<li>通常業務の空き時間１１％</li>
+<li>まつもとゆきひろ１０％</li>
+<li>DaveThomas８％</li>
+<li>上司の理解７％</li>
+</ul>
+<p>apache2.0 + mod_proxy</p>
+<p>（システム構成を出してたけど、これくらいしかかけませんでした）</p>
+<table border="1">
+<tr><td>登録ユーザー数</td><td>3,000ユーザー</td></tr>
+<tr><td>登録タイムライン数</td><td>2,500件</td></tr>
+<tr><td>登録記事数</td><td>35,000件</td></tr>
+</table>
+<table border="1">
+<tr><td>Controllers</td><td>12+6</td></tr>
+<tr><td>Models</td><td>8</td></tr>
+<tr><td>Heolpers</td><td>8</td></tr>
+<tr><td>Views</td><td>116</td></tr>
+</table>
+<h3><a name="l10"><span class="sanchor"> </span></a>負荷対策</h3>
+<ul>
+<li>キャッシュ</li>
+<li>DBチューニング</li>
+<li>BlogParts用チューニング<ul>
+<li>Proxyサーバ、xmlのpage caching</li>
+</ul></li>
+</ul>
+<h3><a name="l11"><span class="sanchor"> </span></a>今後の課題</h3>
+<ul>
+<li>ユーザーの声を出来るだけ早く具現化する</li>
+<li>”自分らしさ”</li>
+<li>ほかのサービスとの連携</li>
+</ul>
+<h3><a name="l12"><span class="sanchor"> </span></a>最後に</h3>
+<ul>
+<li>NiftyがRailsで開発をはじめました</li>
+<li>人材募集中</li>
+</ul>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l13"> </a></span><span class="title">楽天におけるRuby導入の取り組みについて</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>楽天株式会社 楽天技術研究所 森様</p>
+<dl>
+<dt>発表による資料</dt>
+<dd> <a href="RubyKaigi2007_Rakuten.pdf">RubyKaigi2007_Rakuten.pdf</a> （805 KB）
+</dd>
+</dl>
+<ul>
+<li>楽天技術研究所の立ち上げ</li>
+</ul>
+<p>トートバッグの中身にびっくり。レアものもあります。
+ご不明な点は森さんまでメールを。</p>
+<ul>
+<li>社内標準の一つに</li>
+<li>Rubyで独自の研究開発をおこなう<ul>
+<li>Rubyでの大規模データ処理をしてみたい</li>
+</ul></li>
+</ul>
+<p>テクノロジー施策二大テーマ
+<img alt="rubykaigi_sponsor4.jpg" width="256" height="192" src="rubykaigi_sponsor4.jpg"></p>
+<ul>
+<li>エンジニアが中心か？<ul>
+<li>しーん</li>
+</ul></li>
+<li>テクノロージに貢献しているか？<ul>
+<li>しーん</li>
+</ul></li>
+</ul>
+<p>アウェイ感。</p>
+<p>最近のリリース</p>
+<ul>
+<li>Rubyプロジェクトサービス<ul>
+<li>去年から開発してきたサービスができた</li>
+</ul></li>
+<li>まつもとさんの技研フェロー就任</li>
+</ul>
+<p>これは上記2点への貢献。</p>
+<p>創業期は13店舗。最初はSun+informix。ほどなくFreeBSD。
+RAIDも秋葉原で購入。</p>
+<p>2000年から拡大。1500店舗に、いろいろなサービスも。
+テクノロジは二大潮流 </p>
+<ul>
+<li>商用</li>
+<li>オープンソース</li>
+</ul>
+<p>楽天では両方をやっていくことに</p>
+<p>2007年10周年！金融も含めて38の事業。サーバー数千台。1000人規模の開発。</p>
+<p>確かに大きくはなったが、世の中にはどんどん技術が出てきている。そしてみんな当たり前のようにそれをとりいれている。</p>
+<p>盛り上がっている会社はエンジニアが元気。色々チャレンジしている。
+楽天も…</p>
+<p>そこで、RubyやRailsで業務をやりたいという熱いエンジニアの声に応えて、
+8月にブレスト、9月にメンバーが結集、10月から勉強会、講演会、講習会。</p>
+<p>Ruby on Railsをあえてフロントで使っている。Debian。</p>
+<p>サービスを始めてみたわかったこと: Rubyサイコー！</p>
+<ul>
+<li>生産性 よい</li>
+<li>セキュリティ よい</li>
+<li>パフォーマンス そこそこ</li>
+</ul>
+<p>社内でブームに。楽天賞に選ばれた。</p>
+<p>6月にRubyプロジェクト第二弾のサービス。</p>
+<p>仲間を増やしている。</p>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l14"> </a></span><span class="title">NaClのRuby戦略</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>発表による資料</dt>
+<dd> <a href="RubyKaigi2007_NaCl.pdf">RubyKaigi2007_NaCl.pdf</a> （1.9 MB）
+</dd>
+</dl>
+<h3><a name="l15"><span class="sanchor"> </span></a>自己紹介</h3>
+<ul>
+<li>主任研究員　前田修吾</li>
+<li>eRubyの作者<ul>
+<li>べつに早くしようとして作ったわけじゃない「やればできるもん」</li>
+</ul></li>
+<li>callcc<ul>
+<li>callccなくてもRuby落ちるし</li>
+</ul></li>
+</ul>
+<h3><a name="l16"><span class="sanchor"> </span></a>NaCl</h3>
+<p>Network  Applied Communication Laboratory</p>
+<p>読み方は「えぬ・えー・しー・える」</p>
+<p>not「なくる」</p>
+<ul>
+<li>設立2001年7月<ul>
+<li>松江本社</li>
+<li>東京支社</li>
+<li>松江オープンソースラボ・サテライトオフィス</li>
+</ul></li>
+</ul>
+<h3><a name="l17"><span class="sanchor"> </span></a>業務内容</h3>
+<ul>
+<li>研究開発<ul>
+<li>IPA、ORCA（Rubyの会社と思われてるけど、結構COBOL使ってる）</li>
+</ul></li>
+<li>システムインテグレーション</li>
+<li>保守・運用</li>
+<li>教育・コンサルティング</li>
+</ul>
+<h3><a name="l18"><span class="sanchor"> </span></a>Ruby との関係</h3>
+<ul>
+<li>まつもとゆきひろ氏在籍</li>
+<li>www.ruby-lang.orgを提供</li>
+<li>Rubyを業務利用</li>
+</ul>
+<h3><a name="l19"><span class="sanchor"> </span></a>Ruby戦略</h3>
+<p>Do not control
+<img alt="rubykaigi_sponsor5.jpg" width="256" height="192" src="rubykaigi_sponsor5.jpg"></p>
+<ul>
+<li>Spec</li>
+<li>Source<ul>
+<li>会社の時間で作ったオープンソースコードは本人のもの（IPAとの契約で例外もあるけど）</li>
+</ul></li>
+<li>Matz<ul>
+<li>フェローとなってるけど普通の社員です</li>
+</ul></li>
+</ul>
+<h3><a name="l20"><span class="sanchor"> </span></a>でも、お金</h3>
+<p>認定試験みたいな話とか・・・</p>
+<p>そんな話が出てきても大目にみてください</p>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l21"> </a></span><span class="title">Ruby製CMS RubricksとグループウェアBizca (株式会社アスタリクス)</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>大西様</p>
+<dl>
+<dt>発表による資料</dt>
+<dd> <a href="RubyKaigi2007_Asteriks.pdf">RubyKaigi2007_Asteriks.pdf</a> （402 KB）
+</dd>
+</dl>
+<h3><a name="l22"><span class="sanchor"> </span></a>アスタリクスについて</h3>
+<ul>
+<li>2006年10月設立</li>
+<li>特徴: 社名が間違われやすい アスタリスクではありません。</li>
+<li>適用しているもの<ul>
+<li>Rubricks</li>
+<li>Bizca</li>
+</ul></li>
+</ul>
+<h3><a name="l23"><span class="sanchor"> </span></a>Rubricks</h3>
+<p>コミュニティポータルを作るためのCMS</p>
+<ul>
+<li>BBS News RSSリーダなどを作れる</li>
+<li>XOOPS等を参考に作りはじめた</li>
+<li>SPeedyにつくれるRuby/Railsで</li>
+</ul>
+<p>MITライセンス 
+2006年4月に0.1リリース</p>
+<p>姉妹品
+script.spinelz (JSライブラリ)</p>
+<ul>
+<li>管理機能<ul>
+<li>ユーザー、グループ管理</li>
+<li>…</li>
+</ul></li>
+<li>ライブラリ類<ul>
+<li>アクセス権限</li>
+<li>…</li>
+</ul></li>
+</ul>
+<p>マウスが効かなくなっちゃったのでデモは無し。「画面から妄想してください」
+サイトにもデモがあります。
+<img alt="rubykaigi_sponsor6.jpg" width="256" height="192" src="rubykaigi_sponsor6.jpg"></p>
+<h3><a name="l24"><span class="sanchor"> </span></a>Bizca</h3>
+<p>Rubricksより色が青くなったかな。</p>
+<p>ロゴ:「i」が人の形になっている。良く見るとネクタイもしてる。</p>
+<p>ビジネスマン向けに社内システムを提供する</p>
+<ul>
+<li>Rubricks上につくている</li>
+<li>SaaS携帯で商用提供</li>
+<li>6月末からサービス開始<ul>
+<li>これはオープンソースではない</li>
+</ul></li>
+</ul>
+<h4><a name="l25"> </a>アーキテクチャ</h4>
+<p>RubricksコアとSpinelzの上に、Bizcaが乗っている。</p>
+<ul>
+<li>コンポーネントをファイルとして配れる</li>
+<li>Railsのcomponentが便利なのだけれど2.0でなくなる？</li>
+</ul>
+<h3><a name="l26"><span class="sanchor"> </span></a>おまけ</h3>
+<h4><a name="l27"> </a>Railsのレンダリングが遅い</h4>
+<ul>
+<li>自作コンポーネントで5倍の高速化</li>
+</ul>
+<h4><a name="l28"> </a>JSの読み込みが遅い</h4>
+<ul>
+<li>AJAXで画面遷移をしないように</li>
+<li>iframeで戻るボタンが使えるように</li>
+<li>バーチャルにブラウザを作ってるかんじ</li>
+</ul>
+<h4><a name="l29"> </a>DBへのアクセスが多い</h4>
+<h3><a name="l30"><span class="sanchor"> </span></a>ロードマップ</h3>
+<ul>
+<li>0.6が6〜7月リリース</li>
+<li>…</li>
+</ul>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l31"> </a></span><span class="title">Inside Lingr（インフォテリア株式会社）</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>発表による資料</dt>
+<dd> <a href="RubyKaigi2007_inside_lingr.pdf">RubyKaigi2007_inside_lingr.pdf</a> （430 KB）
+</dd>
+</dl>
+<h3><a name="l32"><span class="sanchor"> </span></a>自己紹介</h3>
+<ul>
+<li>LimeChat</li>
+<li>IRCクライアント（RubyCocoa版）</li>
+<li>Lingr</li>
+</ul>
+<h3><a name="l33"><span class="sanchor"> </span></a>Cometとは</h3>
+<ul>
+<li>Http Long Poll</li>
+<li>Persistent Connection</li>
+</ul>
+<p>LingrはHttp Long Poll </p>
+<ul>
+<li>WebサーバーとCometサーバー</li>
+<li>WebサーバーがCometサーバーにNotify</li>
+<li>CometサーバーはBroadcast</li>
+</ul>
+<h3><a name="l34"><span class="sanchor"> </span></a>Cometサーバーの用件</h3>
+<ul>
+<li>多数の接続を長期間保持</li>
+<li>IO multiplexing</li>
+</ul>
+<p>× select 
+◎ epoll(Linux2.6)/kqueue</p>
+<h3><a name="l35"><span class="sanchor"> </span></a>Jetty6</h3>
+<ul>
+<li>Java</li>
+<li>サーブレットコンテナ</li>
+<li>Cometサポート</li>
+<li>Java6ならepollを使う</li>
+</ul>
+<h4><a name="l36"> </a>動いた。が、</h4>
+<ul>
+<li>１部屋にクライアントが集まると遅くなる</li>
+<li>スレッド間の同期が必要な箇所が多い（部屋、クライアントの状態など）</li>
+</ul>
+<h3><a name="l37"><span class="sanchor"> </span></a>自分でつくってみよう</h3>
+<dl>
+<dt>Ruby</dt>
+<dd>select &amp; fd_set 
+</dd>
+<dt>C</dt>
+<dd>やればなんとかなる
+</dd>
+</dl>
+<p>覚悟重要</p>
+<h3><a name="l38"><span class="sanchor"> </span></a>自作Cometサーバ</h3>
+<ul>
+<li>4週間で開発</li>
+<li>Jettyで作った既存サーバと互換</li>
+</ul>
+<h4><a name="l39"> </a>IO戦略</h4>
+<ul>
+<li>１スレッド、epoll、ノンブロッキングIO</li>
+</ul>
+<dl>
+<dt>writeする場合</dt>
+<dd>
+</dd>
+</dl>
+<p>EAGAINが返るまでwrite EAGAINならEPOLLOUTをイベント登録し
+write出来る状態になるやつを待つ</p>
+<h4><a name="l40"> </a>ベンチマーク</h4>
+<ul>
+<li>Core 2 Duo 2GHz</li>
+<li>1部屋に300クライアント</li>
+<li>3発言/秒</li>
+<li>発言→配信1秒以下</li>
+<li>53000接続状態でも性能劣化なし</li>
+</ul>
+<h4><a name="l41"> </a>作ってみてわかったこと</h4>
+<ul>
+<li>epollによるIO multiplexingで十分な性能が得られる</li>
+<li>Cは新機能の追加が面倒</li>
+<li>Rubyで</li>
+</ul>
+<h3><a name="l42"><span class="sanchor"> </span></a>今後の話題</h3>
+<dl>
+<dt>Rubyで</dt>
+<dd>
+</dd>
+</dl>
+<ul>
+<li>ボトルネック⇒select&amp;fd_set</li>
+<li>グリーンスレッドでも十分な性能が出るはず</li>
+</ul>
+<img alt="rubykaigi_sponsor7.jpg" width="256" height="192" src="rubykaigi_sponsor7.jpg">
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l43"> </a></span><span class="title">drecom :with =&gt; Ruby (株式会社 ドリコム)</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>瀧内様</p>
+<dl>
+<dt>発表者による資料</dt>
+<dd> <a href="DRECOM_RubyKaigi2007sp.ppt">DRECOM_RubyKaigi2007sp.ppt</a> （PowerPoint版 3.51 MB）
+</dd>
+</dl>
+<img alt="rubykaigi_sponsor8.jpg" width="256" height="192" src="rubykaigi_sponsor8.jpg">
+<p>2005年12月にRubyと出会い、Railsを使い続けている。</p>
+<p>去年のRuby会議で、Rubyは仕事で使えますか？という質問があった。
+回答: よくわからないけど使っています。
+今回答えが出ました: 使えます。</p>
+<p>以上。</p>
+<h3><a name="l44"><span class="sanchor"> </span></a>お知らせ</h3>
+<p><a href="http://rails.drecom.jp/" class="external">http://rails.drecom.jp/</a></p>
+<p>Award on Rails 2007を開催します。優勝賞金100万円。
+6月8日より受付開始。家に帰ったら是非。</p>
+<p>作品の募集は7月2日から。審査員はまつもとさん。
+サーバーも無料で貸し出してもらえます。</p>
+<p>去年との違い </p>
+<ul>
+<li>International!</li>
+<li>開発を支援<ul>
+<li>エントリーされた作品が来るのを待つだけではなく、初心者講習のようなものを7月に</li>
+</ul></li>
+</ul>
+<p>週一回やったり、開発合宿を8-9月にやる</p>
+<ul>
+<li>今回はRails限定</li>
+</ul>
+<p>協賛: マイクロソフト、楽天、後援: NaCl</p>
+<p>協賛社も今月いっぱい募集中です。</p>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l45"> </a></span><span class="title">質疑応答</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>Q To インフォテリアの中川さん</dt>
+<dd>江島さんの方はシリコンバレーの小さなオフィスでアジャイル開発をしているけど
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>日本でどうやってアジャイル開発しているのか？
+</dd>
+<dt>A</dt>
+<dd>半々くらい自宅、オフィスで仕事をしている。時間が合わなくて同時に出来ない。CVSで共有したり、メールでやり取りしている。一緒にいるからとか離れているとかは関係ない
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>スタンドアップ会議は？
+</dd>
+<dt>A</dt>
+<dd>アメリカではあまりしていない
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>ドリコムさん。環境構築が面倒なのでアワードではJavaはやっていないとあったがJRubyはどうでしょうか？
+</dd>
+<dt>A</dt>
+<dd>難しい質問です。やってみて行けそうだったらJRubyもおっけー。
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>以前組込みはたいへんそうだったLinuxがコモディティ化している。Rubyはどうなる？ おもしろいアイディアは？
+</dd>
+<dt>A</dt>
+<dd>(楽天 森さん) Rubyは学習するのが簡単なので、学校の授業で使われていたりする。そういう風にプログラミングの学習言語として普及し、プログラマの数が増えたらどこでも動くようになっていくのではないか。
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>フェローってどういうことをするのでしょう？(拍手)
+</dd>
+<dt>A</dt>
+<dd>(楽天 森さん) 12月のブレストで語られたまつもとさんの「野望」…まつもとさん自身は実装する時間がないので、そのアイディアを研究所で実装していこうと考えている。今月の打ち合わせで詰めます。
+</dd>
+</dl>
+<p>(ロガー: zunda、よう) </p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="day">
+    <div class="comment">
+      <div class="caption">
+        Last modified:2007/06/22 00:08:48<br>
+        Keyword(s):<br>
+        References:[<a href="Log.html">RubyKaigi2007速報ログ</a>] <br>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr style="display: none">
+<div class="sidebar">
+  <form action="index.html" method="get">
+  <input type="text" name="key" size="15">
+  <input type="submit" name="comment" value="Search">
+  <input type="hidden" name="c" value="search">
+</form>
+
+<h3><a name="s0"><span class="sanchor"> </span></a><a href="index.html">トップページ</a></h3>
+<h3><a name="s1"><span class="sanchor"> </span></a><a href="news.html">新着情報</a></h3>
+<dl>
+<dt>2007/06/13</dt>
+<dd>
+</dd>
+<dd><a href="2007061001.pdf">「RubyKaigi2007のライトニングトークスに関するコメント」</a>発表
+</dd>
+<dt>2007/06/12</dt>
+<dd>
+</dd>
+<dd><a href="enquete.html">アンケート</a>ページ公開
+</dd>
+<dd><a href="Goodies.html">会場BGMリスト</a>公開
+</dd>
+<dt>2007/06/10</dt>
+<dd>
+</dd>
+<dd><a href="TrackBack.html">トラックバック</a>ページ公開
+</dd>
+<dt>2007/06/09</dt>
+<dd>
+</dd>
+<dd><a href="Log.html">速報ログ</a>ページ公開
+</dd>
+</dl>
+<h3><a name="s2"><span class="sanchor"> </span></a><a href="Program.html">プログラム</a></h3>
+<dl>
+<dt><a href="Program0609.html">一日目(6/9)</a></dt>
+<dd>
+</dd>
+<dt><a href="Program0610.html">二日目(6/10)</a></dt>
+<dd>
+</dd>
+</dl>
+<h3><a name="s3"><span class="sanchor"> </span></a><a href="Party.html">懇親会</a></h3>
+<h3><a name="s4"><span class="sanchor"> </span></a><a href="Goodies.html">おまけ</a></h3>
+<h3><a name="s5"><span class="sanchor"> </span></a><a href="english.html">English</a></h3>
+<h3><a name="s6"><span class="sanchor"> </span></a><a href="Sponsors.html">スポンサー</a></h3>
+<h3><a name="s7"><span class="sanchor"> </span></a><a href="ExecutiveCommittee.html">日本Ruby会議2007実行委員会</a></h3>
+<h4><a name="s8"> </a>特別協賛</h4>
+<ul>
+<li><a href="http://www.netlab.jp/" class="external"><img alt="nacl.png" width="146" height="50" src="nacl.png"></a></li>
+</ul>
+<h4><a name="s9"> </a>協賛</h4>
+<ul>
+<li><a href="http://www.asteriks.co.jp/" class="external"><img alt="asteriks.png" width="160" height="29" src="asteriks.png"></a></li>
+<li><a href="http://www.ctc-g.co.jp/" class="external"><img alt="ctc.png" width="156" height="46" src="ctc.png"></a></li>
+<li><a href="http://www.infoteria.com/jp/" class="external"><img alt="infoteria.png" width="132" height="50" src="infoteria.png"></a></li>
+<li><a href="http://www.rakuten.co.jp/" class="external"><img alt="rakuten.png" width="128" height="43" src="rakuten.png"></a></li>
+<li><a href="http://www.drecom.co.jp/" class="external"><img alt="drecom.png" src="drecom.png"></a></li>
+<li><a href="http://www.ibm.com/jp/software/" class="external"><img alt="ibm.png" width="104" height="68" src="ibm.png"></a></li>
+<li><a href="http://jp.sun.com/company/approach/community.html" class="external">サン・マイクロシステムズ株式会社</a></li>
+<li><a href="http://www.esm.co.jp/" class="external"><img alt="eiwa.png" width="106" height="48" src="eiwa.png"></a></li>
+<li><a href="http://www.rsssuite.jp/corp.html" class="external"><img alt="feedforce.png" width="112" height="27" src="feedforce.png"></a></li>
+<li><a href="http://www.meme.ne.jp/" class="external"><img alt="meme.png" width="74" height="39" src="meme.png"></a></li>
+<li><a href="http://www.kccs.co.jp/" class="external"><img alt="kccs.png" width="98" height="29" src="kccs.png"></a></li>
+<li><a href="http://www.nifty.com/labs/" class="external"><img alt="nifty.png" width="74" height="56" src="nifty.png"></a></li>
+<li><a href="http://www.twinspark.co.jp/" class="external"><img alt="twinspark.png" src="twinspark.png"></a></li>
+</ul>
+<h4><a name="s10"> </a>技術協力</h4>
+<ul>
+<li><a href="http://www.i-revo.jp/" class="external"><img alt="irevo.png" width="98" height="30" src="irevo.png"></a></li>
+</ul>
+<h3><a name="s11"><span class="sanchor"> </span></a>RSS</h3>
+<p><a href="index.rss" class="external"><img alt="feed-icon-24x24.png" width="24" height="24" src="feed-icon-24x24.png"></a></p>
+
+</div>
+
+<div class="footer"></div>
+<div class="adminmenu"><span class="adminmenu"><a href="index.html?c=login%3Bp=Log0610-S2">Login</a></span></div>
+</body>
+</html>

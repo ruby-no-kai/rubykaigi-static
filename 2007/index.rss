@@ -1,0 +1,2226 @@
+<?xml version="1.0" encoding="EUC-JP" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja-JP">
+  <channel rdf:about="http://jp.rubyist.net/RubyKaigi2007/?c=recent">
+    <title>日本 Ruby 会議 2007 : 更新日時順</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?c=recent</link>
+    <description>日本 Ruby 会議 2007 更新日時順</description>
+    <dc:language>ja</dc:language>
+    <dc:rights>Copyright (C) 日本 Ruby 会議 2007 実行委員会</dc:rights>
+    <dc:date>2007-10-23T15:12:38+00:00</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Program-LT"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?TrackBack"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Log0609-S1-01"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Program0609"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Log0609-LT04"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5-En"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Program0610"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S2"/>
+        <rdf:li resource="http://jp.rubyist.net/RubyKaigi2007/?Program-SP"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Program-LT">
+    <title>Program-LT</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Program-LT</link>
+    <dc:date>2007-10-23T15:12:38+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">Lightning Talks</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>発表者一覧</h3>
+<h4><a name="l2"> </a>LT1. 西澤 誠也　　数値データ管理・解析・可視化アプリケーション "Gfdnavi"</h4>
+<p>＠ 京都大学　数理解析研究所</p>
+<dl>
+<dt>プロフィール</dt><dd>地球流体電脳倶楽部部員。地球流体業界にRubyを広めるべく宣教活動中。</dd>
+<dt>講演資料</dt><dd><a href="http://www.gfd-dennou.org/arch/davis/gfdnavi/presen/RubyKaigi2007-070609.pdf" class="external">http://www.gfd-dennou.org/arch/davis/gfdnavi/presen/RubyKaigi2007-070609.pdf</a></dd>
+</dl>
+<h4><a name="l3"> </a>LT2. 平鍋 健児　　Software is Made of Design and Communication</h4>
+<p>＠ (株)チェンジビジョン 代表取締役社長 / (株)永和システムマネジメント 副社長</p>
+<dl>
+<dt>プロフィール</dt><dd>90年代にオブジェクト指向技術を追求しているうちに、アジャイルに心から共感し、「人」にめざめ、プロジェクト・ファシリテーションの体系化を進めている。ソフトウェアは、人が人のために作るもの。この一点を外した瞬間に、目的は意味を失ってしまうと考えている。</dd>
+<dt>講演資料(1)</dt><dd><a href="http://www.youtube.com/watch?v=sufSoCEhp5E" class="external">http://www.youtube.com/watch?v=sufSoCEhp5E</a></dd>
+<dt>講演資料(2)</dt><dd><span class="plugin">{{attach_anchor('RubyKaigi2007-LT-hiranabe.pdf')}}</span> / <a href="http://www.flickr.com/photos/68498640@N00/sets/72157602641219277/" class="external">Flickr Photo Set</a>(JPEG画像)</dd>
+</dl>
+<h4><a name="l4"> </a>LT3. サイロス誠　　「Ruby+Miyako」でおもろいプレゼン</h4>
+<dl>
+<dt>プロフィール</dt><dd>日本のどっかでプログラマやってます。お気楽Ruby歴7年。Miyako使ってゲームを作ろうと夢見ている今日この頃です。</dd>
+<dt>講演資料</dt><dd><a href="http://www.twin.ne.jp/~cyross/Miyako/RubyKaigi2007LT.pdf" class="external">http://www.twin.ne.jp/~cyross/Miyako/RubyKaigi2007LT.pdf</a></dd>
+</dl>
+<h4><a name="l5"> </a>LT4. takkaw　Rubyでファミコンプログラミング</h4>
+<dl>
+<dt>プロフィール</dt><dd>平日は組み込みプログラマ。休日はストレス発散にRubyをさわっています。趣味はゲームとオンガクとプログラミング。</dd>
+<dt>講演資料(1)</dt><dd><a href="http://d.hatena.ne.jp/takkaw/20070609/p2" class="external">http://d.hatena.ne.jp/takkaw/20070609/p2</a></dd>
+<dt>講演資料(2)</dt><dd><span class="plugin">{{attach_anchor('RubyKaigi2007_takkaw.nes')}}</span> (ファミコンソフト)</dd>
+</dl>
+<h4><a name="l6"> </a>LT5. 山形 頼之　　Ruby on Railsでデータマイニング</h4>
+<dl>
+<dt>プロフィール</dt><dd>もともと関数型言語(OCamlなど)でのフリーソフトウェア開発に興味を持っていましたが、最近はRubyでのプログラミングも楽しんでいます。</dd>
+<dt>講演資料</dt><dd>発表スライド <span class="plugin">{{attach_anchor('yamagata_lt_presenslide.pdf')}}</span><span class="plugin">{{br}}</span>発表原稿 <a href="http://d.hatena.ne.jp/yoriyuki/20070616/p1" class="external">http://d.hatena.ne.jp/yoriyuki/20070616/p1</a></dd>
+</dl>
+<h4><a name="l7"> </a>LT6. 山野 ゆき菜　　Rubyのパーサーを拡張して "end" の対応付けをチェックする</h4>
+<p>＠ Logic-Junction</p>
+<dl>
+<dt>プロフィール</dt><dd>実はPythonユーザーです。Rubyはろくに知りません。</dd>
+<dt>紹介サイト</dt><dd><a href="http://www.logic-junction.com/products/rubyend.html" class="external">http://www.logic-junction.com/products/rubyend.html</a></dd>
+</dl>
+<h4><a name="l8"> </a>LT7. 米澤 直記　　マルチコアプロセッサでのRubyプログラムの高速実行方式</h4>
+<p>＠ 神奈川大学理学部情報科学科</p>
+<dl>
+<dt>プロフィール</dt><dd>並列処理、分散処理について研究しています。</dd>
+<dt>講演資料</dt><dd><a href="http://www.qd.info.kanagawa-u.ac.jp/yonezawa/RubyKaigi2007.html" class="external">http://www.qd.info.kanagawa-u.ac.jp/yonezawa/RubyKaigi2007.html</a></dd>
+</dl>
+<h4><a name="l9"> </a>LT8. 野田 哲夫　　「地域資源」Rubyと島根県の産業振興の取り組み</h4>
+<dl>
+<dt>プロフィール</dt><dd>日本のオープンソースの「故郷」・島根で昨年９月に立ち上がったOSS協議会の副会長。</dd>
+</dl>
+<h4><a name="l10"> </a>LT9. 瀧内 元気　　５分で作るCometチャット</h4>
+<p>＠ 株式会社ドリコム</p>
+<h4><a name="l11"> </a>LT10. 田中 哲　　データで予想する Ruby のリリース</h4>
+<p>＠ 産業技術総合研究所</p>
+<dl>
+<dt>プロフィール</dt><dd>継続的インテグレーションツールの一種 chkbuild の作者。</dd>
+</dl>
+<h4><a name="l12"> </a>LT11. 高橋 征義　　第2日本Rubyの会について</h4>
+<p>＠ 日本Rubyの会</p>
+<dl>
+<dt>プロフィール</dt><dd>北大SF研OB。星新一を経由して新井素子読みに。ここのところSFよりもコバルトばかり読んでます。祝竹岡葉月復活。</dd>
+</dl>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?TrackBack">
+    <title>トラックバック</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?TrackBack</link>
+    <dc:date>2007-08-07T00:14:41+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">RubyKaigi2007 トラックバック</span></h2>
+<p>RubyKaigi2007 に関するトラックバックをお気軽にお寄せください。</p>
+<p><strong>spam がたくさんくるようになったので、trackback の受付を中止しました。</strong></p>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/negaton/20070620/1182352215" class="external">[ruby]RubyKaigi2007の感想(2日目) (negatonの日記)</a> (2007-06-21 (Thr) 00:10:21)</li>
+</ul>
+<blockquote>
+<p>流石にこんな遅れて感想書く人もいないよなーとか思いつつもとりあえず書いてみる。 まさか私用やら風邪やらでこんなに遅れるとは自分でも思ってなかった…。 2日目は諸事情で午後から参加。 セッション3：GUI Frameworks Ruby/Tk, Ruby-GNOME2, VisualuRuby, RubyCocoaの4</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/oto-oto-oto/20070610/1182350835" class="external">[Ruby]rubykaigi2007 2日目 (oto-oto-oto日記)</a> (2007-06-20 (Wed) 23:47:12)</li>
+</ul>
+<blockquote>
+<p>行ってきた。 仕事で使うRuby 全力投入できないけどやらなきゃいけないっていうのはよくある。ワンライナーでやっつけられればかなり楽になる。ワンライナー力を上げたい。 JRuby on Rails どちらも縁がないのであまりよくわからない。 エンタープライズRubyって時代が来る</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/oto-oto-oto/20070609/1182350593" class="external">[Ruby]rubykaigi2007 1日目 (oto-oto-oto日記)</a> (2007-06-20 (Wed) 23:43:18)</li>
+</ul>
+<blockquote>
+<p>行ってきた。 安定版rubyとその今後 1.8.5ってなんで独立してるんだろう？ あと、質問で出たモチベーションの部分は印象に残った。 リファレンスマニュアル メソッドの検索にrubyインタプリタを使ったらどうだろうとふと思った。 JRuby Sunが雇うってことは本気なんだろうな</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/takkaw/20070609/p2" class="external"> ライトニングトークス (きみのハートを8ビットキャスト)</a> (2007-06-18 (Mon) 00:19:34)</li>
+</ul>
+<blockquote>
+<p>日本Ruby会議2007LTで発表させていただきましたので キャプチャ画像をUPします。 このような大変ステキな会議での発表の場を与えてくださった 関係者各位に感謝いたします！ # そして時間を割いて応援してくれた奥さんにも感謝です！ </p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.coins.tsukuba.ac.jp/~i021179/blog/20070617#p01" class="external">[RubyKaigi2007][RejectKaigi2007][ゆきひろ認証][ネタ] ゆきひろ認証の発表資料を公開しました ([いつか書く])</a> (2007-06-17 (Sun) 17:23:46)</li>
+</ul>
+<blockquote>
+<p>以下が大体の全文です、たぶん。</p>
+<p>教訓: note pcがないからと言っても、notepaperでの発表は控えましょう。後で順番と完全性が分かりません。
+なお今回の発表は、本当に急な申し出にも係わらず快くカメラプロジェクタ(?)の使用を許可してくださったRejectKaigiスタッフ、ささださんのご厚意によって実現しました。発表者としてお礼を申し上げます。</p>
+<ol>
+<li>まじめに見たい人が居たらコメン..</li>
+</ol>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.hinet.mydns.jp/~hiraku/tDiary/?date=20070614" class="external"> (忘れたときに備えた記録)</a> (2007-06-14 (Thr) 21:50:02)</li>
+</ul>
+<blockquote>
+<p>
+日本Ruby会議2007
+行って来ました。どの発表も興味深くて、とても面白い2日間でした。
+以下、ざっと印象とか</p>
+<p>Ruby1.9面白そう
+後でtruncのソースを持ってきて遊ぶ環境を作ってみよう
+MathMLライブラリが動くかテストしておいたほうが良いかも</p>
+<p>JRuby面白そう
+後で環境を作ってみたい</p>
+<p>Rabbitすごい
+ビジュアル系ライブラリ面白そう
+ビジュアル系ライブラリ使って..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/mukaken/20070614/1181820188" class="external">日本 Ruby 会議 2007の動画 4 　Dave Thomas &amp;amp; RubyCocoa (mukakenの日記)</a> (2007-06-14 (Thr) 20:34:54)</li>
+</ul>
+<blockquote>
+<p>YouTubeとニコニコ動画に動画を公開しました。Dave Thomasの動画が途中で切れているのはビデオのバッテリが無くなったからです。すいません。 ニコニコ動画に私がアップした動画（YouTubeと同じ内容です） ニコニコ動画(γ)‐日本 Ruby 会議 2007 以下、YouTubeにアップした</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blog.miraclelinux.com/yume/2007/06/rejectkaigi2007.html" class="external">RejectKaigi2007 (ユメのチカラ)</a> (2007-06-14 (Thr) 10:22:00)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi 2007がおわって撤収作業中に、RubyKaigiでreje</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/negaton/20070613/1181754572" class="external">[ruby]RubyKaigi2007の感想(1日目) (negatonの日記)</a> (2007-06-14 (Thr) 02:09:51)</li>
+</ul>
+<blockquote>
+<p>とりあえずゼミの発表を切り抜けた！ と言う訳で、ちょっと時間が空いちゃったけどメモを見ながら感想などをつらつらと… セッション1：Rubyコア Ruby1.9は12月に出るとか。RHGも読んだ事ない俺には中で何が起こっているのかさっぱりですが、とにかく便利な方に進化してくれ</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blog.masuidrive.jp/index.php/2007/06/13/rejectkaigi2007/" class="external">RejectKaigi2007のスライドアップしました (masuidrive on rails)</a> (2007-06-13 (Wed) 22:52:52)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007のRejectKaigiで、風呂グラマーの話しをしてきました。
+元々、mashfeed.comでpraggerにケンカを売るつもりだったんですが、風呂グラマーの方がウケそうだったので、ぎりぎりにスライ...</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://ko.meadowy.net/~koichiro/diary/20070610.html#p02" class="external"> (暮らしの業)</a> (2007-06-13 (Wed) 15:51:23)</li>
+</ul>
+<blockquote>
+<p>▲ RubyKaigi 2007 二日目</p>
+<p>RubyKaigi二日目。
+Dave Thomas氏の基調講演に尽きる。</p>
+<p>Ruby is no island.</p>
+<p>あたりの流れで極まって泣いた。
+GUI Frameworksのセクションの質疑応答で、朴さんが各種GUIライブラリをJRubyで使いたい場合について質問していた。
+JRubyならGUIに関してSwing使えというのはまったくもってそ..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://jude-users.com/en/modules/weblog/details.php?blog_id=31" class="external">PragDave in RubyKaigi2007 (JUDE Developers Blog-hiranabe's BLOG-JUDE Community Site)</a> (2007-06-13 (Wed) 13:41:14)</li>
+</ul>
+<blockquote>
+<p>In RubyKaigi2007 Day2, PragDave talked "I love Ruby."I'm not a Rubyist myself, but I have a lot of friends in the Ruby community in Japan. When I wrote my article "Scripting Java" in DDJ(Doctor..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://fkino.net/?date=20070610#p01" class="external">RubyKaigi2007 2日目 (fkino diary)</a> (2007-06-13 (Wed) 12:21:01)</li>
+</ul>
+<blockquote>
+<p>
+プライドとコミュニティへの帰属意識を持って働いている普通の人が、何かよくないことが起きていると気付き、問題を解決できる人にその情報を伝えるか、自分の担当を離れて自分で処理する。これはコミュニティが機能していることを示していて、（つづく）</p>
+<p>これは「アジャイルソフトウェア開発(アリスター・コーバーン/Alistair Cockburn)」の一節なのですが、当日スタッフとしてRubyKaigiに..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://nov.tdiary.net/20070610.html#p01" class="external">RubyKaigi2007 (Nov's daily? report)</a> (2007-06-13 (Wed) 11:20:28)</li>
+</ul>
+<blockquote>
+<p>もう書き尽くされてるんだけど。
+個人的には、もし Ruby に嫌われたら？
+という質問に対して、Dave Thomas が困惑しまくるシーンが一番印象的だった。
+考えておかないといけないのは、どれだけ愛して大切にしている存在でも、
+それを失うときがくることもある、ということ。しかも突然に。
+まぁ Ruby が今すぐなくなるなんてことはないし、それはそれとして乗り越えれば強くなれるんだけど。
+と..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.coins.tsukuba.ac.jp/~i021179/blog/20070611#p01" class="external">[RubyKaigi2007][ゆきひろ認証] 朝起きると既に実装されていた件について ([いつか書く])</a> (2007-06-13 (Wed) 03:16:49)</li>
+</ul>
+<blockquote>
+<p>まだまだRubyKaigiについては書きたいところがあるんですが、とりあえず自分が可及的速やかに感謝を申し上げなければならない一人はtechnohippyさんです。
+打ち上げが終わった翌日目が醒めると、既に発表した本人の物より早くRailsプラグインとして実装されていたという……(註: このエントリは13日に書いてます)
+紙上の空論が一晩で現実になる、何というアンビリーバボーなインターネッツ。..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.coins.tsukuba.ac.jp/~i021179/blog/20070613#p01" class="external">[RubyKaigi2007][ゆきひろ認証] ゆきひろ認証プラグイン、公開しました ([いつか書く])</a> (2007-06-13 (Wed) 03:00:10)</li>
+</ul>
+<blockquote>
+<p>カッとなって公開した。今は後悔している。
+というわけで、RubyKaigi2007撤収と同時開催のRejectKaigi2007で発表させていただいた斎藤がお送りする、(いちおう本家?) 「『ゆきひろ』認証プラグイン for tDiary」です。すぐにググって下さった方、お待たせしてごめんなさい(って居ねーよ)。
+使い方:</p>
+<p>プラグイン本体とフィルタをダウンロード。
+それぞれ、所定の場所..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html" class="external">Ruby会議2007に参加・発表してきました (@nifty TimeLine開発日誌 - @nifty TimeLine)</a> (2007-06-12 (Tue) 14:25:12)</li>
+</ul>
+<blockquote>
+<p>こんにちは。タイムラインスタッフのnariです。いつも@nifty Timeli</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://dgames.jp/dan/?date=20070611#p01" class="external">RubyKaigi2007をやってきた (Jewel-mmo 開発日記)</a> (2007-06-12 (Tue) 12:37:39)</li>
+</ul>
+<blockquote>
+<p>当日のボランティアスタッフとして参加してきた。
+コミュニティに参加してきたぞ、という感がすごく残った。
+えっとまず自分はRubyが好きで、これはコミュニティとは関係なく、フツーにRubyそのものが大好き。
+その次にRubyコミュニティが好きで4年くらい前からできるだけ積極的に参加してきた。その延長で、前回に引き続き今回もスタッフ側の立場からRuby会議に参加したわけだけど、内側からアプロー..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://sho.tdiary.net/20070610.html#p01" class="external">Ruby会議2007 2日目 - 非同期重要 (ただのにっき)</a> (2007-06-12 (Tue) 10:53:49)</li>
+</ul>
+<blockquote>
+<p>Ruby会議2007、スタッフとして参加、2日目。
+スポンサーセッションが今日の担当。交代時間短縮のために、できるだけ共通のPC(というかおれのLet's note)に資料を集めることになっていたのだが、朝、PDFファイルを持ってきた(NaClの)前田さんの手には、SONYのUSBメモリが。お、おれのPCにSONY製品を……くっ、屈辱だ。
+セッションの方は、もっと宣伝色の濃いものになるかもと危..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://sho.tdiary.net/20070609.html#p02" class="external">Ruby会議2007懇親会 (ただのにっき)</a> (2007-06-12 (Tue) 10:06:10)</li>
+</ul>
+<blockquote>
+<p>昨年は仕事で出られなかった懇親会。料理が一瞬で消滅するという伝統は今年も。はやくも伝統かよ。
+個人的には、LTで予定外の登壇があり、そのせいで会う人みんなから「たださん、いったいどんな心境の変化があったんですか」などと変な心配をされる羽目になったが、そのことについては何も語らないことにしたので、あとはご想像にお任せしますとか言っておく(えー)。
+志村さんとごとけんさんから、立て続けに円城塔の話..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blogs.itmedia.co.jp/hiranabe/2007/06/rubykaigi2007_d_cf25.html" class="external">RubyKaigi2007 での Dave Thomas 基調講演 (An Agile Way)</a> (2007-06-12 (Tue) 07:33:18)</li>
+</ul>
+<blockquote>
+<p>ぼくは、Rubyistではありませんが、このコミュニティにはたくさん知り合いがい</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/Psychs/20070611/1181583336" class="external">RubyKaigi2007 はアツかった (Windchase)</a> (2007-06-12 (Tue) 04:23:04)</li>
+</ul>
+<blockquote>
+<p>この2日間、本当に楽しかったです。こんなにぎゅっと詰まった感じのするイベントは久しぶりかも。いろんな人たちと話すことができたことも、大きな収穫になりました。 運営スタッフの方々、おつかれさまでした。そして、ありがとう。 発表資料をアップしました。 <a href="http://lim" class="external">http://lim</a></p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/Psychs/20070610/1181477968" class="external">LimeChat for OSX 0.1 リリース (Windchase)</a> (2007-06-12 (Tue) 04:22:27)</li>
+</ul>
+<blockquote>
+<p>今日、RubyKaigi に続く RejectKaigi にて、RubyCocoa で書いた LimeChat の OSX 版を発表しました。 いまのところ、まだ未実装の機能もたくさんありますが、初期バージョンということでリリースしておきます。 動作環境 Mac OS X 10.4 RubyCocoa 0.11.1 ソース <a href="http://lime" class="external">http://lime</a></p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://arton.no-ip.info/diary/20070612.html#p02" class="external">個人的にRubyKaigi2007で一番、おお！ と思ったセッションについて (L'eclat des jours)</a> (2007-06-12 (Tue) 03:24:29)</li>
+</ul>
+<blockquote>
+<p>かって、</p>
+<p>嫌いなところは Syntax Error で、end の抜けで、ファイルの最後まで行っちゃうときな。あれはたまんないよな。</p>
+<p>（「言っちゃう」になってる……orz）
+と喋った人間としてみれば、2次元の存在とは言え、山野 ゆき菜さんのLTに一番、感銘を受けたよ。
+あの場にいた人間は誰も（もちろん僕も含めて）、需要も解決方法もわかっているのに何もしなかったのに、彼女はやっち..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/cyross/20070611" class="external">RubyKaigi2007にっき (サイログ。MiyakoとかRubyとかなんとか＋Miyako ACCESS MAP)</a> (2007-06-12 (Tue) 01:24:48)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007の日記です。余りにも長すぎるので「続きはここをクリック」形式で。 </p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blog.stco.info/?eid=665034" class="external">RubyKaigi2007 (but it's up to us to change)</a> (2007-06-12 (Tue) 01:09:57)</li>
+</ul>
+<blockquote>
+<p>こんな素晴らしいイベントにスタッフとして参加できたことを、本当に光栄に思っています。言葉にしきれないくらい、たくさんのことを学ばせてもらいました。スタッフの皆様、スピーカの皆様、参加者の皆様、本当に本当にありがとうございました。
+そしてDave。彼のセッションを生で聴く事ができた自分は、あの瞬間に立ち会えた自分は、本当に幸せ者だと思います。もう途中からずっと涙が止まりませんでした。..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/g5n/20070611/1181574349" class="external">[ruby] rubykaigi 2007 二日目 (帰ってきただらだら日記--)</a> (2007-06-12 (Tue) 00:47:31)</li>
+</ul>
+<blockquote>
+<p>朝早くから聴きに来てくれた皆さんありがとうございました。あんまり面白くなくてごめんなさい。次に人前で話すときはもっとがんばります。 資料はあとで載せます。今日は頭が痛いので寝ます。ごめん。 find | grep の件はあんまり見れなかったんだけど、なんていわれてたん</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/darashi/20070611/1181552638" class="external"> We are nice. - RubyKaigi2007 (dara日記)</a> (2007-06-12 (Tue) 00:20:03)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007にボランティアスタッフとして参加しました。それはもう、とてもとても幸せな3日間でした。 なんというか、うまく言葉にできないのですが、こんなに素晴らしいことが世の中にあるんだなぁと。Daveさんの最後のKeynote、通路に立って拍手しながら泣いてしまいま</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://ko.meadowy.net/~nay/diary/20070611.html#p02" class="external">Dave Thomas氏の講演 (ぷっちん日記)</a> (2007-06-12 (Tue) 00:17:06)</li>
+</ul>
+<blockquote>
+<p>■ 講演内容と感想</p>
+<p>忘れないうちに内容と感想を書いておこう。
+まず私の覚えている内容は以下のようなものだ。メモをとっておらず、完全に記憶に頼っているので多少違うかもしれない。お気づきの方は補足してください。</p>
+<p>自分は実はスピーチするためというより、Rubyの生まれ故郷でみなさんにお礼を言うために来た</p>
+<p>（ここで最初の拍手。以後、計１０回くらい拍手の飛び交う感動的なプレゼンとなった）</p>
+<p>自..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/yuum3/20070611/1181573079" class="external">[イベント] RubyKaigi2007 感想 (yuum3のお仕事日記)</a> (2007-06-11 (Mon) 23:44:52)</li>
+</ul>
+<blockquote>
+<p>素晴らしいカンファレンスを開いて頂いた、スタッフのみなさま、講演者のみなさまにたいへん感謝します！ とても感慨深いカンファレンスでした。感想をいくつか Rubyコミニュティの濃さ、奥の深さ Rubyコミニュティの濃さ、奥の深さを知らされた。 Rails以降に入ってきた新</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://kitaj.no-ip.com/tdiary/20070611.html#p01" class="external">RubyKaigi2007 (帰ってきた今日のなんでやねん)</a> (2007-06-11 (Mon) 22:48:05)</li>
+</ul>
+<blockquote>
+<p>
+今年も当日スタッフとして参加してきました．
+最高の2日間だったと思います．
+来場者のみなさん，スピーカーのみなさん，実行委員，スタッフのみなさん，本当にありがとうございました．
+去年にも増して素晴しいRubyKaigiだったんではないかな?
+どの講演も素晴しかったけど，やはりDaveのスピーチに尽きるのではないか．
+Daveのスピーチの中で印象的だったのは</p>
+<p>Rubyが爆発的に成長し，新しい..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/moro/20070611/1181494359" class="external">[ruby] RubyKaigi2007完!! (moroの日記)</a> (2007-06-11 (Mon) 20:53:41)</li>
+</ul>
+<blockquote>
+<p>今年は実行委員として裏方仕事をやってました。無事に終了してほっとしています。スピーカーの方はもちろん、来てくださった皆様、本当にありがとうございました。みなさまのお蔭で、今年もRubyKaigiを成功裡のうちに実施することができました。 詳しくはあとで書くのですが</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://dev.rakusui.jp/diary/?date=20070611#p02" class="external"> (樂水開発日記)</a> (2007-06-11 (Mon) 20:42:02)</li>
+</ul>
+<blockquote>
+<p>☆ [Ruby][event] RubyKaigi2007 &amp; RejectKaigi2007
+考えをまとめてると永遠に書けないんじゃないかという気がしたので、とりあえず、書いておかなければならないことを書くことにする。
+RejectKaigi "なぜRejectKaigiはこれほど急に行われることになったのか？"のプレゼン資料を上げておく。当日はFreeGeekの写真が暗くて見えにくかっ..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://idm.s9.xrea.com/ratio/2007/06/11/000631.html" class="external">RubyKaigi2007 (1) - 開会 (ratio - rational - irrational)</a> (2007-06-11 (Mon) 19:36:00)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007に行ってきた。会場は全電通労働会館。 この手のイベント...</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://idm.s9.xrea.com/ratio/2007/06/11/000632.html" class="external">RubyKaigi2007 (2) - ささださん (ratio - rational - irrational)</a> (2007-06-11 (Mon) 19:26:43)</li>
+</ul>
+<blockquote>
+<p>&amp;#9632; Ruby 1.9実装の現状と今後 東京大学講師になった笹田耕一さ...</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.coins.tsukuba.ac.jp/~i021179/blog/20070610#p01" class="external">[RubyKaigi2007] とりあえずDaveのとまどいについてだけ一言いっとくか ([いつか書く])</a> (2007-06-11 (Mon) 15:10:39)</li>
+</ul>
+<blockquote>
+<p>"Love"の和訳には「愛」だけじゃなく「恋」もあるよ。</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://shakenbu.org/yanagi/d/20070611.html#p01" class="external">RubyKaigi2007 に参加 (活動日誌)</a> (2007-06-11 (Mon) 13:06:25)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007 に参加しました。</p>
+<p>「愛」重要
+ノベルティがバッグなのはよかった
+最近るりまのお手伝いから離れてしまっていたので、また作業をしていきたい
+Dave のスピーチがとてもすばらしかった
+スピーカーの Mac 率がとても高かった。自分もノート PC 買うときは MacBook にしようかなぁ。(いつになるかわからないけど)</p>
+<p>スタッフのみなさん、本当におつかれさまでした。</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blogs.sun.com/katakai/entry/ruby_kaigi_2007_day_2" class="external">日本Ruby会議2007(2日目) (Masaki Katakai's Weblog)</a> (2007-06-11 (Mon) 12:24:00)</li>
+</ul>
+<blockquote>
+<p>１
+日目 に続き  日本Ruby会議2007 
+に行ってきました。二日目もどのセッションもとても面白かったです。 </p>
+<p>午前中の  recompile.net 
+の高井さんのセッションもよかったですよ。 </p>
+<p>JRuby
+on Rails でエンタープライズ Ruby  </p>
+<p>前日の Charles, Thomas のセッションでは「 JRuby
+から Java を使..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://ujihisa.nowa.jp/entry/045731cb77" class="external">マスコット駆動開発: MDD (rubyneko)</a> (2007-06-11 (月) 10:13:56)</li>
+</ul>
+<ul>
+<li>trackback : <a href="http://blog.miraclelinux.com/yume/2007/06/ruby2007_cdaf.html" class="external">日本Ruby会議2007 (ユメのチカラ)</a> (2007-06-11 (Mon) 09:32:18)</li>
+</ul>
+<blockquote>
+<p>行ってきましたよ。Rubyの祭典。日本Ruby会議2007。400以上のRuby</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/kiwamu/20070611/1181521092" class="external">[Ruby][AP4R] まじろうのセリフジェネレータをつくってみました (kiwamu日記)</a> (2007-06-11 (Mon) 09:25:57)</li>
+</ul>
+<blockquote>
+<p>昨日の RubyKaigi 2008 にて公式デビューを果した、AP4R のマスコットキャラクター、「まじろう」です。意外と寂しがり屋さんなので遊んでやってください。 まじろう - はてなセリフ <a href="http://serif.hatelabo.jp/186cbcad5a9cafb8b26479db6a83145321662177/" class="external">http://serif.hatelabo.jp/186cbcad5a9cafb8b26479db6a83145321662177/</a> AP4R もよろしくお</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/kiwamu/20070610/1181521471" class="external">[Ruby][AP4R] RubyKaigi 2007 2日目 (kiwamu日記)</a> (2007-06-11 (Mon) 09:24:52)</li>
+</ul>
+<blockquote>
+<p>午前のお仕事 Ruby のセクションで、 AP4R について発表してきました。かなーり緊張していました。 (^^; おかげでデモを動かすときに手がふるえてキーがうまう叩けずに大変でしたが、ひとまず無事に見せることができてよかったです。がんばって RMagick をインストールしと</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.fobj.com/hisa/d/20070611.html#p01" class="external">Ruby会議2007がすばらしかった (ひ日誌)</a> (2007-06-11 (Mon) 07:07:00)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007にRubyCocoaでスピーカとして参加させていただきました。発表資料は、おそらくWWDCの後になってしまいそうですが、のちのち公開させていただきます。
+スピーカさんたちのものすごい熱さと内容の濃さと遊び心(これとても重要)に圧倒されたreject会議の最中、期限が決まっていることはせっぱつまらないと始められないという、小学生が夏の終わりに発揮しがちな性質を、いつもど..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://rubyist.g.hatena.ne.jp/muscovyduck/20070610/p1" class="external">[Ruby] RubyKaigi2007、感動した！ (バリケンのRuby日記)</a> (2007-06-11 (Mon) 06:08:49)</li>
+</ul>
+<blockquote>
+<p>RubyKaigi2007、すごく良かったよ！特に一番最後のDave Thomasさんのプレゼン、感動したなあ。あの場に居合わせることができて、本当によかったよ。 で、本題じゃないところにちょっと解説。 </p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://kazuhiko.tdiary.net/20070610.html#p01" class="external">日本ではRubyKaigi2007でした / Il y avait le RubyKaigi au Japon. (ふぇみにん日記)</a> (2007-06-11 (Mon) 05:49:41)</li>
+</ul>
+<blockquote>
+<p>今年の司会は、ツインスパークの鈴木美保さんでした。彼女とはちょうど一年前の日本Rubyカンファレンス2006で知り合って、素敵なオーラに惹かれて夏のLLで一緒にプレゼンをお願いして、そしてそれを見ていたたださんや角谷さんが今年の司会に推した、という巡り合わせになるのかな。そんなわけで彼女の司会が個人的にとても気になっていたのですが、いろんな方からとても素敵だったとうかがって、まるで自分のことの..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/technohippy/20070610" class="external">ゆきひろ認証プラグイン(acts_as_yukiniro_ninsho) (ずっと君のターン)</a> (2007-06-11 (Mon) 02:31:30)</li>
+</ul>
+<blockquote>
+<p>Ruby会議2007、もとい、Reject会議で発表されたベーパーウェアのアイデアに感銘を受け、いきおいまかせに実装してしまいました。反省はしていない。 インストール 1. 下のファイルをダウンロードして展開したモノを、vendor/plugins の下に置く <a href="http://blog.technohippy.net" class="external">http://blog.technohippy.net</a></p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/tsaka/20070611/1181495676" class="external">[conference] RubyKaigi2007 (tsakaの日記)</a> (2007-06-11 (Mon) 02:15:52)</li>
+</ul>
+<blockquote>
+<p>Rubyのカンファレンスは初めての参加でしたが、楽しそうな雰囲気がすごく伝わってきました。 エンタープライズについての言及もいくつかありましたが、いい意味でエンタープライズ的な感じがしなかったです。 横でIRCが流れているのは良かったです。解説だったり、翻訳だっ</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://ko.meadowy.net/~koichiro/diary/20070609.html#p02" class="external"> (暮らしの業)</a> (2007-06-11 (Mon) 01:03:44)</li>
+</ul>
+<blockquote>
+<p>▲ RubyKaigi 2007</p>
+<p>RubyKaigi 2007行ってきた。
+JRubyのCharlesさんやThomasさんが来日するということで、この機会にJRuby Coreチームに突撃〜〜〜〜〜がミッションだ。
+本日最も注目されていたJRubyのセッションは、たまたまJRubyサイトを眺めてるときに先行して資料がアップロードされているのを発見して先に見ちゃったｗので発見は無いけれ..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blogs.sun.com/katakai/entry/ruby_kaigi_2007_day_1" class="external">日本Ruby会議2007(1日目)、JRuby 1.0 が正式リリース (Masaki Katakai's Weblog)</a> (2007-06-11 (Mon) 00:39:10)</li>
+</ul>
+<blockquote>
+<p>昨日は 日本Ruby会議2007 の１日目、その後の懇親会に行ってきました。普段は Solaris とか Java とか Mozilla 系の集まりに顔は出すことはあるのですが Ruby 関係は初めてでとても新鮮でした。感じたことなどは時間ができたらあとで書けたらと思っています。 </p>
+<p>Sun からも  Tim Bray ,
+Charles Nutter ,
+Thomas
+Ene..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/Hexa/20070610/1181473645" class="external">[Ruby][event][memo] RubyKaigi 2007 2 日目 (Hexaの日記)</a> (2007-06-11 (Mon) 00:26:18)</li>
+</ul>
+<blockquote>
+<p>2 日目． 個人的には，Ruby Cocoa と Dave Thomas の話に興味が・・・． Ruby Cocoa 今年秋1.0をリリース予定 無言でライブプログラミング 後で試す． 基調講演　（Dave Thomas）Island Ruby, or How To Survive Invasions, Immigrants, and Cultural Attacks（島国としての</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/kstn/20070610/1181487688" class="external">[Ruby] RubyKaigi2007 (テストとか)</a> (2007-06-11 (Mon) 00:02:01)</li>
+</ul>
+<blockquote>
+<p>今年も参加してきたので感想とか。 IRC の画面を流してたのは楽しかった マスコット駆動開発 Dave Thomas の基調講演ではスタンディングオベーション。本当に Ruby とそのコミュニティが好きなのが伝わってきた。別に Ruby に限らずオープンソースコミュニティがどうあるべ</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://csnagoya.g.hatena.ne.jp/toyoshi/20070610/p1" class="external">[Ruby]名古屋から参加のRubyKaigi2007 (toyoshiの日記)</a> (2007-06-10 (Sun) 23:48:06)</li>
+</ul>
+<blockquote>
+<p>1日目 最前列（3列目）をゲットできた。目の前にまつもとゆきひろさんが途中からやってきたので必死で匂いを嗅ごうとしたが、届かなかった。 懇親会では、ふつうのLinuxの青木さんやRuby</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blog.deadbeaf.org/archives/1751" class="external">Ruby会議 2日目 (hogeLog)</a> (2007-06-10 (Sun) 23:35:13)</li>
+</ul>
+<blockquote>
+<p>今日もあやしい同時通訳などで参加してきました。来年は組込みビジュアル系になって参画したいと思います。</p>
+<p>今年のRuby会議は愛Mac+マスコット
+よしおかさんのOProfile話はもう少し聞き...</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.machu.jp/diary/20070610.html#p01" class="external">RubyKaigi 2日目とエンタープライズ Rubyについて (まちゅダイアリー)</a> (2007-06-10 (Sun) 23:33:51)</li>
+</ul>
+<blockquote>
+<p>2日目も遅刻しないで着いた。
+詳細は速報ログにお任せで、印象に残ったところだけ。</p>
+<p>午前中のセッションは「お仕事Ruby」について。
+開始直後は1日目よりも人がだいぶ少ない。
+前日の懇親会が盛り上がったのかな。</p>
+<p>JRuby on Rails でエンタープライズ Ruby</p>
+<p>「Java のインタフェースを Ruby で実装する。 DSL として使えばいいんじゃね？」
+これは説得力あった。..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://shugo.net/jit/20070610.html" class="external"> (Journal InTime)</a> (2007-06-10 (Sun) 23:23:00)</li>
+</ul>
+<blockquote>
+<p>
+[Ruby] RubyKaigi2007
+Dave Thomasのスピーチに感動した。
+だいたい日本だとRuby(というかまつもとさん?)が好きなくせに
+屈折した愛情表現しかできない人が(自分も含めて)多いんだけど、
+実にストレートな愛情表現だったね。
+国民性の違いなのかなあ。
+どなたかの質問の時に、日本の古くからのRubyユーザの
+Railsに対する感情についてはうまく伝わって..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/clayfish/20070609/1181361002" class="external">[ruby][RubyKaigi2007] Ruby 会議 2007 参加レポート (一日目) (yagihiro output)</a> (2007-06-10 (Sun) 22:33:45)</li>
+</ul>
+<blockquote>
+<p>そろそろ始まります。 女の子いないよ(泣 実況っぽく書こうかと思ってたけど、聞いてた方が面白いから聞き終わってからまとめてます。 セッション 壱 Ruby コア / Ruby 1.9 実装の現状と今後 / ささだ こういち 全体の印象としてはささださんのトークが軽快でおもしろす。彼</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/clayfish/20070610/1181431058" class="external">[ruby][RubyKaigi2007] Ruby 会議 2007 参加レポート (二日目) (yagihiro output)</a> (2007-06-10 (Sun) 22:33:19)</li>
+</ul>
+<blockquote>
+<p>おはようございます。今日も Ruby 会議です。 本家で発表内容に対するログが公開されているので、詳細とか話の内容はそちらで確認お願いします。 セッション 壱　/ 「お仕事Ruby」 エンタープライズで使われるRuby / ごとけんさん ruby でワンライナーよく書くんだよねーな</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/ita-wasa/20070610/1181460521" class="external">[Ruby][AP4R] RubyKaigi 2007 お仕事 Ruby : AP4R (いたわさににほんしゅ)</a> (2007-06-10 (Sun) 22:14:05)</li>
+</ul>
+<blockquote>
+<p>発表させてもらいました。資料は、もうちょっと待ってください。 スタッフの方に取っていただいた速報ログはこちらです。ありがとうございました。 「日本 Ruby 会議 2007 - Log0610-S1-04」<a href="http://jp.rubyist.net/RubyKaigi2007/Log0610-S1-04.html" class="external">http://jp.rubyist.net/RubyKaigi2007/Log0610-S1-04.html</a> まとめ * シンプルAPI *</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://ytesaki.jot.com/WikiHome/Event/RubyKaigi2007" class="external">RubyKaigi2007 (JotSpot Wiki (ytesaki))</a> (2007-06-10 (日) 22:11:51)</li>
+</ul>
+<blockquote>
+<p>ものすごーくきちんとしたログが残っているので、印象深かったところだけ抜き書きすることにしよう。
+発言は「」で囲っているけど、こういうしゃべり方をしたわけではない。
+あくまで、おいらの印象。脳内変換されているのでよろ。</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://www.machu.jp/diary/20070609.html#p02" class="external">RubyKaigi 1日目 (まちゅダイアリー)</a> (2007-06-10 (Sun) 21:36:20)</li>
+</ul>
+<blockquote>
+<p>
+去年に続いて今年も 日本 Ruby 会議 2007 に参加することができた。幸せだな。
+今年は速報ログに詳しい内容が載っているので、特に印象に残ったことだけを書き込めておく。
+今回のキーワードは「スケーラビリティ」とか「エンタープライズ」なのかな。
+全般
+一番新鮮だったのは、会場でプレゼン画面とは別のスクリーンに IRC のチャット画面が表示されていた。
+発表者にはプレッシャーかもしれないけ..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/Hexa/20070609/1181472703" class="external">[Ruby][event][memo] RubyKaigi2007 1 日目 (Hexaの日記)</a> (2007-06-10 (Sun) 20:17:11)</li>
+</ul>
+<blockquote>
+<p>今回初参加です． メモしたことを以下に． 間違いがあるかもしれません． Ruby 1.9.1 （12/25 リリース予定） M17N の方針検討 gem の標準添付 「継続」Continuation / callcc のサポート → できごごろで実装 Fiber 実装 Non preemptive thread → Generator を作るのが目</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://blog.deadbeaf.org/archives/1750" class="external">Ruby会議 1日目 (hogeLog)</a> (2007-06-10 (Sun) 14:59:30)</li>
+</ul>
+<blockquote>
+<p>参加してきました。</p>
+<p>LightningTalkの、</p>
+<p>ファミコンはVMだからいろんなプラットフォームで動く
+dRubyによるマルチコアRubyでほとんど線形のスケーラビリティ</p>
+<p>あたりにやられました。おもし...</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://sho.tdiary.net/20070609.html#p01" class="external">Ruby会議2007 1日目 (ただのにっき)</a> (2007-06-10 (Sun) 12:29:54)</li>
+</ul>
+<blockquote>
+<p>……というわけで始まったRuby会議2007、スタッフとして参加である。
+内容は講演後(講演中?)即座に公開される、きわめて速報性の高いログを見てもらうとして、先日書いた3つの不満について、何人かから直接聞かれたのでいちおう。
+1. 司会が男性ばかりなのが不満</p>
+<p>この業界に入って以来、幾度となくテクニカルカンファレンスに参加しているが、まず司会が男ばかりだ。とくに最近のオープンソース系カンファ..</p>
+</blockquote>
+<ul>
+<li>trackback : <a href="http://d.hatena.ne.jp/mikihoshi/20070610/1181429259" class="external">RubyKaigi2007 (ふしはらかんの四方山話)</a> (2007-06-10 (Sun) 10:33:36)</li>
+</ul>
+<blockquote>
+<p><a href="http://jp.rubyist.net/RubyKaigi2007/" class="external">http://jp.rubyist.net/RubyKaigi2007/</a> 今年も実行委員という名の喫茶店のマスターをやらせてもらってます*1。ロビーでも講演の様子を見られるので大変ありがたいところ。本日も10時から開演ですので参加者の皆さんよろしくお願いします。 もちろん、詳細は後で書く。 速報</p>
+</blockquote>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Log0609-S1-01">
+    <title>Log0609-S1-01</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Log0609-S1-01</link>
+    <dc:date>2007-07-30T14:37:56+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">Ruby 1.9実装の現状と今後　（ささだ こういち）</span></h2>
+<dl>
+<dt>スピーカー</dt><dd>ささだ こういち - 日本Rubyの会</dd>
+<dt>プロフィール</dt><dd>日本Rubyの会理事。Rubyist Magazine編集。Rubyのおかげで就職できました。多分。趣味は最適化。</dd>
+<dt>講演時間</dt><dd>10：10〜10：35</dd>
+<dt>講演者による資料</dt>
+<dd> <a href="http://www.atdot.net/yarv/RK2007-sasada-public.pdf" class="external">http://www.atdot.net/yarv/RK2007-sasada-public.pdf</a></dd>
+<dd> <a href="http://www.atdot.net/yarv/RK2007-sasada-public.ppt" class="external">http://www.atdot.net/yarv/RK2007-sasada-public.ppt</a></dd>
+</dl>
+<p>今日はスーツ姿のささださん。スーツ姿が似合っていてかこいいです。</p>
+<div class="plugin">{{attach_view(rubykaigi_core1_small.jpg)}}</div>
+<h3><a name="l1"><span class="sanchor"> </span></a>はじめに</h3>
+<ul>
+<li>Ruby1.9は鋭意開発中です。</li>
+<li>Ruby1.9は今年の12月にでます。</li>
+</ul>
+<h3><a name="l2"><span class="sanchor"> </span></a>今日の発表内容</h3>
+<ul>
+<li>Ruby1.9の紹介<ul>
+<li>おもにバーチャルマシン</li>
+</ul></li>
+<li>Ruby1.9の現状</li>
+</ul>
+<h3><a name="l3"><span class="sanchor"> </span></a>今日の発表について</h3>
+<ul>
+<li>諸事情により漢字名前で出ています</li>
+<li>お仕事でRubyの開発しています</li>
+<li>NoRuby, NoLife(NoMoney)</li>
+</ul>
+<p>お仕事の一環なので漢字の名前で出ているそうです。
+Rubyの開発をお仕事にしているのでRubyがないとお金がもらえません；；とのこと</p>
+<h3><a name="l4"><span class="sanchor"> </span></a>今日の挑戦</h3>
+<ul>
+<li>WindowsVistaでMicrosoft PowerPoint</li>
+<li>首をしめてプレゼン（ネクタイ）</li>
+</ul>
+<p>今日の発表もお仕事の一環で来ています。なのでスーツ＆ネクタイ。
+ちなみに今日はネクタイの人は自分一人であることが目標だったけど、会場にネクタイのひといますか？</p>
+<p>という質問に対して、会場にほかにネクタイの人がいたようです。残念。</p>
+<p>でも、ささださんネクタイ姿似合ってますよ＾＾</p>
+<h3><a name="l5"><span class="sanchor"> </span></a>Ruby1.9の紹介</h3>
+<ul>
+<li>バーチャルマシン</li>
+<li>文法の変更</li>
+<li>M17N</li>
+<li>その他「ぎゃっ」と言わせる変更（おもにまつもとさん）文句はまつもとさんまでｗｗ</li>
+</ul>
+<p>ほか・・・</p>
+<p>ささださんはまつもとさんの暴走を抑えるのに苦労してるみたいです。発表の随所にぽろぽろと…</p>
+<h3><a name="l6"><span class="sanchor"> </span></a>バーチャルマシンの導入</h3>
+<ul>
+<li>構文木解析→コンパイル</li>
+<li>2007年1月1日導入</li>
+</ul>
+<h4><a name="l7"> </a>1.8以前</h4>
+<ul>
+<li>構文木をそのまま実行ー＞遅い</li>
+</ul>
+<h4><a name="l8"> </a>1.9VM</h4>
+<ul>
+<li>コンパイルして実行ー＞早い</li>
+<li>JITコンパイラとか・・・</li>
+</ul>
+<h4><a name="l9"> </a>いろんな最適化をしてます</h4>
+<ul>
+<li>末尾呼び出しの最適化</li>
+<li>たぶんもっとも高速な処理系</li>
+</ul>
+<h4><a name="l10"> </a>ネイティブスレッド対応</h4>
+<ul>
+<li>POSIX Thread/Windows</li>
+<li>グローバルVMロックを用いた逐次実行</li>
+</ul>
+<h4><a name="l11"> </a>新しいデバッガ・プロファイラAPI</h4>
+<ul>
+<li>詳細は略</li>
+<li>だいたい実装したよ！</li>
+</ul>
+<p>ここで、パワポのスライドがいっぱい並んでいるのを見せて、
+いろいろやってますという雰囲気だけ見せて詳細は省略</p>
+<h3><a name="l12"><span class="sanchor"> </span></a>FAQ</h3>
+<dl>
+<dt>Q</dt><dd>YARV?</dd>
+<dt>A</dt><dd>Yet Another Ruby VMの略はもう忘れて（1.9では、もうYet Anotherでなくなるよ）</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>TRV?</dd>
+<dt>A</dt><dd>The RubyVMの略？俺がいいだしたのか？</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>並列化？</dd>
+<dt>A</dt><dd>ネイティブスレッド対応だが、並列実行しない</dd>
+</dl>
+<p>拡張ライブラリが使えなくなる→スレッドセーフでない</p>
+<dl>
+<dt>Q</dt><dd>えー、まだJITないの？</dd>
+<dt>A</dt><dd>JITに夢持ちすぎAOTを（Ruby To C)予定</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>クラスファイルみたいなものは？</dd>
+<dt>A</dt><dd>あまり需要がないみたい</dd>
+</dl>
+<h3><a name="l13"><span class="sanchor"> </span></a>IPAの未踏の支援</h3>
+<ul>
+<li>2004年度未踏ユース</li>
+<li>2005年度上期未踏</li>
+<li>2006年度下期未踏</li>
+</ul>
+<p>「Ruby用仮想マシンYARVの完成度向上」
+ささだの９５％は皆様の税金で出来ています（笑）</p>
+<h3><a name="l14"><span class="sanchor"> </span></a>継続かわいいよ継続</h3>
+<ul>
+<li>Continyution/callccのサポート</li>
+<li>つい出来心で</li>
+<li>結局だれも使わない</li>
+</ul>
+<h3><a name="l15"><span class="sanchor"> </span></a>Fiberかこいい</h3>
+<ul>
+<li>新機能・Non preemptive thread</li>
+<li>自動的に処理が切り替わらないスレッド</li>
+<li>Generatorを作るのが目的</li>
+<li>オーバースペック気味？</li>
+<li>ほかに応用？<ul>
+<li>状態遷移機械？</li>
+</ul></li>
+</ul>
+<h3><a name="l16"><span class="sanchor"> </span></a>Fiber Puzzle</h3>
+<pre>
+f1 = f2 = f3 = nil; fr = Fiber.current
+f1 = Fiber.new{f2.yield; fr.yield}
+f2 = Fiber.new{f3.yield
+</pre>
+<p>ここまで書いたんだけど、</p>
+<p>わからなければスルーということなのでスルー＾＾</p>
+<h3><a name="l17"><span class="sanchor"> </span></a>継続とFiber</h3>
+<ul>
+<li>知らないひとはしらない</li>
+<li>継続かわいいよ継続派</li>
+<li>作るのやめようかなあ派</li>
+<li>Fiberだけでもー＞Fiberだけでもオーバースペック</li>
+<li>本人はやめたい？</li>
+</ul>
+<p>なんかいろいろ迷いがあるようです。</p>
+<p>ここで笑い</p>
+<p>IRCから</p>
+<ul>
+<li>バグをなくせばいいんじゃないか派</li>
+<li>Rubyをなくせばいいんじゃないか派</li>
+</ul>
+<p>こんなエントリが！！！！</p>
+<h3><a name="l18"><span class="sanchor"> </span></a>開発方針</h3>
+<ul>
+<li>2007年12月にリリース！by Matz</li>
+<li>開発合宿などで1.9の方針決定</li>
+<li>開発合宿やりました<ul>
+<li>昨日、一昨日</li>
+<li>あまりやったことないのでよかった、（やどはべつだったけどねｗ）</li>
+<li>あと数回はやりたいね　by Matz（ささださんも同意）</li>
+</ul></li>
+</ul>
+<p>ここで開発合宿風景の写真が紹介されました。</p>
+<h4><a name="l19"> </a>あるいは仕様変更とのあくなき戦い</h4>
+<p>ささだ「その仕様知らない。初めて見たかも」</p>
+<p>まつもと「言ってないかも」</p>
+<p>ｗｗｗｗ</p>
+<h3><a name="l20"><span class="sanchor"> </span></a>1.9.1 2007年12月25日リリース</h3>
+<ul>
+<li>ちょっと品質悪くてもリリース</li>
+<li>出来る限りがんばる</li>
+<li>誰もバグがないなんて思ってない？</li>
+</ul>
+<h3><a name="l21"><span class="sanchor"> </span></a>Ruby処理系開発で得をすること</h3>
+<ul>
+<li>フェローになれた</li>
+<li>就職できた<ul>
+<li>Ruby処理系開発者を雇ったのはSunだけじゃない</li>
+</ul></li>
+</ul>
+<h3><a name="l22"><span class="sanchor"> </span></a>まとめ</h3>
+<ul>
+<li>開発は粛々とすすんでいます。</li>
+<li>十中八九2007年12月にリリースします</li>
+</ul>
+<h3><a name="l23"><span class="sanchor"> </span></a>質疑応答</h3>
+<dl>
+<dt>Q</dt><dd>マルチVMはどうなった？</dd>
+<dt>A</dt><dd>1.9では出さない。Additionalな実装として出す。もっとあとのバージョンで出す。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>95%は税金ということだけど残りの5%は？</dd>
+<dt>A</dt><dd>皆様の愛ということで</dd>
+<dt>IRC</dt><dd>麦チョコなど（業務用）</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>最適化という言葉は何に対しての最適化をさしているのか？以前に記号処理を早くするといっていたけどそのこと？</dd>
+<dt>A</dt><dd>実行時間が短くなることを目指している。</dd>
+<dt>Q</dt><dd>どんな場面で？</dd>
+<dt>A</dt><dd>いままで遅かった数値計算などが早くなるとよい。メソッド呼び出し、iteratorなど早くなれば、すべての処理に影響がある。ジェネラルに早くなることを主眼にしている。</dd>
+</dl>
+<p>(ロガー：よう)</p>
+<h2><span class="date"><a name="l24"> </a></span><span class="title"></span></h2>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Program0609">
+    <title>Program0609</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Program0609</link>
+    <dc:date>2007-07-30T14:05:48+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p>日本 Ruby 会議 2007 プログラム　（英訳版は<a href="./Program-EN0609.html">こちら</a>）</p>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">一日目 6/9（土）</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>開場 9:30</h3>
+<h3><a name="l2"><span class="sanchor"> </span></a>オープニング 10:00 - 10:10</h3>
+<dl>
+<dt>司会</dt><dd>鈴木 美保</dd>
+<dt>プロフィール</dt><dd>株式会社ツインスパークでひっそりと働く（本当に）普通のプログラマ。<span class="plugin">{{br}}</span>会社での主な役割はお酒を飲むこととツッコミ。</dd>
+</dl>
+<h3><a name="l3"><span class="sanchor"> </span></a>セッション 壱　10:10 - 11:55 Rubyコア</h3>
+<h4><a name="l4"> </a>Ruby 1.9実装の現状と今後　（ささだ こういち）</h4>
+<p>現在、Ruby 1.9のリリースのため開発が進められています。本発表ではそのRuby1.9の開発状況について、現状と今後について述べます。また、Ruby 1.9実装の特徴のひとつである、話者が以前より開発を進めてきた仮想マシンアーキテクチャの導入について、その概要と影響を述べます。</p>
+<dl>
+<dt>スピーカー</dt><dd>ささだ こういち - 日本Rubyの会</dd>
+<dt>プロフィール</dt><dd>日本Rubyの会理事。Rubyist Magazine編集。Rubyのおかげで就職できました。多分。趣味は最適化。</dd>
+<dt>講演時間</dt><dd>10：10〜10：35</dd>
+<dt>講演資料</dt>
+<dd> <a href="http://www.atdot.net/yarv/RK2007-sasada-public.pdf" class="external">http://www.atdot.net/yarv/RK2007-sasada-public.pdf</a></dd>
+<dd> <a href="http://www.atdot.net/yarv/RK2007-sasada-public.ppt" class="external">http://www.atdot.net/yarv/RK2007-sasada-public.ppt</a></dd>
+</dl>
+<h4><a name="l5"> </a>安定版rubyとその今後　（卜部 昌平）</h4>
+<p>12月のブランチ作成とリリースポリシー変更のおさらい、そして2007上半期半年での進捗と今後の展望について。</p>
+<dl>
+<dt>スピーカー</dt><dd>卜部 昌平 - (株)トランス・ニュー・テクノロジー</dd>
+<dt>プロフィール</dt><dd>Ruby安定ブランチ係。現在の担当は1.8.5と1.8.6。ruby-talkへの初投稿がRuby本体のリリースアナウンスという、すごいのかすごくないのかよく分からん記録を最近作った。</dd>
+<dt>講演時間</dt><dd>10：35〜11：00</dd>
+<dt>講演資料</dt><dd><a href="http://mput.dip.jp/mput/Kaigi2007.odp" class="external">http://mput.dip.jp/mput/Kaigi2007.odp</a> (ooimpress presentation)<span class="plugin">{{br}}</span><a href="http://mput.dip.jp/mput/Kaigi2007.pdf" class="external">http://mput.dip.jp/mput/Kaigi2007.pdf</a> (PDF)</dd>
+</dl>
+<h4><a name="l6"> </a>日本Rubyのリファレンスマニュアル2007・初夏　（青木 峰郎）</h4>
+<p>現在、日本Rubyの会ではリファレンスマニュアルを全面刷新する計画が進行している。いまなぜリファレンスマニュアルを刷新するのか、新しくなって何が変わるのか、何ができて何が嬉しいのか、その全貌をお伝えする。<span class="plugin">{{br}}</span>「いまのリファレンスマニュアルでいいよ別に」な人も「マニュアルが変わったくらいで何が変わるんだよ」な人も、いますぐ新マニュアルゲットだぜ！</p>
+<dl>
+<dt>スピーカー</dt><dd>青木 峰郎 - 日本Rubyの会</dd>
+<dt>プロフィール</dt><dd>ふつうの文系SE。主著『Rubyソースコード完全解説』。<span class="plugin">{{br}}</span>The author of "Ruby Hacking Guide", TMail, net/http.</dd>
+<dt>講演時間</dt><dd>11：00〜11：25</dd>
+<dt>講演資料</dt><dd>index <a href="http://i.loveruby.net/rubykaigi2007/" class="external">http://i.loveruby.net/rubykaigi2007/</a><span class="plugin">{{br}}</span>PDF <a href="http://i.loveruby.net/rubykaigi2007/rubykaigi2007-aoki.pdf" class="external">http://i.loveruby.net/rubykaigi2007/rubykaigi2007-aoki.pdf</a></dd>
+</dl>
+<h4><a name="l7"> </a>JRuby: Ruby for the Java Platform　（Charles Nutter / Thomas Enebo）</h4>
+<p>Ruby has become one of the fastest-growing languages in the world. Java is the most widespread platform in the world. JRuby brings Ruby to the Java platform, allowing Java developers access to the beauty and elegance of Ruby and Ruby developers access to the scalability and strength of the JVM and Java's vast collection of libraries. This talk will describe JRuby's history, design, status, and future.</p>
+<dl>
+<dt>スピーカー</dt><dd>Charles Nutter / Thomas Enebo - Sun Microsystems, Inc; JRuby: <a href="http://www.jruby.org/" class="external">http://www.jruby.org/</a></dd>
+<dt>プロフィール</dt><dd>Charles Nutter has been a Java developer since 1996, architecting applications and leading development teams, and now works full-time on JRuby and dynamic language support for the Java platform at Sun Microsystems. He led the open-source LiteStep project in the late 90s and came to Ruby in the fall of 2004. Since then he has been a member of the JRuby team, helping to make it a true alternative Ruby platform. Charles hopes to continue improving Ruby support on the Java platform and Ruby adoption worldwide over the coming years, as well as expanding support for other dynamic languages on the Java platform. He also hopes to help the core Ruby development team with ongoing research and development of the C implementations of Ruby.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span> Thomas Enebo is a core developer of the JRuby project and he is also an employee of Sun Microsystems.  Tom has been using Java for over a decade and Ruby over half a decade.  At Sun, he is working to make JRuby a piece of software that will capture the hearts and minds of Ruby and Java developers everywhere.  Tom is also working to make JRuby a first-class  citizen on the JVM.  Tom along with Charles Nutter will be writing a book on JRuby this year.</dd>
+<dt>講演時間</dt><dd>11：25〜11：55</dd>
+<dt>講演資料</dt><dd><span class="plugin">{{attach_anchor('JRuby_RubyKaigi-2007_j.pdf')}}</span> （和訳付き, 284 KB）</dd>
+</dl>
+<h3><a name="l8"><span class="sanchor"> </span></a>セッション 弐　13:00 - 14:00 基調講演　（まつもと ゆきひろ）</h3>
+<h4><a name="l9"> </a>2007年とその先のRuby</h4>
+<p>Rubyが生まれて１４年、長い下積み(？)を経て、最近ようやく「一般」にも受け入れられるようになりました。ここでは2007年時点でのRubyの現状を概観した上で、その先の未来を「予測」します。いつものことですが、予想が当たる確率は結構低いような。作者本人なのに。</p>
+<dl>
+<dt>スピーカー</dt><dd>まつもと ゆきひろ - (株)ネットワーク応用通信研究所 フェロー，(株)楽天 楽天技術研究所 <a href="http://www.rakuten.co.jp/info/release/2007/0531.html" class="external">フェロー</a></dd>
+<dt>プロフィール</dt><dd>Rubyのパパ。もう１４年ですよ。</dd>
+<dt>講演時間</dt><dd>13：00〜14：00</dd>
+<dt>講演資料</dt><dd><a href="http://www.rubyist.net/~matz/slides/rk2007-matz/" class="external">http://www.rubyist.net/~matz/slides/rk2007-matz/</a></dd>
+</dl>
+<h3><a name="l10"><span class="sanchor"> </span></a>セッション 参　14:10 - 15:40 Rubyイロイロ１</h3>
+<h4><a name="l11"> </a>他言語ライブラリの利用　（立石 孝彰）</h4>
+<p>Rubyを含むスクリプト言語には、CやJavaなどの他言語のライブラリを扱うためのライブラリが存在し、Rubyに限っても複数存在する。これらのライブラリの使用方法や特徴を簡単に説明し、Rubyに今後求める支援、または、各ライブラリにおける共通機能を考察する。</p>
+<dl>
+<dt>スピーカー</dt><dd>立石 孝彰</dd>
+<dt>プロフィール</dt><dd>研究員</dd>
+<dt>講演時間</dt><dd>14：10〜14：40</dd>
+</dl>
+<h4><a name="l12"> </a>Cより速いRubyプログラム　（桑田 誠）</h4>
+<p>プログラミング言語の中でも、Rubyは動作が遅い方です。そのため、速度が必要な場面ではC言語で拡張モジュールを書くことが多いです。しかし、Rubyでもアルゴリズムを工夫することで十分な速さを得られることがあります。本発表では、Cで作られた拡張モジュールを例にとり、それより高速なRubyスクリプトを紹介します。例にとる拡張プログラムはおもちゃのようなものではなく、実際に広く使われているものを取り上げます。</p>
+<dl>
+<dt>スピーカー</dt><dd>桑田 誠</dd>
+<dt>プロフィール</dt><dd>プログラマー</dd>
+<dt>講演時間</dt><dd>14：40〜15：10</dd>
+<dt>講演資料</dt><dd><a href="http://www.kuwata-lab.com/presen/rubykaigi2007.pdf" class="external">http://www.kuwata-lab.com/presen/rubykaigi2007.pdf</a><span class="plugin">{{br}}</span><a href="http://www.kuwata-lab.com/presen/erubybench-1.1.zip" class="external">http://www.kuwata-lab.com/presen/erubybench-1.1.zip</a></dd>
+</dl>
+<h4><a name="l13"> </a>YAR(V)I (Yet Another Ruby (on VM) Implementations)　（arton）</h4>
+<p>本セッションでは、Ruby 1.9以外のRubyの実装について、入手方法から実際にプログラミングする場合の開発環境、オリジナルRubyと比較した場合の特徴についてデモを交えて紹介します。取り上げる実装は、JRuby（インタプリタ）、RubyCLR（ブリッジ）、Gardens Point Ruby.NET（コンパイラ）です。</p>
+<dl>
+<dt>スピーカー</dt><dd>arton - 日本Rubyの会</dd>
+<dt>プロフィール</dt><dd>職業プログラマ ネットワークやインターフェイスが好き Ruby関連の著作に『Rubyを256倍使うための本　邪道編』『かんたんRuby on RailsでWebアプリケーション開発』、その他に『Seasar2で学ぶ DIとAOP アスペクト指向によるJava開発』など</dd>
+<dt>講演時間</dt><dd>15：10〜15：40</dd>
+<dt>講演資料</dt><dd><a href="http://artonx.org/data/RubyKaigi2007/" class="external">http://artonx.org/data/RubyKaigi2007/</a></dd>
+</dl>
+<h3><a name="l14"><span class="sanchor"> </span></a>セッション 肆　16:00 - 17:30 Rubyイロイロ２</h3>
+<h4><a name="l15"> </a>rubyでする Web scrapping - Hpricot と mechanize そして scRubyt　（朴 芝印）</h4>
+<p>Rubyで書くWeb Scrapping プログラムの紹介。HTTPとCookieなどはMechanizeが、HTMLパーサーはHpricotがやってくれる。そして、最近人気のscRubytを使うともっと読みやすいCodeが書ける。</p>
+<dl>
+<dt>スピーカー</dt><dd>朴 芝印 - 延世大学化学工学科, 韓国 ruby-forum - forum.rubykr.org</dd>
+<dt>プロフィール</dt><dd>- Ruby好きの大学生。<span class="plugin">{{br}}</span>- Programming Rubyの韓国語版の翻訳。</dd>
+<dt>講演時間</dt><dd>16：00〜16：30</dd>
+<dt>講演資料</dt><dd>page: <a href="http://tisphie.net/typo/pages/RubyKaigi2007" class="external">http://tisphie.net/typo/pages/RubyKaigi2007</a><span class="plugin">{{br}}</span>PDF: <a href="http://tisphie.net/web-scraping.pdf" class="external">http://tisphie.net/web-scraping.pdf</a></dd>
+</dl>
+<h4><a name="l16"> </a>The World In 30 Minutes　（Tim Bray）</h4>
+<p>Ruby was born in Japan and is becoming increasingly popular around the world.  Therefore, Ruby should try to be a good citizen of the world.  This means speaking to people in their own language; more precisely, performing text input, processing, and output correctly in all the world's languages.  The good news is that this is not too difficult.  The bad news is that up to version 1.8.5, Ruby has not given enough attention to this problem.  We will describe the problems and look at what's being done to solve them in the world of Ruby.</p>
+<dl>
+<dt>スピーカー</dt><dd>Tim Bray - Sun Microsystems, Inc; The Internet Engineering Task Force "Atompub"</dd>
+<dt>プロフィール</dt><dd>Tim Bray, a Canadian, has been in the software profession for over twenty years.  He's worked on the Oxford English Dictionary, Web Search Engines, XML, Atom, and Blogging technology.  He currently servers as Director of Web Technologies at Sun Microsystems and publishes a blog at <a href="http://www.tbray.org/ongoing/" class="external">http://www.tbray.org/ongoing/</a></dd>
+<dt>講演時間</dt><dd>16：30〜17：00</dd>
+<dt>講演資料</dt><dd><a href="http://www.tbray.org/talks/rubykaigi2007.pdf" class="external">http://www.tbray.org/talks/rubykaigi2007.pdf</a><span class="plugin">{{br}}</span><span class="plugin">{{attach_anchor('the_world_in_30minutes_j.pdf')}}</span> （和訳付き, 4.94 MB, 上と同じです）<span class="plugin">{{br}}</span><span class="plugin">{{attach_anchor('the_world_in_30minutes.pdf')}}</span> （オリジナル, 3.90 MB）</dd>
+</dl>
+<h4><a name="l17"> </a>Rinda: Answering the RubyConf and RubyKaigi　（関 将俊）</h4>
+<p>RubyKaigiを模したUSのカンファレンス、RubyConfにてRinda in the Real Worldと題したプレゼンテーションが行われた。Rindaの作者であり、言い訳駆動開発の実践者である発表者が、先のプレゼンテーションの疑問、提案、そしてRubyKaigi2006の宿題に対して回答する。Rindaが示唆する何かについてあっさりと熱く語りたい。</p>
+<dl>
+<dt>スピーカー</dt><dd>関 将俊 - <a href="http://www.druby.org/" class="external">druby.org</a></dd>
+<dt>プロフィール</dt><dd>プログラマ。幸福の王子本こと「dRubyによる分散・Webプログラミング」は今ならまだ初版が買えます。</dd>
+<dt>講演時間</dt><dd>17：00〜17：30</dd>
+<dt>講演資料</dt><dd><a href="http://www.druby.org/RK07.pdf" class="external">http://www.druby.org/RK07.pdf</a></dd>
+</dl>
+<h3><a name="l18"><span class="sanchor"> </span></a>セッション 伍　17:40 - 18:40 LT</h3>
+<p>Lightning Talks <a href="./Program-LT.html">発表者一覧</a></p>
+<h3><a name="l19"><span class="sanchor"> </span></a>懇親会　19：00 開場（予定）, 19：30 開始</h3>
+<p>懇親会の詳細は<a href="./Party.html">こちら</a>です。</p>
+<dl>
+<dt>場所 </dt><dd><a href="http://www.foodtheater.jp/" class="external">東京フードシアター 5+1</a>（秋葉原UDX 4F）</dd>
+</dl>
+<p><span class="plugin">{{br}}</span>
+２日目のプログラムは、<a href="./Program0610.html">こちら</a>です。
+<span class="plugin">{{br}}</span></p>
+<hr />
+<p>※プログラムは予定です。予告無く変更する場合があります。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Log0609-LT04">
+    <title>Log0609-LT04</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Log0609-LT04</link>
+    <dc:date>2007-07-08T05:33:01+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">Lightning Talks 4</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>Rubyでファミコンプログラミング　（takkaw）</h3>
+<dl>
+<dt>スピーカー</dt><dd>takkaw</dd>
+<dt>プロフィール</dt><dd>平日は組み込みプログラマ。休日はストレス発散にRubyをさわっています。趣味はゲームとオンガクとプログラミング。</dd>
+<dt>講演者による資料(1)</dt><dd><a href="http://d.hatena.ne.jp/takkaw/20070609/p2" class="external">http://d.hatena.ne.jp/takkaw/20070609/p2</a></dd>
+<dt>講演資料(2)</dt><dd><span class="plugin">{{attach_anchor('RubyKaigi2007_takkaw.nes', 'Program-LT')}}</span> (ファミコンソフト)</dd>
+</dl>
+<p>こちらも自作のプレゼンツールでの発表です。なんとファミコンエミュレータ上で動くプレゼンツールでの発表でした。</p>
+<h3><a name="l2"><span class="sanchor"> </span></a>自己紹介</h3>
+<dl>
+<dt>名前</dt><dd>takkaw</dd>
+<dt>趣味</dt><dd>ゲーム、音楽、プログラミング</dd>
+</dl>
+<h3><a name="l3"><span class="sanchor"> </span></a>これは何か</h3>
+<ul>
+<li>ファミコンソフト</li>
+<li>プレゼンソフト</li>
+</ul>
+<h3><a name="l4"><span class="sanchor"> </span></a>ファミコンソフトの良い点</h3>
+<ul>
+<li>ファミコンはVMだ（笑）</li>
+<li>多くのプラットフォームでソフトの再利用が可能（爆笑）</li>
+<li>ファミコンでも動作します</li>
+</ul>
+<h3><a name="l5"><span class="sanchor"> </span></a>ファミコンソフトの悪い点</h3>
+<ul>
+<li>アセンブラ使わなきゃならない</li>
+</ul>
+<h3><a name="l6"><span class="sanchor"> </span></a>成果</h3>
+<ul>
+<li>ライブラリの作成</li>
+<li>プレゼンソフト</li>
+</ul>
+<h3><a name="l7"><span class="sanchor"> </span></a>ライブラリ作成</h3>
+<ul>
+<li>Rubyメソッドを書くとアセンブラが吐かれる</li>
+<li>お決まりコードをライブラリ化</li>
+</ul>
+<p>ファミコンソフト作ってる人は分かるんですが。。。（爆笑）</p>
+<h3><a name="l8"><span class="sanchor"> </span></a>プレゼンソフト作成</h3>
+<ul>
+<li>美咲フォントを使用<ul>
+<li>ファミコン用データに変換</li>
+<li>５１２文字使用可能</li>
+</ul></li>
+<li>YAMLでプレゼンデータを定義</li>
+</ul>
+<h4><a name="l9"> </a>いまいちなとこ</h4>
+<ul>
+<li>結局アセンブラでもデバッグ</li>
+<li>富豪的プログラミング不可</li>
+</ul>
+<h3><a name="l10"><span class="sanchor"> </span></a>これから</h3>
+<ul>
+<li>サウンドのサポート</li>
+<li>エフェクトの追加</li>
+<li>公開</li>
+</ul>
+<h3><a name="l11"><span class="sanchor"> </span></a>まとめ</h3>
+<ul>
+<li>Rubyでソフトを書けるとうれしい</li>
+</ul>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5-En">
+    <title>Log0610-S5-En</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5-En</link>
+    <dc:date>2007-06-25T19:24:17+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">The Island of Ruby</span></h2>
+<p>PLEASE NOTE - The text is based upon a memo taken during the talk.
+Any error in the text is upon zunda, who made the memo and edited the text.</p>
+<dl>
+<dt>Speaker</dt><dd> Dave Thomas - Dave is a principal in The Pragmatic Programmers, LLC ( <a href="http://pragmaticprogrammer.com" class="external">http://pragmaticprogrammer.com</a> )</dd>
+<dt>Profile</dt><dd> Dave Thomas is a writer, trainer, and primarily a programmer. He's the author of 7 books, including The Pragmatic Programmer (with his partner Andy Hunt), Programming Ruby, and Agile Web Development with Rails. He first started using Ruby in 1998. He's the author of RDoc, and contributed most of the documentation for the built-in Ruby classes and libraries.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>After all this time, Ruby still makes him happy.</dd>
+<dt>Time</dt><dd>17:10 - 18:10</dd>
+<dt>Slides</dt><dd><span class="plugin">{{attach_anchor('the_island_of_ruby_j.pdf',Program0610)}}</span> (with Japanese, 8.24 MB)</dd>
+</dl>
+<hr />
+<p>(Dave walks around the stage barefoot.)</p>
+<p>I come here not to talk how good Ruby is,
+but to thank Ruby that made my life much better.</p>
+<p>Thank you.</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>Dave and Ruby</h3>
+<p>I started using Ruby 1.4 on 1999.
+It was an experience that has changed my life.</p>
+<p>Normally, I would try a new programming language and be satisfied
+after an hour or so. It was different for Ruby. I started using
+Ruby in lunch time. Next day, I was still playing around without
+doing any other tasks. I fell in love with Ruby.</p>
+<p>Married with a big ring of Ruby? My wife worried about it.
+Is it OK to be falling in love with a tool? Of course, yes. Tim
+also knows it. Anyway, I had never had such an experience since I
+first wrote a commercial program in 1972.</p>
+<div class="plugin">{{attach_view(IMG_9231.JPG)}}</div>
+<h3><a name="l2"><span class="sanchor"> </span></a>Loving a software</h3>
+<p>Is it OK to love a software tool? The answer is: more than OK.
+You have to.
+Software is the most difficult thing people work with.</p>
+<p>You have to be in an environment that supports you.
+Otherwise, you can not do good job.</p>
+<div class="plugin">{{attach_view(rubykaigi_keynote2_1.jpg)}}</div>
+<h3><a name="l3"><span class="sanchor"> </span></a>Raising children and programming</h3>
+<div class="plugin">{{attach_view(rubykaigi_keynote2_2.jpg)}}</div>
+<p>All love their children. Sometimes it is difficult and frustrating -
+they don't always do what you want.
+Despite, you want them to do well.</p>
+<p>This is like programming, in many ways.
+Children are of course more important.
+Programs often don't do what you want. (sigh)</p>
+<p>Programming is sometimes difficult and frustrating no matter how
+deeply you love it.
+This is also like raising children.</p>
+<p>Anyway, you have to care what you do at work.</p>
+<p>If you don't love your tools, they will not love you.
+It shows in your work.
+Hating the tool causes all the problems -
+taking short cuts or becoming angry and making mistakes.
+There is no longer a passion.
+It becomes something you have to do.
+We can not keep doing this 8-9 hours a day.
+What a waste of time.</p>
+<p>So, this is why you have to love what you do.
+To do a good work, you have to love your tools.</p>
+<p>I LOVE RUBY.</p>
+<p>I even wrote some books.</p>
+<h3><a name="l4"><span class="sanchor"> </span></a>Why do you love ruby</h3>
+<p>Why do you love Ruby? It is a difficult question.
+It is not easy to answer why you love your wife.</p>
+<h4><a name="l5"> </a>Expressiveness</h4>
+<p>First, it is expressive.
+There are many ways to say something.</p>
+<pre>
+ for i in 0..9
+   puts i
+ end
+</pre>
+<pre>
+ 10.times do |i|
+   puts i
+ end
+</pre>
+<pre>
+ (0..9).each do |i|
+   puts i
+ end
+</pre>
+<pre>
+ puts (0..9).to_a
+</pre>
+<p>It is always refreshing with small findings and surprises.
+I found another way to do the same thing:</p>
+<pre>
+ puts *0..9
+</pre>
+<p>This works! Such findings make me happy.</p>
+<h4><a name="l6"> </a>Wabi-sabi</h4>
+<p>Python and Ruby.
+In 2001, I did a tutorial session on Ruby for the first time with
+the room packed with people. Everyone wondered what Ruby is.</p>
+<p>People compared Ruby with Python.
+Python teaches us `Don't do that. Do this.'</p>
+<p>Some people like Python, others do Ruby. But there are not many
+who like both. Why?</p>
+<p>Some people like dogs, others do cats. It is a preference thing.</p>
+<p>It is same for Python and Ruby.
+Ruby and Python will give you different things when you play
+with them.</p>
+<p>Python values `Kata' (form).
+Whoever the author is, programs look similar.
+Ruby values `Wabi-sabi'. The world is natural and changing.
+It is not fixed. This is what makes Ruby special.</p>
+<p>Ruby is a multi-paradigm language.
+Not only object-oriented,
+but programs can also be written procedural or prototyped-based.
+It is fun to try.
+You can even program functionally.
+Of course, there are side-effects.
+You get many benefits from changing programming paradigms.</p>
+<h4><a name="l7"> </a>Productivity</h4>
+<p>There are other reasons why we love Ruby.</p>
+<p>Ruby makes me look good - be productive.</p>
+<p>How does it work?
+A study shows that different programmers have different productivity.
+However, for a particular programmer, number of lines of codes (s)he
+can write in a certain time is not different for programming languages,
+say 50,000 lines in an year.
+Which language you can get the most done with a certain number of
+lines? - Ruby.</p>
+<h4><a name="l8"> </a>Transparency</h4>
+<p>I like people playing with my code. It is nice to watch somebody
+using an application I made.</p>
+<p>Ruby code is easy to read.
+The reader can see what is going on there.
+Most programmers spend most of time reading programs, their own
+or somebody else.</p>
+<h4><a name="l9"> </a>Thinking in the same way I think.</h4>
+<p>Ruby thinks the way I think.
+It makes it easier. We do not have to translate our thoughts.</p>
+<h4><a name="l10"> </a>Nice parents</h4>
+<p>Ruby has nice parents: Matz and the Ruby community.
+Everyone is supportive on mailing lists.
+In a programming sense, they are all like family.
+I don't want to to rely on nasty people.</p>
+<p>So.</p>
+<p>I love my children, and Ruby. (Dave is skipping around :-)</p>
+<h3><a name="l11"><span class="sanchor"> </span></a>Growth of Ruby</h3>
+<p>Children are growing up, so is Ruby.</p>
+<p>My oldest son is a teenager. He is 13 yeas old.
+He is changing, becoming a young man.</p>
+<p>Ruby is also a teenager. Interestingly, it is 14 years old.
+From being a protected small child, it is becoming an individual,
+independent in the world.</p>
+<p>How is it changing?</p>
+<ul>
+<li>Technically - they are small changes, however:<ul>
+<li>Virtual machine</li>
+<li>Keyword parameters</li>
+</ul></li>
+<li>Socially - they are actually big changes. Ruby has started dating, kind of scary for a parent, with:<ul>
+<li>IronRuby</li>
+<li>JRuby</li>
+<li>Rubinius</li>
+<li>Gadens Point</li>
+</ul></li>
+</ul>
+<p>What can a parent do?
+Tell children good values,
+help them understand right and wrong, and good and bad, and
+give them advice, when they ask.</p>
+<p>What are good values of Ruby? Matz said:</p>
+<ul>
+<li>Be nice to developers</li>
+<li>Be clear and readable - Most of time, we are reading codes.</li>
+<li>Be flexible and agile - For example, a Rails code does not look like a Ruby code. Ruby is very good at this.</li>
+<li>Be open<ul>
+<li>Ruby is available to everyone. You can also obtain libraries using rubygems.</li>
+<li>Decision making is transparent to everyone in mailing lists.</li>
+</ul></li>
+</ul>
+<h4><a name="l12"> </a>Ruby is dating</h4>
+<p>We no longer have just one player here.
+Ruby is dating, seeing other people.
+We also have to think others.</p>
+<p>We still have to</p>
+<ul>
+<li>Be nice to developers<ul>
+<li>Be compatible</li>
+<li>Be well documented</li>
+<li>Be easy to be integrated with the environment like OS and libraries</li>
+<li>Be easy to be integrated with tools<ul>
+<li>Visual studios</li>
+<li>Emacs</li>
+</ul></li>
+<li>Work well!<ul>
+<li>Currently, Rails is the benchmark. But it is not only the Ruby program.</li>
+<li>We have to be careful what `work' means.</li>
+</ul></li>
+</ul></li>
+<li>Be clear and readable<ul>
+<li>We should not extend the language where a library would work.<ul>
+<li>We want to avoid the J++ situation.</li>
+</ul></li>
+</ul></li>
+<li>Be flexible and agile<ul>
+<li>Ruby does not wear a suit, not a `salary-man'. It is not a corporate language. We should not make it.</li>
+</ul></li>
+</ul>
+<p>This item conflicts with the requirement to be well documented.
+As for now, everything is working without specifications.</p>
+<p>I still do not have the answer to solve this conflict.</p>
+<p>Still, writing a specification worries me.
+It might be a political activity.
+We do not want politics in Ruby.</p>
+<ul>
+<li>Be open<ul>
+<li>Code to be open<ul>
+<li>JRuby has done a good job - it is open source.</li>
+</ul></li>
+<li>Process to be open<ul>
+<li>Decision-making process has to be bidirectional. Implementers must give and take.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>It is all about people and community.</p>
+<p>Our child has begun talking with other people.
+Parents are also giving advices (when asked).</p>
+<h3><a name="l13"><span class="sanchor"> </span></a>Potential danger to Ruby</h3>
+<p>Ruby is now serious.</p>
+<p>Change will happen, ... from
+Apple, Mircosoft, Sun, and Thoughtworks.</p>
+<p>What kind of changes might happen?</p>
+<ul>
+<li>Damage to the community - we can not yet afford.</li>
+<li>Vendor fragmentation - This is not likely, but possible. Ruby must be Ruby, not of any company.</li>
+<li>Conflicting voices<ul>
+<li>It is good to talk about future of Ruby, on support of Unicode, for example.</li>
+<li>We have to concern other people who address business needs. We should not confuse them.</li>
+</ul></li>
+<li>Explosive growth<ul>
+<li>Ruby was born in Japan and spread over the world. In 2006, it expanded to the enterprise field.</li>
+</ul></li>
+</ul>
+<p>Look up. What do we see?  (Dave looks up) ... We have not seen anything.</p>
+<p>There are more people coming to this community.</p>
+<p>Accept them and show them OUR way, the `Ruby-dou'.
+We have to protect ourselves and learn from them.
+There are no more islands in the world anymore.
+Ruby is no longer an island.</p>
+<p>Prepare to welcome new people.</p>
+<p>Why? - we have moral obligation.
+We've made tens of thousands of people happy.
+Now, we can make more developers happy.</p>
+<p>I thank the Ruby community in Japan for this opportunity.
+(The screen shows many pictures taken by Dave from pre-conference
+party to just before his talk starts. It shows participants of
+the conference, Matz, staffs of the conference, and one of them
+who is exhausted and sleeping.)</p>
+<p>We are all relatives. I also thank Matz.</p>
+<div class="plugin">{{attach_view(IMG_9232.JPG)}}</div>
+<p>It has been a very very exciting two days.
+I felt very welcomed.</p>
+<p>Thank you very much.</p>
+<p>(standing ovation)</p>
+<h3><a name="l14"><span class="sanchor"> </span></a>Q&amp;A</h3>
+<dl>
+<dt>Q</dt><dd>There are some people who have been using Ruby having mixed feeling to Rails. How about you?</dd>
+<dt>A</dt><dd>Good question. Frankly, I have been staying away from the community until three weeks ago. I did not feel right from the community. This is not a problem of the individuals. Growth of Rails is too fast and there might not be ant time to be nice. They are really busy. However, in Rails Conf three weeks ago, they said `we want to be nice'. They actually changed after two days. They changed 180 degrees. Please give the Rails community another chance.  </dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Ruby is expanding to the enterprise field. I can not recall an example of a project that has changed from community based to enterprise based at once. Is there such an example?</dd>
+<dt>A</dt><dd>Java is one of the examples. There are good points and bad issues. It is sure that a person or a company can not scale.  Everyone have to help the growth. I can not tell what will happen. We just have to keep options open. It would go along because the Ruby community is agile.</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Is incompatibility evolution or to be avoided?</dd>
+<dt>A</dt><dd>Ruby should keep changing. I do not think it is enough yet.  For an example, I would like to see list comprehension supported.  It is good to try many things when we are young. However, more grown, more responsibility we will have. We have to try many things while we are young.</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>The Ruby community has to change. It might be like the Linux community, which has respect and challenge, 10 years ago.  Looking at flexibility of the current community, it seems to be able to handle the changes.</dd>
+<dt>A</dt><dd>Yes. But are Matz and Linus similar? It is not good to just follow what Linux has done. We want to be Ruby.</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>You said Ruby is good because it is agile. However, enterprise is not agile. Which will change?</dd>
+<dt>A</dt><dd>Good question. As I do not know the situation in Japan, I take cases in the U.S.A. In the U.S.A., agile development is still not the main stream in companies. However, engineers are becoming agile under the desk.  Smart companies are creating test teams. It is the same for Ruby and Rails. They are starting to try with small teams. No one can change everything at once. I imagine the situation is the same in Japan and in India, wherever developers are. Users should let companies know if they understand it is a good way to do things.  I think companies will change eventually.</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Thank you for loving Ruby. Have you ever worried about being hated by Ruby?</dd>
+<dt>A</dt><dd>Gosh. If in case it happens.... (Dave is all confused.) It is a programming language... Well, I am doing 95 % of work with Ruby, but it is not 100 %. I would try a new language when it is released. It is important to try new ways of thinking. And I may or may not come back to Ruby. But, any way, I will never be hated by Ruby!</dd>
+</dl>
+<p>(Logged, translated into Japanese and back into English by zunda)</p>
+<p>From the bulletin board in the lobby:</p>
+<p><span class="plugin">{{attach_view(IMG_9240.JPG)}}</span>
+<span class="plugin">{{attach_view(IMG_9241.JPG)}}</span></p>
+<h3><a name="l15"><span class="sanchor"> </span></a>License</h3>
+<p><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Creative Commons License">
+This English version of a log of the presentation
+`The Island of Ruby' by <a href="http://pragdave.pragprog.com" class="external">Dave Thomas</a>
+on June 10th, 2007 in
+<a href="http://jp.rubyist.net/RubyKaigi2007/" class="external">RubyKaigi2007</a>
+held in Tokyo, Japan
+and the photographs by Koji Shimada and zunda
+are published under a
+<a href="http://creativecommons.org/licenses/by/3.0/" class="external">Creative Commons Attribution 3.0 License </a>.</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5">
+    <title>Log0610-S5</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Log0610-S5</link>
+    <dc:date>2007-06-25T19:24:06+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">The Island of Ruby</span></h2>
+<p>(島国としてのRuby)</p>
+<dl>
+<dt>スピーカー</dt><dd>Dave Thomas - Dave is a principal in The Pragmatic Programmers, LLC ( <a href="http://pragmaticprogrammer.com" class="external">http://pragmaticprogrammer.com</a> )</dd>
+<dt>プロフィール</dt><dd>Dave Thomas is a writer, trainer, and primarily a programmer. He's the author of 7 books, including The Pragmatic Programmer (with his partner Andy Hunt), Programming Ruby, and Agile Web Development with Rails. He first started using Ruby in 1998. He's the author of RDoc, and contributed most of the documentation for the built-in Ruby classes and libraries.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>After all this time, Ruby still makes him happy.</dd>
+<dt>講演時間</dt><dd>17：10〜18：10</dd>
+<dt>講演資料</dt><dd><span class="plugin">{{attach_anchor('the_island_of_ruby_j.pdf',Program0610)}}</span> （和訳付き, 8.24 MB）</dd>
+</dl>
+<hr />
+<p>(裸足で壇上を歩きまわるDave。)</p>
+<p>今日ここに来たのはRubyの良さを伝えるためじゃなくって、
+自分の人生をとても良くしてくれたRubyに感謝を言うためです。</p>
+<p>ありがとう。</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>これまでのRubyとのつきあい</h3>
+<p>1999年にRuby 1.4を使いはじめた。これは人生を変えるような体験だった。</p>
+<p>普段は、ある言語を試したら1時間やそこらで飽きるのだけれど、Rubyでは
+違っていた。昼休みに触りはじめ、そのまま次の日も、他の仕事をせずにいじっていた。
+Rubyと恋に落ちたのだ。</p>
+<p>Rubyの指輪とケッコン？妻も心配していたよ。
+でも、ツールと恋に落ちてもいいよね？Timもそうだしね。
+しかし、1972年に初めて仕事のプログラムを書いて以来、
+こんなことは初めてだった。</p>
+<div class="plugin">{{attach_view(IMG_9231.JPG)}}</div>
+<h3><a name="l2"><span class="sanchor"> </span></a>ソフトウェアへの愛</h3>
+<p>しかし本当にソフトウェアを愛してしまっていいのか？ 
+いいだけではなくて必要だ。
+なぜならソフトウェアは人類が扱うもののなかではもっとも難しいものだから。</p>
+<p>ひとは自分を支えてくれる環境のなかで仕事をするべき。
+そうでないと良い仕事はできない。</p>
+<div class="plugin">{{attach_view(rubykaigi_keynote2_1.jpg)}}</div>
+<h3><a name="l3"><span class="sanchor"> </span></a>子育てとプログラミング</h3>
+<div class="plugin">{{attach_view(rubykaigi_keynote2_2.jpg)}}</div>
+<p>みんな自分の子どもを愛している。困難なこともイライラすることもあるけど。
+子どもたちは、いつでも自分の思うようなことをしてくれるわけじゃないけど、
+それでも彼らがうまくやっていって欲しいと思っている。</p>
+<p>これはいろいろな面でプログラミングに似ている。
+もちろん子どもたちの方が大事だけれど。
+プログラムは、いつでも自分の思うようなことをしてくれるわけじゃない
+(ため息)。</p>
+<p>いくらプログラミングを愛していたとしても、困難なこともイライラすることもある。
+これも似ている。</p>
+<p>ところで、みなさんが仕事で何をするのか、ちゃんと気をつけないといけない。</p>
+<p>もしあなたが使っているツールを愛しているなら、
+ツールもあなたのことを愛してくれるよね。
+それは成果として現われる。
+逆にツールを嫌っているとしたらいろいろな問題が起きる。
+仕事を適当に済ませてしまうとか、かっとなって間違えるとか。
+そこにはもう情熱は無く、
+やっていることは、片づけなくちゃいけないただの仕事になってしまう。
+一日8時間も9時間も、毎日こんなことをやってはいられない。人生の無駄だ。</p>
+<p>そう、だからあなたはあなたのやっていることを愛さないといけない。
+良い仕事をするには使っているツールのことを愛さないといけない。</p>
+<p>I LOVE RUBY.</p>
+<p>あんまり愛してるから本だって書いちゃったんだ。</p>
+<h3><a name="l4"><span class="sanchor"> </span></a>なぜRubyを愛しているのか</h3>
+<p>なぜRubyを愛しているのか - それは難しい質問だ。
+なぜ奥さんを愛しているのか簡単には答えられないよね。</p>
+<h4><a name="l5"> </a>表現力</h4>
+<p>ひとつ言えることは、表現力が豊かだからだろう。
+何かを言うのに、いろいろできる。</p>
+<pre>
+ for i in 0..9
+   puts i
+ end
+</pre>
+<pre>
+ 10.times do |i|
+   puts i
+ end
+</pre>
+<pre>
+ (0..9).each do |i|
+   puts i
+ end
+</pre>
+<pre>
+ puts (0..9).to_a
+</pre>
+<p>いつでもちょっとした秘密や驚きで新たな気分になれるものなんだ。
+この発表を用意しているときに下記のようなやりかたも思いついた。</p>
+<pre>
+ puts *0..9
+</pre>
+<p>これも動くんだよ！こんな発見が私をhappyにしてくれる。</p>
+<h4><a name="l6"> </a>わびさび</h4>
+<p>PythonとRuby。
+2001年にアメリカでRubyのチュートリアルを開いた時は大盛況だった。
+Rubyって何だろう？と。</p>
+<p>やはり比較の対象になるのはPythonだった。
+Pythonは「そうじゃなくて、こうやるんだよ」と教えてくれる。</p>
+<p>世の中にはPythonが好きな人も居るし、Rubyが好きな人も居る。でもなぜか
+両方好きな人はあまり多くない。なぜだろう。</p>
+<p>世の中には犬が好きな人も居るし、猫が好きな人も居る。これは好みの問題だ。</p>
+<p>PythonとRubyについても同じ。
+彼らをかわいがった時に、
+Rubyが我々に与えてくれるものと、
+Pythonが我々に与えてくれるものとは違う。</p>
+<p>Pythonは「型」を重んじる。誰が書いてもプログラムは同じように見える。
+Rubyは「侘寂 (わびさび)」。世界は自然で、変化する。
+固定されていない。これがRubyのすごいところなんだ。</p>
+<p>Rubyはいくつものパラダイムを許容する言語だ。
+オブジェクト指向的にだけではなくて、
+手続き的にも書けるし、
+プロトタイプベースのようにも書ける。
+試してみると面白いよ。
+関数型のようにだって書ける。
+副作用が無いわけじゃないけれど。
+こういうことができるといろいろと良いことがある。</p>
+<h4><a name="l7"> </a>生産性</h4>
+<p>Rubyを愛する理由は他にもある。</p>
+<p>自分をかっこよく見せてくれる。生産性を高めてくれるんだ。</p>
+<p>そこにはどういう理屈があるか。
+ある研究によれば、生産性はそれぞれのプログラマでそれぞれ違う。
+でも、あるプログラマに着目すれば、そのプログラマが時間あたりに書けるコードの
+行数は、プログラミング言語によらず決まっている、
+たとえば一年に50,000行なのだそうだ。
+行数が決まっていたら、どの言語で一番多くのことを達成できる？
+そう、Rubyだよね。</p>
+<h4><a name="l8"> </a>読み易さ (Transparency)</h4>
+<p>僕は、みんなが自分の書いたコードを弄んでくれるのが好きなんだ。
+誰かが僕の作ったアプリケーションを使ってくれるのは良い。</p>
+<p>Rubyのコードは簡単に読める。
+読んでいる人は、そこで何が起きるのかが分かる。
+大部分のプログラマは、大半の時間をプログラムを読むことに費す。
+自分の書いたものにしろ、他人の書いたものにしろ。</p>
+<h4><a name="l9"> </a>考えるままに書けること</h4>
+<p>Rubyは、僕が考えるのと同じように、考える。
+自分の考えをコードに翻訳しなくていいのは楽なことだ。</p>
+<h4><a name="l10"> </a>Niceな両親</h4>
+<p>Rubyにはniceな両親が居る。MatzとRubyのコミュニティのことだ。
+メーリングリストではみんなが協力的だ。
+プログラムをする人にとっては、みんなが家族のようなものだ。
+意地悪な人たちには頼りたくないよね。</p>
+<p>そういうわけで。</p>
+<p>私は私の子どもたちとRubyを愛してるんだよ。(スキップするDave)</p>
+<h3><a name="l11"><span class="sanchor"> </span></a>Rubyの成長</h3>
+<p>子どもたちと同じように、Rubyも成長している。</p>
+<p>私の長男はティーンエイジャーだ。今13歳。
+彼は変わりつつある。若者になりつつある。</p>
+<p>Rubyもティーンエイジャーだ。おもしろいことに14歳。
+大事にだいじにされている小さな子どもから、
+世界の中で自立した、いち個人に変化しつつある。</p>
+<p>Rubyはどのように変化しつつあるだろうか？</p>
+<ul>
+<li>技術的に - 小さな変化だが<ul>
+<li>バーチャルマシン</li>
+<li>キーワード付きパラメータの導入</li>
+</ul></li>
+<li>社会的に - 大きな変化。Rubyは他のひとたちとデートを始めた。親としては、なんというか、おっかないことだ。<ul>
+<li>IronRuby</li>
+<li>JRuby</li>
+<li>Rubinius</li>
+<li>Gadens Point</li>
+</ul></li>
+</ul>
+<p>親としてできることは何だろう？
+子どもたちの価値をちゃんと認めてあげること、
+子どもたちが、正しいことと間違えていることや、良いことと悪いことの判断を
+できるように手助けしてあげることだ。
+もし訊かれたら、アドバイスをあげるのもいい。</p>
+<p>Rubyの価値は何だろう。Matzが言うには、</p>
+<ul>
+<li>Be nice to developers - 開発者に対してniceであること</li>
+<li>Be clear and readable - 明快で読みやすいこと - なにしろ僕らはほとんどの時間コードを読んでるんだ</li>
+<li>Be flexible and agile - 柔軟性があって、agileなこと - 例えば、RailsアプリのコードはRubyのコードとは違う。Rubyにはこういうことが得意だ。</li>
+<li>Be open - オープンであること<ul>
+<li>誰でもRubyを利用できる - rubygemsなど</li>
+<li>意思決定などのプロセスが見えること - メーリングリスト</li>
+</ul></li>
+</ul>
+<h4><a name="l12"> </a>Ruby is dating</h4>
+<p>もう登場人物は一人じゃない。
+Rubyは他の人たちとデートをしている。
+他の人たちと会ってるんだ。
+我々も他の人たちのことを考えなくちゃいけない。</p>
+<p>成長しても価値を失なってはいけない。</p>
+<ul>
+<li>Be nice to developers - 開発者に対してniceであること<ul>
+<li>互換性を失なわない</li>
+<li>ドキュメントが整備されている</li>
+<li>OSやライブラリといった環境と結合しやすい</li>
+<li>ツールと結合しやすい<ul>
+<li>Visual studios</li>
+<li>Emacs</li>
+</ul></li>
+<li>ちゃんと動く!<ul>
+<li>今現在はRailsがベンチマークになっている。でもRailsだけがRubyプログラムじゃないよね</li>
+<li>「動く」の意味にも注意すること</li>
+</ul></li>
+</ul></li>
+<li>Be clear and readable - 明快で読みやすいこと<ul>
+<li>ライブラリで済ませられるなら言語を拡張しちゃいけない<ul>
+<li>J++の二の舞は避けたいよね</li>
+</ul></li>
+</ul></li>
+<li>Be flexible and agile - 柔軟性があって、agileなこと<ul>
+<li>Rubyは背広を着ない。サラリーマンじゃない - 「Coporate language」じゃないし、しちゃいけない。</li>
+</ul></li>
+</ul>
+<p>でも、これは「ドキュメント化されている」という要求と矛盾する。
+いまのところ、すべては仕様書なしでまわっている。</p>
+<p>この矛盾への答えはまだわからない。</p>
+<p>それでも、仕様書を作る、というのは心配だ。
+それは政治的な取り組みになるかもしれない。
+Rubyには政治は欲しくない。</p>
+<ul>
+<li>Be open - オープンであること<ul>
+<li>コードがオープンであること<ul>
+<li>JRuby はすばらしい仕事をした。JRubyはオープンソースなんだ。</li>
+</ul></li>
+<li>プロセスがオープンであること<ul>
+<li>意思決定プロセスは双方向に。実装をする人たちは「give and take」で</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>人々、コミュニティが全てなんだ。</p>
+<p>私たちの子どもが他の人たちと対話をはじめた。
+両親も、アドバイスをあげている。訊かれた時にはね。</p>
+<h3><a name="l13"><span class="sanchor"> </span></a>Rubyに迫りくるかもしれない危機</h3>
+<p>Rubyはもう本格的な言語になった。</p>
+<p>変化は確実にやってくる！
+Apple、Mircosoft、Sun、そしてThoughtworksから。</p>
+<p>どんな変化が起きるだろうか</p>
+<ul>
+<li>コミュニティへの被害 - 我々にはまだその余裕はない。</li>
+<li>ベンダの分裂 - これはたぶん起きないだろうけど可能性はある。RubyはRubyじゃなくちゃいけない。どこかの会社ものもではない。</li>
+<li>意見の衝突<ul>
+<li>Rubyの将来について話し合うのは良いことだ、たとえばUnicodeのサポートについて。</li>
+<li>気をつけなくちゃいけないのは、ビジネスのために必要なことに取り組む人々も居るということ。彼らを混乱させてはいけない。</li>
+</ul></li>
+<li>爆発的な成長<ul>
+<li>日本で産まれて世界に広がったRubyは、2006年にRailsによって今度はエンタープライズ分野に広がっていった。上を見てみよう。何が見える？(上を見あげるDave)…まだ何も見えない。</li>
+</ul></li>
+</ul>
+<p>沢山の人々がこのコミュニティにやってくる。</p>
+<p>彼らを迎え入れて、我々のやりかたを見せてあげるんだ。「Ruby道」を。
+我々は被害を受けないように気をつけて、
+彼らから学ぶ必要がある。
+もう島国はなくなった。Rubyはもう孤立した島じゃないんだ。</p>
+<p>新しい人々を歓迎する準備をしよう。</p>
+<p>なぜ？道義的な責任があるからだ。
+我々はRubyで何万人もの人々をhappyにしてきた。
+今度はもっと多くの人々をhappyにすることができるんだ。</p>
+<p>このような機会を与えてくれて、私は日本のRubyのコミュニティに感謝します。
+(講演者向けの前夜祭から講演の直前まで、Dave自身が撮った写真が次々現れる。会議への参加者の姿もMatzの姿もRuby会議スタッフの姿も、そして疲れて寝てしまったスタッフの姿も。)</p>
+<p>我々はみんな親戚なのです。Matzにも感謝します。</p>
+<div class="plugin">{{attach_view(IMG_9232.JPG)}}</div>
+<p>とても、とても刺激的な二日間でした。
+その中で私はとても歓迎されていると感じました。</p>
+<p>どうもありがとうございました。</p>
+<p>(スタンディング・オベーション）</p>
+<h3><a name="l14"><span class="sanchor"> </span></a>質疑応答</h3>
+<dl>
+<dt>Q</dt><dd>古くからRubyを使っている人のなかにはRailsに複雑な思いを抱いている人も多い。Daveは？</dd>
+<dt>A</dt><dd>よい質問ですね。正直に言うと、コミュニティから受ける感じが合わないので、3週間前まではRailsから離れようとしていた。これは個人の資質の問題ではなく、Railsの成長の速度が速く、niceにしている時間がないからだろう。Really busy。でも、3週間前にRails Confで「we want rails to be nice」と言って、二日後にはもう変化していた。180度変化した。Railsコミュニティにもう一度チャンスをあげてほしい。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>これからエンタープライズにむかって広がっていく。コミュニティベースで進んでいた開発が、がさっとエンタープライズに進む例をおもいつけないが、なにか参考にするべきケースはあるか？</dd>
+<dt>A</dt><dd>Javaはその例のひとつだろう。良い点もたくさんあるし、悪い点もすこしある。確かなのは、個人や会社はスケールすることはできないだろうということ。みんなで成長を助けていくしかない。何がおこるかはわからないが、オプションをいつもオープンにしながら。Rubyコミュニティはアジャイルなのでたぶんうまくいくだろう。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>非互換性は進化なのか避けるべきなのか？</dd>
+<dt>A</dt><dd>Rubyは変化していくべき。まだ変化は足りないと思う。たとえばlist comprehensionがほしい。いろいろなことを試すのは若いころには良いことだが、だんだん責任が出てくる。いまのうちにいろいろ試しておかないといけない。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Rubyのコミュニティが変化しないといけない。Linuxの10年前にコミュニティ(尊敬と挑戦)に似ているのではないか。今あるコミュニティの受容性を見ると変化に充分対応できるように思える</dd>
+<dt>A</dt><dd>Yes。しかし、MatzとLinusは同じか？彼は別のやりかたをするだろうから、Linuxと同じやりかたをしようとするのはまずい。We want to be Ruby。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Rubyの良さはagileであることとあったが、エンタープライズはagileではない。どちらが変化していくのか？</dd>
+<dt>A</dt><dd>よい質問です。日本でどうなっているのかはわからないのでアメリカの例を。アメリカでは企業レベルではまだagileは主流ではないが、エンジニアたちはヒミツでagileになりつつある。かしこい企業は実験チームを作っている。RubyやRailsについても同じこと。小さいチームで試しはじめている。一度にすべてを変化させることはできない。日本でもインドでも開発者のいるところでは同じだろう。ユーザーがこれが良いやりかただとわかっているなら企業にそう知らせるべきだ。最終的には企業が変わると思う。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>Rubyを愛してくれてありがとう。Rubyに嫌われるか心配になったことは？</dd>
+<dt>A</dt><dd>Gosh…。もしそんなことが起きたら(混乱するDave)、…プログラミング言語だし…。いまでは95%の仕事をRubyでやっているけど、100%じゃない。新しい言語が出たら試す。新しい考えかたを試すのは大事なことだ。そしてRubyに帰ってきてもいいし帰ってこなくてもいい。…でもRubyに嫌われることは ぜったい ないよ。</dd>
+</dl>
+<p>(ロガー、翻訳: zunda)</p>
+<p>ロビーの掲示板より</p>
+<p><span class="plugin">{{attach_view(IMG_9240.JPG)}}</span>
+<span class="plugin">{{attach_view(IMG_9241.JPG)}}</span></p>
+<h3><a name="l15"><span class="sanchor"> </span></a>License</h3>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="Creative Commons License">
+This Japanese version of a log of the presentation
+`The Island of Ruby' by <a href="http://pragdave.pragprog.com" class="external">Dave Thomas</a>
+on June 10th, 2007 in
+<a href="http://jp.rubyist.net/RubyKaigi2007/" class="external">RubyKaigi2007</a>
+held in Tokyo, Japan
+and the photographs by Koji Shimada and zunda
+are published under a
+<a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">Creative Commons Attribution 2.1 Japan License</a>.</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Program0610">
+    <title>Program0610</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Program0610</link>
+    <dc:date>2007-06-25T03:56:07+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p>日本 Ruby 会議 2007 プログラム</p>
+<p>１日目のプログラムは、<a href="./Program0609.html">こちら</a>です。<span class="plugin">{{br}}</span>
+英訳版は、<a href="./Program-EN0610.html">こちら</a>にあります。
+<span class="plugin">{{br}}</span></p>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">二日目 6/10（日）</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>開場 9:30</h3>
+<h3><a name="l2"><span class="sanchor"> </span></a>セッション 壱　10:00 - 12:00 「お仕事Ruby」 エンタープライズで使われるRuby</h3>
+<h4><a name="l3"> </a>もっと仕事で使うRuby　（後藤 謙太郎（ごとけん））</h4>
+<p>業務の中でRubyをツールとして活用している事例を紹介する。発表者は小さな会社でWebサイト制作の支援に従事しており、そこには制作されたWebサイトデータの検査、短命で大量で小さな制作データの管理、顧客へのポータルサイト提供などがある。こういった雑多なタスクを、既存アプリケーションの統合、リポジトリ管理、バーチャルホスト管理などとして捉え、知られた技術や既存ツールのちょっとしたハックで対処し、使ってもらうためにひと工夫している。</p>
+<dl>
+<dt>スピーカー</dt><dd>後藤 謙太郎（ごとけん） - シングラム</dd>
+<dt>プロフィール</dt><dd>エンジニア。なにか面白いものを作りたいという野望を持ちつつも日々の忙しさにかまけています。Rubyはもっぱら道具として使っています。</dd>
+<dt>講演時間</dt><dd>10：00〜10：30</dd>
+<dt>講演資料</dt><dd><a href="http://www.webrick.org/misc/20070610-rubykaigi2007-gotoken.pdf" class="external">http://www.webrick.org/misc/20070610-rubykaigi2007-gotoken.pdf</a></dd>
+</dl>
+<h4><a name="l4"> </a>JRuby on Rails でエンタープライズ Ruby　（高井 直人）</h4>
+<p>Ruby on Railsの登場以来、ますますRubyへの注目が高まっています。しかしながら、エンタープライズ分野へのRubyの活用は、まだまだ本格的であるとは言い難いのではないでしょうか。このセッションでは、Java EEアプリケーションサーバ上でJRuby on Railsを稼働させる手法について、解説とデモを行ないます。Java EEアーキテクチャとRubyとの新たな結び付きと、その可能性をご覧ください。</p>
+<dl>
+<dt>スピーカー</dt><dd>高井 直人 - recompile.net</dd>
+<dt>プロフィール</dt><dd>ソフトウェアエンジニア。1977年横浜生まれ。Java EEやRubyといったオープンソース技術を活用したウェブサイトの企画、構築、運用などの分野で活躍中。</dd>
+<dt>講演時間</dt><dd>10：30〜11：00</dd>
+<dt>講演資料</dt><dd><a href="http://recompile.net/rubykaigi2007/enterprise_ruby_with_jruby_on_rails.pdf" class="external">http://recompile.net/rubykaigi2007/enterprise_ruby_with_jruby_on_rails.pdf</a></dd>
+</dl>
+<h4><a name="l5"> </a>OpenWFEru, a Ruby workflow engine　（John Mettraux）</h4>
+<p>Workflow engines are nothing new in the software industry, they'restarting to appear for the Ruby platform as well. We'll present OpenWFEru, an open source workflow engine ported from Java to Ruby, what was learnt in the move and the resulting business process management facilities, in a Ruby dialect. Finally, we'll enumerate possible interactions and directions for OpenWFEru, and Ruby enterprise software in general.</p>
+<dl>
+<dt>スピーカー</dt><dd>John Mettraux - Macnica Web Solutions, Tokyo Linux User Group</dd>
+<dt>プロフィール</dt><dd>John Mettraux, Swiss citizen. Software architect and open source developer with a predilection for the workflow, business process management (BPM) and document management domains. Started the OpenWFE (Open source WorkFlow Engine) project in 2001 to ensure a certain level of independence. Launched the OpenWFEru project in 2006, as a port of OpenWFE from Java to Ruby. Blogs on workflow and software engineering subjects at <a href="http://jmettraux.openwfe.org" class="external">http://jmettraux.openwfe.org</a></dd>
+<dt>講演時間</dt><dd>11：00〜11：30</dd>
+<dt>講演資料</dt><dd><span class="plugin">{{attach_anchor('openwferu_rk2007_j.pdf')}}</span> （和訳付き, 538 KB）</dd>
+</dl>
+<h4><a name="l6"> </a>AP4R ： Ruby のための非同期メッセージングライブラリ　（篠原 俊一 / 加藤 究）</h4>
+<p>AP4R とは、Ruby のための Ruby による非同期メッセージングライブラリです。AP4R を活用したシステムでは、クライアントへの素早いレスポンスと負荷分散によるスケーラブルな構成を実現できます。<span class="plugin">{{br}}</span>このセッションでは、信頼性と水平分散をサポートする実装と、Ruby on Rails とのシームレスな連携を含めた API を解説します。また、実際のシステムへの適用事例をご紹介します。 2007年は SIer の間でも Ruby が広く利用されると思います （希望的観測）。 Ruby におけるメッセージングの活躍の場はこれまで以上に増えるのではないでしょうか？<span class="plugin">{{br}}</span>RubyForge: AP4R: Project Info <a href="http://rubyforge.org/projects/ap4r/" class="external">http://rubyforge.org/projects/ap4r/</a></p>
+<dl>
+<dt>スピーカー</dt><dd>篠原 俊一 / 加藤 究 - フューチャーアーキテクト株式会社</dd>
+<dt>プロフィール</dt><dd>篠原 - Ruby が大好きなプログラマ。九州出身、芋焼酎が好き。でも、日本酒には板わさが最高だと思う。（id:ita-wasa）<span class="plugin">{{br}}</span>加藤 - 去年から Ruby をはじめたプログラマ。楽しくなってきた。名前重要。名前負けしないようにがんばる。（id:kiwamu）</dd>
+<dt>講演時間</dt><dd>11：30〜12：00</dd>
+<dt>講演資料</dt><dd><a href="http://rubyforge.org/docman/view.php/1765/1256/AP4R_on_RubyKaigi2007.pdf" class="external">http://rubyforge.org/docman/view.php/1765/1256/AP4R_on_RubyKaigi2007.pdf</a><span class="plugin">{{br}}</span><a href="http://rubyforge.org/docman/view.php/1765/1257/AP4R_on_RubyKaigi2007_EN.pdf" class="external">http://rubyforge.org/docman/view.php/1765/1257/AP4R_on_RubyKaigi2007_EN.pdf</a> （英語版）</dd>
+</dl>
+<h3><a name="l7"><span class="sanchor"> </span></a>セッション 弐　13:00 - 14:20 スポンサーセッション</h3>
+<p>Sponsors' Session <a href="./Program-SP.html">発表社一覧</a> （<a href="./Sponsors.html">スポンサー一覧</a>）</p>
+<h3><a name="l8"><span class="sanchor"> </span></a>セッション 参　14:30 - 15:30 GUI Frameworks</h3>
+<p>（セッション後に質疑応答を予定）</p>
+<h4><a name="l9"> </a>Inside Ruby/Tk　（永井 秀利）</h4>
+<p>Ruby/Tk は、単純に「Tcl ではなく Ruby で Tk をコントロールできる」というだけでなく、Tcl/Tk を使って GUI を構築する上で不便であった部分を補うための仕組みも導入されている。こうした Ruby/Tk に特有の点、Tcl/Tk や Perl/Tk の資料を参考にしている範囲では分かりづらい点について、Ruby/Tk の特徴・位置付けと共に時間の許す範囲で紹介する。</p>
+<dl>
+<dt>スピーカー</dt><dd>永井 秀利 - 九州工業大学 情報工学部 知能情報工学科</dd>
+<dt>プロフィール</dt><dd>Ruby/Tk メンテナ。 著書：『Rubyを256倍使うための本　界道編』、『Rubyアプリケーションプログラミング』</dd>
+<dt>講演時間</dt><dd>14：30〜14：45</dd>
+<dt>講演資料</dt><dd><a href="http://www.dumbo.ai.kyutech.ac.jp/~nagai/RubyKaigi2007-nagai.pdf" class="external">http://www.dumbo.ai.kyutech.ac.jp/~nagai/RubyKaigi2007-nagai.pdf</a><span class="plugin">{{br}}</span><a href="http://www.dumbo.ai.kyutech.ac.jp/~nagai/RubyKaigi2007-nagai.swf" class="external">http://www.dumbo.ai.kyutech.ac.jp/~nagai/RubyKaigi2007-nagai.swf</a></dd>
+</dl>
+<h4><a name="l10"> </a>Hello Ruby-GNOME2 World　（武藤 昌夫（むとう まさお））</h4>
+<p>Ruby-GNOME2はLinux, *BSDやMS Windowsで使うことのできる歴史のあるGUIライブラリを中心とした20個以上もあるライブラリのパッケージです。本セッションではRuby-GNOME2の中でも代表的なライブラリの魅力をご紹介します。</p>
+<dl>
+<dt>スピーカー</dt><dd>武藤 昌夫（むとう まさお） - 日本ヒューレット・パッカード株式会社, Ruby-GNOME2 Project</dd>
+<dt>プロフィール</dt><dd>Ruby-GNOME2, Ruby-GetText-Packageのメンテナをしています。最近、デスマーチ気味で全てのOSSプロジェクトが停滞気味です。RubyKaigiが終わるころには少しは余裕ができるかもしらないので、またいろいろ始めようと思ってます。乞うご期待！</dd>
+<dt>講演時間</dt><dd>14：45〜15：00</dd>
+<dt>講演資料</dt><dd><a href="http://www.yotabanana.com/hiki/ja/?rubykaigi2007" class="external">http://www.yotabanana.com/hiki/ja/?rubykaigi2007</a></dd>
+</dl>
+<h4><a name="l11"> </a>VisualuRuby計画(仮称)によるWindowsでのGUI開発　（nyasu）</h4>
+<p>Windows上でGUIを作るためのライブラリであるVisualuRuby計画（仮称）をご紹介します。この計画も7年目になり、結構長くやっていますので、評判良かった点、悪かった点なども交え、総括っぽく話してみたいと思います。</p>
+<dl>
+<dt>スピーカー</dt><dd>nyasu - 日本Rubyの会</dd>
+<dt>プロフィール</dt><dd>趣味のプログラマ。活動時間は深夜と休日です。</dd>
+<dt>講演時間</dt><dd>15：00〜15：15</dd>
+<dt>講演資料</dt><dd><a href="http://www.osk.3web.ne.jp/~nyasu/vruby/rubykaigi2007/" class="external">http://www.osk.3web.ne.jp/~nyasu/vruby/rubykaigi2007/</a><span class="plugin">{{br}}</span><a href="http://www.osk.3web.ne.jp/~nyasu/vruby/rubykaigi2007/rk2007vr-3.pdf" class="external">http://www.osk.3web.ne.jp/~nyasu/vruby/rubykaigi2007/rk2007vr-3.pdf</a></dd>
+</dl>
+<h4><a name="l12"> </a>RubyCocoa - RubyによるMac OS Xソフトウェア開発　（藤本 尚邦）</h4>
+<p>RubyでMac OS X用のソフトウェアを開発するためのフレームワークRubyCocoaについて、簡単なデモをまじえながら最新の開発状況・動向をお伝えします。</p>
+<dl>
+<dt>スピーカー</dt><dd>藤本 尚邦</dd>
+<dt>プロフィール</dt><dd>RubyCocoa作者,プログラマ</dd>
+<dt>講演時間</dt><dd>15：15〜15：30</dd>
+<dt>講演資料</dt><dd><a href="http://www.fobj.com/hisa/d/20070611.html#p01" class="external">http://www.fobj.com/hisa/d/20070611.html#p01</a></dd>
+</dl>
+<h3><a name="l13"><span class="sanchor"> </span></a>セッション 肆　15:50 - 16:50 ビジュアル系</h3>
+<p>（セッション後に質疑応答を予定）</p>
+<h4><a name="l14"> </a>モテる Ruby！Ruby で画像編集のあの手この手　（舘野 祐一）</h4>
+<p>昨年あたりから世間的には Ruby が大ブレイクしています。しかし Ruby が使えてもモテる気配がしません。IT 系で女性が多い職種といったらデザイナー。というわけで画像編集を Ruby でできるとモテる気がしませんか？ そこで RMagick を中心とした画像編集をする Tips その他諸々をお伝えします。デザイナーの方々ともより仲良くなれるかも！？ (注・弊社デザイナーは全員男です。ウホッ？)</p>
+<dl>
+<dt>スピーカー</dt><dd>舘野 祐一（secondlife） - 株式会社はてな</dd>
+<dt>プロフィール</dt><dd>Perl の会社で Ruby を使っているエンジニア。好きなエディタは vim。最近好きなアイドルは Perfume。</dd>
+<dt>講演時間</dt><dd>15：50〜16：05</dd>
+<dt>講演資料</dt><dd><a href="http://d.hatena.ne.jp/secondlife/20070612/1181618706" class="external">http://d.hatena.ne.jp/secondlife/20070612/1181618706</a></dd>
+</dl>
+<h4><a name="l15"> </a>Ruby/SDLとその周辺　（大林 一平（ohai） / 原 悠（yhara））</h4>
+<p>Rubyでゲームを始めとしたマルチメディアアプリケーションを作るためのライブラリ、Ruby/SDL。開発6年目に入ったRuby/SDLの概要および最近のトピックを紹介します。Ruby/SDLを使ったことのない人にも興味を持って欲しいと思っています。<span class="plugin">{{br}}</span><a href="http://www.kmc.gr.jp/~ohai/rubysdl.html" class="external">http://www.kmc.gr.jp/~ohai/rubysdl.html</a><span class="plugin">{{br}}</span><a href="http://mono.kmc.gr.jp/~yhara/w/?RubySDLStarterKit" class="external">http://mono.kmc.gr.jp/~yhara/w/?RubySDLStarterKit</a></p>
+<dl>
+<dt>スピーカー</dt><dd>大林 一平（ohai） / 原 悠（yhara） - 京大マイコンクラブ( <a href="http://www.kmc.gr.jp/" class="external">http://www.kmc.gr.jp/</a> )</dd>
+<dt>プロフィール</dt><dd>ohai: Ruby/SDL、Ruby Refactoring Browser、RRSEなどを開発しています。大学院で数学の研究をしています。<span class="plugin">{{br}}</span>yhara: Rubyのライブラリの紹介記事を書いたりしている大学院生です。</dd>
+<dt>講演時間</dt><dd>16：05〜16：20</dd>
+<dt>講演資料</dt><dd><a href="http://www.kmc.gr.jp/~ohai/RubyKaigi2007/" class="external">http://www.kmc.gr.jp/~ohai/RubyKaigi2007/</a></dd>
+</dl>
+<h4><a name="l16"> </a>rcairo　（須藤 功平）</h4>
+<p>できることはけっこうすごいのに、ドキュメントの少なさや現開発者のマーケティングの下手さでマイナーなrcairoを紹介する。 rcairoはベクトル系の画像描画ライブラリで、アンチエイリアスやアルファチャンネルをサポートした高品質な画像を生成できる。同じAPIでPDF/PNG/SVGなど複数の画像フォーマットを生成できる。さらにLinux/Windows/MacOS Xなど複数のプラットフォームのGUIの描画も同じAPIでできる。</p>
+<dl>
+<dt>スピーカー</dt><dd>須藤 功平 - COZMIXNG</dd>
+<dt>プロフィール</dt><dd>オープンでフリーでリポジトリが公開されていてパッチを受け入れてくれるプロジェクトが好き。<span class="plugin">{{br}}</span>Related projects: rcairo, Rabbit, RSS Parser, Ruby-GNOME2, Ruby/Subversion, Ruby/ActiveLdap, ...</dd>
+<dt>講演時間</dt><dd>16：20〜16：35</dd>
+<dt>講演資料</dt><dd> <a href="http://pub.cozmixng.org/~gallery/kou/screenshot/rabbit/RubyKaigi2007/" class="external">http://pub.cozmixng.org/~gallery/kou/screenshot/rabbit/RubyKaigi2007/</a><span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>HTML: <a href="http://pub.cozmixng.org/~kou/archives/RubyKaigi2007/" class="external">http://pub.cozmixng.org/~kou/archives/RubyKaigi2007/</a><span class="plugin">{{br}}</span>PDF: <a href="http://pub.cozmixng.org/~kou/archives/RubyKaigi2007/rcairo.pdf" class="external">http://pub.cozmixng.org/~kou/archives/RubyKaigi2007/rcairo.pdf</a><span class="plugin">{{br}}</span>上記HTMLとPDF: <a href="http://pub.cozmixng.org/~kou/archives/RubyKaigi2007.tar.gz" class="external">http://pub.cozmixng.org/~kou/archives/RubyKaigi2007.tar.gz</a></dd>
+</dl>
+<h4><a name="l17"> </a>私はいかにRubyでメディア・アート作品をつくり、しかも一円も損をしなかったか　（えと こういちろう）</h4>
+<p>私がこれまでRubyを使用して制作してきたメディア・アート作品を紹介する。昨年度は「インターネット物理モデル」を紹介したが，それ以外にも，インタラクティブな作品，ネットワークを用いた作品，音楽の自動生成を行った作品がある．それらの実例をお見せする．</p>
+<dl>
+<dt>スピーカー</dt><dd>えと こういちろう - 独立行政法人産業技術総合研究所／東京大学大学院情報理工学系研究科</dd>
+<dt>プロフィール</dt><dd>Rubyist，メディア・アーティスト，深追イスト．</dd>
+<dt>講演時間</dt><dd>16：35〜16：50</dd>
+</dl>
+<h3><a name="l18"><span class="sanchor"> </span></a>セッション 伍　17:10 - 18:10 基調講演　（Dave Thomas）</h3>
+<h4><a name="l19"> </a>Island Ruby, or <span class="plugin">{{br}}</span>How To Survive Invasions, Immigrants, and Cultural Attacks<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>（島国としてのRuby、<span class="plugin">{{br}}</span>我々はいかにして侵攻・移民・文化的侵略から生き延びるか）</h4>
+<p>In many ways, Ruby is a reflection of both the country and the person that created it. This unique blending of philosophies and pragmatics has produced something which is truly extraordinary. Those of us who program in Ruby have enjoyed a kind of quiet sanctuary in the otherwise chaotic world of software development.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>Suddenly, though, a large number of people have discovered this gentle place. And these people don't necessarily understand its nature. They play loud music and shout, they leave litter, and they try to make things move more quickly than we're used to.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>Is this good; is it bad; is it inevitable? Is it possible to be an island in the modern world?  This talk explores the issues and suggests some possible futures.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span></p>
+<blockquote>
+<p>Rubyは、さまざまな面でその作者や生み出した国を反映しています。その思想と実践の類まれな配合が、Rubyというとてつもない何かを生み出しました。Rubyでプログラムを書いていると、ソフトウェア開発という混沌とした世界のなかで、静寂に包まれた安らぎの場所にいるかのような感覚を味わえます。<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>ところが、この穏やかな土地に突然大量の人々がやってきました。彼らは、ここが元々どのような土地だったのかを理解している人達ばかりではありません。大音量で音楽をかけ、どなりちらし、ゴミを巻き散らし、私たちが今まで守ってきたペースよりも早く事を起こそうとしています。<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>これは良いことなのでしょうか。悪いことなのでしょうか。あるいは、避けられない変化なのでしょうか。現代において、島国のままであり続けることは不可能なのでしょうか。本講演ではこの問題について論じ、ありうべき未来について展望を述べます。</p>
+</blockquote>
+<dl>
+<dt>スピーカー</dt><dd>Dave Thomas - Dave is a principal in The Pragmatic Programmers, LLC ( <a href="http://pragmaticprogrammer.com" class="external">http://pragmaticprogrammer.com</a> )</dd>
+<dt>プロフィール</dt><dd>Dave Thomas is a writer, trainer, and primarily a programmer. He's the author of 7 books, including The Pragmatic Programmer (with his partner Andy Hunt), Programming Ruby, and Agile Web Development with Rails. He first started using Ruby in 1998. He's the author of RDoc, and contributed most of the documentation for the built-in Ruby classes and libraries.<span class="plugin">{{br}}</span><span class="plugin">{{br}}</span>After all this time, Ruby still makes him happy.</dd>
+<dt>講演時間</dt><dd>17：10〜18：10</dd>
+<dt>講演資料</dt><dd><span class="plugin">{{attach_anchor('the_island_of_ruby_j.pdf')}}</span> （和訳付き, 8.24 MB）</dd>
+</dl>
+<h3><a name="l20"><span class="sanchor"> </span></a>クロージング　18:10 - 18:20</h3>
+<div class="plugin">{{br}}</div>
+<hr />
+<p>※プログラムは予定です。予告無く変更する場合があります。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Log0610-S2">
+    <title>Log0610-S2</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Log0610-S2</link>
+    <dc:date>2007-06-21T15:08:48+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title"><a href="http://jp.rubyist.net/RubyKaigi2007/Sponsors.html" class="external">Sponsors</a>' Session</span></h2>
+<p>このセッションの司会は、かくたにさんと高橋会長です。
+会長は羽織袴での登場。
+「残念ながら」鈴木さんではありません。</p>
+<p>スポンサーセッションでは、スポンサーの方のRubyの熱い想いを一般の方に語っていただきます。
+10社中3社はリジェクトされました。</p>
+<ul>
+<li>Sun<ul>
+<li>他にも発表があるので</li>
+</ul></li>
+<li>永和システムマネージメント</li>
+<li>ツインスパーク<ul>
+<li>おふたりが司会として壇上に</li>
+</ul></li>
+</ul>
+<p>質問はあとでまとめて。</p>
+<div class="plugin">{{attach_view(rubykaigi_sponsor_1.jpg)}}</div>
+<h2><span class="date"><a name="l1"> </a></span><span class="title">RubyとDB2 (日本アイ・ビー・エム・システムズ・エンジニアリング株式会社)</span></h2>
+<p>佐々木様</p>
+<dl>
+<dt>発表による資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_IBM.pdf','Program-SP')}}</span> （344 KB）</dd>
+</dl>
+<div class="plugin">{{attach_view(rubykaigi_sponsor2.jpg)}}</div>
+<p>Specialist集団。最先端の技術の調査、ノウハウの蓄積をやっている。</p>
+<p>今年にはいってから社内のRubyのコミュニティもできた。
+個人的にRubyへの想いを語ってもいいが、ここは会社の紹介を</p>
+<h3><a name="l2"><span class="sanchor"> </span></a>IBMといえばJava?</h3>
+<p>Scripting in IBM</p>
+<ul>
+<li>ZendCore for IBM<ul>
+<li>エンタープライズ向けPHP</li>
+<li>System-I (オフコン)での事例も</li>
+</ul></li>
+<li>Jython<ul>
+<li>Python/WebSphere</li>
+<li>J2EE上で動く</li>
+</ul></li>
+<li>Perl for z/OS<ul>
+<li>メインフレームでも動く！</li>
+</ul></li>
+<li>PHP for z/OS<ul>
+<li>メインフレームでも動く！</li>
+</ul></li>
+<li>Python(以前)<ul>
+<li>ThinkPad Rescue and Recovery</li>
+<li>すべてPythonで動いている</li>
+<li>「あとからPythonを加える方は気をつけてください」</li>
+</ul></li>
+</ul>
+<h3><a name="l3"><span class="sanchor"> </span></a>Ruby?</h3>
+<p>Starter Toolkit for DB2 on Rails</p>
+<ul>
+<li><a href="http://alphaworks.ibm.com/tech/db2onrails" class="external">http://alphaworks.ibm.com/tech/db2onrails</a></li>
+</ul>
+<p>RubyとRailsとDB2が入っている。線路の上にDB2が乗っているロゴ。
+マスコットはありませんが。</p>
+<p>実際これはなにか？ - Instant railsのDB2版です。</p>
+<ul>
+<li>DB2 Express-C (無償版)</li>
+<li>Ruby</li>
+<li>Rails</li>
+</ul>
+<p>インストールは30分から1時間くらいです。Windows版とLinux版があります。
+Macの方はせっかくIntelのCPUが載ったのでWindowsを入れていただいて :P</p>
+<p>DB2へのアダプタがはいっています。ibm_db2。</p>
+<p>DB2以外もやります - IBMのデータベースアダプタ</p>
+<ul>
+<li><a href="http://rubyforge.org/projects/ibm_db" class="external">http://rubyforge.org/projects/ibm_db</a> …ではなく <a href="http://rubyforge.org/projects/rubyibm" class="external">http://rubyforge.org/projects/rubyibm</a> でしょうか？ (ロガー)</li>
+</ul>
+<p>DB2はXML-DBなので、XMLに対する問い合わせもサポートしている。</p>
+<p><a href="http://jp.rubyist.net/magazine/?0018-RubyOnRails" class="external">るびま18号にも記事</a>がありますし、
+<a href="http://www-06.ibm.com/jp/developerworks/linux/050708/j_l-rubyrails.html" class="external">Ruby on RailsによるWebアプリケーションの開発</a>
+(developerWorks Japan)は2年間ずっと10位以内の人気記事にはいっている。</p>
+<p>「JavaからRubyへ」- 著者はもともとIBMの人で、「<a href="http://www-06.ibm.com/jp/developerworks/java/lib_series.shtml#cb" class="external">境界を越える</a>」という記事も書いて
+いる。</p>
+<h2><span class="date"><a name="l4"> </a></span><span class="title">RubyとRuby on Railsの活用事例（Nifty株式会社）</span></h2>
+<dl>
+<dt>発表者による資料</dt><dd><a href="http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html" class="external">http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html</a></dd>
+</dl>
+<p>ポータルサイトの開発（ディレクション）をやっている部署</p>
+<h3><a name="l5"><span class="sanchor"> </span></a>@nifty TimeLine β</h3>
+<ul>
+<li>@niftyラボでβ版として</li>
+<li>リリース後の反応</li>
+<li>はてブで590users! </li>
+<li>ニフティらしくないサービス</li>
+</ul>
+<h3><a name="l6"><span class="sanchor"> </span></a>なぜ作ったのか？</h3>
+<ul>
+<li>新しい開発手法</li>
+<li>新しいコミュニティ</li>
+</ul>
+<h3><a name="l7"><span class="sanchor"> </span></a>なぜRails導入にいたったか</h3>
+<ul>
+<li>企画／開発一体型のトライアル <ul>
+<li>社内受注みたいな形でやっていた</li>
+</ul></li>
+<li>技術系社員の技術力向上<ul>
+<li>CMSでの作業が多い </li>
+</ul></li>
+<li>Web開発プラットフォームの選定</li>
+</ul>
+<h3><a name="l8"><span class="sanchor"> </span></a>開発スタイル</h3>
+<ul>
+<li>本業の合間に </li>
+<li>木曜はRailsの日<ul>
+<li>ラボルームにこもって開発</li>
+</ul></li>
+<li>アジャイル開発</li>
+</ul>
+<h3><a name="l9"><span class="sanchor"> </span></a>システム構成各種データについて</h3>
+<p>TimeLineはなにでできているか
+<span class="plugin">{{attach_view(rubykaigi_sponsor3.jpg)}}</span></p>
+<ul>
+<li>NaClが３５％</li>
+<li>毎週木曜日と土日２９％</li>
+<li>通常業務の空き時間１１％</li>
+<li>まつもとゆきひろ１０％</li>
+<li>DaveThomas８％</li>
+<li>上司の理解７％</li>
+</ul>
+<p>apache2.0 + mod_proxy</p>
+<p>（システム構成を出してたけど、これくらいしかかけませんでした）</p>
+<table border="1">
+<tr><td>登録ユーザー数</td><td>3,000ユーザー</td></tr>
+<tr><td>登録タイムライン数</td><td>2,500件</td></tr>
+<tr><td>登録記事数</td><td>35,000件</td></tr>
+</table>
+<table border="1">
+<tr><td>Controllers</td><td>12+6</td></tr>
+<tr><td>Models</td><td>8</td></tr>
+<tr><td>Heolpers</td><td>8</td></tr>
+<tr><td>Views</td><td>116</td></tr>
+</table>
+<h3><a name="l10"><span class="sanchor"> </span></a>負荷対策</h3>
+<ul>
+<li>キャッシュ</li>
+<li>DBチューニング</li>
+<li>BlogParts用チューニング<ul>
+<li>Proxyサーバ、xmlのpage caching</li>
+</ul></li>
+</ul>
+<h3><a name="l11"><span class="sanchor"> </span></a>今後の課題</h3>
+<ul>
+<li>ユーザーの声を出来るだけ早く具現化する</li>
+<li>”自分らしさ”</li>
+<li>ほかのサービスとの連携</li>
+</ul>
+<h3><a name="l12"><span class="sanchor"> </span></a>最後に</h3>
+<ul>
+<li>NiftyがRailsで開発をはじめました</li>
+<li>人材募集中</li>
+</ul>
+<h2><span class="date"><a name="l13"> </a></span><span class="title">楽天におけるRuby導入の取り組みについて</span></h2>
+<p>楽天株式会社 楽天技術研究所 森様</p>
+<dl>
+<dt>発表による資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_Rakuten.pdf','Program-SP')}}</span> （805 KB）</dd>
+</dl>
+<ul>
+<li>楽天技術研究所の立ち上げ</li>
+</ul>
+<p>トートバッグの中身にびっくり。レアものもあります。
+ご不明な点は森さんまでメールを。</p>
+<ul>
+<li>社内標準の一つに</li>
+<li>Rubyで独自の研究開発をおこなう<ul>
+<li>Rubyでの大規模データ処理をしてみたい</li>
+</ul></li>
+</ul>
+<p>テクノロジー施策二大テーマ
+<span class="plugin">{{attach_view(rubykaigi_sponsor4.jpg)}}</span></p>
+<ul>
+<li>エンジニアが中心か？<ul>
+<li>しーん</li>
+</ul></li>
+<li>テクノロージに貢献しているか？<ul>
+<li>しーん</li>
+</ul></li>
+</ul>
+<p>アウェイ感。</p>
+<p>最近のリリース</p>
+<ul>
+<li>Rubyプロジェクトサービス<ul>
+<li>去年から開発してきたサービスができた</li>
+</ul></li>
+<li>まつもとさんの技研フェロー就任</li>
+</ul>
+<p>これは上記2点への貢献。</p>
+<p>創業期は13店舗。最初はSun+informix。ほどなくFreeBSD。
+RAIDも秋葉原で購入。</p>
+<p>2000年から拡大。1500店舗に、いろいろなサービスも。
+テクノロジは二大潮流 </p>
+<ul>
+<li>商用</li>
+<li>オープンソース</li>
+</ul>
+<p>楽天では両方をやっていくことに</p>
+<p>2007年10周年！金融も含めて38の事業。サーバー数千台。1000人規模の開発。</p>
+<p>確かに大きくはなったが、世の中にはどんどん技術が出てきている。そしてみんな当たり前のようにそれをとりいれている。</p>
+<p>盛り上がっている会社はエンジニアが元気。色々チャレンジしている。
+楽天も…</p>
+<p>そこで、RubyやRailsで業務をやりたいという熱いエンジニアの声に応えて、
+8月にブレスト、9月にメンバーが結集、10月から勉強会、講演会、講習会。</p>
+<p>Ruby on Railsをあえてフロントで使っている。Debian。</p>
+<p>サービスを始めてみたわかったこと: Rubyサイコー！</p>
+<ul>
+<li>生産性 よい</li>
+<li>セキュリティ よい</li>
+<li>パフォーマンス そこそこ </li>
+</ul>
+<p>社内でブームに。楽天賞に選ばれた。</p>
+<p>6月にRubyプロジェクト第二弾のサービス。</p>
+<p>仲間を増やしている。</p>
+<h2><span class="date"><a name="l14"> </a></span><span class="title">NaClのRuby戦略</span></h2>
+<dl>
+<dt>発表による資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_NaCl.pdf','Program-SP')}}</span> （1.9 MB）</dd>
+</dl>
+<h3><a name="l15"><span class="sanchor"> </span></a>自己紹介</h3>
+<ul>
+<li>主任研究員　前田修吾</li>
+<li>eRubyの作者<ul>
+<li>べつに早くしようとして作ったわけじゃない「やればできるもん」</li>
+</ul></li>
+<li>callcc<ul>
+<li>callccなくてもRuby落ちるし</li>
+</ul></li>
+</ul>
+<h3><a name="l16"><span class="sanchor"> </span></a>NaCl</h3>
+<p>Network  Applied Communication Laboratory</p>
+<p>読み方は「えぬ・えー・しー・える」</p>
+<p>not「なくる」</p>
+<ul>
+<li>設立2001年7月<ul>
+<li>松江本社</li>
+<li>東京支社</li>
+<li>松江オープンソースラボ・サテライトオフィス</li>
+</ul></li>
+</ul>
+<h3><a name="l17"><span class="sanchor"> </span></a>業務内容</h3>
+<ul>
+<li>研究開発<ul>
+<li>IPA、ORCA（Rubyの会社と思われてるけど、結構COBOL使ってる）</li>
+</ul></li>
+<li>システムインテグレーション</li>
+<li>保守・運用</li>
+<li>教育・コンサルティング</li>
+</ul>
+<h3><a name="l18"><span class="sanchor"> </span></a>Ruby との関係</h3>
+<ul>
+<li>まつもとゆきひろ氏在籍</li>
+<li>www.ruby-lang.orgを提供</li>
+<li>Rubyを業務利用</li>
+</ul>
+<h3><a name="l19"><span class="sanchor"> </span></a>Ruby戦略</h3>
+<p>Do not control
+<span class="plugin">{{attach_view(rubykaigi_sponsor5.jpg)}}</span></p>
+<ul>
+<li>Spec</li>
+<li>Source<ul>
+<li>会社の時間で作ったオープンソースコードは本人のもの（IPAとの契約で例外もあるけど）</li>
+</ul></li>
+<li>Matz<ul>
+<li>フェローとなってるけど普通の社員です</li>
+</ul></li>
+</ul>
+<h3><a name="l20"><span class="sanchor"> </span></a>でも、お金 </h3>
+<p>認定試験みたいな話とか・・・</p>
+<p>そんな話が出てきても大目にみてください</p>
+<h2><span class="date"><a name="l21"> </a></span><span class="title">Ruby製CMS RubricksとグループウェアBizca (株式会社アスタリクス)</span></h2>
+<p>大西様</p>
+<dl>
+<dt>発表による資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_Asteriks.pdf','Program-SP')}}</span> （402 KB）</dd>
+</dl>
+<h3><a name="l22"><span class="sanchor"> </span></a>アスタリクスについて</h3>
+<ul>
+<li>2006年10月設立</li>
+<li>特徴: 社名が間違われやすい アスタリスクではありません。</li>
+<li>適用しているもの<ul>
+<li>Rubricks</li>
+<li>Bizca </li>
+</ul></li>
+</ul>
+<h3><a name="l23"><span class="sanchor"> </span></a>Rubricks</h3>
+<p>コミュニティポータルを作るためのCMS</p>
+<ul>
+<li>BBS News RSSリーダなどを作れる</li>
+<li>XOOPS等を参考に作りはじめた </li>
+<li>SPeedyにつくれるRuby/Railsで</li>
+</ul>
+<p>MITライセンス 
+2006年4月に0.1リリース</p>
+<p>姉妹品
+script.spinelz (JSライブラリ)</p>
+<ul>
+<li>管理機能<ul>
+<li>ユーザー、グループ管理</li>
+<li>…</li>
+</ul></li>
+<li>ライブラリ類<ul>
+<li>アクセス権限</li>
+<li>…</li>
+</ul></li>
+</ul>
+<p>マウスが効かなくなっちゃったのでデモは無し。「画面から妄想してください」
+サイトにもデモがあります。
+<span class="plugin">{{attach_view(rubykaigi_sponsor6.jpg)}}</span></p>
+<h3><a name="l24"><span class="sanchor"> </span></a>Bizca</h3>
+<p>Rubricksより色が青くなったかな。</p>
+<p>ロゴ:「i」が人の形になっている。良く見るとネクタイもしてる。</p>
+<p>ビジネスマン向けに社内システムを提供する</p>
+<ul>
+<li>Rubricks上につくている</li>
+<li>SaaS携帯で商用提供</li>
+<li>6月末からサービス開始<ul>
+<li>これはオープンソースではない</li>
+</ul></li>
+</ul>
+<h4><a name="l25"> </a>アーキテクチャ</h4>
+<p>RubricksコアとSpinelzの上に、Bizcaが乗っている。</p>
+<ul>
+<li>コンポーネントをファイルとして配れる</li>
+<li>Railsのcomponentが便利なのだけれど2.0でなくなる？</li>
+</ul>
+<h3><a name="l26"><span class="sanchor"> </span></a>おまけ</h3>
+<h4><a name="l27"> </a>Railsのレンダリングが遅い</h4>
+<ul>
+<li>自作コンポーネントで5倍の高速化</li>
+</ul>
+<h4><a name="l28"> </a>JSの読み込みが遅い</h4>
+<ul>
+<li>AJAXで画面遷移をしないように</li>
+<li>iframeで戻るボタンが使えるように</li>
+<li>バーチャルにブラウザを作ってるかんじ</li>
+</ul>
+<h4><a name="l29"> </a>DBへのアクセスが多い</h4>
+<h3><a name="l30"><span class="sanchor"> </span></a>ロードマップ</h3>
+<ul>
+<li>0.6が6〜7月リリース</li>
+<li>…</li>
+</ul>
+<h2><span class="date"><a name="l31"> </a></span><span class="title">Inside Lingr（インフォテリア株式会社）</span></h2>
+<dl>
+<dt>発表による資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_inside_lingr.pdf','Program-SP')}}</span> （430 KB）</dd>
+</dl>
+<h3><a name="l32"><span class="sanchor"> </span></a>自己紹介</h3>
+<ul>
+<li>LimeChat</li>
+<li>IRCクライアント（RubyCocoa版）</li>
+<li>Lingr</li>
+</ul>
+<h3><a name="l33"><span class="sanchor"> </span></a>Cometとは</h3>
+<ul>
+<li>Http Long Poll</li>
+<li>Persistent Connection</li>
+</ul>
+<p>LingrはHttp Long Poll </p>
+<ul>
+<li>WebサーバーとCometサーバー</li>
+<li>WebサーバーがCometサーバーにNotify</li>
+<li>CometサーバーはBroadcast</li>
+</ul>
+<h3><a name="l34"><span class="sanchor"> </span></a>Cometサーバーの用件</h3>
+<ul>
+<li>多数の接続を長期間保持</li>
+<li>IO multiplexing</li>
+</ul>
+<p>× select 
+◎ epoll(Linux2.6)/kqueue</p>
+<h3><a name="l35"><span class="sanchor"> </span></a>Jetty6 </h3>
+<ul>
+<li>Java</li>
+<li>サーブレットコンテナ</li>
+<li>Cometサポート</li>
+<li>Java6ならepollを使う </li>
+</ul>
+<h4><a name="l36"> </a>動いた。が、</h4>
+<ul>
+<li>１部屋にクライアントが集まると遅くなる</li>
+<li>スレッド間の同期が必要な箇所が多い（部屋、クライアントの状態など）</li>
+</ul>
+<h3><a name="l37"><span class="sanchor"> </span></a>自分でつくってみよう </h3>
+<dl>
+<dt>Ruby</dt><dd>select &amp; fd_set </dd>
+<dt>C</dt><dd>やればなんとかなる</dd>
+</dl>
+<p>覚悟重要</p>
+<h3><a name="l38"><span class="sanchor"> </span></a>自作Cometサーバ</h3>
+<ul>
+<li>4週間で開発</li>
+<li>Jettyで作った既存サーバと互換</li>
+</ul>
+<h4><a name="l39"> </a>IO戦略</h4>
+<ul>
+<li>１スレッド、epoll、ノンブロッキングIO</li>
+</ul>
+<dl>
+<dt>writeする場合</dt>
+</dl>
+<p>EAGAINが返るまでwrite EAGAINならEPOLLOUTをイベント登録し
+write出来る状態になるやつを待つ</p>
+<h4><a name="l40"> </a>ベンチマーク</h4>
+<ul>
+<li>Core 2 Duo 2GHz</li>
+<li>1部屋に300クライアント</li>
+<li>3発言/秒</li>
+<li>発言→配信1秒以下</li>
+<li>53000接続状態でも性能劣化なし</li>
+</ul>
+<h4><a name="l41"> </a>作ってみてわかったこと</h4>
+<ul>
+<li>epollによるIO multiplexingで十分な性能が得られる</li>
+<li>Cは新機能の追加が面倒</li>
+<li>Rubyで</li>
+</ul>
+<h3><a name="l42"><span class="sanchor"> </span></a>今後の話題</h3>
+<dl>
+<dt>Rubyで</dt>
+</dl>
+<ul>
+<li>ボトルネック⇒select&amp;fd_set</li>
+<li>グリーンスレッドでも十分な性能が出るはず</li>
+</ul>
+<div class="plugin">{{attach_view(rubykaigi_sponsor7.jpg)}}</div>
+<h2><span class="date"><a name="l43"> </a></span><span class="title">drecom :with =&gt; Ruby (株式会社 ドリコム)</span></h2>
+<p>瀧内様</p>
+<dl>
+<dt>発表者による資料</dt><dd> <span class="plugin">{{attach_anchor('DRECOM_RubyKaigi2007sp.pdf','Program-SP')}}</span> （PDF版 2.80 MB）<span class="plugin">{{br}}</span><span class="plugin">{{attach_anchor('DRECOM_RubyKaigi2007sp.ppt','Program-SP')}}</span> （PowerPoint版 3.51 MB）</dd>
+</dl>
+<div class="plugin">{{attach_view(rubykaigi_sponsor8.jpg)}}</div>
+<p>2005年12月にRubyと出会い、Railsを使い続けている。</p>
+<p>去年のRuby会議で、Rubyは仕事で使えますか？という質問があった。
+回答: よくわからないけど使っています。
+今回答えが出ました: 使えます。</p>
+<p>以上。</p>
+<h3><a name="l44"><span class="sanchor"> </span></a>お知らせ</h3>
+<p><a href="http://rails.drecom.jp/" class="external">http://rails.drecom.jp/</a></p>
+<p>Award on Rails 2007を開催します。優勝賞金100万円。
+6月8日より受付開始。家に帰ったら是非。</p>
+<p>作品の募集は7月2日から。審査員はまつもとさん。
+サーバーも無料で貸し出してもらえます。</p>
+<p>去年との違い </p>
+<ul>
+<li>International!</li>
+<li>開発を支援<ul>
+<li>エントリーされた作品が来るのを待つだけではなく、初心者講習のようなものを7月に</li>
+</ul></li>
+</ul>
+<p>週一回やったり、開発合宿を8-9月にやる</p>
+<ul>
+<li>今回はRails限定</li>
+</ul>
+<p>協賛: マイクロソフト、楽天、後援: NaCl</p>
+<p>協賛社も今月いっぱい募集中です。</p>
+<h2><span class="date"><a name="l45"> </a></span><span class="title">質疑応答 </span></h2>
+<dl>
+<dt>Q To インフォテリアの中川さん</dt><dd>江島さんの方はシリコンバレーの小さなオフィスでアジャイル開発をしているけど</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>日本でどうやってアジャイル開発しているのか？</dd>
+<dt>A</dt><dd>半々くらい自宅、オフィスで仕事をしている。時間が合わなくて同時に出来ない。CVSで共有したり、メールでやり取りしている。一緒にいるからとか離れているとかは関係ない</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>スタンドアップ会議は？</dd>
+<dt>A</dt><dd>アメリカではあまりしていない</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>ドリコムさん。環境構築が面倒なのでアワードではJavaはやっていないとあったがJRubyはどうでしょうか？</dd>
+<dt>A</dt><dd>難しい質問です。やってみて行けそうだったらJRubyもおっけー。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>以前組込みはたいへんそうだったLinuxがコモディティ化している。Rubyはどうなる？ おもしろいアイディアは？</dd>
+<dt>A</dt><dd>(楽天 森さん) Rubyは学習するのが簡単なので、学校の授業で使われていたりする。そういう風にプログラミングの学習言語として普及し、プログラマの数が増えたらどこでも動くようになっていくのではないか。</dd>
+</dl>
+<dl>
+<dt>Q</dt><dd>フェローってどういうことをするのでしょう？(拍手)</dd>
+<dt>A</dt><dd>(楽天 森さん) 12月のブレストで語られたまつもとさんの「野望」…まつもとさん自身は実装する時間がないので、そのアイディアを研究所で実装していこうと考えている。今月の打ち合わせで詰めます。</dd>
+</dl>
+<p>(ロガー: zunda、よう) </p>
+</div>]]></content:encoded>  </item>  <item rdf:about="http://jp.rubyist.net/RubyKaigi2007/?Program-SP">
+    <title>Program-SP</title>
+    <link>http://jp.rubyist.net/RubyKaigi2007/?Program-SP</link>
+    <dc:date>2007-06-21T13:57:23+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">Sponsors' Session</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>発表社一覧（発表順、敬称略）</h3>
+<h4><a name="l2"> </a>日本アイ・ビー・エム株式会社　佐々木 庸平</h4>
+<p>RubyとDB2: RubyやRailsを使って、IBMが提供するデータベースソフトウェアDB2を扱う方法についてご紹介します。</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_IBM.pdf')}}</span> （344 KB）</dd>
+</dl>
+<h4><a name="l3"> </a>ニフティ株式会社　成田 智也</h4>
+<p>Ruby と Ruby on Rails の活用事例 - @nifty TimeLine βはいかにして作られたか -</p>
+<dl>
+<dt>発表資料</dt><dd> <a href="http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html" class="external">http://timeline.cocolog-nifty.com/blog/2007/06/ruby2007_2d8b.html</a></dd>
+</dl>
+<h4><a name="l4"> </a>楽天株式会社　森 正弥</h4>
+<p>楽天におけるRuby導入の取り組みについて</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_Rakuten.pdf')}}</span> （805 KB）</dd>
+</dl>
+<h4><a name="l5"> </a>株式会社ネットワーク応用通信研究所　前田 修吾</h4>
+<p>NaClのRuby戦略: NaCl の事業戦略に関して</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_NaCl.pdf')}}</span> （1.9 MB）</dd>
+</dl>
+<h4><a name="l6"> </a>株式会社アスタリクス　大西 正太</h4>
+<p>Rails製CMS Rubricks と SaaSグループウェア Bizca のご紹介</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_Asteriks.pdf')}}</span> （402 KB）</dd>
+</dl>
+<h4><a name="l7"> </a>インフォテリア株式会社　中川 智史</h4>
+<p>Inside Lingr: Comet を用いた高速チャットサービス Lingr は、Comet 用のフロントサーバと、バックエンドの Ruby on Rails との組み合わせにより実現されている。実稼働するサービスの裏側での Rails の使われ方について、Comet の実現方法と合わせて紹介する。</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('RubyKaigi2007_inside_lingr.pdf')}}</span> （430 KB）</dd>
+</dl>
+<h4><a name="l8"> </a>株式会社ドリコム　瀧内 元気</h4>
+<p>drecom :with =&gt; Ruby<span class="plugin">{{br}}</span>
+Rubyへの取り組みについて / Ruby on Railsで開発したWebサービスの紹介</p>
+<dl>
+<dt>発表資料</dt><dd> <span class="plugin">{{attach_anchor('DRECOM_RubyKaigi2007sp.pdf')}}</span> （PDF版 2.80 MB）<span class="plugin">{{br}}</span><span class="plugin">{{attach_anchor('DRECOM_RubyKaigi2007sp.ppt')}}</span> （PowerPoint版 3.51 MB）</dd>
+</dl>
+</div>]]></content:encoded>  </item></rdf:RDF>

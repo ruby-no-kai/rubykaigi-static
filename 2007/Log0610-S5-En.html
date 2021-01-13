@@ -1,0 +1,439 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="Hiki 0.9dev">
+  <title>日本 Ruby 会議 2007 - Log0610-S5-En</title>
+  <link rel="stylesheet" type="text/css" href="/2007/hiki_base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/2007/rk7/ruby_kaigi.css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss">  <link rel="icon" type="image/png" href="http://jp.rubyist.net/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+<a name="top"> </a>
+<div class="main">
+  <div class="logo"><a href="index.html"><img style="border: 0;" src="ruby_kaigi_logo.png" alt="日本Rubyカンファレンス2006"></a></div>
+  
+  <div><div class="day">
+  <h2><span class="date"><a name="l0"> </a></span><span class="title">The Island of Ruby</span></h2>
+  <div class="body">
+    <div class="section">
+      <p>PLEASE NOTE - The text is based upon a memo taken during the talk.
+Any error in the text is upon zunda, who made the memo and edited the text.</p>
+<dl>
+<dt>Speaker</dt>
+<dd> Dave Thomas - Dave is a principal in The Pragmatic Programmers, LLC ( <a href="http://pragmaticprogrammer.com" class="external">http://pragmaticprogrammer.com</a> )
+</dd>
+<dt>Profile</dt>
+<dd> Dave Thomas is a writer, trainer, and primarily a programmer. He's the author of 7 books, including The Pragmatic Programmer (with his partner Andy Hunt), Programming Ruby, and Agile Web Development with Rails. He first started using Ruby in 1998. He's the author of RDoc, and contributed most of the documentation for the built-in Ruby classes and libraries.<br><br>After all this time, Ruby still makes him happy.
+</dd>
+<dt>Time</dt>
+<dd>17:10 - 18:10
+</dd>
+<dt>Slides</dt>
+<dd><a href="the_island_of_ruby_j.pdf">the_island_of_ruby_j.pdf</a> (with Japanese, 8.24 MB)
+</dd>
+</dl>
+<hr>
+<p>(Dave walks around the stage barefoot.)</p>
+<p>I come here not to talk how good Ruby is,
+but to thank Ruby that made my life much better.</p>
+<p>Thank you.</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>Dave and Ruby</h3>
+<p>I started using Ruby 1.4 on 1999.
+It was an experience that has changed my life.</p>
+<p>Normally, I would try a new programming language and be satisfied
+after an hour or so. It was different for Ruby. I started using
+Ruby in lunch time. Next day, I was still playing around without
+doing any other tasks. I fell in love with Ruby.</p>
+<p>Married with a big ring of Ruby? My wife worried about it.
+Is it OK to be falling in love with a tool? Of course, yes. Tim
+also knows it. Anyway, I had never had such an experience since I
+first wrote a commercial program in 1972.</p>
+<img alt="IMG_9231.JPG" width="256" height="192" src="IMG_9231.JPG">
+<h3><a name="l2"><span class="sanchor"> </span></a>Loving a software</h3>
+<p>Is it OK to love a software tool? The answer is: more than OK.
+You have to.
+Software is the most difficult thing people work with.</p>
+<p>You have to be in an environment that supports you.
+Otherwise, you can not do good job.</p>
+<img alt="rubykaigi_keynote2_1.jpg" width="256" height="192" src="rubykaigi_keynote2_1.jpg">
+<h3><a name="l3"><span class="sanchor"> </span></a>Raising children and programming</h3>
+<img alt="rubykaigi_keynote2_2.jpg" width="256" height="192" src="rubykaigi_keynote2_2.jpg">
+<p>All love their children. Sometimes it is difficult and frustrating -
+they don't always do what you want.
+Despite, you want them to do well.</p>
+<p>This is like programming, in many ways.
+Children are of course more important.
+Programs often don't do what you want. (sigh)</p>
+<p>Programming is sometimes difficult and frustrating no matter how
+deeply you love it.
+This is also like raising children.</p>
+<p>Anyway, you have to care what you do at work.</p>
+<p>If you don't love your tools, they will not love you.
+It shows in your work.
+Hating the tool causes all the problems -
+taking short cuts or becoming angry and making mistakes.
+There is no longer a passion.
+It becomes something you have to do.
+We can not keep doing this 8-9 hours a day.
+What a waste of time.</p>
+<p>So, this is why you have to love what you do.
+To do a good work, you have to love your tools.</p>
+<p>I LOVE RUBY.</p>
+<p>I even wrote some books.</p>
+<h3><a name="l4"><span class="sanchor"> </span></a>Why do you love ruby</h3>
+<p>Why do you love Ruby? It is a difficult question.
+It is not easy to answer why you love your wife.</p>
+<h4><a name="l5"> </a>Expressiveness</h4>
+<p>First, it is expressive.
+There are many ways to say something.</p>
+<pre> for i in 0..9
+   puts i
+ end</pre>
+<pre> 10.times do |i|
+   puts i
+ end</pre>
+<pre> (0..9).each do |i|
+   puts i
+ end</pre>
+<pre> puts (0..9).to_a</pre>
+<p>It is always refreshing with small findings and surprises.
+I found another way to do the same thing:</p>
+<pre> puts *0..9</pre>
+<p>This works! Such findings make me happy.</p>
+<h4><a name="l6"> </a>Wabi-sabi</h4>
+<p>Python and Ruby.
+In 2001, I did a tutorial session on Ruby for the first time with
+the room packed with people. Everyone wondered what Ruby is.</p>
+<p>People compared Ruby with Python.
+Python teaches us `Don't do that. Do this.'</p>
+<p>Some people like Python, others do Ruby. But there are not many
+who like both. Why?</p>
+<p>Some people like dogs, others do cats. It is a preference thing.</p>
+<p>It is same for Python and Ruby.
+Ruby and Python will give you different things when you play
+with them.</p>
+<p>Python values `Kata' (form).
+Whoever the author is, programs look similar.
+Ruby values `Wabi-sabi'. The world is natural and changing.
+It is not fixed. This is what makes Ruby special.</p>
+<p>Ruby is a multi-paradigm language.
+Not only object-oriented,
+but programs can also be written procedural or prototyped-based.
+It is fun to try.
+You can even program functionally.
+Of course, there are side-effects.
+You get many benefits from changing programming paradigms.</p>
+<h4><a name="l7"> </a>Productivity</h4>
+<p>There are other reasons why we love Ruby.</p>
+<p>Ruby makes me look good - be productive.</p>
+<p>How does it work?
+A study shows that different programmers have different productivity.
+However, for a particular programmer, number of lines of codes (s)he
+can write in a certain time is not different for programming languages,
+say 50,000 lines in an year.
+Which language you can get the most done with a certain number of
+lines? - Ruby.</p>
+<h4><a name="l8"> </a>Transparency</h4>
+<p>I like people playing with my code. It is nice to watch somebody
+using an application I made.</p>
+<p>Ruby code is easy to read.
+The reader can see what is going on there.
+Most programmers spend most of time reading programs, their own
+or somebody else.</p>
+<h4><a name="l9"> </a>Thinking in the same way I think.</h4>
+<p>Ruby thinks the way I think.
+It makes it easier. We do not have to translate our thoughts.</p>
+<h4><a name="l10"> </a>Nice parents</h4>
+<p>Ruby has nice parents: Matz and the Ruby community.
+Everyone is supportive on mailing lists.
+In a programming sense, they are all like family.
+I don't want to to rely on nasty people.</p>
+<p>So.</p>
+<p>I love my children, and Ruby. (Dave is skipping around :-)</p>
+<h3><a name="l11"><span class="sanchor"> </span></a>Growth of Ruby</h3>
+<p>Children are growing up, so is Ruby.</p>
+<p>My oldest son is a teenager. He is 13 yeas old.
+He is changing, becoming a young man.</p>
+<p>Ruby is also a teenager. Interestingly, it is 14 years old.
+From being a protected small child, it is becoming an individual,
+independent in the world.</p>
+<p>How is it changing?</p>
+<ul>
+<li>Technically - they are small changes, however:<ul>
+<li>Virtual machine</li>
+<li>Keyword parameters</li>
+</ul></li>
+<li>Socially - they are actually big changes. Ruby has started dating, kind of scary for a parent, with:<ul>
+<li>IronRuby</li>
+<li>JRuby</li>
+<li>Rubinius</li>
+<li>Gadens Point</li>
+</ul></li>
+</ul>
+<p>What can a parent do?
+Tell children good values,
+help them understand right and wrong, and good and bad, and
+give them advice, when they ask.</p>
+<p>What are good values of Ruby? Matz said:</p>
+<ul>
+<li>Be nice to developers</li>
+<li>Be clear and readable - Most of time, we are reading codes.</li>
+<li>Be flexible and agile - For example, a Rails code does not look like a Ruby code. Ruby is very good at this.</li>
+<li>Be open<ul>
+<li>Ruby is available to everyone. You can also obtain libraries using rubygems.</li>
+<li>Decision making is transparent to everyone in mailing lists.</li>
+</ul></li>
+</ul>
+<h4><a name="l12"> </a>Ruby is dating</h4>
+<p>We no longer have just one player here.
+Ruby is dating, seeing other people.
+We also have to think others.</p>
+<p>We still have to</p>
+<ul>
+<li>Be nice to developers<ul>
+<li>Be compatible</li>
+<li>Be well documented</li>
+<li>Be easy to be integrated with the environment like OS and libraries</li>
+<li>Be easy to be integrated with tools<ul>
+<li>Visual studios</li>
+<li>Emacs</li>
+</ul></li>
+<li>Work well!<ul>
+<li>Currently, Rails is the benchmark. But it is not only the Ruby program.</li>
+<li>We have to be careful what `work' means.</li>
+</ul></li>
+</ul></li>
+<li>Be clear and readable<ul>
+<li>We should not extend the language where a library would work.<ul>
+<li>We want to avoid the J++ situation.</li>
+</ul></li>
+</ul></li>
+<li>Be flexible and agile<ul>
+<li>Ruby does not wear a suit, not a `salary-man'. It is not a corporate language. We should not make it.</li>
+</ul></li>
+</ul>
+<p>This item conflicts with the requirement to be well documented.
+As for now, everything is working without specifications.</p>
+<p>I still do not have the answer to solve this conflict.</p>
+<p>Still, writing a specification worries me.
+It might be a political activity.
+We do not want politics in Ruby.</p>
+<ul>
+<li>Be open<ul>
+<li>Code to be open<ul>
+<li>JRuby has done a good job - it is open source.</li>
+</ul></li>
+<li>Process to be open<ul>
+<li>Decision-making process has to be bidirectional. Implementers must give and take.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>It is all about people and community.</p>
+<p>Our child has begun talking with other people.
+Parents are also giving advices (when asked).</p>
+<h3><a name="l13"><span class="sanchor"> </span></a>Potential danger to Ruby</h3>
+<p>Ruby is now serious.</p>
+<p>Change will happen, ... from
+Apple, Mircosoft, Sun, and Thoughtworks.</p>
+<p>What kind of changes might happen?</p>
+<ul>
+<li>Damage to the community - we can not yet afford.</li>
+<li>Vendor fragmentation - This is not likely, but possible. Ruby must be Ruby, not of any company.</li>
+<li>Conflicting voices<ul>
+<li>It is good to talk about future of Ruby, on support of Unicode, for example.</li>
+<li>We have to concern other people who address business needs. We should not confuse them.</li>
+</ul></li>
+<li>Explosive growth<ul>
+<li>Ruby was born in Japan and spread over the world. In 2006, it expanded to the enterprise field.</li>
+</ul></li>
+</ul>
+<p>Look up. What do we see?  (Dave looks up) ... We have not seen anything.</p>
+<p>There are more people coming to this community.</p>
+<p>Accept them and show them OUR way, the `Ruby-dou'.
+We have to protect ourselves and learn from them.
+There are no more islands in the world anymore.
+Ruby is no longer an island.</p>
+<p>Prepare to welcome new people.</p>
+<p>Why? - we have moral obligation.
+We've made tens of thousands of people happy.
+Now, we can make more developers happy.</p>
+<p>I thank the Ruby community in Japan for this opportunity.
+(The screen shows many pictures taken by Dave from pre-conference
+party to just before his talk starts. It shows participants of
+the conference, Matz, staffs of the conference, and one of them
+who is exhausted and sleeping.)</p>
+<p>We are all relatives. I also thank Matz.</p>
+<img alt="IMG_9232.JPG" width="256" height="192" src="IMG_9232.JPG">
+<p>It has been a very very exciting two days.
+I felt very welcomed.</p>
+<p>Thank you very much.</p>
+<p>(standing ovation)</p>
+<h3><a name="l14"><span class="sanchor"> </span></a>Q&amp;A</h3>
+<dl>
+<dt>Q</dt>
+<dd>There are some people who have been using Ruby having mixed feeling to Rails. How about you?
+</dd>
+<dt>A</dt>
+<dd>Good question. Frankly, I have been staying away from the community until three weeks ago. I did not feel right from the community. This is not a problem of the individuals. Growth of Rails is too fast and there might not be ant time to be nice. They are really busy. However, in Rails Conf three weeks ago, they said `we want to be nice'. They actually changed after two days. They changed 180 degrees. Please give the Rails community another chance.  
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>Ruby is expanding to the enterprise field. I can not recall an example of a project that has changed from community based to enterprise based at once. Is there such an example?
+</dd>
+<dt>A</dt>
+<dd>Java is one of the examples. There are good points and bad issues. It is sure that a person or a company can not scale.  Everyone have to help the growth. I can not tell what will happen. We just have to keep options open. It would go along because the Ruby community is agile.
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>Is incompatibility evolution or to be avoided?
+</dd>
+<dt>A</dt>
+<dd>Ruby should keep changing. I do not think it is enough yet.  For an example, I would like to see list comprehension supported.  It is good to try many things when we are young. However, more grown, more responsibility we will have. We have to try many things while we are young.
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>The Ruby community has to change. It might be like the Linux community, which has respect and challenge, 10 years ago.  Looking at flexibility of the current community, it seems to be able to handle the changes.
+</dd>
+<dt>A</dt>
+<dd>Yes. But are Matz and Linus similar? It is not good to just follow what Linux has done. We want to be Ruby.
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>You said Ruby is good because it is agile. However, enterprise is not agile. Which will change?
+</dd>
+<dt>A</dt>
+<dd>Good question. As I do not know the situation in Japan, I take cases in the U.S.A. In the U.S.A., agile development is still not the main stream in companies. However, engineers are becoming agile under the desk.  Smart companies are creating test teams. It is the same for Ruby and Rails. They are starting to try with small teams. No one can change everything at once. I imagine the situation is the same in Japan and in India, wherever developers are. Users should let companies know if they understand it is a good way to do things.  I think companies will change eventually.
+</dd>
+</dl>
+<dl>
+<dt>Q</dt>
+<dd>Thank you for loving Ruby. Have you ever worried about being hated by Ruby?
+</dd>
+<dt>A</dt>
+<dd>Gosh. If in case it happens.... (Dave is all confused.) It is a programming language... Well, I am doing 95 % of work with Ruby, but it is not 100 %. I would try a new language when it is released. It is important to try new ways of thinking. And I may or may not come back to Ruby. But, any way, I will never be hated by Ruby!
+</dd>
+</dl>
+<p>(Logged, translated into Japanese and back into English by zunda)</p>
+<p>From the bulletin board in the lobby:</p>
+<p><img alt="IMG_9240.JPG" width="256" height="192" src="IMG_9240.JPG">
+<img alt="IMG_9241.JPG" width="256" height="192" src="IMG_9241.JPG"></p>
+<h3><a name="l15"><span class="sanchor"> </span></a>License</h3>
+<p><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Creative Commons License">
+This English version of a log of the presentation
+`The Island of Ruby' by <a href="http://pragdave.pragprog.com" class="external">Dave Thomas</a>
+on June 10th, 2007 in
+<a href="index.html" class="external">RubyKaigi2007</a>
+held in Tokyo, Japan
+and the photographs by Koji Shimada and zunda
+are published under a
+<a href="http://creativecommons.org/licenses/by/3.0/" class="external">Creative Commons Attribution 3.0 License </a>.</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="day">
+    <div class="comment">
+      <div class="caption">
+        Last modified:2007/06/26 04:24:17<br>
+        Keyword(s):<br>
+        References:[<a href="Log.html">RubyKaigi2007速報ログ</a>] <br>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr style="display: none">
+<div class="sidebar">
+  <form action="index.html" method="get">
+  <input type="text" name="key" size="15">
+  <input type="submit" name="comment" value="Search">
+  <input type="hidden" name="c" value="search">
+</form>
+
+<h3><a name="s0"><span class="sanchor"> </span></a><a href="index.html">トップページ</a></h3>
+<h3><a name="s1"><span class="sanchor"> </span></a><a href="news.html">新着情報</a></h3>
+<dl>
+<dt>2007/06/13</dt>
+<dd>
+</dd>
+<dd><a href="2007061001.pdf">「RubyKaigi2007のライトニングトークスに関するコメント」</a>発表
+</dd>
+<dt>2007/06/12</dt>
+<dd>
+</dd>
+<dd><a href="enquete.html">アンケート</a>ページ公開
+</dd>
+<dd><a href="Goodies.html">会場BGMリスト</a>公開
+</dd>
+<dt>2007/06/10</dt>
+<dd>
+</dd>
+<dd><a href="TrackBack.html">トラックバック</a>ページ公開
+</dd>
+<dt>2007/06/09</dt>
+<dd>
+</dd>
+<dd><a href="Log.html">速報ログ</a>ページ公開
+</dd>
+</dl>
+<h3><a name="s2"><span class="sanchor"> </span></a><a href="Program.html">プログラム</a></h3>
+<dl>
+<dt><a href="Program0609.html">一日目(6/9)</a></dt>
+<dd>
+</dd>
+<dt><a href="Program0610.html">二日目(6/10)</a></dt>
+<dd>
+</dd>
+</dl>
+<h3><a name="s3"><span class="sanchor"> </span></a><a href="Party.html">懇親会</a></h3>
+<h3><a name="s4"><span class="sanchor"> </span></a><a href="Goodies.html">おまけ</a></h3>
+<h3><a name="s5"><span class="sanchor"> </span></a><a href="english.html">English</a></h3>
+<h3><a name="s6"><span class="sanchor"> </span></a><a href="Sponsors.html">スポンサー</a></h3>
+<h3><a name="s7"><span class="sanchor"> </span></a><a href="ExecutiveCommittee.html">日本Ruby会議2007実行委員会</a></h3>
+<h4><a name="s8"> </a>特別協賛</h4>
+<ul>
+<li><a href="http://www.netlab.jp/" class="external"><img alt="nacl.png" width="146" height="50" src="nacl.png"></a></li>
+</ul>
+<h4><a name="s9"> </a>協賛</h4>
+<ul>
+<li><a href="http://www.asteriks.co.jp/" class="external"><img alt="asteriks.png" width="160" height="29" src="asteriks.png"></a></li>
+<li><a href="http://www.ctc-g.co.jp/" class="external"><img alt="ctc.png" width="156" height="46" src="ctc.png"></a></li>
+<li><a href="http://www.infoteria.com/jp/" class="external"><img alt="infoteria.png" width="132" height="50" src="infoteria.png"></a></li>
+<li><a href="http://www.rakuten.co.jp/" class="external"><img alt="rakuten.png" width="128" height="43" src="rakuten.png"></a></li>
+<li><a href="http://www.drecom.co.jp/" class="external"><img alt="drecom.png" src="drecom.png"></a></li>
+<li><a href="http://www.ibm.com/jp/software/" class="external"><img alt="ibm.png" width="104" height="68" src="ibm.png"></a></li>
+<li><a href="http://jp.sun.com/company/approach/community.html" class="external">サン・マイクロシステムズ株式会社</a></li>
+<li><a href="http://www.esm.co.jp/" class="external"><img alt="eiwa.png" width="106" height="48" src="eiwa.png"></a></li>
+<li><a href="http://www.rsssuite.jp/corp.html" class="external"><img alt="feedforce.png" width="112" height="27" src="feedforce.png"></a></li>
+<li><a href="http://www.meme.ne.jp/" class="external"><img alt="meme.png" width="74" height="39" src="meme.png"></a></li>
+<li><a href="http://www.kccs.co.jp/" class="external"><img alt="kccs.png" width="98" height="29" src="kccs.png"></a></li>
+<li><a href="http://www.nifty.com/labs/" class="external"><img alt="nifty.png" width="74" height="56" src="nifty.png"></a></li>
+<li><a href="http://www.twinspark.co.jp/" class="external"><img alt="twinspark.png" src="twinspark.png"></a></li>
+</ul>
+<h4><a name="s10"> </a>技術協力</h4>
+<ul>
+<li><a href="http://www.i-revo.jp/" class="external"><img alt="irevo.png" width="98" height="30" src="irevo.png"></a></li>
+</ul>
+<h3><a name="s11"><span class="sanchor"> </span></a>RSS</h3>
+<p><a href="index.rss" class="external"><img alt="feed-icon-24x24.png" width="24" height="24" src="feed-icon-24x24.png"></a></p>
+
+</div>
+
+<div class="footer"></div>
+<div class="adminmenu"><span class="adminmenu"><a href="index.html?c=login%3Bp=Log0610-S5-En">Login</a></span></div>
+</body>
+</html>
