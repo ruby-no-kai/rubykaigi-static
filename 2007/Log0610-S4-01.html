@@ -1,0 +1,218 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="Hiki 0.9dev">
+  <title>日本 Ruby 会議 2007 - Log0610-S4-01</title>
+  <link rel="stylesheet" type="text/css" href="/2007/hiki_base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/2007/rk7/ruby_kaigi.css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss">  <link rel="icon" type="image/png" href="http://jp.rubyist.net/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+<a name="top"> </a>
+<div class="main">
+  <div class="logo"><a href="index.html"><img style="border: 0;" src="ruby_kaigi_logo.png" alt="日本Rubyカンファレンス2006"></a></div>
+  
+  <div><div class="day">
+  <h2><span class="date"><a name="l0"> </a></span><span class="title">モテる Ruby！Ruby で画像編集のあの手この手　（舘野 祐一 id:secondlife）</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>スピーカー</dt>
+<dd>舘野 祐一（secondlife） - 株式会社はてな
+</dd>
+<dt>プロフィール</dt>
+<dd>Perl の会社で Ruby を使っているエンジニア。好きなエディタは vim。最近好きなアイドルは Perfume。
+</dd>
+<dt>講演時間</dt>
+<dd>15：50〜16：05
+</dd>
+<dt>講演者による資料</dt>
+<dd> <a href="http://d.hatena.ne.jp/secondlife/20070612/1181618706" class="external">http://d.hatena.ne.jp/secondlife/20070612/1181618706</a>
+</dd>
+</dl>
+<h3><a name="l1"><span class="sanchor"> </span></a>自己紹介</h3>
+<p>はてなでブログを書いているエンジニア。</p>
+<ul>
+<li>Rubyがすき</li>
+<li>vimがすき</li>
+<li>アイドr</li>
+</ul>
+<h3><a name="l2"><span class="sanchor"> </span></a>Rubyはモテ？</h3>
+<p>Rubyがいくら使えてもいっこうにモテる気がしない。
+マーティンファウラー「Rubyコミュニティには女性はいない」</p>
+<p>エンジニアのまわりで女性が多いのはデザイナー！
+ならRubyで画像編集をしよう。</p>
+<h3><a name="l3"><span class="sanchor"> </span></a>画像編集ライブラリの紹介</h3>
+<h4><a name="l4"> </a>Ruby/GD GD2</h4>
+<p>Ruby/GD:拡張ライブラリ + GD2: DLを使いlibgdを読んでPureRubyで叩いている、
+OOっぽいインターフェース。</p>
+<p>シンプルな画像描画に向いている。</p>
+<p>libgdが入っているデストリが多い。</p>
+<p>PerlやPHPと似たAPIで入門しやすい。</p>
+<p>複雑なことをしようとすると大変。ベクター画像が使えない、
+アンチエイリアスが美しくない、…。</p>
+<p>rsstimesなどで使われている。</p>
+<h4><a name="l5"> </a>PureImage</h4>
+<p>PureRubyの画像ライブラリ。gdと同等の操作ができる。</p>
+<p>拡張ライブラリがいらないのですぐに試せる。</p>
+<p>ファイル入出力がpngのみ。フォントはビットマップのみ。TrueTypeでは読めない。</p>
+<h4><a name="l6"> </a>ImgaeScience</h4>
+<p>画像のリサイズのみに特化したライブラリ。</p>
+<p>リサイズのみにRMagick使うなら、Get Science!</p>
+<p>RubyInlineでFreeImageのAPIをたたいている。</p>
+<h4><a name="l7"> </a>rcairo</h4>
+<p>須藤さんのステキな説明を！</p>
+<h3><a name="l8"><span class="sanchor"> </span></a>RMagick</h3>
+<p>ImageMagickのライブラリのRubyBinding。</p>
+<p>画像処理に一通りの機能がある。</p>
+<p>APIで結構なんでもできてる感。ドキュメントがしっかり書かれていて、サンプルも豊富。ImageMagickのテクニックがwwwに載っている。
+最近の画像ライブラリでよく使われているのでソースを読めば使いかたがわかる。</p>
+<p>APIが多すぎるのが欠点。ドキュメントも羅列的で探すのが大変。ディストリビューションに無い場合は依存ライブラリを入れるのが大変。メモリリークや微妙にバギーなのも問題。ベクターでの出力はできない。</p>
+<p><a href="http://rails2u.com/htmlhelp" class="external">http://rails2u.com/htmlhelp</a> にWindows用のhelpがある。</p>
+<p>はてなセリフはRMagickでできている。ほかにもいろいろ。</p>
+<h4><a name="l9"> </a>主なクラス</h4>
+<h5><a name="l10"> </a>Image</h5>
+<p>多くのAPI: 282個のインスタンスメソッド。</p>
+<p>必須API</p>
+<ul>
+<li>to_blob バイナリに</li>
+<li>from_blob バイナリからオブジェクトに</li>
+<li>resize/resize_to_fit 拡大縮小</li>
+<li>composite 重ねる</li>
+<li>rows/columns 大きさ</li>
+</ul>
+<p>様々なエフェクトをメソッドひとつでかけられる</p>
+<p>はまりどころ</p>
+<ul>
+<li>Image.readでarrayが返る</li>
+<li>特定フォーマットで保存するときは引数に指定する</li>
+<li>文字レンダリングの時は%にエスケープを<ul>
+<li>Draw#text/anotateのエスケープの必要性がバージョンによって違う</li>
+</ul></li>
+</ul>
+<h5><a name="l11"> </a>ImageList</h5>
+<p>レイヤーのような感じ。GIFアニメにするのに便利。</p>
+<p>エフェクトのかかりかたを替えながら作った画像をアニメにする</p>
+<ul>
+<li>Flashの代替</li>
+<li>Ajaxのloading画像</li>
+</ul>
+<img alt="rubykaigi_visual1.jpg" width="256" height="192" src="rubykaigi_visual1.jpg">
+<h5><a name="l12"> </a>Draw</h5>
+<p>線、円、…</p>
+<h5><a name="l13"> </a>RVG</h5>
+<p>SVG likeなAPI。Drawのラッパ。</p>
+<h3><a name="l14"><span class="sanchor"> </span></a>まとめ</h3>
+<p>画像編集はモテるか？</p>
+<ul>
+<li>はてなのデザイナさんは全員男性。前提からして間違い</li>
+<li>Shibuya.jsも</li>
+<li>なのでモテるかどうかはわかりません</li>
+<li>でも画像編集はできるようになるよ</li>
+</ul>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="day">
+    <div class="comment">
+      <div class="caption">
+        Last modified:2007/06/15 11:01:50<br>
+        Keyword(s):<br>
+        References:[<a href="Log.html">RubyKaigi2007速報ログ</a>] <br>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr style="display: none">
+<div class="sidebar">
+  <form action="index.html" method="get">
+  <input type="text" name="key" size="15">
+  <input type="submit" name="comment" value="Search">
+  <input type="hidden" name="c" value="search">
+</form>
+
+<h3><a name="s0"><span class="sanchor"> </span></a><a href="index.html">トップページ</a></h3>
+<h3><a name="s1"><span class="sanchor"> </span></a><a href="news.html">新着情報</a></h3>
+<dl>
+<dt>2007/06/13</dt>
+<dd>
+</dd>
+<dd><a href="2007061001.pdf">「RubyKaigi2007のライトニングトークスに関するコメント」</a>発表
+</dd>
+<dt>2007/06/12</dt>
+<dd>
+</dd>
+<dd><a href="enquete.html">アンケート</a>ページ公開
+</dd>
+<dd><a href="Goodies.html">会場BGMリスト</a>公開
+</dd>
+<dt>2007/06/10</dt>
+<dd>
+</dd>
+<dd><a href="TrackBack.html">トラックバック</a>ページ公開
+</dd>
+<dt>2007/06/09</dt>
+<dd>
+</dd>
+<dd><a href="Log.html">速報ログ</a>ページ公開
+</dd>
+</dl>
+<h3><a name="s2"><span class="sanchor"> </span></a><a href="Program.html">プログラム</a></h3>
+<dl>
+<dt><a href="Program0609.html">一日目(6/9)</a></dt>
+<dd>
+</dd>
+<dt><a href="Program0610.html">二日目(6/10)</a></dt>
+<dd>
+</dd>
+</dl>
+<h3><a name="s3"><span class="sanchor"> </span></a><a href="Party.html">懇親会</a></h3>
+<h3><a name="s4"><span class="sanchor"> </span></a><a href="Goodies.html">おまけ</a></h3>
+<h3><a name="s5"><span class="sanchor"> </span></a><a href="english.html">English</a></h3>
+<h3><a name="s6"><span class="sanchor"> </span></a><a href="Sponsors.html">スポンサー</a></h3>
+<h3><a name="s7"><span class="sanchor"> </span></a><a href="ExecutiveCommittee.html">日本Ruby会議2007実行委員会</a></h3>
+<h4><a name="s8"> </a>特別協賛</h4>
+<ul>
+<li><a href="http://www.netlab.jp/" class="external"><img alt="nacl.png" width="146" height="50" src="nacl.png"></a></li>
+</ul>
+<h4><a name="s9"> </a>協賛</h4>
+<ul>
+<li><a href="http://www.asteriks.co.jp/" class="external"><img alt="asteriks.png" width="160" height="29" src="asteriks.png"></a></li>
+<li><a href="http://www.ctc-g.co.jp/" class="external"><img alt="ctc.png" width="156" height="46" src="ctc.png"></a></li>
+<li><a href="http://www.infoteria.com/jp/" class="external"><img alt="infoteria.png" width="132" height="50" src="infoteria.png"></a></li>
+<li><a href="http://www.rakuten.co.jp/" class="external"><img alt="rakuten.png" width="128" height="43" src="rakuten.png"></a></li>
+<li><a href="http://www.drecom.co.jp/" class="external"><img alt="drecom.png" src="drecom.png"></a></li>
+<li><a href="http://www.ibm.com/jp/software/" class="external"><img alt="ibm.png" width="104" height="68" src="ibm.png"></a></li>
+<li><a href="http://jp.sun.com/company/approach/community.html" class="external">サン・マイクロシステムズ株式会社</a></li>
+<li><a href="http://www.esm.co.jp/" class="external"><img alt="eiwa.png" width="106" height="48" src="eiwa.png"></a></li>
+<li><a href="http://www.rsssuite.jp/corp.html" class="external"><img alt="feedforce.png" width="112" height="27" src="feedforce.png"></a></li>
+<li><a href="http://www.meme.ne.jp/" class="external"><img alt="meme.png" width="74" height="39" src="meme.png"></a></li>
+<li><a href="http://www.kccs.co.jp/" class="external"><img alt="kccs.png" width="98" height="29" src="kccs.png"></a></li>
+<li><a href="http://www.nifty.com/labs/" class="external"><img alt="nifty.png" width="74" height="56" src="nifty.png"></a></li>
+<li><a href="http://www.twinspark.co.jp/" class="external"><img alt="twinspark.png" src="twinspark.png"></a></li>
+</ul>
+<h4><a name="s10"> </a>技術協力</h4>
+<ul>
+<li><a href="http://www.i-revo.jp/" class="external"><img alt="irevo.png" width="98" height="30" src="irevo.png"></a></li>
+</ul>
+<h3><a name="s11"><span class="sanchor"> </span></a>RSS</h3>
+<p><a href="index.rss" class="external"><img alt="feed-icon-24x24.png" width="24" height="24" src="feed-icon-24x24.png"></a></p>
+
+</div>
+
+<div class="footer"></div>
+<div class="adminmenu"><span class="adminmenu"><a href="index.html?c=login%3Bp=Log0610-S4-01">Login</a></span></div>
+</body>
+</html>

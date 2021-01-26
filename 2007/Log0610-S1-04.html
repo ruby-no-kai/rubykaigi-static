@@ -1,0 +1,316 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="Hiki 0.9dev">
+  <title>日本 Ruby 会議 2007 - Log0610-S1-04</title>
+  <link rel="stylesheet" type="text/css" href="/2007/hiki_base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/2007/rk7/ruby_kaigi.css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss">  <link rel="icon" type="image/png" href="http://jp.rubyist.net/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+<a name="top"> </a>
+<div class="main">
+  <div class="logo"><a href="index.html"><img style="border: 0;" src="ruby_kaigi_logo.png" alt="日本Rubyカンファレンス2006"></a></div>
+  
+  <div><div class="day">
+  <h2><span class="date"><a name="l0"> </a></span><span class="title">AP4R ： Ruby のための非同期メッセージングライブラリ　（篠原 俊一 / 加藤 究）</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>スピーカー</dt>
+<dd>篠原 俊一 / 加藤 究 - フューチャーアーキテクト株式会社
+</dd>
+<dt>プロフィール</dt>
+<dd>篠原 - Ruby が大好きなプログラマ。九州出身、芋焼酎が好き。でも、日本酒には板わさが最高だと思う。（id:ita-wasa）<br>加藤 - 去年から Ruby をはじめたプログラマ。楽しくなってきた。名前重要。名前負けしないようにがんばる。（id:kiwamu）
+</dd>
+<dt>講演者による資料</dt>
+<dd><a href="http://rubyforge.org/docman/view.php/1765/1256/AP4R_on_RubyKaigi2007.pdf" class="external">http://rubyforge.org/docman/view.php/1765/1256/AP4R_on_RubyKaigi2007.pdf</a><br><a href="http://rubyforge.org/docman/view.php/1765/1257/AP4R_on_RubyKaigi2007_EN.pdf" class="external">http://rubyforge.org/docman/view.php/1765/1257/AP4R_on_RubyKaigi2007_EN.pdf</a> （英語版）
+</dd>
+</dl>
+<img alt="rubykaigi_biz4.jpg" width="256" height="192" src="rubykaigi_biz4.jpg">
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l1"> </a></span><span class="title">自己紹介</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>加藤究</dt>
+<dd>
+</dd>
+</dl>
+<ul>
+<li>昔は土木専攻</li>
+<li>Rubyは去年から</li>
+</ul>
+<dl>
+<dt>篠原俊一</dt>
+<dd>
+</dd>
+</dl>
+<ul>
+<li>C,Haskel</li>
+<li>Rubyは去年から</li>
+</ul>
+    </div>
+  </div>
+</div>
+<div class="day">
+  <h2><span class="date"><a name="l2"> </a></span><span class="title">Introduction</span></h2>
+  <div class="body">
+    <div class="section">
+      <ul>
+<li>軽量メッセージングライブラリ</li>
+<li>Asynchronous Processing for Ruby</li>
+<li>ユーザーへのすばやい応答</li>
+<li>負荷分散</li>
+<li>去年9月リリース（プレスリリース）</li>
+</ul>
+<h3><a name="l3"><span class="sanchor"> </span></a>軽量かつ堅牢</h3>
+<ul>
+<li>ユーザーにすばやく応答したい</li>
+<li>即時応答不要な処理はあとで</li>
+</ul>
+<h3><a name="l4"><span class="sanchor"> </span></a>メッセージングによってあとで処理</h3>
+<ul>
+<li>Logging</li>
+<li>Sending mail</li>
+<li>重い処理</li>
+</ul>
+<h3><a name="l5"><span class="sanchor"> </span></a>問題点</h3>
+<ul>
+<li>メッセージが確実に配送されないと、メッセージの消失、重複などの問題</li>
+<li>確実な配送保証は重要</li>
+</ul>
+<h3><a name="l6"><span class="sanchor"> </span></a>堅牢さ</h3>
+<h4><a name="l7"> </a>RtFA</h4>
+<ul>
+<li>Pure Java</li>
+<li>佐川急便の基幹システムのオープン化にも使用<ul>
+<li>アプリサーバー100台！！</li>
+</ul></li>
+</ul>
+<p>メッセージング重要</p>
+<h4><a name="l8"> </a>From RtFA to AP4R</h4>
+<ul>
+<li>RtFA開発から8年たってる</li>
+<li>変更追加機能に対して柔軟に！</li>
+<li>そんなときにRubyと出会う</li>
+<li>Rubyを使うと軽量なメッセージングが可能かも</li>
+</ul>
+<h3><a name="l9"><span class="sanchor"> </span></a>デモ</h3>
+<ul>
+<li>買い物アプリ</li>
+<li>注文と決済処理</li>
+<li>決済処理が重いのでAP4Rを使って遅延処理</li>
+<li>mongrel clusterを利用</li>
+<li>abでストレス</li>
+</ul>
+<p>リクエストをabで投げると処理中のメッセージの数が増えます。
+しかし、クライアントにはレスポンスが即時に返ってきて、待たされることがありませんでした。</p>
+<h3><a name="l10"><span class="sanchor"> </span></a>閑話休題</h3>
+<p>Java、FireFoxにはマスコットが</p>
+<p>ワイルドかつキュート</p>
+<p>AP4R ⇒ APAR ⇒　アルマジロ</p>
+<p>まじろう</p>
+<img alt="rubykaigi_biz4_3.jpg" width="256" height="192" src="rubykaigi_biz4_3.jpg">
+<h3><a name="l11"><span class="sanchor"> </span></a>Working With Rails</h3>
+<ul>
+<li>Rails関係の開発者/会社の情報</li>
+<li>104カ国</li>
+<li>ブログへの投稿を集約</li>
+</ul>
+<p>フィード取得の拡張性に問題。遅い、古い</p>
+<h4><a name="l12"> </a>WWR solution</h4>
+<ul>
+<li>フィードキュー</li>
+<li>非同期で取得</li>
+</ul>
+<p>AP4Rで</p>
+<ul>
+<li>スケール出来る</li>
+<li>フィードの種類に柔軟に対応</li>
+</ul>
+<h3><a name="l13"><span class="sanchor"> </span></a>社内プロジェクト</h3>
+<ul>
+<li>新しく作るアプリケーションはRuby on Railsで</li>
+<li>これまでの資産はJava</li>
+</ul>
+<h4><a name="l14"> </a>要求</h4>
+<ul>
+<li>速くてリッチなUI</li>
+<li>Java⇔Ruby間のデータ複製</li>
+</ul>
+<p>そこでAP4R</p>
+<ul>
+<li>UIから重い処理を分離</li>
+<li>非同期でRuby⇒Java</li>
+</ul>
+<h4><a name="l15"> </a>遅延可能な処理を非同期化</h4>
+<ul>
+<li>サマリデータの作成</li>
+<li>メール送信など</li>
+</ul>
+<p>ここでIRCからつっこみで場内爆笑。図中の「まじろう」の絵に対して、色くらい塗れよｗ</p>
+<h4><a name="l16"> </a>非同期にJavaを呼び出す</h4>
+<ul>
+<li>更新データを非同期で反映</li>
+</ul>
+<p>IRCではもっぱら「まじろう」の話題で戸惑う講演者</p>
+<h3><a name="l17"><span class="sanchor"> </span></a>まとめ</h3>
+<ul>
+<li>ユーザーへの応答には不要な処理</li>
+<li>別のトランザクションでよい</li>
+<li>外部システムの呼び出し</li>
+</ul>
+<p>これらを非同期に</p>
+<h3><a name="l18"><span class="sanchor"> </span></a>技術的な話</h3>
+<h4><a name="l19"> </a>メッセージPUT APIと処理の流れ</h4>
+<pre>ap4e.async_to(....)</pre>
+<p>詳しくはRDOCを</p>
+<p><a href="http://ap4r.rubyforge.org/doc/" class="external">http://ap4r.rubyforge.org/doc/</a></p>
+<p>処理の流れを図解するも複数並べられた「まじろう」に対して「量産型まじろう」などIRCでさらに盛り上がる。すばらしいマスコット効果</p>
+<img alt="rubykaigi_biz4_2.jpg" width="256" height="192" src="rubykaigi_biz4_2.jpg">
+<p>AP4RがHTTPにPOST</p>
+<h4><a name="l20"> </a>保存してから送信</h4>
+<p>業務データベースの更新とメッセージングをアトミックに行いたい</p>
+<p>Store and Forward</p>
+<p>SAF便利</p>
+<h3><a name="l21"><span class="sanchor"> </span></a>まとめ</h3>
+<ul>
+<li>シンプルAPI</li>
+<li>非同期処理を自動で処理</li>
+<li>SAF機能で確実な配送</li>
+</ul>
+<p>質疑応答の時間は質疑なし、IRCで盛り上がる会場</p>
+<pre>11:58 (ujihisa) まじろう良かった
+11:58 (_tommy_) まじろうがかわいく見えてきた
+11:58 (ymitsui) Future Plan: まじろうを塗る
+11:58 (miyamuko) まじろうメソッド
+11:58 (kssddy) SAFにマスコットはいないんですか？
+11:58 (CyrossM__) まじろうに始まりまじろうに終わる
+11:58 (unak) マスコット駆動開発
+11:58 *po0ls quit ("Quitting!")
+11:58 (CyrossM__) MDD
+11:58 (ujihisa) MDD
+11:58 (nov) MDD
+11:58 (cuzic) MDD
+11:58 (znz_r) 今度はメッセージも持たせておいて。
+11:58 (akr) 質問: まじろうの嫌いなものはなんですか
+11:59 (walf443) 「ふつう
+11:59 (unak) 好きなものを聞けよ
+11:59 (walf443) 』の質問
+11:59 (ujihisa) 質問: まじろうを描いた方は?
+11:59 (_tommy_) なんでも食べそう
+11:59 (ujihisa) らくたさん
+11:59 (kssddy) らったさん
+11:59 (kssddy) Ratta
+11:59 (ntakai) バックエンドがRailsの理由は?</pre>
+<p>（ロガー：よう）</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="day">
+    <div class="comment">
+      <div class="caption">
+        Last modified:2007/06/16 16:00:01<br>
+        Keyword(s):<br>
+        References:[<a href="Log.html">RubyKaigi2007速報ログ</a>] <br>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr style="display: none">
+<div class="sidebar">
+  <form action="index.html" method="get">
+  <input type="text" name="key" size="15">
+  <input type="submit" name="comment" value="Search">
+  <input type="hidden" name="c" value="search">
+</form>
+
+<h3><a name="s0"><span class="sanchor"> </span></a><a href="index.html">トップページ</a></h3>
+<h3><a name="s1"><span class="sanchor"> </span></a><a href="news.html">新着情報</a></h3>
+<dl>
+<dt>2007/06/13</dt>
+<dd>
+</dd>
+<dd><a href="2007061001.pdf">「RubyKaigi2007のライトニングトークスに関するコメント」</a>発表
+</dd>
+<dt>2007/06/12</dt>
+<dd>
+</dd>
+<dd><a href="enquete.html">アンケート</a>ページ公開
+</dd>
+<dd><a href="Goodies.html">会場BGMリスト</a>公開
+</dd>
+<dt>2007/06/10</dt>
+<dd>
+</dd>
+<dd><a href="TrackBack.html">トラックバック</a>ページ公開
+</dd>
+<dt>2007/06/09</dt>
+<dd>
+</dd>
+<dd><a href="Log.html">速報ログ</a>ページ公開
+</dd>
+</dl>
+<h3><a name="s2"><span class="sanchor"> </span></a><a href="Program.html">プログラム</a></h3>
+<dl>
+<dt><a href="Program0609.html">一日目(6/9)</a></dt>
+<dd>
+</dd>
+<dt><a href="Program0610.html">二日目(6/10)</a></dt>
+<dd>
+</dd>
+</dl>
+<h3><a name="s3"><span class="sanchor"> </span></a><a href="Party.html">懇親会</a></h3>
+<h3><a name="s4"><span class="sanchor"> </span></a><a href="Goodies.html">おまけ</a></h3>
+<h3><a name="s5"><span class="sanchor"> </span></a><a href="english.html">English</a></h3>
+<h3><a name="s6"><span class="sanchor"> </span></a><a href="Sponsors.html">スポンサー</a></h3>
+<h3><a name="s7"><span class="sanchor"> </span></a><a href="ExecutiveCommittee.html">日本Ruby会議2007実行委員会</a></h3>
+<h4><a name="s8"> </a>特別協賛</h4>
+<ul>
+<li><a href="http://www.netlab.jp/" class="external"><img alt="nacl.png" width="146" height="50" src="nacl.png"></a></li>
+</ul>
+<h4><a name="s9"> </a>協賛</h4>
+<ul>
+<li><a href="http://www.asteriks.co.jp/" class="external"><img alt="asteriks.png" width="160" height="29" src="asteriks.png"></a></li>
+<li><a href="http://www.ctc-g.co.jp/" class="external"><img alt="ctc.png" width="156" height="46" src="ctc.png"></a></li>
+<li><a href="http://www.infoteria.com/jp/" class="external"><img alt="infoteria.png" width="132" height="50" src="infoteria.png"></a></li>
+<li><a href="http://www.rakuten.co.jp/" class="external"><img alt="rakuten.png" width="128" height="43" src="rakuten.png"></a></li>
+<li><a href="http://www.drecom.co.jp/" class="external"><img alt="drecom.png" src="drecom.png"></a></li>
+<li><a href="http://www.ibm.com/jp/software/" class="external"><img alt="ibm.png" width="104" height="68" src="ibm.png"></a></li>
+<li><a href="http://jp.sun.com/company/approach/community.html" class="external">サン・マイクロシステムズ株式会社</a></li>
+<li><a href="http://www.esm.co.jp/" class="external"><img alt="eiwa.png" width="106" height="48" src="eiwa.png"></a></li>
+<li><a href="http://www.rsssuite.jp/corp.html" class="external"><img alt="feedforce.png" width="112" height="27" src="feedforce.png"></a></li>
+<li><a href="http://www.meme.ne.jp/" class="external"><img alt="meme.png" width="74" height="39" src="meme.png"></a></li>
+<li><a href="http://www.kccs.co.jp/" class="external"><img alt="kccs.png" width="98" height="29" src="kccs.png"></a></li>
+<li><a href="http://www.nifty.com/labs/" class="external"><img alt="nifty.png" width="74" height="56" src="nifty.png"></a></li>
+<li><a href="http://www.twinspark.co.jp/" class="external"><img alt="twinspark.png" src="twinspark.png"></a></li>
+</ul>
+<h4><a name="s10"> </a>技術協力</h4>
+<ul>
+<li><a href="http://www.i-revo.jp/" class="external"><img alt="irevo.png" width="98" height="30" src="irevo.png"></a></li>
+</ul>
+<h3><a name="s11"><span class="sanchor"> </span></a>RSS</h3>
+<p><a href="index.rss" class="external"><img alt="feed-icon-24x24.png" width="24" height="24" src="feed-icon-24x24.png"></a></p>
+
+</div>
+
+<div class="footer"></div>
+<div class="adminmenu"><span class="adminmenu"><a href="index.html?c=login%3Bp=Log0610-S1-04">Login</a></span></div>
+</body>
+</html>

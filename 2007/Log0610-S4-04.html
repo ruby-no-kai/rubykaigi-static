@@ -1,0 +1,207 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="generator" content="Hiki 0.9dev">
+  <title>日本 Ruby 会議 2007 - Log0610-S4-04</title>
+  <link rel="stylesheet" type="text/css" href="/2007/hiki_base.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/2007/rk7/ruby_kaigi.css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss">  <link rel="icon" type="image/png" href="http://jp.rubyist.net/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+<a name="top"> </a>
+<div class="main">
+  <div class="logo"><a href="index.html"><img style="border: 0;" src="ruby_kaigi_logo.png" alt="日本Rubyカンファレンス2006"></a></div>
+  
+  <div><div class="day">
+  <h2><span class="date"><a name="l0"> </a></span><span class="title">私はいかにRubyでメディア・アート作品をつくり、しかも一円も損をしなかったか　（えと こういちろう）</span></h2>
+  <div class="body">
+    <div class="section">
+      <dl>
+<dt>スピーカー</dt>
+<dd>えと こういちろう - 独立行政法人産業技術総合研究所／東京大学大学院情報理工学系研究科
+</dd>
+<dt>プロフィール</dt>
+<dd>Rubyist，メディア・アーティスト，深追イスト．
+</dd>
+<dt>講演時間</dt>
+<dd>16：35〜16：50
+</dd>
+</dl>
+<p>メディアアート作品の製作にRubyを活用しました</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>タイトルの説明</h3>
+<p>ロジャー・コーマン「私はいかにハリウッドで100本の映画を作り、しかも10セントも損をしなかったか」から</p>
+<h3><a name="l2"><span class="sanchor"> </span></a>WebHopper</h3>
+<p>インターネットの通信を可視化するソフト</p>
+<h4><a name="l3"> </a>背景</h4>
+<ul>
+<li>サーバーPerl,クライアントJava</li>
+<li>WIDEプロジェクトの海外回線をtcpdumpした</li>
+<li>tcpdump→ip2fqdn→fqdn2zip→zip2latlong</li>
+<li>ドメイン名の逆引きを非同期化する必要があった</li>
+<li>ドメイン名から緯度経度への情報はmSQLに保管</li>
+<li>Perl5でDBI+DBDを利用</li>
+</ul>
+<h4><a name="l4"> </a>Perlの問題点</h4>
+<ul>
+<li>サーバの処理がだんだん複雑化</li>
+<li>PerlはThreadがないので非同期処理が面倒</li>
+<li>Perlで込み入ったプログラムを書くのはもう限界</li>
+<li>サーバサイドjavaとしても当時はまだ未成熟</li>
+</ul>
+<h4><a name="l5"> </a>Javaの問題点</h4>
+<ul>
+<li>アプレットは制約が大きく表現力不足</li>
+</ul>
+<p>ごめんなさい。落としました＞＜</p>
+<h4><a name="l6"> </a>全体の問題点</h4>
+<ul>
+<li>2つの異なったプログラミング言語</li>
+<li>2つの異なったプログラミングモデル</li>
+<li>どちらもバッドノウハウの塊</li>
+</ul>
+<h4><a name="l7"> </a>理想のプログラミング言語を求めて</h4>
+<ul>
+<li>Scheme,JPython,Python,Ruby</li>
+<li>最後まで生き残ったのはRuby</li>
+<li>何が決めてだったか不明</li>
+<li>コミュニティが決めてだったように感じる</li>
+<li>2001年Rubyを本番へ投入し始めた</li>
+</ul>
+<h3><a name="l8"><span class="sanchor"> </span></a>インターネット物理モデル</h3>
+<p>16個の転がる玉でパケットを表現</p>
+<img alt="rubykaigi_visual4_2.jpg" width="256" height="192" src="rubykaigi_visual4_2.jpg">
+<p>実装に使えた時間は1週間だった</p>
+<h3><a name="l9"><span class="sanchor"> </span></a>くまうた</h3>
+<p>くまに演歌をおしえるゲーム</p>
+<p>くまが演歌を歌うムービーのデモがありました。</p>
+<img alt="rubykaigi_visual4.jpg" width="256" height="192" src="rubykaigi_visual4.jpg">
+<p>場内爆笑</p>
+<ul>
+<li>歌詞に大してメロディーをつけていく自動作曲の部分を作った</li>
+<li>音韻数に対して音符をあわせる</li>
+<li>メロディーに対して背景を動かす</li>
+<li>最後におかずをつけて出来上がり</li>
+<li>Ruby→C++に移植（SONY社員）</li>
+</ul>
+<h3><a name="l10"><span class="sanchor"> </span></a>SGL</h3>
+<ul>
+<li>美大生のためのプログラミング環境</li>
+<li>Ruby/SDL＋OpenGLラッパー</li>
+<li>自分自身の作品作製の基盤として</li>
+</ul>
+<h4><a name="l11"> </a>デモ</h4>
+<p><img alt="rubykaigi_visual4_3.jpg" width="256" height="192" src="rubykaigi_visual4_3.jpg">
+<img alt="IMG_9230.JPG" width="256" height="192" src="IMG_9230.JPG"></p>
+<ul>
+<li>3Dグラフィックスのデモ</li>
+<li>真っ暗な背景に針のような棒がたくさん音に合わせて自在に動く</li>
+<li>途中から水紋のような円形の模様</li>
+<li>円から六角形に</li>
+</ul>
+<p>（ロガー：よう）</p>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="day">
+    <div class="comment">
+      <div class="caption">
+        Last modified:2007/06/11 00:49:13<br>
+        Keyword(s):<br>
+        References:[<a href="Log.html">RubyKaigi2007速報ログ</a>] <br>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<hr style="display: none">
+<div class="sidebar">
+  <form action="index.html" method="get">
+  <input type="text" name="key" size="15">
+  <input type="submit" name="comment" value="Search">
+  <input type="hidden" name="c" value="search">
+</form>
+
+<h3><a name="s0"><span class="sanchor"> </span></a><a href="index.html">トップページ</a></h3>
+<h3><a name="s1"><span class="sanchor"> </span></a><a href="news.html">新着情報</a></h3>
+<dl>
+<dt>2007/06/13</dt>
+<dd>
+</dd>
+<dd><a href="2007061001.pdf">「RubyKaigi2007のライトニングトークスに関するコメント」</a>発表
+</dd>
+<dt>2007/06/12</dt>
+<dd>
+</dd>
+<dd><a href="enquete.html">アンケート</a>ページ公開
+</dd>
+<dd><a href="Goodies.html">会場BGMリスト</a>公開
+</dd>
+<dt>2007/06/10</dt>
+<dd>
+</dd>
+<dd><a href="TrackBack.html">トラックバック</a>ページ公開
+</dd>
+<dt>2007/06/09</dt>
+<dd>
+</dd>
+<dd><a href="Log.html">速報ログ</a>ページ公開
+</dd>
+</dl>
+<h3><a name="s2"><span class="sanchor"> </span></a><a href="Program.html">プログラム</a></h3>
+<dl>
+<dt><a href="Program0609.html">一日目(6/9)</a></dt>
+<dd>
+</dd>
+<dt><a href="Program0610.html">二日目(6/10)</a></dt>
+<dd>
+</dd>
+</dl>
+<h3><a name="s3"><span class="sanchor"> </span></a><a href="Party.html">懇親会</a></h3>
+<h3><a name="s4"><span class="sanchor"> </span></a><a href="Goodies.html">おまけ</a></h3>
+<h3><a name="s5"><span class="sanchor"> </span></a><a href="english.html">English</a></h3>
+<h3><a name="s6"><span class="sanchor"> </span></a><a href="Sponsors.html">スポンサー</a></h3>
+<h3><a name="s7"><span class="sanchor"> </span></a><a href="ExecutiveCommittee.html">日本Ruby会議2007実行委員会</a></h3>
+<h4><a name="s8"> </a>特別協賛</h4>
+<ul>
+<li><a href="http://www.netlab.jp/" class="external"><img alt="nacl.png" width="146" height="50" src="nacl.png"></a></li>
+</ul>
+<h4><a name="s9"> </a>協賛</h4>
+<ul>
+<li><a href="http://www.asteriks.co.jp/" class="external"><img alt="asteriks.png" width="160" height="29" src="asteriks.png"></a></li>
+<li><a href="http://www.ctc-g.co.jp/" class="external"><img alt="ctc.png" width="156" height="46" src="ctc.png"></a></li>
+<li><a href="http://www.infoteria.com/jp/" class="external"><img alt="infoteria.png" width="132" height="50" src="infoteria.png"></a></li>
+<li><a href="http://www.rakuten.co.jp/" class="external"><img alt="rakuten.png" width="128" height="43" src="rakuten.png"></a></li>
+<li><a href="http://www.drecom.co.jp/" class="external"><img alt="drecom.png" src="drecom.png"></a></li>
+<li><a href="http://www.ibm.com/jp/software/" class="external"><img alt="ibm.png" width="104" height="68" src="ibm.png"></a></li>
+<li><a href="http://jp.sun.com/company/approach/community.html" class="external">サン・マイクロシステムズ株式会社</a></li>
+<li><a href="http://www.esm.co.jp/" class="external"><img alt="eiwa.png" width="106" height="48" src="eiwa.png"></a></li>
+<li><a href="http://www.rsssuite.jp/corp.html" class="external"><img alt="feedforce.png" width="112" height="27" src="feedforce.png"></a></li>
+<li><a href="http://www.meme.ne.jp/" class="external"><img alt="meme.png" width="74" height="39" src="meme.png"></a></li>
+<li><a href="http://www.kccs.co.jp/" class="external"><img alt="kccs.png" width="98" height="29" src="kccs.png"></a></li>
+<li><a href="http://www.nifty.com/labs/" class="external"><img alt="nifty.png" width="74" height="56" src="nifty.png"></a></li>
+<li><a href="http://www.twinspark.co.jp/" class="external"><img alt="twinspark.png" src="twinspark.png"></a></li>
+</ul>
+<h4><a name="s10"> </a>技術協力</h4>
+<ul>
+<li><a href="http://www.i-revo.jp/" class="external"><img alt="irevo.png" width="98" height="30" src="irevo.png"></a></li>
+</ul>
+<h3><a name="s11"><span class="sanchor"> </span></a>RSS</h3>
+<p><a href="index.rss" class="external"><img alt="feed-icon-24x24.png" width="24" height="24" src="feed-icon-24x24.png"></a></p>
+
+</div>
+
+<div class="footer"></div>
+<div class="adminmenu"><span class="adminmenu"><a href="index.html?c=login%3Bp=Log0610-S4-04">Login</a></span></div>
+</body>
+</html>
