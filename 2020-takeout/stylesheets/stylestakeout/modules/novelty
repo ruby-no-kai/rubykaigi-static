@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>
+RubyKaigi Takeout 2020
+</title>
+<link crossorigin='anonymous' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' media='all' rel='stylesheet'>
+<link href="/2020/stylesheets/takeout/alltakeout.css" rel="stylesheet" />
+<link crossorigin='anonymous' href='https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP|Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;display=swap' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' media='all' rel='stylesheet'>
+<script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='RubyKaigi Takeout 2020' property='og:title'>
+<meta content='RubyKaigi Takeout 2020' property='og:site_name'>
+<meta content='https://rubykaigi.org/2020-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2020/images/takeout/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2020, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2020' name='keywords'>
+<link href='/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link href="/2020/images/takeout/faviconTakeout.png" rel="icon" type="image/png" />
+</head>
+<body class='' id=''>
+<div class='mobile-nav-button' id='js-mobile-nav-button'>
+<div class='mobile-nav-button__inner'>
+<div class='mobile-nav-button__lines'></div>
+</div>
+</div>
+<nav class='mobile-nav' id='js-mobile-nav'>
+<div class='mobile-nav__inner'>
+<ul class='mobile-nav__items'>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/novelties" class="mobile-nav__item-link">Novelties
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/policies" class="mobile-nav__item-link">Policies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/about" class="mobile-nav__item-link">About
+</a></li>
+<li class='mobile-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="mobile-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</nav>
+
+<div class='is- page'>
+<div class='page__inner'>
+<header>
+<div class='container'>
+<div class='header__inner'>
+<div class='header__title'>
+<a href="/2020-takeout" class="header__title-link"><img src="/2020/images/takeout/simpleLogoTakeout.svg" alt="RubyKaigi Takeout 2020" />
+</a></div>
+<nav class='header-nav'>
+<ul class='header-nav__items'>
+<li class='header-nav__item'>
+<a href="/2020-takeout/novelties" class="header-nav__item-link ">Novelties
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/policies" class="header-nav__item-link ">Policies
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/about" class="header-nav__item-link ">About
+</a></li>
+<li class='header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+/*
+Error: Undefined mixin 'breakpoint-down'.
+        on line 3 of /home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass, in `breakpoint-down'
+        from line 3 of /home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass
+
+1: .novelty-content__wrapper
+2:   display: flex
+3:   +breakpoint-down(md)
+4:     display: block
+5: 
+6: .novelty-content
+7:   padding: 16px
+8:   width: 50%
+
+Backtrace:
+/home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass:3:in `breakpoint-down'
+/home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass:3
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:184:in `_render_with_all_renderers'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:147:in `block in render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activesupport-5.0.7/lib/active_support/notifications.rb:166:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:146:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/sitemap/resource.rb:154:in `render'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:112:in `process_request'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:66:in `block in call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `catch'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/urlmap.rb:68:in `block in call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/urlmap.rb:53:in `each'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/urlmap.rb:53:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_javascript.rb:55:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_css.rb:63:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/lint.rb:49:in `_call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/lint.rb:37:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/builder.rb:153:in `call'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/mock.rb:74:in `request'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/rack-2.0.6/lib/rack/mock.rb:56:in `get'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:232:in `block in output_resource'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activesupport-5.0.7/lib/active_support/notifications.rb:166:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:225:in `output_resource'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:484:in `call_with_index'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:455:in `process_incoming_jobs'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:437:in `block in worker'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:428:in `fork'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:428:in `worker'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:419:in `block in create_workers'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `each'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `each_with_index'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `create_workers'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:358:in `work_in_processes'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/parallel-1.12.1/lib/parallel.rb:264:in `map'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:137:in `output_resources'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:131:in `output_files'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:71:in `block in run!'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activesupport-5.0.7/lib/active_support/notifications.rb:166:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:70:in `run!'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:80:in `block in build'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/activesupport-5.0.7/lib/active_support/notifications.rb:166:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:79:in `build'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `block in invoke_all'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `each'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `map'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `invoke_all'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/group.rb:232:in `dispatch'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:115:in `invoke'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:40:in `block in register'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
+/usr/share/rbenv/versions/2.5/bin/middleman:23:in `load'
+/usr/share/rbenv/versions/2.5/bin/middleman:23:in `<top (required)>'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli/exec.rb:74:in `load'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli/exec.rb:28:in `run'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli.rb:465:in `exec'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/vendor/thor/lib/thor.rb:387:in `dispatch'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli.rb:27:in `dispatch'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/vendor/thor/lib/thor/base.rb:466:in `start'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/cli.rb:18:in `start'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/exe/bundle:30:in `block in <top (required)>'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/lib/bundler/friendly_errors.rb:124:in `with_friendly_errors'
+/usr/share/rbenv/versions/2.5.8/lib/ruby/gems/2.5.0/gems/bundler-2.0.2/exe/bundle:22:in `<top (required)>'
+/usr/share/rbenv/versions/2.5/bin/bundle:23:in `load'
+/usr/share/rbenv/versions/2.5/bin/bundle:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'breakpoint-down'.\A         on line 3 of /home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass, in `breakpoint-down'\A         from line 3 of /home/sorah/git/github.com/ruby-no-kai/rubykaigi.org/source/2020-takeout/stylesheets/stylestakeout/modules/novelty.sass\A \A 1: .novelty-content__wrapper\A 2:   display: flex\A 3:   +breakpoint-down(md)\A 4:     display: block\A 5: \A 6: .novelty-content\A 7:   padding: 16px\A 8:   width: 50%"; }
+
+<nav class='common-nav'></nav>
+
+</div>
+<footer class='home-footer'>
+<div class='home-footer__inner'>
+<div class='container'>
+<div class='home-footer__content'>
+<p class='home-footer__about'>
+This work by RubyKaigi 2020 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+  function openNav() {
+    const getTheMenu = document.getElementById("js-mobile-nav")
+    if (getTheMenu.className === "mobile-nav") {
+      getTheMenu.classList += " is-opened"
+      $("body").addClass("is-opened-mobile-nav")
+    } else {
+      getTheMenu.className = "mobile-nav"
+      $("body").removeClass("is-opened-mobile-nav")
+    }
+  }
+  const pushMyButton = document.getElementById("js-mobile-nav-button")
+  pushMyButton.addEventListener("click", openNav)
+</script>
+</body>
+</html>
