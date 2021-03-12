@@ -13,6 +13,9 @@ About
 <script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
 <script crossorigin='anonymous' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
 <script crossorigin='anonymous' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-jQa6XTfwRIZhgQTVoCVCUbJFB2a5I4MyD8SE5rFbimzv9xTZC9N4QNqh20Bf883FcPJdZVSlbOp9MsiBil0xxg==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-mjJrYcvN58F6cQuh7PkcBFMxmMlG3tTeIkuM3U/dR8HnKC5hi4/2ECeYK4CYubD108AWO9ADa3XD2F63+2qcVg==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-8/nGya9UDR8gGZ/PIwPZsmz8UDlxRcylEbPH3KmfkqL7bBBkd5uweiCxNqyNdTs2in3ki5m2xwA54Thd5J74qA==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/plugin/timezone.min.js'></script>
 <meta content='width=device-width, initial-scale=1' name='viewport'>
 <meta content='RubyKaigi Takeout 2020' property='og:title'>
 <meta content='RubyKaigi Takeout 2020' property='og:site_name'>
@@ -27,6 +30,10 @@ About
 <link href="/2020/images/takeout/faviconTakeout.png" rel="icon" type="image/png" />
 </head>
 <body class='static' id='About'>
+<script>
+  dayjs.extend(dayjs_plugin_utc)
+  dayjs.extend(dayjs_plugin_timezone)
+</script>
 <div class='mobile-nav-button' id='js-mobile-nav-button'>
 <div class='mobile-nav-button__inner'>
 <div class='mobile-nav-button__lines'></div>
@@ -35,6 +42,15 @@ About
 <nav class='mobile-nav' id='js-mobile-nav'>
 <div class='mobile-nav__inner'>
 <ul class='mobile-nav__items'>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/schedule" class="mobile-nav__item-link">Schedule
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/speakers" class="mobile-nav__item-link">Speakers
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/sponsors" class="mobile-nav__item-link">Sponsors
+</a></li>
 <li class='mobile-nav__item'>
 <a href="/2020-takeout/novelties" class="mobile-nav__item-link">Novelties
 </a></li>
@@ -62,13 +78,22 @@ About
 <nav class='header-nav'>
 <ul class='header-nav__items'>
 <li class='header-nav__item'>
+<a href="/2020-takeout/schedule" class="header-nav__item-link ">Schedule
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/speakers" class="header-nav__item-link ">Speakers
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/sponsors" class="header-nav__item-link ">Sponsors
+</a></li>
+<li class='header-nav__item'>
 <a href="/2020-takeout/novelties" class="header-nav__item-link ">Novelties
 </a></li>
 <li class='header-nav__item'>
 <a href="/2020-takeout/policies" class="header-nav__item-link ">Policies
 </a></li>
 <li class='header-nav__item'>
-<a href="/2020-takeout/about" class="header-nav__item-link ">About
+<a href="/2020-takeout/about" class="header-nav__item-link is-current">About
 </a></li>
 <li class='header-nav__item'>
 <a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>

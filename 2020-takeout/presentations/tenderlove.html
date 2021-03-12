@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>
+Don't @ me!  Instance Variable Performance in Ruby
+- RubyKaigi Takeout 2020
+</title>
+<link crossorigin='anonymous' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' media='all' rel='stylesheet'>
+<link href="/2020/stylesheets/takeout/alltakeout.css" rel="stylesheet" />
+<link crossorigin='anonymous' href='https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP|Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;display=swap' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' media='all' rel='stylesheet'>
+<script crossorigin='anonymous' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script crossorigin='anonymous' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-jQa6XTfwRIZhgQTVoCVCUbJFB2a5I4MyD8SE5rFbimzv9xTZC9N4QNqh20Bf883FcPJdZVSlbOp9MsiBil0xxg==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-mjJrYcvN58F6cQuh7PkcBFMxmMlG3tTeIkuM3U/dR8HnKC5hi4/2ECeYK4CYubD108AWO9ADa3XD2F63+2qcVg==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-8/nGya9UDR8gGZ/PIwPZsmz8UDlxRcylEbPH3KmfkqL7bBBkd5uweiCxNqyNdTs2in3ki5m2xwA54Thd5J74qA==' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.34/plugin/timezone.min.js'></script>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='RubyKaigi Takeout 2020' property='og:title'>
+<meta content='RubyKaigi Takeout 2020' property='og:site_name'>
+<meta content='https://rubykaigi.org/2020-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2020/images/takeout/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2020, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2020' name='keywords'>
+<link href='/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link href="/2020/images/takeout/faviconTakeout.png" rel="icon" type="image/png" />
+</head>
+<body class='static' id='presentation'>
+<script>
+  dayjs.extend(dayjs_plugin_utc)
+  dayjs.extend(dayjs_plugin_timezone)
+</script>
+<div class='mobile-nav-button' id='js-mobile-nav-button'>
+<div class='mobile-nav-button__inner'>
+<div class='mobile-nav-button__lines'></div>
+</div>
+</div>
+<nav class='mobile-nav' id='js-mobile-nav'>
+<div class='mobile-nav__inner'>
+<ul class='mobile-nav__items'>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/schedule" class="mobile-nav__item-link">Schedule
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/speakers" class="mobile-nav__item-link">Speakers
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/sponsors" class="mobile-nav__item-link">Sponsors
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/novelties" class="mobile-nav__item-link">Novelties
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/policies" class="mobile-nav__item-link">Policies
+</a></li>
+<li class='mobile-nav__item'>
+<a href="/2020-takeout/about" class="mobile-nav__item-link">About
+</a></li>
+<li class='mobile-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="mobile-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+</nav>
+
+<div class='is-presentation page'>
+<div class='page__inner'>
+<header>
+<div class='container'>
+<div class='header__inner'>
+<div class='header__title'>
+<a href="/2020-takeout" class="header__title-link"><img src="/2020/images/takeout/simpleLogoTakeout.svg" alt="RubyKaigi Takeout 2020" />
+</a></div>
+<nav class='header-nav'>
+<ul class='header-nav__items'>
+<li class='header-nav__item'>
+<a href="/2020-takeout/schedule" class="header-nav__item-link ">Schedule
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/speakers" class="header-nav__item-link ">Speakers
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/sponsors" class="header-nav__item-link ">Sponsors
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/novelties" class="header-nav__item-link ">Novelties
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/policies" class="header-nav__item-link ">Policies
+</a></li>
+<li class='header-nav__item'>
+<a href="/2020-takeout/about" class="header-nav__item-link ">About
+</a></li>
+<li class='header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="header-nav__item-link is-twitter" target="_blank"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+<script>
+  var urlHash = location.hash;
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("js-back").setAttribute("href", document.getElementById("js-back").getAttribute("href") + urlHash);
+  }, false);
+</script>
+<div class='page__contents'>
+<div class='container'>
+<section class='main-content'>
+<div class='main-content__inner'>
+<header class='main-content-header'>
+<div class='main-content-header__icon-container'></div>
+<h1 class='main-content-header__title'>
+Schedule
+</h1>
+<a href="/2020-takeout/schedule" class="main-content-header__back" id="js-back"><i class='fa fa-angle-left'></i>
+Back
+</a></header>
+</div>
+<section class='presentation'>
+<div class='row'>
+<div class='col-lg-3 col-md-4'>
+<div class='presentation-speakers'>
+<div class='speaker__inner'>
+<div class='speaker__img'>
+<img src="https://www.gravatar.com/avatar/f29327647a9cff5c69618bae420792ea?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Aaron Patterson" width="268" height="268" />
+</div>
+<div class='speaker__body'>
+<div class='speaker__name'>
+Aaron Patterson
+</div>
+<div class='speaker__meta'>
+<div class='speaker__id'>
+@tenderlove
+</div>
+<div class='speaker__role'>
+</div>
+<ul class='speaker__channels'>
+<li class='speaker__channel-github speaker__channels-item'>
+<a href="https://github.com/tenderlove" target="_blank" class="speaker__channels-item-link is-github"><i class='fab fa-github'></i>
+</a></li>
+<li class='speaker__channel-twitter'>
+<a href="https://twitter.com/tenderlove" target="_blank" class="speaker__channels-item-link is-twitter"><i class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</div>
+<div class='speaker__description'>
+<p>
+<p>Aaron is on the Ruby core team, the Rails core team, and the team that takes care of his cat, Gorby puff.   Someday he will find the perfect safety gear to wear while extreme programming.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class='col-lg-9 col-md-8'>
+<div class='presentation-content'>
+<div class='presentation-content__meta'>
+<span>JA</span>
+</div>
+<h1 class='presentation-content__title'>
+Don't @ me!  Instance Variable Performance in Ruby
+</h1>
+<div class='section presentation-content__description long-text'>
+<p>How do instance variables work?  We&#39;ve all used instance variables in our programs, but how do they actually work?  In this presentation we&#39;ll look at how instance variables are implemented in Ruby.  We&#39;ll start with a very strange benchmark, then dive in to Ruby internals to understand why the code behaves the way it does.  Once we&#39;ve figured out this strange behavior, we&#39;ll follow up with a patch to increase instance variable performance.  Be prepared for a deep dive in to a weird area of Ruby, and remember: don&#39;t @ me!</p>
+</div>
+<section class='presentation-video'>
+<h2>Recorded video</h2>
+<div class='presentation-video__embed'>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/4ysxA8DDplQ' width='560'></iframe>
+</div>
+<div class='presentation-video__link'>
+<a href="https://www.youtube.com/watch?v=4ysxA8DDplQ"></a>
+<nbsp></nbsp>
+from
+<nbsp></nbsp>
+<a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+
+<nav class='common-nav'></nav>
+
+</div>
+<footer class='home-footer'>
+<div class='home-footer__inner'>
+<div class='container'>
+<div class='home-footer__content'>
+<p class='home-footer__about'>
+This work by RubyKaigi 2020 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</p>
+</div>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+  function openNav() {
+    const getTheMenu = document.getElementById("js-mobile-nav")
+    if (getTheMenu.className === "mobile-nav") {
+      getTheMenu.classList += " is-opened"
+      $("body").addClass("is-opened-mobile-nav")
+    } else {
+      getTheMenu.className = "mobile-nav"
+      $("body").removeClass("is-opened-mobile-nav")
+    }
+  }
+  const pushMyButton = document.getElementById("js-mobile-nav-button")
+  pushMyButton.addEventListener("click", openNav)
+</script>
+</body>
+</html>
