@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="EUC-JP" standalone="yes"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja-JP">
+  <channel rdf:about="/2008/recent">
+    <title>日本 Ruby 会議 2008 : 更新日時順</title>
+    <link>/2008/recent</link>
+    <description>日本 Ruby 会議 2008 更新日時順</description>
+    <dc:language>ja</dc:language>
+    <dc:rights>Copyright (C) 日本 Ruby 会議 2008 実行委員会</dc:rights>
+    <dc:date>2008-07-25T09:36:56+00:00</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="/2008/FrontPage.html"/>
+        <rdf:li resource="/2008/MainSession.html"/>
+        <rdf:li resource="/2008/0thDay.html"/>
+        <rdf:li resource="/2008/SubSession.html"/>
+        <rdf:li resource="/2008/LT.html"/>
+        <rdf:li resource="/2008/ExecutiveCommittee.html"/>
+        <rdf:li resource="/2008/Goodies.html"/>
+        <rdf:li resource="/2008/thanks.html"/>
+        <rdf:li resource="/2008/enquete.html"/>
+        <rdf:li resource="/2008/Live.html"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="/2008/FrontPage.html">
+    <title>FrontPage</title>
+    <link>/2008/index.html</link>
+    <dc:date>2008-07-25T09:36:56+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p><strong>日本Ruby会議2008は、全ての日程を終了いたしました。多数の方々にご参加いただき、ありがとうございました。</strong></p>
+<ul>
+<li>RubyKaigiに関する新着情報のウォッチは『<a href="http://rubykaigi.tdiary.net/" class="external">RubyKaigi日記</a>』が便利です!</li>
+</ul>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">開催概要</span></h2>
+<ul>
+<li><strong>名称:</strong> 日本Ruby会議2008 (RubyKaigi2008)</li>
+<li><strong>会期:</strong> 2008 年 6 月 20 日(金)・21 日(土)・22 日(日) </li>
+<li><strong>会場:</strong> <a href="http://www.epochal.or.jp/" class="external">つくば国際会議場</a> (茨城県つくば市)</li>
+<li><strong>主催:</strong> <a href="./?ExecutiveCommittee">日本Ruby会議2008実行委員会</a>, <a href="http://www.ruby-assn.org" class="external">Rubyアソシエーション</a>, <a href="https://ruby-no-kai.org/" class="external">日本Rubyの会</a></li>
+<li><strong>参加方法:</strong> 大ホールのメインセッションに参加するには<a href="./?BuyTicket">チケットが必要です</a>。</li>
+<li><strong>懇親会:</strong> 1日目(21日(土))の夜に実施します。事前に<a href="./?Party">チケットの購入</a>が必要です。</li>
+</ul>
+<p>日本Ruby会議2008の狙い、テーマについては、ぜひ<a href="./?Intent">趣意書</a>をご覧下さい。</p>
+<h2><span class="date"><a name="l1"> </a></span><span class="title">プログラム</span></h2>
+<ul>
+<li><a href="./?Program">タイムテーブル</a> (各会場のスケジュール一覧)<ul>
+<li><a href="./?0thDay">0th day</a> (多目的ホール、20日)</li>
+<li><a href="./?MainSession">メインセッション・プログラム詳細</a> (大ホール、21・22日)<ul>
+<li><a href="./?LT">ライトニングトークス</a></li>
+</ul></li>
+<li><a href="./?SubSession">サブセッション・プログラム詳細</a> (多目的ホール、21・22日)</li>
+<li><a href="./?RubyExam">Ruby技術者認定試験</a> (小会議室405、20日)</li>
+</ul></li>
+</ul>
+<h2><span class="date"><a name="l2"> </a></span><span class="title">お問い合わせ</span></h2>
+<p>お問い合わせはメールにて、&lt;rubykaigi2008 at jp.rubyist.net&gt;へお願いします(atを@に置換してください)。</p>
+<h2><span class="date"><a name="l3"> </a></span><span class="title">過去のRubyKaigi</span></h2>
+<ul>
+<li><a href="/2007/" class="external">日本Ruby会議2007</a></li>
+<li><a href="/2006/" class="external">日本Rubyカンファレンス2006</a></li>
+</ul>
+<p><span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span>
+<span class="plugin">{{br}}</span></p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/MainSession.html">
+    <title>メインセッション・プログラム</title>
+    <link>/2008/MainSession.html</link>
+    <dc:date>2008-07-22T13:31:56+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p>メインセッションは、6月21日(土)・22日(日)に大ホールで行われる講演です。なお、時間、発表者、タイトルは応募時のもので、当日までに予告なく変更される可能性があります。ご了承ください。(敬称略)</p>
+<p>メインセッションへ参加するには、事前に<a href="./?BuyTicket">チケットの購入</a>が必要です。ご注意ください。</p>
+<p>同時に多目的ホールで行われる<a href="./?SubSession">サブセッションはこちらです</a>。</p>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">6月21日(土)</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>09:30</h3>
+<h4><a name="l2"> </a>開場</h4>
+<h3><a name="l3"><span class="sanchor"> </span></a>10:00〜12:00</h3>
+<h4><a name="l4"> </a>オープニング </h4>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_0.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_0.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_0.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l5"> </a>現在の、そしてこれからのRubyVM開発 (ささだこういち)</h4>
+<p>昨年、Ruby 1.9.0がリリースされた。それにともないRuby処理系にVM（仮想マシン）も導入され、Rubyプログラムの処理速度向上に貢献した。しかし、現状搭載されているVMにはまだまだ多くの改善点が残っている。そこで、本発表では現在取り組んでいるRubyVMの改善を紹介し、今後の課題について述べる。</p>
+<dl>
+<dt>ささだこういち - 日本Rubyの会 / 東京大学</dt><dd>VM が取り込まれたと思って油断していたら、バグがどんどんたまっていっていてご迷惑をかけている日々です。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_1.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_1.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_1.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_ko1.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l6"> </a>JRuby: Ready for Action (Charles Nutter)</h4>
+<dl>
+<dt>Charles Nutter - Sun Microsystems</dt><dd>Charles Oliver Nutter co-leads the JRuby project. Since joining Sun Microsystems in 2006 he's worked with the other JRuby contributors to turn JRuby into a fast, compatible implementation of the Ruby language. During that time, JRuby has become more and more popular for both web and desktop-based Ruby applications, leveraging the best of the Ruby and Java worlds. Charles has developed in Java for the past decade, and now hopes to make the JVM and the Java platform the best home for many languages, using the lessons of JRuby as a guide.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_2.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_2.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_2.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l7"> </a>The Magic of Rubinius (Evan Phoenix)</h4>
+<dl>
+<dt>Evan Phoenix - Engine Yard</dt><dd>Evan began the Rubinius project in early 2006 as a hobby to build a new Ruby environment. His work on Rubinius is now paid for by Engine Yard, where he gets to work on Rubinius full time.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_3.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_3.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_3.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l8"><span class="sanchor"> </span></a>13:30〜15:30</h3>
+<h4><a name="l9"> </a>キーノート (まつもとゆきひろ)</h4>
+<p>最近のRubyを取り巻く状況。一昨年のRubyKaigiでの公約通りリリースされた1.9.0の概要と将来構想。そしてもっと遠い未来の話。</p>
+<dl>
+<dt>まつもとゆきひろ - ネットワーク応用通信研究所/楽天技術研究所</dt><dd>いまや数えきれないほどのユーザーを持つ世界的プログラミング言語Rubyの創造者。っていうか、そういう立場に本人が一番困惑してるんですが。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_4.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_4.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_4.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l10"> </a>Ruby M17N (成瀬ゆい / Martin J. D<span class="plugin">{{e('#xfc')}}</span>rst)</h4>
+<p>2007年クリスマス、ついに Ruby 1.9.0 がリリースされ、本格的な M17N サポートが導入された。Ruby M17N では他の多くのプログラミング言語が採用している Unicode による UCS 正規化方式ではなく、CSI 方式を採用した。また、この方針に適した独自の文字コード変換エンジンを搭載した。このようなRuby M17N の思想から実装、そして実践までを解説する。</p>
+<dl>
+<dt>成瀬ゆい - 日本Rubyの会</dt><dd>文字列とかを中心に。nkf のメンテナとかもやっています。</dd>
+</dl>
+<dl>
+<dt>Martin J. D<span class="plugin">{{e('#xfc')}}</span>rst - 青山学院大学</dt><dd>W3C で Web やインターネットの国際化を担当した。プログラミングが好きなので、Ruby が大好き。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_5.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_5.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_5.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li><a href="http://naruse.biz/pub/index.html" class="external">資料(1)</a> (Link)</li>
+<li><a href="http://www.sw.it.aoyama.ac.jp/2008/pub/RubyKaigiM17N.html" class="external">資料(2)</a> (Link)</li>
+</ul>
+<h3><a name="l11"><span class="sanchor"> </span></a>16:00〜17:20</h3>
+<h4><a name="l12"> </a>Ruby《を》教えてるんじゃない、Ruby《で》教えてるんだってば (増原英彦)</h4>
+<p>東京大学教養学部では2006年度より1・2年生向けの科目「情報科学」において Ruby を用いた講義・演習を行っている。本発表では、どのようにRubyを使っているのか、実際に使ってみて分かった良い点、悪い点などを報告する。</p>
+<dl>
+<dt>増原英彦 - 東京大学</dt><dd>本業はプログラミング言語の研究で、並行オブジェクト、リフレクション、部分計算、動的コード特化などのあやしいテーマに手を染め、最近はアスペクト指向プログラミングや開発環境の研究が中心になっている。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_6.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_6.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_6.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_masuhara.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l13"> </a>成功するRuby教育のプラクティス (吉田裕美)</h4>
+<p>現在RubyやRuby on Railsの導入が進んでいますが、開発現場にRubyが根付く為にはRuby開発者の養成が重要な問題になってくると思います。RubyやRuby on Railsの教育を行ってくれる企業もありますが、実際には社内での教育も多いと思いますし、社内教育こそが重要だと思います。</p>
+<p>本発表はRubyを導入する側の者(主に開発者)がどうしたら良いRuby教育が出来るかを、ここ数年教育のプロとしてRuby教育に関わっている発表者が今までに行い効果的と感じた教育プラクティスを発表します。</p>
+<dl>
+<dt>吉田裕美 - EY-Office</dt><dd>数年前に独立し、Ruby,Java,LispなどでWebアプリを中心に開発。現在は教育に注力し「問題解決型の教育」に奮闘中。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_7.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_7.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_7.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_yoshida.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l14"> </a>RSpecによるRailsアプリケーションのBDD、事例報告 (Yugui(園田裕貴))</h4>
+<p>RSpecを利用し、BDDによってRailsアプリケーションを開発した事例を紹介する。TDDの経験すらなかった現場の反応はどうだったか、結果としてどのような価値がもたらされたか。実践する上で適用したテクニック。</p>
+<dl>
+<dt>Yugui(園田裕貴) - akasaka.rb, Project Rottenmeier</dt><dd>C++とRubyとJVMが好きなプログラマ。Rubyをもっとdocumentedにもっと饒舌にすべく活動中。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_8.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_8.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_8.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_yugui.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l15"> </a>Ruby技術者認定試験 模擬問題解説 (松田慎弥)</h4>
+<p>Ruby技術者認定試験の模擬問題とその解説を行います。なかなか手ごわい試験なのですが、問題をどう読み／どう解けばよいのか、Ruby技術者認定試験にメスを入れてみます。また、出題傾向を分析し、合格するためにはどういった勉強方法が有効なのかなど、試験を交えた解説を行います。</p>
+<dl>
+<dt>松田慎弥 - CTCテクノロジー株式会社</dt><dd>Rubyに出会ってから1年半ほどたち、プログラマにちょっとあこがれている、RubyとOracleの研修トレーナー。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_9.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_9.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_9.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l16"><span class="sanchor"> </span></a>17:30〜18:30 Lightning Talks</h3>
+<p>→<a href="./?LT">ライトニング・トークス</a>をご覧下さい。</p>
+<h2><span class="date"><a name="l17"> </a></span><span class="title">6月22日(日)</span></h2>
+<h3><a name="l18"><span class="sanchor"> </span></a>08:45</h3>
+<h4><a name="l19"> </a>開場</h4>
+<h3><a name="l20"><span class="sanchor"> </span></a>09:00〜10:00</h3>
+<h4><a name="l21"> </a>拡張ライブラリの書き方講座 (田島あきお(arton))</h4>
+<p>Rubyではなく、Cによるプログラミングの楽しさを満喫したい方に向けてLiveコーディングを交えてRuby拡張ライブラリの書き方を解説します。</p>
+<dl>
+<dt>田島あきお(arton)</dt><dd>特定業種向けシステム開発者。Ruby、Java、C#などについての解説者。特化インターフェイスのフリーソフトプログラマなど。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_1.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_1.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_1.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_arton.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l22"> </a>さらに仕事に使うRuby (後藤 謙太郎(ごとけん))</h4>
+<p>「仕事で使うRuby」の発表から2年経ち、状況はだいぶ変化しました。全般的によい変化です。Web制作に固有の問題と、あまり業種に関係しない問題について、RubyやRubyで書かれたアプリケーションを使う上での現在のプラクティスに焦点をあてます。</p>
+<dl>
+<dt>後藤 謙太郎(ごとけん) - 株式会社シングラム</dt><dd>プログラマ、システム管理者、共同経営者。代表作は「Ruby User's Guide」の英訳(共訳、1998年)、benchmark.rb 等。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_2.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_2.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_2.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_gotoken.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l23"> </a>erbを偲んで (関将俊)</h4>
+<p>erbの遅さがRK07において発表され、またruby-devでerbは不幸であると指摘されている。erbの作者である発表者が自らRK07へ回答し、erbの改善について、あるいは改善の失敗談について説明する。また、MVCのVについても言及し、erb自身の不幸も聞いてもらう。</p>
+<dl>
+<dt>関将俊 - druby.org</dt><dd>プログラマ。幸福の王子本こと「dRubyによる分散・Webプログラミング」日本語版、今ならまだ初版が買えます。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_3.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_3.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_3.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_seki.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l24"><span class="sanchor"> </span></a>10:20〜12:00</h3>
+<h4><a name="l25"> </a>matzを説得する方法 (田中哲)</h4>
+<p>解放型の開発プロジェクトに参加し、受け入れられやすい提案を行う手法を解説する。提案の正当性・必要性などといった一般的な性質から、Ruby特有の事情、さらにはプロジェクトリーダの性向にいたるまで、豊富な具体例を交えて解説する。 </p>
+<dl>
+<dt>田中哲 - 産業技術総合研究所 / FSIJ</dt><dd>IO#readpartial や Regexp#to_s といったものの導入からブロック引数のセマンティクスの整理まで、さまざまな提案を通してきた実績を持つ。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_4.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_4.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_4.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_akr.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l26"> </a>日本Rubyのリファレンスマニュアル2008・初夏 (青木峰郎)</h4>
+<p>Rubyリファレンスマニュアルを根底から改善し改良し最適化しつくさんと企む「リファレンスマニュアル刷新計画」。その壮大な陰謀と、まだまだこれからな現状について主にお伝えする。</p>
+<dl>
+<dt>青木峰郎 - 日本Rubyの会  リファレンスマニュアル支部</dt><dd>Excelとkshに苦しむふつうのSE。主著『ふつうのLinuxプログラミング』『Rubyソースコード完全解説』。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_5.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_5.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_5.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_aoki.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l27"> </a>The future of Ruby in Mac OS X (Laurent Sansonetti)</h4>
+<p>The latest version of Mac OS X, Leopard, now officially supports Ruby development. 
+RubyCocoa, a Ruby to Objective-C bridge, is now supported, and the development 
+applications such as Xcode, Interface Builder, or Instruments, also provide Ruby support.</p>
+<p>Nevertheless, Apple is working for the future versions of Mac OS X to enhance 
+the existing support, to make Ruby an even better citizen in the operating system.</p>
+<p>This talk will cover the future plans, which are mainly the development of a new 
+flavor of the Ruby language, based on the Objective-C runtime and garbage collector.</p>
+<dl>
+<dt>Laurent Sansonetti -  Apple Inc.</dt><dd>Laurent is a senior software engineer in the core operating system team at Apple working on future versions of Mac OS X. He develops and maintains Apple’s Ruby distribution, which was embraced in Mac OS X 10.5 Leopard as a first-class development platform. Laurent is a long-time Ruby enthusiast, and author of and contributor to several Ruby libraries and applications.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_6.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_6.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_6.ogg" class="external">動画（Ogg Theora形式）</a> </li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_laurent.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l28"><span class="sanchor"> </span></a>13:30〜14:20</h3>
+<h4><a name="l29"> </a>REST信者から見たRuby on Rails 2.0 (山本陽平)</h4>
+<p>Ruby 初心者の REST 信者が REST 脳で考えた RESTful な Web API をREST 対応と噂の Rails 2.0 で実装してみました。そこから得られた教訓と感想を Ruby なみなさんと共有させていただきたいです。</p>
+<dl>
+<dt>山本陽平 - 株式会社リコー</dt><dd>Ruby初心者のREST信者</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_7.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_7.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_7.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l30"> </a>Real-World Enterprise Ruby (大場光一郎・高井直人)</h4>
+<p>エンタープライズ分野でのRuby開発について、事例紹介を含めながら開発現場でのノウハウを紹介します。「エンタープライズRuby」というキーワードは、昨年の日本Ruby会議2007で、今後のRubyの課題として、大きなトピックのひとつになっていました。それから一年、企業向けシステムの分野でも、実際にRubyが開発言語として採用されて、成果をあげるようになっています。</p>
+<dl>
+<dt>大場光一郎 - 伊藤忠テクノソリューションズ株式会社</dt><dd>今回は嫁のほうじゃありません。JRubyにパッチ送ったり、MeadowにRuby関係パッケージを追加したりなプログラマ。嫁と共著で「Ruby on Rails 逆引きクイックリファレンス」。嫁のほうが有名。</dd>
+</dl>
+<dl>
+<dt>高井直人 - 伊藤忠テクノソリューションズ株式会社</dt><dd>Web系からSIerに転職して半年、すっかりスーツになりました。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_8.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_8.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_8.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_takai.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l31"><span class="sanchor"> </span></a>14:40〜15:40</h3>
+<h4><a name="l32"> </a>Developing and scaling iKnow! (Zev Blut)</h4>
+<p>iKnow! (<a href="http://www.iknow.co.jp)" class="external">http://www.iknow.co.jp)</a> is an English learning SNS written in Ruby using the Ruby on Rails framework.
+From the launch, on October 1 2007, to now we have seen steady to explosive growth in users and usage.</p>
+<p>In order to sustain uptime, many of the software and hardware design decisions that made sense in the beginning changed.  This will be a talk about those changes, both the good and the bad.</p>
+<dl>
+<dt>Zev Blut - Cerego Japan</dt><dd>Zev is a software developer for Cerego who helps lead the development of the iKnow! website. Before Cerego, Zev has spent many years working on mobile technology. Additionally, he helped write a book and magazines articles about Japanese mobile technology. Zev is active in the local developer communities of the Tokyo Linux Users Group, Ninjava and RubyKaigi. He knows enough Japanese to enjoy natto but not chicken sashimi.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_9.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_9.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_9.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_zev.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l33"> </a>Inside Tabelog's Backend (京和崇行)</h4>
+<p>2007年10月19日、食べログはRuby on Railsによるフルリニューアルを実施し、国内最大規模のRailsサイトとなりました。</p>
+<p>月間5000万PVを処理する食べログシステムのバックエンドについての解説、またリニューアルにおいて発生した様々な問題についてどのように対処してきたかを発表したいと思います。</p>
+<dl>
+<dt>京和崇行 - 株式会社カカクコム</dt><dd>WindowsシステムのSIer、JavaWebアプリのSIerを経てカカクコムで食べログの開発に。After RailsなRubyエンジニアです。Ruby大好き!</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_10.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_10.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_10.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_kyowa.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l34"> </a>ガラパゴスに線路を敷こう: 携帯電話用RailsプラグインJpmobile (しだらようじ(dara))</h4>
+<p>発表者は Jpmobile という日本の携帯電話用 Rails プラグインを開発している。独自の発展を遂げた日本の携帯電話においては、絵文字、位置情報、端末固有情報など、様々な面でキャリア毎に仕様が異なる。これらの機能を利用するアプリケーションではキャリア毎に厄介な作り込みが必要になる。携帯電話サイトを開発する上で欠かせない様々な厄介事を解消するプラグイン Jpmobile を紹介する。</p>
+<dl>
+<dt>しだらようじ(dara) - Ruby札幌</dt><dd>北海道大学にて博士後期課程に在籍する大学院生。札幌生まれ札幌育ち。Ruby札幌運営チーム。スープカレーをこよなく愛する。代表作に <a href="http://soupcurry.info" class="external">http://soupcurry.info</a> や <a href="http://buzztter.com" class="external">http://buzztter.com</a> など。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_11.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_11.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_11.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_dara.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l35"><span class="sanchor"> </span></a>16:00〜16:40</h3>
+<h4><a name="l36"> </a>Using Ruby to Build a Scalable Startup (Alex Kane)</h4>
+<p>At Tunecore.com we've used the Ruby language to develop complex systems much faster than it would have taken using a traditional "Enterprise" language. Why is it often faster to build systems with Ruby?  What role do RubyGems play in the engineers toolbox?  Once you've created a product using Ruby that people are using, how do we scale it using existing technologies?  Once you've committed to Ruby and are ready to deploy your application, what technologies are available that have a "symbiotic" relationship with Ruby? Where are the pitfalls in Ruby?  How does server virtualization help?</p>
+<p>At Tunecore we've built a massively scalable system that includes a customer facing web application, as well as back-end processes that transcode audio for our Grammy winning artists and integrates with the Apple iTunes music store.  To date we've delivered over 300,000 songs and we use Ruby as our primary language.</p>
+<dl>
+<dt>Alex Kane - Tunecore.com </dt><dd>Alex Kane is a Software Developer specializing in finance and digital media distribution.  Alex entered the industry in 1999 at Broadway Trading  as a Network Engineer. He later joined Schonfeld Securities as Lead Web Developer where he built Schonfeld's web infrastructure from the ground up, creating internal web services to be deployed across Schonfeld's organization. Alex is currently a Senior Software Developer at TuneCore, where is in charge of developing and maintaining back end systems.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_12.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_12.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_12.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li><a href="http://alexkane.net/RubyKaigi2008Slides" class="external">資料</a> (Link)</li>
+</ul>
+<h4><a name="l37"> </a>Rails症候群の研究 (前田修吾)</h4>
+<p>近年のRubyの普及はRailsの躍進によるところが大きい。しかしその一方で、RailsではじめてRubyに触れたプログラマの間に、Rubyに対する誤った理解が多く見られるのも事実である。本発表ではそのような現象をRails症候群と呼び、その症例を紹介する。</p>
+<dl>
+<dt>前田修吾 - Rubyアソシエーション / (株)ネットワーク応用通信研究所</dt><dd>Rubyプログラマ。信号が3つしかない村(今は松江市に合併)でのんびりと暮らしています。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_13.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_13.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_13.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l38"><span class="sanchor"> </span></a>16:40〜17:00 Closing</h3>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_14.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_14.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_14.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h2><span class="date"><a name="l39"> </a></span><span class="title">動画ファイルのライセンス</span></h2>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="クローバー"><a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">http://creativecommons.org/licenses/by/2.1/jp/</a> です。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/0thDay.html">
+    <title>0th dayプログラム</title>
+    <link>/2008/0thDay.html</link>
+    <dc:date>2008-07-21T14:36:22+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">0th dayプログラム</span></h2>
+<p>6月20日(金)、通称「0th day」のプログラム、出演者、講演動画および資料です(敬称略)。</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>13:00 オープニング</h3>
+<p>オープニングの挨拶と、「<a href="./?Golf">RubyKaigi2008 Golfコンペ</a>」に関する説明があります。</p>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_1.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_1.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_1.ogg" class="external">動画（Ogg Theora形式）</a></li>
+</ul>
+<h3><a name="l2"><span class="sanchor"> </span></a>13:30 対談『まつもとゆきひろ×最首英裕』〜Rubyを仕事に2008〜</h3>
+<p>Rubyの生みの親であるまつもとゆきひろさんと、<a href="http://rubybizcommons.blogspot.com/" class="external">Rubyビジネスコモンズ</a>の最首英裕さんによる対談をお届けします。</p>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_1_2.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_1_2.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_1_2.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料はありません</li>
+</ul>
+<h3><a name="l3"><span class="sanchor"> </span></a>14:30 Ruby技術者認定試験について(CTC)</h3>
+<p>別会場で行われているRuby技術者認定試験について、主催のCTC様より解説があります。</p>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_2.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_2.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_2.ogg" class="external">動画（Ogg Theora形式）</a></li>
+</ul>
+<h3><a name="l4"><span class="sanchor"> </span></a>15:05 スポンサーによる事例紹介</h3>
+<h4><a name="l5"> </a>ついに登場！Ruby / Railsの統合開発環境「3rdRail日本語版」のご紹介</h4>
+<p>ネットワーク応用通信研究所が開発に協力している、CodeGear製Ruby / Rails統合開発環境「3rdRail 日本語版」をご紹介します。</p>
+<p>株式会社ネットワーク応用通信研究所<span class="plugin">{{br}}</span>
+協力: ボーランド株式会社CodeGear事業本部 / オープンソース・ジャパン株式会社</p>
+<dl>
+<dt>藤井 等 / ボーランド株式会社</dt><dd>CodeGear事業本部 マーケッティングディレクター</dd>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_3.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_3.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_3.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_nacl.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l6"> </a>SunではじめるエンタープライズRubyの世界</h4>
+<p>いよいよエンタープライズの領域に広がるRuby。JRuby、NetBeans、GlassFish だけではありません。Rubyを高い信頼性を確保しながら高速に稼働させるSolaris とSunのサーバー。プラットフォームが選択されるための要件をご紹介します。</p>
+<dl>
+<dt>河原 一哉 / サン・マイクロシステムズ</dt><dd>システム技術統括本部</dd>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_4.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_4.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_4.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_sun.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l7"> </a>エンタープライズRubyと Linuxブームのちがい</h4>
+<p>かつてLinux人気が高まり、今はその仮想化がブームとなっています。エンタープライズ分野で Ruby を利用することもLinuxと同じように将来にわたって発展する期待感があります。LinuxブームのときにCTCで起きたこととエンタープライズRubyの実現にむけて必要なことについてお話します。</p>
+<dl>
+<dt>小島克俊 / 伊藤忠テクノソリューションズ株式会社</dt>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_5.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_5.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_5.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: (調整中)</li>
+</ul>
+<h4><a name="l8"> </a>ふつうのシステム開発〜Rubyとアジャイルで実現するゆるふわドンピシャ愛されシステム開発</h4>
+<p>永和システムマネジメントのRubyを使ったアジャイルなシステム開発の取り組みを、これまでの実績や現在進行形のプロジェクトの実例をベースにお話しします。Rubyをつかった場合の弊社のふつうのシステム開発を紹介したいと考えています。</p>
+<dl>
+<dt>角谷信太郎 / 永和システムマネジメント</dt><dd>サービスプロバイディング事業部 チーフプログラマ</dd>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_6.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_6.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_6.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_eiwa.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l9"> </a>Ruby×Agileによる社内SNS構築事例〜オープンソースへの道〜」</h4>
+<p>Ruby on Railsを使って、社内向けのSNSを、アジャイル開発で実践した事例を紹介します。また、その社内SNSを、オープンソースとして公開するまでに至った苦労話もお話します。</p>
+<dl>
+<dt>倉貫義人 / TIS株式会社</dt>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_7.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_7.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_7.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_tis.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l10"> </a>Ruby,Railsによる「ふつう」なポータルサイトのつくり方!</h4>
+<p>@niftyではポータルサイト開発において、Ruby, Railsの採用事例が徐々に増えつつあります。この「ポータルサイト」の開発/運営では</p>
+<ul>
+<li>HTMLを知らないサービス運用者（非技術者さん）向けの機能</li>
+<li>レガシーな既存システムとの連携</li>
+<li>コミュニティを管理するための使いやすい管理画面・機能</li>
+</ul>
+<p>などが必須要件として求められます。このような「ふつう」のポータルサイト開発/運営にどのようにRuby, Railsを活用しているかをご紹介します。</p>
+<p>また、上記のことを解決するために汎用的に開発したRails Pluginをこの夏OSS公開を計画中です(まだ予定ですが)! その内容についてもこっそりご紹介いたします。</p>
+<dl>
+<dt>浜中 慶・成田 智也 / ニフティ株式会社</dt><dd>サービスビジネス事業本部 システム開発部</dd>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_8.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_8.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_8.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_nifty.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l11"> </a>Rubyサイコー episode-II（仮）</h4>
+<p>楽天でのRuby導入のその後と、まつもとゆきひろ氏との共同研究プロジェクト・ROMA/fairyの概要をご紹介致します。</p>
+<dl>
+<dt>増田 創 / 楽天株式会社</dt><dd>楽天技術研究所 テクノロジスト:</dd>
+</dl>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_9.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_9.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_9.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: (調整中)</li>
+</ul>
+<h3><a name="l12"><span class="sanchor"> </span></a>17:00 内外コミュニティ紹介 〜コミュニティが育てるRuby、コミュニティを育てるRuby〜</h3>
+<p>Ruby Centralや国内各地のRubyコミュニティの方々とともに、Rubyとコミュニティの関わりについて話します。</p>
+<h4><a name="l13"> </a>海外コミュニティ</h4>
+<ul>
+<li>Chad Fowler (Ruby Central)</li>
+<li>Rich Kilmer (Ruby Central)</li>
+</ul>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_10.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_10.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_10.ogg" class="external">動画（Ogg Theora形式）</a></li>
+</ul>
+<h4><a name="l14"> </a>国内コミュニティ</h4>
+<ul>
+<li>Ruby札幌</li>
+<li>RBC</li>
+<li>Rubyist九州</li>
+<li>Rails勉強会＠東北</li>
+<li>Rails勉強会＠東京</li>
+<li>合同コミュニティ</li>
+<li>toRuby（とちぎRubyの勉強会）</li>
+<li>Ruby関西</li>
+</ul>
+<p><img src="/2008/video/2008-06-20_rubykaigi2008-day0_11.jpg" alt="/2008/video/2008-06-20_rubykaigi2008-day0_11.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-20_rubykaigi2008-day0_11.ogg" class="external">動画（Ogg Theora形式）</a></li>
+</ul>
+<h3><a name="l15"><span class="sanchor"> </span></a>19:00 前夜祭</h3>
+<p>会場はそのままに、飲食物各自持ち込み方式の前夜祭に突入します。開始までに30分程度の空き時間があるので、食料品の買出しに行けます。
+前夜祭に関する詳細はRubyKaigi日記の「<a href="http://rubykaigi.tdiary.net/20080612.html#p01" class="external">6月20日に「前夜祭」を行います</a>」をご覧ください。</p>
+<h2><span class="date"><a name="l16"> </a></span><span class="title">動画ファイルのライセンス</span></h2>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="クローバー">
+<a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">http://creativecommons.org/licenses/by/2.1/jp/</a> です。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/SubSession.html">
+    <title>サブセッション・プログラム</title>
+    <link>/2008/SubSession.html</link>
+    <dc:date>2008-07-18T15:40:32+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p>サブセッションは、6月21日(土)・22日(日)に多目的ホールで行われた小規模な講演です(敬称略)。</p>
+<p>サブセッションへの参加については、チケットの購入は必要ありません。</p>
+<p>同時に大ホールで行われる<a href="./?MainSession">メインセッションはこちらです</a>。</p>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">6月21日(土)</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>09:30</h3>
+<h4><a name="l2"> </a>開場</h4>
+<h3><a name="l3"><span class="sanchor"> </span></a>11:00〜11:30</h3>
+<h4><a name="l4"> </a>Blurring the Language Barrier (Aaron Patterson)</h4>
+<dl>
+<dt>Aaron Patterson - AdReady Inc</dt><dd>When Aaron Patterson's not searching the internet for pictures of adorable kittens, he creates large-scale Ruby on Rails applications as a Principal Software Engineer at AdReady. He's an open source contributor, releasing popular Ruby tools like Mechanize and CSSPool. On Tuesday nights, Aaron can be found with the Rubyists from Seattle.rb.</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_01_aaron.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_01_aaron.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_01_aaron.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l5"><span class="sanchor"> </span></a>11:30〜12:00</h3>
+<h4><a name="l6"> </a>WebばかりがUIじゃない! 〜 新しくなったRuby/Tk (永井秀利)</h4>
+<p>Ruby 1.8.7 および Ruby 1.9 の Ruby/Tk は、正式にリリースされたTcl/Tk 8.5 に合わせ、互換性を維持しつつも大きな変更が加えられています。新機能を中心として、新しくなった Ruby/Tk を紹介します。発表後の昼休み中にRuby/Tk質問受付も予定。日頃お悩みの件や要望などありましたら、ぜひお気軽にどうぞ。</p>
+<dl>
+<dt>永井秀利 - 九州工業大学 / Rubyist九州</dt><dd>Ruby/Tkメンテナ。研究費不足に悩む本業からの現実逃避で、道具として使う以外には本業とは全く関係のないRubyとの付き合いの時間ばかりが増加中。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_02_nagai.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_02_nagai.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_02_nagai.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_nagai.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l7"><span class="sanchor"> </span></a>16:00〜16:30</h3>
+<h4><a name="l8"> </a>Ruby City MATSUE Projectの２年間 (野田哲夫)</h4>
+<p>Rubyを「地域資源」と言ってはばからない、Ruby City MATSUE Project。オープンソース・Rubyという無国籍な「資源」を地域産業振興に結びつけようとするRuby City MATSUE Projectの２年間の歩みと総括、今後の展望について語る中で、愛とエンタープライズと地域について考える</p>
+<dl>
+<dt>野田哲夫 - しまねOSS協議会</dt><dd>Matzの暮らす島根県松江市で、2006年9月に発足したコミュニティなのか、　業界団体なのか分からくなってしまった「しまねOSS協議会」の副会長。経済学を専攻し、オープンソースとビジネスの関係をテーマに研究中。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_03_noda.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_03_noda.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_03_noda.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l9"><span class="sanchor"> </span></a>16:30〜17:00</h3>
+<h4><a name="l10"> </a>DBライブラリSequelとDataMapper概説 (新井俊一)</h4>
+<p>ActiveRecord以外のDBライブラリとしてSequelとDataMapperが盛んに開発されている。まだ日本では殆ど紹介されていない、これらのライブラリについて特徴や使い方を紹介する。</p>
+<dl>
+<dt>新井俊一 - Rubyist 九州</dt><dd>福岡に暮らしてRubyist 九州という会をやっているエンジニア。仕事は99% Rubyでこなす。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_04_arai.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_04_arai.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_04_arai.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l11"><span class="sanchor"> </span></a>17:00〜17:30</h3>
+<h4><a name="l12"> </a>Rubyで快適に連投する11の方法 (ujihisa)</h4>
+<p>Mechanize, Hpricot, vimscriptなどを用いて、あなたの生活をより快適にするためのお手軽なRubyの使い方を紹介する。</p>
+<dl>
+<dt>うじひさ - 大阪大学</dt><dd>大阪の大学院生。研究でRubyとHaskellを使っている。大阪でHaskellやLispやJSやScalaやErlangなどの勉強会を不定期に開催している。早くStanford大学に行きたい。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_05_ujihisa.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_05_ujihisa.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_05_ujihisa.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h2><span class="date"><a name="l13"> </a></span><span class="title">6月22日(日)</span></h2>
+<h3><a name="l14"><span class="sanchor"> </span></a>08:45</h3>
+<h4><a name="l15"> </a>開場</h4>
+<h3><a name="l16"><span class="sanchor"> </span></a>10:00〜10:30</h3>
+<h4><a name="l17"> </a>Ruby構文による構造化データ記述 (前田和昭)</h4>
+<p>Rubyを構造化データを記述するためのDSL(Domain Specific Language)として使い、JRubyを介して、Javaから利用可能にする試みを進めている。研究用プロトタイプではなく、実務アプリケーションでの本格利用が目標である。本発表では、DSLとしてRubyをどのように使い。Javaプログラムとどのように連携させるかについて説明する。</p>
+<p>仕事仲間にRubyに詳しい人がいなくて、厳しいコメントをくれる人がいません。叱咤激励・厳しいコメントなど何でも感謝します。よろしくお願いします。</p>
+<dl>
+<dt>前田和昭 - 日本Rubyの会</dt><dd>Rubyの入門書を読み始めてから。まだ数ヶ月しかたっていない初心者です。ソースコードの解析を中心に仕事をやっています。最近は、XMLを使ったデータ記述に飽きてしまい、XMLを見るのがイヤになってきたので。Rubyでデータを記述することを実験中です。年齢が40歳になっても50歳になっても、プログラマとして仕事したいですね。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_01_maedak.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_01_maedak.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_01_maedak.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_maedak.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l18"><span class="sanchor"> </span></a>10:30〜11:00</h3>
+<h4><a name="l19"> </a>LuRuJu−RubyとUMLツールJUDEの出会い〜『モデリング = 設計』から『モデリング = 設計 + 実装』へ〜 (野村周平)</h4>
+<p>LuRuJuは、UMLモデリングツールJUDEで描いたクラス図,ER図等のモデル情報をRuby上で参照することを可能にした糊フレームワークです。</p>
+<p>LuRuJuをベースとしたRailsプラグインLuRuJu On Railsは、RailsとJUDEのダイナミックな連携を実現しており、JUDEファイルをRailsプロジェクト上に配置するだけで、クラス図、ER図の内容がそのまま動的にMVCのモデルになります。</p>
+<p>本発表ではこれらツールの目的、コンセプト、簡単な使用方法、実例を紹介します。</p>
+<dl>
+<dt>野村周平</dt><dd>フリーエンジニア。アジャイル、オブジェクト指向をこよなく愛するが、最近はRubyの言語仕様に感動し惚れ込んでいる。エンジニア35歳限界説によると私の寿命はあとわずか。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_02_nomura.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_02_nomura.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_02_nomura.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l20"><span class="sanchor"> </span></a>11:30〜12:00</h3>
+<h4><a name="l21"> </a>Rubyでつくるストレージサービス (福田朋紀)</h4>
+<p>組込み関連ソフトの開発をしていた私が、Rubyを使ったストレージサービスを構築するまでの経緯と、失敗談について赤裸々に発表します。ハンカチのご用意をお願いいたします。</p>
+<dl>
+<dt>福田朋紀 - リコーソフトウエア株式会社</dt><dd>私は鳥取に住んでいるのですが、妻の祖父が「島根のまつもとさんを知っているか、こっち(ローカルな解説で申し訳ありませんが、妻の実家はNaClまで1時間くらいなんです)に戻ってきて仕事するのもいいんじゃないか」と発言したのにいろんな意味で驚き、Rubyでストレージサービスをつくることを決意しました。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_03_fukuda.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_03_fukuda.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_03_fukuda.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h3><a name="l22"><span class="sanchor"> </span></a>13:30〜14:00</h3>
+<h4><a name="l23"> </a>Rubyのゲーム開発の現状と自作ゲームライブラリStar Ruby (星一)</h4>
+<p>Ruby を用いたゲーム開発の現状、および自作ゲームライブラリ Star Ruby (<a href="http://www.starruby.info/" class="external">http://www.starruby.info/</a> ) の概要について発表します。
+Star Ruby はスーファミ風 2D ゲームを作ることを目的としたライブラリです。
+プレゼン自体 Star Ruby で行い、 Star Ruby の機能を活かしながらStar Ruby の機能を紹介する予定です。</p>
+<dl>
+<dt>星一 - 東京大学大学院情報理工学系研究科創造情報学専攻修士2年</dt><dd>大学院生です。好きなアーティストは Michael Jackson です。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_04_hoshihajime.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_04_hoshihajime.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_04_hoshihajime.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_hoshi.zip')}}</span> (ZIP)</li>
+</ul>
+<h3><a name="l24"><span class="sanchor"> </span></a>14:00〜14:30</h3>
+<h4><a name="l25"> </a>Rubyで懐かしのゲームブックを作ってみよう! (サイロス誠)</h4>
+<p>20年前、一世を風靡した「ゲームブック」。当時、ゲームブックを作ってはみたものの、色々面倒なことがあって挫折された方も多いはず。そこでRubyの出番です！実際にゲームブック(本物の本！)を作った際に使ったスクリプトを元に、ゲーム制作のコツを解説していきます。</p>
+<dl>
+<dt>サイロス誠 - 大阪のとあるソフト会社</dt><dd>PC(環境おたく)と四コマ漫画が好きな、しがねぇ会社員</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_05_cyros.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_05_cyros.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_05_cyros.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_cyross.zip')}}</span> (ZIP)</li>
+</ul>
+<h3><a name="l26"><span class="sanchor"> </span></a>14:40〜15:10</h3>
+<h4><a name="l27"> </a>net-irc gem のライブラリデザイン (cho45)</h4>
+<p>net-irc という IRC プロトコルモジュールを通して、書きやすく読みやすくするためのライブラリ設計と、実際にこのライブラリを使ったアプリケーションについて話します。</p>
+<dl>
+<dt>cho45 - サブテク</dt><dd>言語ヲタクを目指す Ruby 使い。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_06_cho45.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_06_cho45.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_06_cho45.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li><a href="http://svn.coderepos.org/share/docs/cho45/20080622-rubykaigi-subsession-net-irc/converted.html" class="external">資料</a> (HTML)</li>
+</ul>
+<h3><a name="l28"><span class="sanchor"> </span></a>15:10〜15:40</h3>
+<h4><a name="l29"> </a>Rubyプログラムの型推論 (松本宗太郎)</h4>
+<p>Rubyは、型無し(untyped)あるいは動的型付け(dynamically typed)に分類されるプログラミング言語であり、型宣言の不要な簡潔な構文や、柔軟なプログラミングが可能な点が特徴である。しかし、その一方で静的な型システムによって提供されるプログラム検査の欠落は、プログラム中に含まれる誤りの検出を遅延させる原因となっている。</p>
+<p>本発表では、発表者が開発中である、Rubyプログラムに対して型推論を行い誤りを検出するツールTyping Rubyの紹介を行う。
+ツールの基盤となっている理論に関する説明は最小限にとどめ、一つのツールとして、何ができるのか、何はできないのか、といった点を中心に紹介を行う。</p>
+<dl>
+<dt>松本宗太郎 - 筑波大学大学院システム情報工学研究科</dt><dd>大学院生。特に型システムなどのプログラミング言語の理論やプログラム解析などに興味を持つ。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_07_matsumoto.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_07_matsumoto.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_07_matsumoto.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_matsumoto.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l30"><span class="sanchor"> </span></a>15:40〜16:10</h3>
+<h4><a name="l31"> </a>RubyGCをどけんかせんといかん (authorNari)</h4>
+<p>現在のRubyGCの概要を分かりやすく解説します。
+また、RubyGCの問題点を白日の下に晒し、「どげんかせんと」という魂を持って、これを改善する手法を紹介します。</p>
+<dl>
+<dt>authorNari - Rubyist九州</dt><dd>GarbageCollectionが趣味というボランティアンスピリッツに溢れた人</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_08_authornari.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_08_authornari.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_08_authornari.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_nari.pdf')}}</span> (PDF)</li>
+</ul>
+<h3><a name="l32"><span class="sanchor"> </span></a>16:10〜16:40</h3>
+<h4><a name="l33"> </a>SVuGy: SVGとRubyで遊ぼう (Martin J. D<span class="plugin">{{e('#xfc')}}</span>rst)</h4>
+<p>SVuGy (発音: スィージー) は Ruby 内の DSL であり、簡単に面白い図形を書けるライブラリと枠組みである。SVG は XML を使った Web 用の二次元の図形を記述する標準形式である。手で書くのも大変で、描画ツールで書くのも大変だと感じた発表者は Ruby (のメタプログラミング) の練習と授業用の作図のためにほぼ一年前に作りはじめた [1]。</p>
+<p>似たものとして rcairo、RubySVG、RVG などがあるが、それらに比べてSVuGy は記法が最も簡潔で、便利な機能が多いのではないでしょうか。機能の一部として応用図形部品クラスの簡易な作成、SVG の id と Ruby の変数名の自動対応、幾何学的計算の機能があげられる。発表を聞いて SVuGy を使いたくなったら幸いである。</p>
+<dl>
+<dt>Martin J. D<span class="plugin">{{e('#xfc')}}</span>rst - 青山学院大学</dt><dd>W3C で Web やインターネットの国際化を担当した。プログラミングが好きなので、Ruby が大好き。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-22_rubykaigi2008-day2_09_martin.jpg" alt="/2008/video/2008-06-22_rubykaigi2008-day2_09_martin.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-22_rubykaigi2008-day2_09_martin.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li><a href="http://www.sw.it.aoyama.ac.jp/SVuGy/RubyKaigi2008Presentation.html" class="external">資料</a> (Link)</li>
+</ul>
+<h2><span class="date"><a name="l34"> </a></span><span class="title">動画ファイルのライセンス</span></h2>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="クローバー"><a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">http://creativecommons.org/licenses/by/2.1/jp/</a> です。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/LT.html">
+    <title>ライトニング・トークス</title>
+    <link>/2008/LT.html</link>
+    <dc:date>2008-07-18T15:39:15+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">ライトニング・トークス</span></h2>
+<p>Ruby会議のライトニング・トークス(LT)は、1st day(6月21日)の17:30から行われます。</p>
+<h3><a name="l1"><span class="sanchor"> </span></a>発表一覧および発表者プロフィール</h3>
+<h4><a name="l2"> </a>「JavaからRubyへ」について、どうしても言いたいことがある (桑田 誠)</h4>
+<dl>
+<dt>桑田 誠 - kuwata-lab.com</dt><dd>Programmer</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT01.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT01.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT01.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_kuwata.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l3"> </a>dRubyとセキュリティ (西山和広)</h4>
+<dl>
+<dt>西山和広 - 日本Rubyの会</dt><dd>Rubyリファレンスマニュアル周りのことをやっていたりRubyのコミッターだったりします。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT02.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT02.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT02.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_znz.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l4"> </a>RubyとODEでピタゴラ装置 (佐々木竹充)</h4>
+<dl>
+<dt>佐々木竹充 - 株式会社コルト</dt><dd>普段はRailsでWeb開発ですが、もっと派手なユーザインターフェイスが好きなんです。でもiPod touchは持っていない。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT03.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT03.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT03.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l5"> </a>初級者は Enumerator の夢を見るか? (今井伸広)</h4>
+<dl>
+<dt>今井伸広 - Ruby関西</dt><dd>Ruby初級者</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT04.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT04.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT04.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_imai.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l6"> </a>Rubyで楽しむフォークプログラミング (Webアプリじゃないよ蝙) (高山征大 (mootoh))</h4>
+<dl>
+<dt>高山征大 (mootoh) - deadbeaf.org</dt><dd>ふつうの並列プログラマ</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT05.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT05.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT05.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_mootoh.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l7"> </a>Ruby.pm - CライブラリとしてのRuby (藤 吾郎)</h4>
+<dl>
+<dt>藤 吾郎 - 筑波大学 学群生</dt><dd>生粋のPerlerです。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT06.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT06.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT06.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_fuji.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l8"> </a>toRubyでみつけた Rubyist人生再出発 (池澤一廣)</h4>
+<dl>
+<dt>池澤一廣 - toRuby</dt><dd>自営業 説明しにくいので人には「情報処理業」と言います。Rubyは生活の支え。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT07.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT07.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT07.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_ikezawa.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l9"> </a>Ruby 1.9 on Rails 2.1による新時代DBプログラミング (松田明)</h4>
+<dl>
+<dt>松田明 - フリーランスの Ruby/Railsプログラマ</dt><dd>浅草在住の自由業。現在、T&amp;Fカンパニーさんに居候中。Rails勉強会@東京によく出没しています。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT08.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT08.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT08.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料: <span class="plugin">{{attach_anchor('rubykaigi2008_matsuda.pdf')}}</span> (PDF)</li>
+</ul>
+<h4><a name="l10"> </a>テストベースコードリーディングのすすめ (遠藤侑介)</h4>
+<dl>
+<dt>遠藤侑介 - 理論科学グループ</dt><dd>新人コミッタ。Ruby のテストの増強担当。他は YARV のバグだしなど。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT09.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT09.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT09.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li><a href="http://dame.dyndns.org/misc/misc/test-based-code-reading.ppt" class="external">資料</a> (Link, PPT)</li>
+</ul>
+<h4><a name="l11"> </a>A Jail Web Development with Rails 2008 でわっふるわっふる (竹迫良範)</h4>
+<dl>
+<dt>竹迫良範 - サイボウズ・ラボ株式会社</dt><dd>Shibuya.pm 2代目リーダー。PerlはRubyのお兄さん(orお姉さん)。最近は開発言語に依存しないApacheモジュールを書いたりしています。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT10.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT10.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT10.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料(作業中)</li>
+</ul>
+<h4><a name="l12"> </a>Industrial-Designed Language: Ruby (斎藤ただし)</h4>
+<dl>
+<dt>斎藤ただし - 筑波大学情報学類</dt><dd>この大学に入ったのは、工業デザインとコンピュータサイエンスを両方学ぶためでした。</dd>
+</dl>
+<p><img src="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT11.jpg" alt="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT11.jpg"></p>
+<ul>
+<li><a href="/2008/video/2008-06-21_rubykaigi2008-day1_10_LT11.ogg" class="external">動画（Ogg Theora形式）</a></li>
+<li>資料は皆さんの心のなかにあります</li>
+</ul>
+<h2><span class="date"><a name="l13"> </a></span><span class="title">動画ファイルのライセンス</span></h2>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="クローバー"><a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">http://creativecommons.org/licenses/by/2.1/jp/</a> です。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/ExecutiveCommittee.html">
+    <title>日本Ruby会議2008実行委員会</title>
+    <link>/2008/ExecutiveCommittee.html</link>
+    <dc:date>2008-07-03T00:38:48+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">日本Ruby会議2008実行委員会</span></h2>
+<dl>
+<dt>実行委員長</dt><dd>高橋征義(日本Rubyの会会長 / 株式会社ツインスパーク)</dd>
+<dt>運営委員長</dt><dd>角谷信太郎(日本Rubyの会 || (株)永和システムマネジメント)</dd>
+<dt>プログラム委員長</dt><dd>笹田耕一(日本Rubyの会 / 東京大学大学院情報理工学系研究科創造情報学専攻)</dd>
+<dt>スポンサー渉外担当</dt><dd>喜多淳一郎(日本Rubyの会)</dd>
+<dt>Rubyアソシエーション</dt><dd>前田修吾(Rubyアソシエーション / 株式会社ネットワーク応用通信研究所)</dd>
+<dt>実行委員</dt>
+</dl>
+<ul>
+<li>ただただし(tDiary.org) - プログラム担当</li>
+<li>のりお(茨城Rubyの会) - デザイン担当</li>
+<li>あづみしんや(日本Rubyの会) - ノベルティ担当</li>
+<li>斎藤ただし(筑波大学情報学類) - 現地駐在員、ローカルアレンジメント担当</li>
+<li>なかおみつてる(BioRuby.org) - ステージ担当, RejectKaigi実行委員長</li>
+<li>Yugui(akasaka.rb / Project Rottenmeier) - Ruby技術者認定試験渉外担当</li>
+<li>ふしはらかん(日本Rubyの会) - 「喫茶ふしはら」マスター</li>
+<li>レオ　Leonard Chin（日本Rubyの会）- 英語窓口,スライド翻訳</li>
+<li>諸橋恭介（Rails勉強会@東京 || (株)永和システムマネジメント）- 会計担当</li>
+<li>三浦智彦(日本Rubyの会) - 会場設営、コミュニティ担当</li>
+<li>荻野淳也(あとで書く) - 道案内番長</li>
+<li>かずひこ(オープンソース・プログラマ / 日本Rubyの会) - サーバ管理,0日目司会</li>
+</ul>
+<dl>
+<dt>当日スタッフ</dt>
+</dl>
+<ul>
+<li>あんどうやすし（株式会社ドリコム）</li>
+<li>柳田 浩平 (日本Rubyの会)</li>
+<li>宮川 裕幸 (筑波大学)</li>
+<li>鈴木 美保（ひまじん）</li>
+<li>だん (日本Rubyの会)</li>
+<li>五十嵐 正人 (ngi group 株式会社)</li>
+<li>石原 真樹 (株式会社プラムザ)</li>
+<li>宇井 敬一朗 (筑波大学)</li>
+</ul>
+<dl>
+<dt>KaigiFreaks</dt>
+</dl>
+<ul>
+<li>しまだこうじ(Ruby札幌)</li>
+<li>しだらようじ(Ruby札幌)</li>
+<li>まえだともき(Ruby札幌 / 株式会社アンタス)</li>
+<li>むらたけんた(Ruby札幌) </li>
+<li>たにぐちふみたけ(Ruby札幌 / 北海道情報大学)</li>
+<li>溝口 浩二 (株式会社ドワンゴ)</li>
+<li>稲尾 尚徳 (技術評論社WEB+DB PRESS編集部)</li>
+<li>土井 優子 (技術評論社WEB+DB PRESS編集部)</li>
+<li>高橋 和道 (技術評論社gihyo.jp編集部)</li>
+<li>廣瀬隆昌 (筑波大学大学院)</li>
+<li>磯辺 和彦（日本Rubyの会 / 株式会社ツインスパーク）</li>
+<li>吉田 康久 (筑波大学)</li>
+<li>葉石 卓生 (フリー)</li>
+</ul>
+<dl>
+<dt>スライド翻訳</dt>
+</dl>
+<ul>
+<li>石井一夫 (日本Rubyの会)</li>
+<li>zunda (日本Rubyの会)</li>
+<li>桑田誠(kuwata-lab.com)</li>
+<li>藤本尚邦(RubyCocoa)</li>
+</ul>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/Goodies.html">
+    <title>おまけ</title>
+    <link>/2008/Goodies.html</link>
+    <dc:date>2008-06-27T07:09:02+00:00</dc:date>
+    <content:encoded><![CDATA[<div><p>RubyKaigi2008に関連するファイルなどを提供します。</p>
+<h2><span class="date"><a name="l0"> </a></span><span class="title">壁紙 (Wallpapers)</span></h2>
+<h3><a name="l1"><span class="sanchor"> </span></a>I Love Ruby </h3>
+<ul>
+<li><span class="plugin">{{attach_anchor('wallpaper_b_1280x800.jpg')}}</span> (1280x800, JPEG) </li>
+<li><span class="plugin">{{attach_anchor('wallpaper_b_1280x960.jpg')}}</span> (1280x960, JPEG)</li>
+<li><span class="plugin">{{attach_anchor('wallpaper_b_1440x900.jpg')}}</span> (1440x900, JPEG) </li>
+<li><span class="plugin">{{attach_anchor('wallpaper_b_1600x1200.jpg')}}</span> (1600x1200, JPEG)</li>
+<li><span class="plugin">{{attach_anchor('wallpaper_b_1920x1200.jpg')}}</span> (1920x1200, JPEG)</li>
+</ul>
+<div class="plugin">{{attach_view(wallpaper_b_thumbnail.jpg)}}</div>
+<h3><a name="l2"><span class="sanchor"> </span></a>RubyKaigi2008 Official Wallpaper (illustlation: <a href="http://whytheluckystiff.net/" class="external">why the lucky stiff</a>)</h3>
+<ul>
+<li><span class="plugin">{{attach_anchor('wallpaper1280x800.png')}}</span> (1280x800, PNG) </li>
+<li><span class="plugin">{{attach_anchor('wallpaper1280x960.png')}}</span> (1280x960, PNG)</li>
+</ul>
+<p><span class="plugin">{{attach_view(wallpaper_thumbnail.png)}}</span> </p>
+<h2><span class="date"><a name="l3"> </a></span><span class="title">会場BGM</span></h2>
+<p>会場BGMのリストです。今年は<a href="http://andworkspace.net/kuramu/" class="external">RubyKaigiオリジナル曲</a>と<a href="http://poignantguide.net/sdtrk/" class="external">_whyの曲</a>、そしてダビーで日本ネタ満載の<a href="http://www.jahtari.org/music.htm" class="external">JAHTARIレーベル</a>の曲を使わせていただきました。</p>
+<ul>
+<li><a href="http://poignantguide.net/sdtrk/" class="external">the soundtrack to why's (poignant) guide to ruby</a><ul>
+<li>chapter one: <a href="http://poignantguide.net/sdtrk/" class="external">Introducing...</a> (パッパヤプー！開始の合図に使っていた曲ですよ！)</li>
+<li>chapter two: <a href="http://poignantguide.net/sdtrk/" class="external">This Book is Made (of Rabbits and Lemonade)</a></li>
+<li>chapter three: <a href="http://poignantguide.net/sdtrk/" class="external">The Parts of Ruby / Chunky Bacon</a></li>
+<li>chapter four: <a href="http://poignantguide.net/sdtrk/" class="external">The Magic Elf / Ambrose Caves</a></li>
+<li>chapter five: <a href="http://poignantguide.net/sdtrk/" class="external">Belljar / Space / My Daughter's Organ Instructor</a></li>
+<li>chapter six: <a href="http://poignantguide.net/sdtrk/" class="external">Downtown / Dwemthy</a></li>
+<li>chapter seven: <a href="http://poignantguide.net/sdtrk/" class="external">When You Wish Upon a Beard</a></li>
+<li>chapter eight: <a href="http://poignantguide.net/sdtrk/" class="external">Heaven's Harp</a></li>
+</ul></li>
+</ul>
+<ul>
+<li>RubyKaigi2008オリジナル <a href="http://w6.oroti.com/~kuramu/" class="external">Kuramu</a><ul>
+<li><a href="http://andworkspace.net/kuramu/music/RK8/Ascender.mp3" class="external">Ascender - Kuramu              </a></li>
+<li><a href="http://andworkspace.net/kuramu/music/RK8/Deep_blue_virtual_moon.mp3" class="external">Deep blue virtual moon - Kuramu</a></li>
+<li><a href="http://andworkspace.net/kuramu/music/RK8/Feel_in_one's_fiber.mp3" class="external">Feel in one's fiber - Kuramu   </a></li>
+</ul></li>
+</ul>
+<ul>
+<li><a href="http://andworkspace.net/kuramu/" class="external">RubyKaigi2007オリジナル</a><ul>
+<li><a href="http://andworkspace.net/kuramu/" class="external">Open up a map - Kuramu        </a></li>
+<li><a href="http://andworkspace.net/kuramu/" class="external">Temper - Kuramu               </a></li>
+<li><a href="http://andworkspace.net/kuramu/" class="external">Domain closure - Kuramu       </a></li>
+<li><a href="http://andworkspace.net/kuramu/" class="external">Each Dub - Kuramu             </a></li>
+<li><a href="http://andworkspace.net/kuramu/" class="external">Lifting of the closure - hi-ku</a></li>
+</ul></li>
+</ul>
+<ul>
+<li><a href="http://www.jahtari.org/music.htm" class="external">JAHTARI</a><ul>
+<li><a href="http://www.jahtari.org/music/JTR%20NET17.htm" class="external">The Brink Of Destruction / Bit Defender - disrupt     </a> (New)</li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET16.htm" class="external">Samurai Showdown / Last Blade - disrupt               </a> (New)</li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET15.htm" class="external">armer In The Sky / Depth Charge - Jahtari Riddim Force</a> (New)</li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET14.htm" class="external">Brennen Euch Ab - FLEUR EARTH w/ GRINGO STARR         </a> (New)</li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET14.htm" class="external">Safe In The Fire Dub - RAS AMERLOCK                   </a> (New)</li>
+<li><a href="http://www.jahtari.org/music/ik.htm" class="external">International Karate Championship - disrupt</a></li>
+<li><a href="http://www.jahtari.org/music/ik.htm" class="external">IK+ - disrupt                              </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET02.htm" class="external">Loose In Space - Jahtari Riddim Force      </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET04.htm" class="external">Central Dubbing Unit - disrupt             </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET04.htm" class="external">Central Dubbing version - disrupt          </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET06.htm" class="external">Bauhelm - Bo Marley                        </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET06.htm" class="external">Bauhelm Dub - disrupt                      </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET08.htm" class="external">Arcade Addict - disrupt                    </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET08.htm" class="external">Sensi Addict - Mikey Murka                 </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET09.htm" class="external">8Bit Battle Dub - Roots Ista Posse         </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET09.htm" class="external">Hooked Mi Up Dub - Roots Ista Posse        </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET11.htm" class="external">International Calling - Normaa             </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET11.htm" class="external">Give Thanks To Be Part - Normaa            </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET12.htm" class="external">Poor Girl - Illyah &amp; Ltd. Candy            </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET12.htm" class="external">Fight The Formation - Illyah &amp; Ltd. Candy  </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET13.htm" class="external">Enchantier - RAS AMERLOCK vs. VOLFONIQ     </a></li>
+<li><a href="http://www.jahtari.org/music/JTR%20NET13.htm" class="external">Vigilante Dub - RAS AMERLOCK vs. VOLFONIQ  </a></li>
+</ul></li>
+</ul>
+<h2><span class="date"><a name="l4"> </a></span><span class="title">タイムキーパー音声</span></h2>
+<p>サイロス誠さん提供による、サブセッションで使われた初音ミクのタイムキーパー音声です。</p>
+<ul>
+<li><span class="plugin">{{attach_anchor( 'miku-timekeeper-1min.mp3' )}}</span> (あと1分でーす)</li>
+<li><span class="plugin">{{attach_anchor( 'miku-timekeeper-5min(1).mp3' )}}</span> (あと5分でーす)</li>
+<li><span class="plugin">{{attach_anchor( 'miku-timekeeper-5min(2).mp3' )}}</span> (あと5分ですぅ)</li>
+<li><span class="plugin">{{attach_anchor( 'miku-timekeeper-10min.mp3' )}}</span> (あと10分でーす)</li>
+</ul>
+<p>RejectKaigiなどで使われた、鈴音ミホ(コードネーム)によるタイムキーパー音声です。</p>
+<ul>
+<li><span class="plugin">{{attach_anchor( 'miho-timekeeper-1min.mp3' )}}</span> (残り1分です)</li>
+</ul>
+<h2><span class="date"><a name="l5"> </a></span><span class="title">バッジ (Badge)</span></h2>
+<h3><a name="l6"><span class="sanchor"> </span></a>参加者用（RubyKaigi2008に参加される方はご自分のサイトに張りましょう！）</h3>
+<p><a href="/2008/" class="external"><span class="plugin">{{attach_view(rubykaigi08_badge_attendee.png)}}</span></a></p>
+<h3><a name="l7"><span class="sanchor"> </span></a>スピーカー用（RubyKaigi2008でスピーカーとして参加される方用）</h3>
+<p><a href="/2008/" class="external"><span class="plugin">{{attach_view(rubykaigi08_badge_speaker.png)}}</span></a></p>
+<h3><a name="l8"><span class="sanchor"> </span></a>スポンサー用（RubyKaigi2008にスポンサー企業様用）</h3>
+<p><a href="/2008/" class="external"><span class="plugin">{{attach_view(rubykaigi08_badge_sponsor.png)}}</span></a></p>
+<h3><a name="l9"><span class="sanchor"> </span></a>スタッフ用</h3>
+<p><a href="/2008/" class="external"><span class="plugin">{{attach_view(rubykaigi08_badge_staff.png)}}</span></a></p>
+<h2><span class="date"><a name="l10"> </a></span><span class="title">ロゴデータ (Logo)</span></h2>
+<div class="plugin">{{attach_view(RubyKaigi2008Logo_bg_transparent.png)}}</div>
+<h3><a name="l11"><span class="sanchor"> </span></a>ダウンロード</h3>
+<ul>
+<li>PNGファイル: <span class="plugin">{{attach_anchor(RubyKaigi2008Logo_bg_transparent.png)}}</span> <span class="plugin">{{br}}</span></li>
+<li>EPSファイル(RGB/CMYK): <span class="plugin">{{attach_anchor(RubyKaigi2008LogoEPS.zip)}}</span></li>
+</ul>
+<h2><span class="date"><a name="l12"> </a></span><span class="title">ノベルティ用データ</span></h2>
+<ul>
+<li>白紙: <span class="plugin">{{attach_anchor(tumbler-blank.pdf)}}</span> </li>
+</ul>
+<h2><span class="date"><a name="l13"> </a></span><span class="title">ライセンス (License)</span></h2>
+<p><img src="http://i.creativecommons.org/l/by/2.1/jp/88x31.png" alt="クローバー"><a href="http://creativecommons.org/licenses/by/2.1/jp/" class="external">http://creativecommons.org/licenses/by/2.1/jp/</a></p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/thanks.html">
+    <title>アンケート送信完了</title>
+    <link>/2008/thanks.html</link>
+    <dc:date>2008-06-22T06:55:51+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">アンケート送信完了</span></h2>
+<p>アンケートにご回答ありがとうございました。</p>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/enquete.html">
+    <title>アンケート</title>
+    <link>/2008/enquete.html</link>
+    <dc:date>2008-06-22T06:53:54+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">アンケート</span></h2>
+<p>今後の参考にしたいため、アンケートにご協力ください。</p>
+<div class="plugin">{{enquete_form}}</div>
+</div>]]></content:encoded>  </item>  <item rdf:about="/2008/Live.html">
+    <title>Live</title>
+    <link>/2008/Live.html</link>
+    <dc:date>2008-06-21T05:23:43+00:00</dc:date>
+    <content:encoded><![CDATA[<div><h2><span class="date"><a name="l0"> </a></span><span class="title">RubyKaigi2008.live!</span></h2>
+<p>Ustream.tvを使ったストリーミング中継です。必要に応じて片側の音声をミュートしてください。<strong>ustのIRCは利用しません。</strong> irc.freenode.netを使ってください。</p>
+<p>The live broadcast will be via ustream.tv. You may wish to mute one of the channels. <strong>We will not be using ustream's IRC server.</strong> Please use #rubykaigi and #rubykaigi-mp on irc.freenode.net. <strong>Live translation will only be available on #rubykaigi.</strong></p>
+<table border="1">
+<tr><td>大ホール Main Hall</td><td>多目的ホール Multi-Purpose Hall</td></tr>
+<tr><td><span class="plugin">{{ustream(181004)}}</span></td><td><span class="plugin">{{ustream(188215)}}</span></td></tr>
+</table>
+<h3><a name="l1"><span class="sanchor"> </span></a>on ustream.tv</h3>
+<ul>
+<li>Main Sessions: <a href="http://www.ustream.tv/channel/rubykaigi" class="external">http://www.ustream.tv/channel/rubykaigi</a></li>
+<li>0th day / Sub-Sessions: <a href="http://www.ustream.tv/channel/rubykaigi-mp" class="external">http://www.ustream.tv/channel/rubykaigi-mp</a></li>
+</ul>
+<h2><span class="date"><a name="l2"> </a></span><span class="title">about IRC</span></h2>
+<h3><a name="l3"><span class="sanchor"> </span></a>Connection Info.</h3>
+<ul>
+<li>サーバ(Server): irc.freenode.net:6667</li>
+<li>チャネル(Channel): <ul>
+<li>#rubykaigi(大ホール),</li>
+<li>#rubykaigi-mp(多目的ホール)</li>
+</ul></li>
+<li>文字コード(encoding): UTF-8</li>
+</ul>
+<h2><span class="date"><a name="l4"> </a></span><span class="title">notes</span></h2>
+<ul>
+<li>中継品質はベストエフォートです。悪しからずご了承ください。</li>
+<li>KaigiFreaksがお届けします。</li>
+<li>中継とは別に、後日録画した動画も公開予定です(準備ができ次第、別途アナウンスします)。</li>
+</ul>
+<ul>
+<li>Streaming quality is Best Effort. Please understand that we cannot guarantee quality.</li>
+<li>There will be volunteer-performed Japanese-English translations for the sessions in the main hall on the #rubykaigi ustream.tv IRC channel. </li>
+<li>RubyKaigi.live! is brought to you by "KaigiFreaks"</li>
+<li>Recordings of the RubyKaigi talks will also be released to various video sharing services after the conference. </li>
+</ul>
+</div>]]></content:encoded>  </item></rdf:RDF>
