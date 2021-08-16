@@ -1,160 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <link>http://jp.rubyist.net/RubyKaigi2006/audio/</link>
+    <link>https://rubykaigi.org/2006/audio/</link>
     <title>日本Rubyカンファレンス2006</title>
     <language>Japanese</language>
     <item>
       <title>高橋征義 -- 日本Rubyカンファレンス2006 -- オープニング</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-00-opening.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-00-opening.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-00-opening.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-00-opening.mp3"
         length="4897423"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>高橋征義 -- 日本Rubyカンファレンス2006 -- Rubyの歴史</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-01-takahashi.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-01-takahashi.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-01-takahashi.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-01-takahashi.mp3"
         length="18145418"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>井上浩 -- 日本Rubyカンファレンス2006 -- NaClのオープンソース戦略 - そして今後の Ruby 戦略に関して</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-02-inoue.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-02-inoue.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-02-inoue.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-02-inoue.mp3"
         length="22401353"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>まつもとゆきひろ -- 日本Rubyカンファレンス2006 -- State of the Dominion</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-03-matz.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-03-matz.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-03-matz.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-03-matz.mp3"
         length="64530334"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>まつもとゆきひろ, ささだこういち, 小迫清美, 卜部昌平 -- 日本Rubyカンファレンス2006 -- パネル企画「Ruby 2.0」</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-04-Ruby2.0.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-04-Ruby2.0.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-04-Ruby2.0.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-04-Ruby2.0.mp3"
         length="55905369"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>arton -- 日本Rubyカンファレンス2006 -- Rubyizeによる言語境界の越え方</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-05-arton.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-05-arton.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-05-arton.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-05-arton.mp3"
         length="28849438"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>田中哲 -- 日本Rubyカンファレンス2006 -- 使いやすいライブラリAPIデザイン</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-06-akr.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-06-akr.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-06-akr.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-06-akr.mp3"
         length="29521447"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>石塚圭樹 -- 日本Rubyカンファレンス2006 -- Rubyプログラミング + モデリングでより楽しくなろう - その1</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-07-keiju.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-07-keiju.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-07-keiju.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-07-keiju.mp3"
         length="26113485"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>なひ -- 日本Rubyカンファレンス2006 -- セキュアアプリケーションプログラミング</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-08-nahi.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-08-nahi.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-08-nahi.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-08-nahi.mp3"
         length="31793584"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>後藤謙太郎 -- 日本Rubyカンファレンス2006 -- 仕事で使うRuby</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-09-gotoken.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-09-gotoken.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-09-gotoken.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-09-gotoken.mp3"
         length="29761428"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>前田修吾 -- 日本Rubyカンファレンス2006 -- Railsによるメタプログラミング入門</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/1-10-shugo.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/1-10-shugo.mp3"
+      <link>https://rubykaigi.org/2006/audio/1-10-shugo.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/1-10-shugo.mp3"
         length="30385453"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>ただただし -- 日本Rubyカンファレンス2006 -- Ruby anywhere - Ruby普及のためにアプリケーションができること</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-01-tada.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-01-tada.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-01-tada.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-01-tada.mp3"
         length="27393361"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>関将俊 -- 日本Rubyカンファレンス2006 -- dRubyをもう一度</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-02-seki.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-02-seki.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-02-seki.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-02-seki.mp3"
         length="29009551"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>中島拓 -- 日本Rubyカンファレンス2006 -- Amrita2 の紹介</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-03-essa.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-03-essa.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-03-essa.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-03-essa.mp3"
         length="27201292"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>secondlife（舘野祐一） -- 日本Rubyカンファレンス2006 --  Perlの会社で使われるRubyの利用法とは！？</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-04-gorou.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-04-gorou.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-04-gorou.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-04-gorou.mp3"
         length="22625607"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>大前潤, ストヤン・ジェコフ, 瀧内元気, 高木宏（Gollum） -- 日本Rubyカンファレンス2006 -- パネル企画「Rails in Production」</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-05-RiP.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-05-RiP.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-05-RiP.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-05-RiP.mp3"
         length="58737381"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>moriq（吉田和弘） -- 日本Rubyカンファレンス2006 -- RailsによるWebアプリケーション開発・保守事例の紹介</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-06-moriq.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-06-moriq.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-06-moriq.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-06-moriq.mp3"
         length="27121488"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>西和則 -- 日本Rubyカンファレンス2006 -- ActiveRecordを詳しく</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-07-maiha.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-07-maiha.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-07-maiha.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-07-maiha.mp3"
         length="27793427"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>David Heinemeier Hansson -- 日本Rubyカンファレンス2006 -- One controller, many ins, many outs</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-08-DHH.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-08-DHH.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-08-DHH.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-08-DHH.mp3"
         length="62721325"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>片山俊明, 藤本尚邦, 立川察理, cuzic, 大西正太 -- 日本Rubyカンファレンス2006 -- ライトニングトークス（1）</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-09-LT1.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-09-LT1.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-09-LT1.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-09-LT1.mp3"
         length="26081620"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>えとー, 須藤功平, Yugui, 大林一平, 市川宙, 江渡浩一郎 -- 日本Rubyカンファレンス2006 -- ライトニングトークス（2）</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-10-LT2.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-10-LT2.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-10-LT2.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-10-LT2.mp3"
         length="30153951"
         type="audio/mpeg"/>
     </item>
     <item>
       <title>高橋征義 -- 日本Rubyカンファレンス2006 -- 閉会</title>
-      <link>http://jp.rubyist.net/RubyKaigi2006/audio/2-11-closing.mp3</link>
-      <enclosure url="http://jp.rubyist.net/RubyKaigi2006/audio/2-11-closing.mp3"
+      <link>https://rubykaigi.org/2006/audio/2-11-closing.mp3</link>
+      <enclosure url="https://rubykaigi.org/2006/audio/2-11-closing.mp3"
         length="3953540"
         type="audio/mpeg"/>
     </item>
