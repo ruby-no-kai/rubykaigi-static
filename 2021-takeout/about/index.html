@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+About - RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='About' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='about'>
+<div id='app'>
+<header class='p-header'>
+<a href="/2021-takeout" class="p-header__logo">RubyKaigi Takeout 2021</a>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="is-active">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="is-active">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</header>
+<div class='l-main' role='main'>
+<h1 class='c-title__page'>About</h1>
+<section class='l-section'>
+<h2 class='c-title__section'>Contact</h2>
+<p>
+<a href="mailto:2021@rubykaigi.org">2021@rubykaigi.org</a>
+</p>
+</section>
+<section class='l-section'>
+<h2 class='c-title__section'>Team</h2>
+<h3 class='c-title__section-sub'>
+Organizers
+</h3>
+<ul class='p-member-list is-large'>
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/76a777ff80f30bd3b390e275cce625bc?s=268" alt="Akira Matsuda" />
+</div>
+<p class='p-member-list__role'>
+Chief Organizer
+</p>
+<p class='p-member-list__name'>
+Akira Matsuda
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/amatsuda" target="_blank"><i aria-label='GitHub:@amatsuda' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/a_matsuda" target="_blank"><i aria-label='Twitter: @a_matsuda' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/a_matsuda" target="_blank">@a_matsuda</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/21a4b941766d805333e11c5766be43b4?s=268" alt="Masayoshi Takahashi" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Masayoshi Takahashi
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/takahashim" target="_blank"><i aria-label='GitHub:@takahashim' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/takahashim" target="_blank"><i aria-label='Twitter: @takahashim' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/takahashim" target="_blank">@takahashim</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/a88de0082be9500baa9c935f0f2aca69?s=268" alt="Toshiharu Akimoto" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Toshiharu Akimoto
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/springaki" target="_blank"><i aria-label='GitHub:@springaki' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/spring_aki" target="_blank"><i aria-label='Twitter: @spring_aki' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/spring_aki" target="_blank">@spring_aki</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/c4f076f658dd3464f1d8785ad53a0d99?s=268" alt="Sorah Fukumori" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Sorah Fukumori
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/sorah" target="_blank"><i aria-label='GitHub:@sorah' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/sora_h" target="_blank"><i aria-label='Twitter: @sora_h' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/sora_h" target="_blank">@sora_h</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/111c7cc8b41b3153858a9c145cec2686?s=268" alt="Ippei Ogiwara" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Ippei Ogiwara
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/iogi" target="_blank"><i aria-label='GitHub:@iogi' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/iogi" target="_blank"><i aria-label='Twitter: @iogi' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/iogi" target="_blank">@iogi</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/893d85f170f55366735566c538f21c31?s=268" alt="Erina Fukumoto" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Erina Fukumoto
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/pupupopo88" target="_blank"><i aria-label='GitHub:@pupupopo88' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/pupupopo88" target="_blank"><i aria-label='Twitter: @pupupopo88' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/pupupopo88" target="_blank">@pupupopo88</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/9d2f78236e45a335301ba1195026105d?s=268" alt="Shyouhei Urabe" />
+</div>
+<p class='p-member-list__role'>
+Organizer
+</p>
+<p class='p-member-list__name'>
+Shyouhei Urabe
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/shyouhei" target="_blank"><i aria-label='GitHub:@shyouhei' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/shyouhei" target="_blank"><i aria-label='Twitter: @shyouhei' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/shyouhei" target="_blank">@shyouhei</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/63a6bff89d692e21de20868202bc8dde?s=268" alt="Shintaro Kakutani" />
+</div>
+<p class='p-member-list__role'>
+Señor Organizer
+</p>
+<p class='p-member-list__name'>
+Shintaro Kakutani
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/kakutani" target="_blank"><i aria-label='GitHub:@kakutani' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/kakutani" target="_blank"><i aria-label='Twitter: @kakutani' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/kakutani" target="_blank">@kakutani</a>
+</p>
+</li>
+
+</ul>
+<h3 class='c-title__section-sub'>
+Designers
+</h3>
+<ul class='p-member-list is-large'>
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://secure.gravatar.com/avatar/5d8f794e9344bbb64c3a7ad289cd21d4?s=268" alt="Makiko Nishida" />
+</div>
+<p class='p-member-list__role'>
+Designer
+</p>
+<p class='p-member-list__name'>
+Makiko Nishida
+</p>
+<p class='p-member-list__sns'>
+<a href="https://github.com/kanizmb" target="_blank"><i aria-label='GitHub:@kanizmb' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/kanizmb" target="_blank"><i aria-label='Twitter: @kanizmb' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/kanizmb" target="_blank">@kanizmb</a>
+</p>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="/2021-takeout/images/staff_nakamura.jpg" alt="" />
+</div>
+<p class='p-member-list__role'>
+Illustrator
+</p>
+<p class='p-member-list__name'>
+Takeshi Nakamura
+</p>
+<p class='p-member-list__sns'>
+<a href="https://twitter.com/F_M_U" target="_blank"><i aria-label='Twitter: @F_M_U' class='fab fa-twitter-square'></i>
+</a><a href="https://twitter.com/F_M_U" target="_blank">@F_M_U</a>
+</p>
+</li>
+
+<li aria-hidden='true' class='p-member-list__blank'></li>
+</ul>
+</section>
+</div>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>

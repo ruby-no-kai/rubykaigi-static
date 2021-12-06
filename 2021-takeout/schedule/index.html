@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Schedule - RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Schedule' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='schedule'>
+<div id='app'>
+<header class='p-header'>
+<a href="/2021-takeout" class="p-header__logo">RubyKaigi Takeout 2021</a>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="is-active">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="is-active">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</header>
+<div class='l-main' role='main'>
+<h1 class='c-title__page'>Schedule</h1>
+<div id='tab'>
+<div class='u-flex u-flex-justify--flex-end'>
+<ul class='c-tab' role='tablist'>
+<li class='c-tab__item is-active' data-day='day1' role='tab'>
+Day 1
+</li>
+<li class='c-tab__item' data-day='day2' data-unix='1631210400' role='tab'>
+Day 2
+</li>
+<li class='c-tab__item' data-day='day3' data-unix='1631296800' role='tab'>
+Day 3
+</li>
+</ul>
+</div>
+<div class='c-tab__panel'>
+<div class='c-tab__contents is-active' data-day='day1' role='tabpanel'>
+<div class='p-timetable__header'>
+<div class='p-timetable__date'>
+<h2 class='c-title__section'>
+Day
+1
+&ndash;
+<time data-unix='1631167200' datetime='2021-09-09T15:00:00+09:00'>Thu, Sep 9</time>
+</h2>
+<p class='u-text-size--small js-timetable__timezone'>All date and times are shown in JST</p>
+</div>
+<div class='p-timetable__banner'>
+<div class='p-sponsor-banner'>
+<a href="https://rubykaigi.smarthr.co.jp/2021/" target="_blank"><div class='p-sponsor-banner__wrapper'>
+<img src="/2021-takeout/images/banner/smarthr_app_icon.svg" width="42" alt="" class="p-sponsor-banner__app-icon" />
+<div class='p-sponsor-banner__contents'>
+<div class='p-sponsor-banner__header'>
+<h3 class='p-sponsor-banner__title'>Schedule.select</h3>
+<span class='p-sponsor-banner__powered'>powered by</span>
+<img src="/2021-takeout/images/banner/smarthr_logo.svg" alt="SmartHR" height="14" />
+</div>
+<div class='p-sponsor-banner__body'>
+Click here to jump to the schedule builder app!
+</div>
+</div>
+</div>
+</a></div>
+
+</div>
+</div>
+<div class='p-timetable' role='grid'>
+<!-- / timetable header -->
+<div class='p-timetable__time-flame' role='rowheader'>
+<div class='p-timetable__time is-header' role='grid-cell'></div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiA
+</div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiB
+</div>
+</div>
+<div class='p-timetable__time-flame-body' role='rowgroup'>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631149200' datetime='2021-09-09T10:00:00+09:00'>10:00</time>
+-
+<time data-unix='1631152500' datetime='2021-09-09T10:55:00+09:00'>10:55</time>
+</div>
+<div class='p-timetable__track is-track-a is-keynote' role='grid-cell'>
+<a href="/2021-takeout/presentations/mametter.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/e73159002200b33d51b7a6a312f2440e?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Endoh" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+<span class='p-timetable__talk-label is-type'>
+Keynote
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+TypeProf for IDE: Enrich Dev-Experience without Annotations
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Yusuke Endoh
+</span>
+<span class='p-timetable__speaker-sns'>
+@mame
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-blank is-track-b' role='grid-cell'></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631152800' datetime='2021-09-09T11:00:00+09:00'>11:00</time>
+-
+<time data-unix='1631154300' datetime='2021-09-09T11:25:00+09:00'>11:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/k0kubun.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/08d5432a5bc31e6d9edec87b94cb1db1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Takashi Kokubun" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN &amp; JA' class='p-timetable__talk-label is-lang'>
+EN & JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Why Ruby's JIT was slow
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Takashi Kokubun
+</span>
+<span class='p-timetable__speaker-sns'>
+@k0kubun
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-blank is-track-b' role='grid-cell'></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631156100' datetime='2021-09-09T11:55:00+09:00'>11:55</time>
+-
+<time data-unix='1631160000' datetime='2021-09-09T13:00:00+09:00'>13:00</time>
+</div>
+<div class='p-timetable__track is-break' role='grid-cell'>
+<span>
+Lunch Break
+</span>
+</div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631160000' datetime='2021-09-09T13:00:00+09:00'>13:00</time>
+-
+<time data-unix='1631161500' datetime='2021-09-09T13:25:00+09:00'>13:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/jeremyevans0.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/f183bcc4176b308c9edabe79299e448f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Jeremy Evans" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Optimizing Partial Backtraces in Ruby 3
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Jeremy Evans
+</span>
+<span class='p-timetable__speaker-sns'>
+@jeremyevans
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/koic.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/023b04c98f39cc041293d780352432ff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi ITO" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+RuboCop in 2021: Stable and Beyond
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Koichi ITO
+</span>
+<span class='p-timetable__speaker-sns'>
+@koic
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631163600' datetime='2021-09-09T14:00:00+09:00'>14:00</time>
+-
+<time data-unix='1631165100' datetime='2021-09-09T14:25:00+09:00'>14:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/schwad4hd14.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/e359851f039290677597df1f7d88525c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Nick Schwaderer" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Ruby Archaeology
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Nick Schwaderer
+</span>
+<span class='p-timetable__speaker-sns'>
+@schwad
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/ko1.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/990397e8b38d6f5f4ae8ff343e8b883a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi Sasada" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+The Art of Execution Control for Ruby's Debugger
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Koichi Sasada
+</span>
+<span class='p-timetable__speaker-sns'>
+@ko1
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631165400' datetime='2021-09-09T14:30:00+09:00'>14:30</time>
+-
+<time data-unix='1631166900' datetime='2021-09-09T14:55:00+09:00'>14:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/peterzhu2118.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater is-double'>
+<img src="https://www.gravatar.com/avatar/11b6d3359ac8e679edd1319f5173c8ea?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Peter Zhu" />
+<img src="https://www.gravatar.com/avatar/43f0363b6c12155c36d0c06043c268fd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Matt Valentine-House" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Variable Width Allocation: Optimizing Ruby's Memory Layout
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Peter Zhu
+</span>
+<span class='p-timetable__speaker-sns'>
+@peterzhu2118
+</span>
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Matt Valentine-House
+</span>
+<span class='p-timetable__speaker-sns'>
+@eightbitraptor
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/coe401_.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/5b3338b3676d4f7091a575e584f3a4f4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Misaki Shioi" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Toycol: Define your own application protocol
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Misaki Shioi
+</span>
+<span class='p-timetable__speaker-sns'>
+@shioimm
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631167200' datetime='2021-09-09T15:00:00+09:00'>15:00</time>
+-
+<time data-unix='1631168700' datetime='2021-09-09T15:25:00+09:00'>15:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/vinistock.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/63a02648b33347d954c02cbfa9da4c5d?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Vinicius Stock" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Parallel testing with Ractors: putting CPUs to work
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Vinicius Stock
+</span>
+<span class='p-timetable__speaker-sns'>
+@vinistock
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/m_seki.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater is-double'>
+<img src="https://www.gravatar.com/avatar/40f4d1f2e77078955bd01e9fb4a503ba?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masatoshi SEKI" />
+<img src="https://www.gravatar.com/avatar/4d2987df6f2f2bf754ef30b0425cbf3f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Tatsuya Sonokawa" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+dRuby in the real-world embedded systems.
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Masatoshi SEKI
+</span>
+<span class='p-timetable__speaker-sns'>
+@seki
+</span>
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Tatsuya Sonokawa
+</span>
+<span class='p-timetable__speaker-sns'>
+@t-sono1809
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631169000' datetime='2021-09-09T15:30:00+09:00'>15:30</time>
+-
+<time data-unix='1631170500' datetime='2021-09-09T15:55:00+09:00'>15:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/duerst.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/f52e87b92cafb1e8c6d155076b56ecff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Martin J. Dürst" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Regular Expressions: Amazing and Dangerous
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Martin J. Dürst
+</span>
+<span class='p-timetable__speaker-sns'>
+@duerst
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/udzura.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/2cf373725ded741824c50fd571eda6e1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Uchio KONDO" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Story of Rucy - How to "compile" a BPF binary from Ruby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Uchio KONDO
+</span>
+<span class='p-timetable__speaker-sns'>
+@udzura
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631170800' datetime='2021-09-09T16:00:00+09:00'>16:00</time>
+-
+<time data-unix='1631172300' datetime='2021-09-09T16:25:00+09:00'>16:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/paracycle.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/2bb923c57a1fdc3a2eb484bb8d565fd2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Ufuk Kayserilioglu" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Demystifying DSLs for better analysis and understanding
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Ufuk Kayserilioglu
+</span>
+<span class='p-timetable__speaker-sns'>
+@paracycle
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/yamori813.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/636e5051070e59782a697b982a73e232?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="やもり" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Falling down from FreeBSD
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+やもり
+</span>
+<span class='p-timetable__speaker-sns'>
+@yamori813
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='c-tab__contents' data-day='day2' role='tabpanel'>
+<div class='p-timetable__header'>
+<div class='p-timetable__date'>
+<h2 class='c-title__section'>
+Day
+2
+&ndash;
+<time data-unix='1631253600' datetime='2021-09-10T15:00:00+09:00'>Fri, Sep 10</time>
+</h2>
+<p class='u-text-size--small js-timetable__timezone'>All date and times are shown in JST</p>
+</div>
+<div class='p-timetable__banner'>
+<div class='p-sponsor-banner'>
+<a href="https://rubykaigi.smarthr.co.jp/2021/" target="_blank"><div class='p-sponsor-banner__wrapper'>
+<img src="/2021-takeout/images/banner/smarthr_app_icon.svg" width="42" alt="" class="p-sponsor-banner__app-icon" />
+<div class='p-sponsor-banner__contents'>
+<div class='p-sponsor-banner__header'>
+<h3 class='p-sponsor-banner__title'>Schedule.select</h3>
+<span class='p-sponsor-banner__powered'>powered by</span>
+<img src="/2021-takeout/images/banner/smarthr_logo.svg" alt="SmartHR" height="14" />
+</div>
+<div class='p-sponsor-banner__body'>
+Click here to jump to the schedule builder app!
+</div>
+</div>
+</div>
+</a></div>
+
+</div>
+</div>
+<div class='p-timetable' role='grid'>
+<!-- / timetable header -->
+<div class='p-timetable__time-flame' role='rowheader'>
+<div class='p-timetable__time is-header' role='grid-cell'></div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiA
+</div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiB
+</div>
+</div>
+<div class='p-timetable__time-flame-body' role='rowgroup'>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631235600' datetime='2021-09-10T10:00:00+09:00'>10:00</time>
+-
+<time data-unix='1631238900' datetime='2021-09-10T10:55:00+09:00'>10:55</time>
+</div>
+<div class='p-timetable__track is-track-a is-keynote' role='grid-cell'>
+<a href="/2021-takeout/presentations/chrisgseaton.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/d0b0965afa66f2cabf76a8128b39e7c6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Chris Seaton" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+<span class='p-timetable__talk-label is-type'>
+Keynote
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+The Future Shape of Ruby Objects
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Chris Seaton
+</span>
+<span class='p-timetable__speaker-sns'>
+@chrisseaton
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-blank is-track-b' role='grid-cell'></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631239200' datetime='2021-09-10T11:00:00+09:00'>11:00</time>
+-
+<time data-unix='1631240700' datetime='2021-09-10T11:25:00+09:00'>11:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/eregontp.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater is-double'>
+<img src="https://www.gravatar.com/avatar/0ea7f61aec8fee539be0cf39b7bab77c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Benoit Daloze" />
+<img src="https://www.gravatar.com/avatar/6ae3694cf3ec94e3b749fb6858eab424?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Josef Haider" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Just-in-Time Compiling Ruby Regexps on TruffleRuby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Benoit Daloze
+</span>
+<span class='p-timetable__speaker-sns'>
+@eregon
+</span>
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Josef Haider
+</span>
+<span class='p-timetable__speaker-sns'>
+@djoooooe
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/hasumikin.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/d62b18efd2549587e712cebf6403861a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hitoshi HASUMI" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+PRK Firmware: Keyboard is Essentially Ruby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Hitoshi HASUMI
+</span>
+<span class='p-timetable__speaker-sns'>
+@hasumikin
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631241000' datetime='2021-09-10T11:30:00+09:00'>11:30</time>
+-
+<time data-unix='1631242500' datetime='2021-09-10T11:55:00+09:00'>11:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/maximecb.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/3318058e13130c55c2e1224f7d2837d8?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Maxime Chevalier-Boisvert" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+YJIT - Building a new JIT Compiler inside CRuby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Maxime Chevalier-Boisvert
+</span>
+<span class='p-timetable__speaker-sns'>
+@maximecb
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/p_ck_.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/7f432d4a8aaadcea1ca77ec81a200121?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masataka Kuwabara" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+The newsletter of RBS updates
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Masataka Kuwabara
+</span>
+<span class='p-timetable__speaker-sns'>
+@pocke
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631242500' datetime='2021-09-10T11:55:00+09:00'>11:55</time>
+-
+<time data-unix='1631246400' datetime='2021-09-10T13:00:00+09:00'>13:00</time>
+</div>
+<div class='p-timetable__track is-break' role='grid-cell'>
+<span>
+Lunch Break
+</span>
+</div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631246400' datetime='2021-09-10T13:00:00+09:00'>13:00</time>
+-
+<time data-unix='1631247900' datetime='2021-09-10T13:25:00+09:00'>13:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/kddnewton.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/944780427713649edff38f53df53b6e1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kevin Newton" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Parsing Ruby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Kevin Newton
+</span>
+<span class='p-timetable__speaker-sns'>
+@kddnewton
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/shugomaeda.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/18a797893e6768e048c1d15429f96bb4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Shugo Maeda" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+include/prepend in refinements should be prohibited
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Shugo Maeda
+</span>
+<span class='p-timetable__speaker-sns'>
+@shugo
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631248200' datetime='2021-09-10T13:30:00+09:00'>13:30</time>
+-
+<time data-unix='1631249700' datetime='2021-09-10T13:55:00+09:00'>13:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/tagomoris.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/002525eada5741b7954ce22c1a066d32?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Satoshi &quot;moris&quot; Tagomori" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Ractor's speed is not light-speed
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Satoshi "moris" Tagomori
+</span>
+<span class='p-timetable__speaker-sns'>
+@tagomoris
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/aycabta.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/43da97eeeac8fafd2bf196db1f19c534?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="ITOYANAGI Sakura" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Graphical Terminal User Interface of Ruby 3.1
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+ITOYANAGI Sakura
+</span>
+<span class='p-timetable__speaker-sns'>
+@aycabta
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631250000' datetime='2021-09-10T14:00:00+09:00'>14:00</time>
+-
+<time data-unix='1631253300' datetime='2021-09-10T14:55:00+09:00'>14:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/rubylangorg.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/ce6d997265cefede13ee7e7e2a2cf9b2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="CRuby Committers" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Ruby Committers vs the World
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+CRuby Committers
+</span>
+<span class='p-timetable__speaker-sns'>
+@rubylangorg
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-blank is-track-b' role='grid-cell'></div>
+</div>
+</div>
+</div>
+
+</div>
+<div class='c-tab__contents' data-day='day3' role='tabpanel'>
+<div class='p-timetable__header'>
+<div class='p-timetable__date'>
+<h2 class='c-title__section'>
+Day
+3
+&ndash;
+<time data-unix='1631340000' datetime='2021-09-11T15:00:00+09:00'>Sat, Sep 11</time>
+</h2>
+<p class='u-text-size--small js-timetable__timezone'>All date and times are shown in JST</p>
+</div>
+<div class='p-timetable__banner'>
+<div class='p-sponsor-banner'>
+<a href="https://rubykaigi.smarthr.co.jp/2021/" target="_blank"><div class='p-sponsor-banner__wrapper'>
+<img src="/2021-takeout/images/banner/smarthr_app_icon.svg" width="42" alt="" class="p-sponsor-banner__app-icon" />
+<div class='p-sponsor-banner__contents'>
+<div class='p-sponsor-banner__header'>
+<h3 class='p-sponsor-banner__title'>Schedule.select</h3>
+<span class='p-sponsor-banner__powered'>powered by</span>
+<img src="/2021-takeout/images/banner/smarthr_logo.svg" alt="SmartHR" height="14" />
+</div>
+<div class='p-sponsor-banner__body'>
+Click here to jump to the schedule builder app!
+</div>
+</div>
+</div>
+</a></div>
+
+</div>
+</div>
+<div class='p-timetable' role='grid'>
+<!-- / timetable header -->
+<div class='p-timetable__time-flame' role='rowheader'>
+<div class='p-timetable__time is-header' role='grid-cell'></div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiA
+</div>
+<div class='p-timetable__track is-header' role='grid-cell'>
+#rubykaigiB
+</div>
+</div>
+<div class='p-timetable__time-flame-body' role='rowgroup'>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631322000' datetime='2021-09-11T10:00:00+09:00'>10:00</time>
+-
+<time data-unix='1631323500' datetime='2021-09-11T10:25:00+09:00'>10:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/dmagliola.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/867d273117f85687ebe25eb04779aafd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Daniel Magliola" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Do regex dream of Turing Completeness?
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Daniel Magliola
+</span>
+<span class='p-timetable__speaker-sns'>
+@dmagliola
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/pink_bangbi.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/3931098ae486b6df619050c63e24f6cc?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="osyo" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Use Macro all the time ~ マクロを使いまくろ ~
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+osyo
+</span>
+<span class='p-timetable__speaker-sns'>
+@osyo-manga
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631323800' datetime='2021-09-11T10:30:00+09:00'>10:30</time>
+-
+<time data-unix='1631325300' datetime='2021-09-11T10:55:00+09:00'>10:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/MauroEldritch.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/aafea28262ede3c1fd093bd03b8f752b?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mauro Eldritch" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Crafting exploits, tools and havoc with Ruby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Mauro Eldritch
+</span>
+<span class='p-timetable__speaker-sns'>
+@MauroEldritch
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/mrkn.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/819b3c0a25f9708fd32261b8ae2d23f6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kenta Murata" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Charty: Statistical data visualization in Ruby
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Kenta Murata
+</span>
+<span class='p-timetable__speaker-sns'>
+@mrkn
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631325600' datetime='2021-09-11T11:00:00+09:00'>11:00</time>
+-
+<time data-unix='1631327100' datetime='2021-09-11T11:25:00+09:00'>11:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/flavorjones.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/bd6e7860b5a891bff077aeaeb5434e60?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mike Dalessio" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Building Native Extensions. This Could Take A While...
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Mike Dalessio
+</span>
+<span class='p-timetable__speaker-sns'>
+@flavorjones
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/ima1zumi.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/74b5a82b8710accc1e6189a19f0b4935?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mari Imaizumi" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Dive into Encoding
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Mari Imaizumi
+</span>
+<span class='p-timetable__speaker-sns'>
+@ima1zumi
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631327400' datetime='2021-09-11T11:30:00+09:00'>11:30</time>
+-
+<time data-unix='1631328900' datetime='2021-09-11T11:55:00+09:00'>11:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/schneems.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/b5646ae10aa002ce46f283966f440251?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Richard Schneeman" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Beware the Dead End!!
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Richard Schneeman
+</span>
+<span class='p-timetable__speaker-sns'>
+@schneems
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/hsbt.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/eabad423977cfc6873b8f5df62b848a6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hiroshi SHIBATA" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+How to develop the Standard Libraries of Ruby?
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Hiroshi SHIBATA
+</span>
+<span class='p-timetable__speaker-sns'>
+@hsbt
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631328900' datetime='2021-09-11T11:55:00+09:00'>11:55</time>
+-
+<time data-unix='1631332800' datetime='2021-09-11T13:00:00+09:00'>13:00</time>
+</div>
+<div class='p-timetable__track is-break' role='grid-cell'>
+<span>
+Lunch Break
+</span>
+</div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631332800' datetime='2021-09-11T13:00:00+09:00'>13:00</time>
+-
+<time data-unix='1631334300' datetime='2021-09-11T13:25:00+09:00'>13:25</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/elct9620.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/888339de9e7a88688b6acb30d33e66cd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="蒼時弦也" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+It is time to build your mruby VM on the microcontroller?
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+蒼時弦也
+</span>
+<span class='p-timetable__speaker-sns'>
+@elct9620
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/yu_suke1994.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/858f777cffa7e215697ff78db4e52791?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Nakamura" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Ruby, Ractor, QUIC
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Yusuke Nakamura
+</span>
+<span class='p-timetable__speaker-sns'>
+@unasuke
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631334600' datetime='2021-09-11T13:30:00+09:00'>13:30</time>
+-
+<time data-unix='1631336100' datetime='2021-09-11T13:55:00+09:00'>13:55</time>
+</div>
+<div class='p-timetable__track is-track-a' role='grid-cell'>
+<a href="/2021-takeout/presentations/matschaffer.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/9b26cb404fe1fdae235e476c55fb2cdd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mat Schaffer" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: EN' class='p-timetable__talk-label is-lang'>
+EN
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+10 years of Ruby-powered citizen science
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Mat Schaffer
+</span>
+<span class='p-timetable__speaker-sns'>
+@matschaffer
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-track-b' role='grid-cell'>
+<a href="/2021-takeout/presentations/ktou.html"><div class='p-timetable__track-name'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiB
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/2d9386b1504e581be390af978e05a8b9?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Sutou Kouhei" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Red Arrow - Ruby and Apache Arrow
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Sutou Kouhei
+</span>
+<span class='p-timetable__speaker-sns'>
+@kou
+</span>
+</div>
+</div>
+</div>
+</a></div>
+</div>
+<div class='p-timetable__time-flame' role='row'>
+<div class='p-timetable__time' role='grid-cell'>
+<time data-unix='1631336400' datetime='2021-09-11T14:00:00+09:00'>14:00</time>
+-
+<time data-unix='1631340000' datetime='2021-09-11T15:00:00+09:00'>15:00</time>
+</div>
+<div class='p-timetable__track is-track-a is-keynote' role='grid-cell'>
+<a href="/2021-takeout/presentations/yukihiro_matz.html"><div class='p-timetable__track-name'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-name--screen-reader u-visibility-hidden'>
+#RubyKaigiA
+</div>
+<div class='p-timetable__track-body'>
+<div class='p-timetable__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yukihiro &quot;Matz&quot; Matsumoto" />
+</div>
+<div class='p-timetable__speaker-desc'>
+<div class='p-timetable__talk-labels'>
+<span aria-label='language: JA' class='p-timetable__talk-label is-lang'>
+JA
+</span>
+<span class='p-timetable__talk-label is-type'>
+Keynote
+</span>
+</div>
+<div class='p-timetable__talk-title'>
+Matz Keynote
+</div>
+<div class='p-timetable__speaker-info'>
+<span class='p-timetable__speaker-name'>
+Yukihiro "Matz" Matsumoto
+</span>
+<span class='p-timetable__speaker-sns'>
+@matz
+</span>
+</div>
+</div>
+</div>
+</a></div>
+<div class='p-timetable__track is-blank is-track-b' role='grid-cell'></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script>
+  (() => {
+    const tab = document.getElementById('tab');
+  
+    const activateTab = ((day) => {
+      tab.querySelectorAll('.c-tab__item.is-active, .c-tab__contents.is-active').forEach((activeTab) => {
+        activeTab.classList.remove('is-active');
+      });
+      tab.querySelector(`.c-tab__item[data-day="${day}"]`)?.classList.add('is-active');
+      tab.querySelector(`.c-tab__contents[data-day="${day}"]`)?.classList.add('is-active');
+      window.location.hash = day;
+    });
+  
+    const hash = window.location.hash;
+    if (hash) {
+      activateTab(hash.replace(/^#/, ''));
+    } else {
+      let latestThres = null;
+      let latestElem = null;
+      const now = dayjs();
+      tab.querySelectorAll('.c-tab__item').forEach((elem) => {
+        if (!elem.dataset.unix) return;
+        const ts = dayjs(parseInt(elem.dataset.unix, 10)*1000);
+        if ((latestThres === null || ts.diff(latestThres) >= 0) && (now.diff(ts) >= 0)) {
+          latestThres = ts;
+          latestElem = elem;
+        }
+      });
+      if (latestElem) {
+        //activateTab(latestElem.dataset.day);
+      }
+    }
+    tab.querySelectorAll('.c-tab__item').forEach((elem) => {
+      elem.addEventListener('click', (e) => {
+        activateTab(e.target.dataset.day);
+        e.preventDefault();
+      });
+    });
+  
+    tab.querySelectorAll(".p-timetable__header time").forEach((date) => {
+      const dateTs = dayjs(parseInt(date.dataset.unix, 10)*1000);
+      date.innerHTML = dateTs.format("ddd, MMM D");
+    });
+  
+    tab.querySelectorAll(".p-timetable .p-timetable__time time").forEach((time) => {
+      const ts = dayjs(parseInt(time.dataset.unix, 10)*1000);
+      time.innerHTML = ts.format("HH:mm");
+    });
+  
+    document.querySelectorAll(".js-timetable__timezone").forEach((text) => {
+      text.innerHTML = `All date and times are converted to your local time (${dayjs.tz.guess()})`;
+    });
+  })();
+</script>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>

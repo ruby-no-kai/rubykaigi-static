@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Past kaigis - RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Past kaigis' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='past_kaigis'>
+<div id='app'>
+<header class='p-header'>
+<a href="/2021-takeout" class="p-header__logo">RubyKaigi Takeout 2021</a>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</header>
+<div class='l-main' role='main'>
+<h1 class='c-title__page'>Past kaigis</h1>
+<div class='p-past-kaigi'>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2020-takeout/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2020-takeout.png" alt="RubyKaigi 2020-takeout" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2020 Takeout
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2020/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2020.png" alt="RubyKaigi 2020" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2020 (cancelled)
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2019/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2019.png" alt="RubyKaigi 2019" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2019
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2018/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2018.png" alt="RubyKaigi 2018" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2018
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2017/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2017.png" alt="RubyKaigi 2017" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2017
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2016/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2016.png" alt="RubyKaigi 2016" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2016
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2015/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2015.png" alt="RubyKaigi 2015" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2015
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2014/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2014.png" alt="RubyKaigi 2014" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2014
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2013/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2013.png" alt="RubyKaigi 2013" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2013
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2011/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2011.png" alt="RubyKaigi 2011" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2011
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2010/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2010.png" alt="RubyKaigi 2010" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2010
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2009/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2009.png" alt="RubyKaigi 2009" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2009
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2008/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2008.png" alt="RubyKaigi 2008" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2008
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2007/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2007.png" alt="RubyKaigi 2007" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2007
+</div>
+</a></div>
+<div class='p-past-kaigi__item'>
+<a href="https://rubykaigi.org/2006/" target="_blank"><img src="/2021-takeout/images/past-kaigis/2006.png" alt="RubyKaigi 2006" class="p-past-kaigi__item-image" />
+<div class='p-past-kaigi__item-name'>
+RubyKaigi 2006
+</div>
+</a></div>
+</div>
+</div>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>
