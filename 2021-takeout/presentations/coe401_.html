@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Toycol: Define your own application protocol by Misaki Shioi - RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Toycol: Define your own application protocol by Misaki Shioi' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='presentation'>
+<div id='app'>
+<header class='p-header'>
+<a href="/2021-takeout" class="p-header__logo">RubyKaigi Takeout 2021</a>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="is-active">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="is-active">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</header>
+<div class='l-main' role='main'>
+<h1 class='c-title__page'>Schedule</h1>
+<section class='l-section'>
+<div class='p-presentation__header'>
+<div class='p-presentation__back'>
+<a href="/2021-takeout/schedule#day1"><i class='fas fa-arrow-left'></i>
+Back
+</a></div>
+<div class='p-presentation__banner'>
+<div class='p-sponsor-banner'>
+<a href="https://rubykaigi.smarthr.co.jp/2021/" target="_blank"><div class='p-sponsor-banner__wrapper'>
+<img src="/2021-takeout/images/banner/smarthr_app_icon.svg" width="42" alt="" class="p-sponsor-banner__app-icon" />
+<div class='p-sponsor-banner__contents'>
+<div class='p-sponsor-banner__header'>
+<h3 class='p-sponsor-banner__title'>Schedule.select</h3>
+<span class='p-sponsor-banner__powered'>powered by</span>
+<img src="/2021-takeout/images/banner/smarthr_logo.svg" alt="SmartHR" height="14" />
+</div>
+<div class='p-sponsor-banner__body'>
+Click here to jump to the schedule builder app!
+</div>
+</div>
+</div>
+</a></div>
+
+</div>
+</div>
+<div class='p-presentation'>
+<div class='p-presentation__speaker'>
+<div class='p-presentation__speaker-meta'>
+<div class='p-presentation__speaker-avater'>
+<img src="https://www.gravatar.com/avatar/5b3338b3676d4f7091a575e584f3a4f4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Misaki Shioi" width="120" />
+</div>
+<div class='p-presentation__speaker-info'>
+<div class='p-presentation__speaker-name'>
+Misaki Shioi
+</div>
+<div class='p-presentation__speaker-id'>
+@shioimm
+</div>
+<div class='p-presentation__speaker-sns'>
+<a href="https://github.com/shioimm" target="_blank"><i aria-label='GitHub: shioimm' class='fab fa-github-square'></i>
+</a><a href="https://twitter.com/coe401_" target="_blank"><i aria-label='Twitter: coe401_' class='fab fa-twitter-square'></i>
+</a></div>
+</div>
+</div>
+<div class='p-presentation__speaker-bio'>
+Web application developer who loves Ruby & is curious about Web.
+Member of Asakusa.rb & Fukuoka.rb.
+</div>
+</div>
+<div class='p-presentation__talk'>
+<div class='p-presentation__talk-labels'>
+<div aria-label='language: JA' class='p-presentation__talk-label is-lang'>
+JA
+</div>
+</div>
+<div class='p-presentation__talk-title'>
+Toycol: Define your own application protocol
+</div>
+<div class='p-presentation__talk-desc c-markdown'>
+<p>TCP/IP is the protocol stack where each layer is independent. </p>
+
+<p>So what is a protocol? - It is a set of rules for communication between network nodes.
+What if you could change these rules at will? For example, why not change our familiar HTTP/1.x to a different communication style?</p>
+
+<p>I’ve created a minimal framework that translates the custom toy application protocol for the Web into HTTP/1.x, with which you can define the protocol that clients and servers understand.
+In this talk, I&#39;d like to show the flexibility of this framework with some examples of both nodes that speak in given protocols.</p>
+</div>
+<div class='p-presentation__material'>
+<h2 class='c-title__section-sub p-presentation__sub-section-title'>
+Presentation Material
+</h2>
+<ul class='p-presentation__material-list'>
+<li>
+<a href="https://speakerdeck.com/coe401_/toycol-define-your-own-application-protocol" target="_blank">Slides
+</a></li>
+</ul>
+</div>
+<div class='p-presentation__video'>
+<h2 class='c-title__section-sub p-presentation__sub-section-title'>Recorded video</h2>
+<div class='p-presentation__video-embed'>
+<iframe allowfullscreen frameborder='0' height='360' src='https://www.youtube.com/embed/zfuYguzvlbg' width='560'></iframe>
+</div>
+<div class='p-presentation__video-channel'>
+from
+<a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A" target="_blank">RubyKaigi on YouTube</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>

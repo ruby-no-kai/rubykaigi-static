@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Novelties - RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Novelties' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='novelties'>
+<div id='app'>
+<header class='p-header'>
+<a href="/2021-takeout" class="p-header__logo">RubyKaigi Takeout 2021</a>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="is-active">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="is-active">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</header>
+<div class='l-main' role='main'>
+<h1 class='c-title__page'>Novelties</h1>
+<section class='l-section'>
+<h2 class='c-title__section-title'>
+Goods
+</h2>
+<div class='p-novelties__items'>
+<div class='p-novelties__item'>
+<img src="/2021-takeout/images/novelties/shop_shopify.png" alt="Shopify" class="p-novelties__item-image" />
+<h2 class='p-novelties__item-name'>
+Official Shop on Shopify
+</h2>
+<div class='p-novelties__item-description'>
+Worldwide Shipping
+</div>
+</div>
+<div class='p-novelties__item'>
+<img src="/2021-takeout/images/novelties/shop_suzuri.png" alt="suzuri" class="p-novelties__item-image" />
+<h2 class='p-novelties__item-name'>
+Official Shop on SUZURI
+</h2>
+<div class='p-novelties__item-description'>
+Shipping Within Japan Only
+</div>
+</div>
+</div>
+</section>
+<section class='l-section'>
+<h2 class='c-title__section-title'>
+Slide Template
+</h2>
+<div class='p-novelties__items'>
+<div class='p-novelties__item'>
+<a href="/2021-takeout/images/novelties/rubykaigi_takeout2021.kth"><img src="/2021-takeout/images/novelties/keynote_template.png" alt="Keynote template" class="p-novelties__item-image" />
+<h2 class='p-novelties__item-name'>
+Keynote Template
+</h2>
+<div class='p-novelties__item-description'>
+This template requires the following fonts:
+<ul>
+<li><a href="https://fonts.google.com/specimen/Titillium+Web" target="_blank">Titillium Web Semi-bold 600</a></li>
+<li><a href="https://fonts.google.com/specimen/Roboto" target="_blank">Roboto Medium 500</a></li>
+</ul>
+</div>
+</a></div>
+</div>
+</section>
+</div>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>

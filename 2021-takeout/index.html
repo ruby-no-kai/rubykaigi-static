@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+RubyKaigi Takeout 2021
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='RubyKaigi Takeout 2021' property='og:title'>
+<meta content='RubyKaigi Takeout 2021' property='og:site_name'>
+<meta content='https://rubykaigi.org/2021-takeout' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2021-takeout/images/og_image_takeout.png' property='og:image'>
+<meta content='RubyKaigi Takeout 2021, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, 2021' name='keywords'>
+<link href='/2021-takeout/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<!-- / webfont -->
+<link href='https://fonts.gstatic.com' rel='preconnect'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Titillium+Web:wght@700&amp;display=swap' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.4/css/all.css' integrity='sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css' integrity='sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu'>
+<link href="/2021-takeout/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2021-takeout/stylesheets/site.css" rel="stylesheet" />
+<script src="/2021-takeout/javascripts/vue.min.js"></script>
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='home'>
+<div id='app'>
+<div class='p-hero__nav'>
+<nav class='p-global-nav__wrapper is-wide'>
+<ul class='p-global-nav'>
+<li>
+<a href="/2021-takeout" class="is-active">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank"><i aria-label='twitter' class='fab fa-twitter'></i>
+</a></li>
+</ul>
+</nav>
+<nav class='p-global-nav__wrapper is-narrow' id='nav'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='open menu' class='fas fa-bars'></i>
+</button>
+</div>
+<div class='p-global-nav__side-menu' v-bind:class='{ &#39;is-open&#39; : hamburgerMenuActive }'>
+<div class='u-flex u-flex-justify--flex-end'>
+<button class='p-global-nav__side-menu-toggle is-close' v-on:click='hamburgerMenuActive=!hamburgerMenuActive'>
+<i aria-label='close menu' class='fas fa-times'></i>
+</button>
+</div>
+<ul class='p-global-nav__side-menu-items'>
+<li>
+<a href="/2021-takeout" class="is-active">Home</a>
+</li>
+<li>
+<a href="/2021-takeout/speakers" class="">Speakers</a>
+</li>
+<li>
+<a href="/2021-takeout/schedule" class="">Schedule</a>
+</li>
+<li>
+<a href="/2021-takeout/policies" class="">Policies</a>
+</li>
+<li>
+<a href="/2021-takeout/sponsors" class="">Sponsors</a>
+</li>
+<li>
+<a href="/2021-takeout/novelties" class="">Novelties</a>
+</li>
+<li>
+<a href="/2021-takeout/about" class="">About</a>
+</li>
+<li>
+<a href="https://twitter.com/rubykaigi" target="_blank">Twitter</a>
+</li>
+</ul>
+</div>
+</nav>
+
+</div>
+<header class='p-hero'>
+<div class='p-hero__inner'>
+<div class='p-hero__image'>
+<picture>
+<source srcset='/2021-takeout/images/hero_hamburger.webp' type='image/webp'>
+<img src="/2021-takeout/images/hero_hamburger.svg" loading="lazy" alt="hamburger character" class="p-hero__illust" />
+</picture>
+</div>
+<div class='p-hero__details'>
+<div class='p-hero__details-inner'>
+<h1 class='p-hero__title'>
+RubyKaigi
+<br>
+Takeout 2021
+</h1>
+<div class='p-hero__info'>
+<p>
+Sep 9th
+<span class='p-hero__day-of-week'>(Thu.)</span>
+ -
+11th
+<span class='p-hero__day-of-week'>(Sat.)</span>
+</p>
+<p>
+Online, JST daytime
+</p>
+<div class='p-hero__message'>
+<p>
+RubyKaigi Takeout 2021 is ended, thank you for attending! Video archive is available and linked from <a href="/2021-takeout/schedule">schedule page</a>.
+</p>
+<p>
+Stay tuned for next RubyKaigi and follow Twitter
+<a href="https://twitter.com/rubykaigi" target="_blank">@RubyKaigi</a>
+for latest updates.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class='p-hero__scroll'>
+<a href="#main"><i aria-hidden='true' class='fa fa-angle-down'></i>
+<br>
+<span>scroll</span>
+</a></div>
+<div class='p-hero__bg'>
+<div class='p-hero__bg-inner'></div>
+</div>
+<div aria-hidden='true' class='p-hero__bg-text'>
+<div class='p-hero__bg-text-inner'>
+RubyKaigi
+<br>
+Takeout 2021
+</div>
+</div>
+<div class='l-main' id='main' role='main'>
+<section class='l-section'>
+<h2 class='c-title__section'>
+RubyKaigi goes online again
+</h2>
+<p>
+We RubyKaigi 2021 team have booked the venue to make RubyKaigi 2021 happen in Mie Prefecture this July (with some hope). However, the COVID-19 situation is still unclear and unpredictable so we have decided to give up on holding the large in-person conference. It is really unfortunate that we have to tell you this: RubyKaigi 2021 has been cancelled.
+</p>
+<p>
+Instead, we're planning an alternate online conference, RubyKaigi Takeout 2021 (as like we've done last year). The schedule is changed from the original RubyKaigi 2021; It will happen in this fall.
+</p>
+</section>
+<section class='l-section'>
+<h2 class='c-title__section'>
+Novelties
+</h2>
+<a href="/2021-takeout/novelties"><picture>
+<source media='(max-width: 560px)' srcset='/2021-takeout/images/novelties/novelties_small.jpg'>
+<source media='(min-width: 561px)' srcset='/2021-takeout/images/novelties/novelties_large.jpg'>
+<img src="/2021-takeout/images/novelties/novelties.jpg" loading="lazy" alt="novelties" />
+</picture>
+</a><p class='u-more-link'>
+<a href="/2021-takeout/novelties">Buy Now
+<i aria-hidden='true' class='fas fa-arrow-right'></i>
+</a></p>
+</section>
+<section class='l-section'>
+<h2 class='c-title__section'>
+Speakers
+</h2>
+<ul class='p-member-list'>
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/e73159002200b33d51b7a6a312f2440e?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Endoh" />
+<div class='p-member-list__keynote-label'>
+<i class='fas fa-hamburger'></i>
+keynote
+</div>
+</div>
+<div class='p-member-list__name u-text--center'>
+Yusuke Endoh
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/d0b0965afa66f2cabf76a8128b39e7c6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Chris Seaton" />
+<div class='p-member-list__keynote-label'>
+<i class='fas fa-hamburger'></i>
+keynote
+</div>
+</div>
+<div class='p-member-list__name u-text--center'>
+Chris Seaton
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yukihiro &quot;Matz&quot; Matsumoto" />
+<div class='p-member-list__keynote-label'>
+<i class='fas fa-hamburger'></i>
+keynote
+</div>
+</div>
+<div class='p-member-list__name u-text--center'>
+Yukihiro "Matz" Matsumoto
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/0ea7f61aec8fee539be0cf39b7bab77c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Benoit Daloze" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Benoit Daloze
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/ce6d997265cefede13ee7e7e2a2cf9b2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="CRuby Committers" />
+</div>
+<div class='p-member-list__name u-text--center'>
+CRuby Committers
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/867d273117f85687ebe25eb04779aafd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Daniel Magliola" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Daniel Magliola
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/eabad423977cfc6873b8f5df62b848a6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hiroshi SHIBATA" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Hiroshi SHIBATA
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/d62b18efd2549587e712cebf6403861a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hitoshi HASUMI" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Hitoshi HASUMI
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/43da97eeeac8fafd2bf196db1f19c534?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="ITOYANAGI Sakura" />
+</div>
+<div class='p-member-list__name u-text--center'>
+ITOYANAGI Sakura
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/f183bcc4176b308c9edabe79299e448f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Jeremy Evans" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Jeremy Evans
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/6ae3694cf3ec94e3b749fb6858eab424?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Josef Haider" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Josef Haider
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/819b3c0a25f9708fd32261b8ae2d23f6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kenta Murata" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Kenta Murata
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/944780427713649edff38f53df53b6e1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kevin Newton" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Kevin Newton
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/023b04c98f39cc041293d780352432ff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi ITO" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Koichi ITO
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/990397e8b38d6f5f4ae8ff343e8b883a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi Sasada" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Koichi Sasada
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/74b5a82b8710accc1e6189a19f0b4935?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mari Imaizumi" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Mari Imaizumi
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/f52e87b92cafb1e8c6d155076b56ecff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Martin J. Dürst" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Martin J. Dürst
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/7f432d4a8aaadcea1ca77ec81a200121?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masataka Kuwabara" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Masataka Kuwabara
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/40f4d1f2e77078955bd01e9fb4a503ba?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masatoshi SEKI" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Masatoshi SEKI
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/9b26cb404fe1fdae235e476c55fb2cdd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mat Schaffer" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Mat Schaffer
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/43f0363b6c12155c36d0c06043c268fd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Matt Valentine-House" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Matt Valentine-House
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/aafea28262ede3c1fd093bd03b8f752b?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mauro Eldritch" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Mauro Eldritch
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/3318058e13130c55c2e1224f7d2837d8?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Maxime Chevalier-Boisvert" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Maxime Chevalier-Boisvert
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/bd6e7860b5a891bff077aeaeb5434e60?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mike Dalessio" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Mike Dalessio
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/5b3338b3676d4f7091a575e584f3a4f4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Misaki Shioi" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Misaki Shioi
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/e359851f039290677597df1f7d88525c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Nick Schwaderer" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Nick Schwaderer
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/3931098ae486b6df619050c63e24f6cc?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="osyo" />
+</div>
+<div class='p-member-list__name u-text--center'>
+osyo
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/11b6d3359ac8e679edd1319f5173c8ea?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Peter Zhu" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Peter Zhu
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/b5646ae10aa002ce46f283966f440251?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Richard Schneeman" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Richard Schneeman
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/002525eada5741b7954ce22c1a066d32?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Satoshi &quot;moris&quot; Tagomori" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Satoshi "moris" Tagomori
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/18a797893e6768e048c1d15429f96bb4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Shugo Maeda" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Shugo Maeda
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/2d9386b1504e581be390af978e05a8b9?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Sutou Kouhei" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Sutou Kouhei
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/08d5432a5bc31e6d9edec87b94cb1db1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Takashi Kokubun" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Takashi Kokubun
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/4d2987df6f2f2bf754ef30b0425cbf3f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Tatsuya Sonokawa" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Tatsuya Sonokawa
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/2cf373725ded741824c50fd571eda6e1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Uchio KONDO" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Uchio KONDO
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/2bb923c57a1fdc3a2eb484bb8d565fd2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Ufuk Kayserilioglu" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Ufuk Kayserilioglu
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/63a02648b33347d954c02cbfa9da4c5d?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Vinicius Stock" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Vinicius Stock
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/858f777cffa7e215697ff78db4e52791?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Nakamura" />
+</div>
+<div class='p-member-list__name u-text--center'>
+Yusuke Nakamura
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/636e5051070e59782a697b982a73e232?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="やもり" />
+</div>
+<div class='p-member-list__name u-text--center'>
+やもり
+</div>
+</li>
+
+<li class='p-member-list__member'>
+<div class='p-member-list__avater'>
+<img src="https://www.gravatar.com/avatar/888339de9e7a88688b6acb30d33e66cd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="蒼時弦也" />
+</div>
+<div class='p-member-list__name u-text--center'>
+蒼時弦也
+</div>
+</li>
+
+</ul>
+<p class='u-more-link'>
+<a href="/2021-takeout/speakers">Speaker Details
+<i aria-hidden='true' class='fas fa-arrow-right'></i>
+</a></p>
+</section>
+</div>
+
+<footer class='p-footer'>
+<p class='u-text--center'>
+<a href="/2021-takeout/past_kaigis" class="c-btn c-btn--secondary c-btn--small">past kaigis</a>
+</p>
+This work by RubyKaigi 2021 Team is licensed under a Creative Commons Attribution 3.0 Unported License.
+</footer>
+
+</div>
+<script src="/2021-takeout/javascripts/site.js"></script>
+</body>
+</html>
