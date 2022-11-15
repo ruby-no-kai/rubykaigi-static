@@ -1,0 +1,176 @@
+---
+sep08:
+  events:
+  - type: break
+    begin: '09:30'
+    end: '10:50'
+    name: Door Open
+  - type: keynote
+    begin: '10:50'
+    end: '12:00'
+    talks:
+      Grand Auditorium: kateinoigakukun
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Grand Auditorium: ko1
+      Middle Auditorium: schwad_rb
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Grand Auditorium: maximecb
+      Middle Auditorium: fugakkbn
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Grand Auditorium: ono-max
+      Middle Auditorium: oceanicpanda
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:20'
+    talks:
+      Grand Auditorium: k0kubun
+      Middle Auditorium: yamori813
+  - type: talk
+    begin: '16:30'
+    end: '17:40'
+    talks:
+      Grand Auditorium: tric
+sep09:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '09:30'
+    name: Door Open
+  - type: keynote
+    begin: '09:30'
+    end: '10:40'
+    talks:
+      Grand Auditorium: yukihiro_matz
+  - type: talk
+    begin: '10:50'
+    end: '11:20'
+    talks:
+      Grand Auditorium: _st0012
+      Middle Auditorium: yu_suke1994
+  - type: talk
+    begin: '11:30'
+    end: '12:00'
+    talks:
+      Grand Auditorium: jemmaissroff
+      Middle Auditorium: koic
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Grand Auditorium: mrkn
+      Middle Auditorium: udzura
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Grand Auditorium: eightbitraptor
+      Middle Auditorium: fujimotos
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Grand Auditorium: KnuX
+      Middle Auditorium: coe401_
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:20'
+    talks:
+      Grand Auditorium: shioyama
+      Middle Auditorium: m_seki
+  - type: talk
+    begin: '16:30'
+    end: '17:40'
+    talks:
+      Grand Auditorium: rubylangorg
+sep10:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '09:30'
+    name: Door Open
+  - type: talk
+    begin: '09:30'
+    end: '10:00'
+    talks:
+      Grand Auditorium: mametter
+      Middle Auditorium: yujiyokoo
+  - type: talk
+    begin: '10:10'
+    end: '10:40'
+    talks:
+      Grand Auditorium: kddnewton
+      Middle Auditorium: _ksss_
+  - type: talk
+    begin: '10:50'
+    end: '11:20'
+    talks:
+      Grand Auditorium: ioquatix
+      Middle Auditorium: pink_bangbi
+  - type: talk
+    begin: '11:30'
+    end: '12:00'
+    talks:
+      Grand Auditorium: vnmakarov
+      Middle Auditorium: hsbt
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Grand Auditorium: peterzhu2118
+      Middle Auditorium: nay3
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Grand Auditorium: ktou
+      Middle Auditorium: kurotaky
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Grand Auditorium: jeremyevans0
+      Middle Auditorium: ima1zumi
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:20'
+    talks:
+      Grand Auditorium: soutaro
+      Middle Auditorium: znz
+  - type: keynote
+    begin: '16:30'
+    end: '17:40'
+    talks:
+      Grand Auditorium: alanwusx

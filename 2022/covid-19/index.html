@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+COVID-19 - RubyKaigi 2022
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='COVID-19' property='og:title'>
+<meta content='RubyKaigi 2022' property='og:site_name'>
+<meta content='https://rubykaigi.org/2022' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2022/images/ogp.png' property='og:image'>
+<meta content='RubyKaigi 2022, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, rubykaigi2022' name='keywords'>
+<link href='/2022/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+<link href="/2022/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2022/stylesheets/site-e4d4402d.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='covid-19'>
+<div class='l-wrapper'>
+<div class='l-wrapper__start'>
+<header class='b-header'>
+<div class='l-container'>
+<div class='b-header__inner'>
+<div class='b-header__start'>
+<div class='e-header-logo'>
+<a href="/2022" class="e-header-logo__link"><img src="/2022/images/header-logo.svg" class="e-header-logo__image" alt="RubyKaigi2022 logo" />
+</a></div>
+</div>
+<div class='b-header__end'>
+<input class='e-hidden-input' id='toggle-header-nav' type='checkbox'>
+<div class='toggle-header-nav'>
+<label class='e-hamburger' for='toggle-header-nav'>
+<span class='e-hamburger__inner'></span>
+</label>
+<nav class='m-header-nav'>
+<ul class='m-header-nav__items'>
+<li class='m-header-nav__item'>
+<a href="/2022/schedule/" class="m-header-nav__item-link is-text"><span>
+Schedule
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/events/" class="m-header-nav__item-link is-text"><span>
+Events
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/speakers/" class="m-header-nav__item-link is-text"><span>
+Speakers
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/venue/" class="m-header-nav__item-link is-text"><span>
+Venue
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/sponsors/" class="m-header-nav__item-link is-text"><span>
+Sponsors
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/about/" class="m-header-nav__item-link is-text"><span>
+About
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/covid-19/" class="m-header-nav__item-link is-text"><span>
+COVID-19
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/policies/" class="m-header-nav__item-link is-text"><span>
+Policies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/novelties/" class="m-header-nav__item-link is-text"><span>
+Novelties
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="m-header-twitter" rel="noopener" target="_blank"><svg class="e-twitter-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 248 204" fill="#2C2C31">
+  <path class="twitter-logo__inner" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
+    C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66
+    c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64
+    c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76
+    c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26
+    c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
+</svg>
+
+</a></li>
+</ul>
+<label class='e-overlay' for='toggle-header-nav'></label>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<input checked='checked' class='e-hidden-input' id='lang-en' name='langage' type='radio'>
+<input class='e-hidden-input' id='lang-ja' name='langage' type='radio'>
+<main class='l-main'>
+<div class='e-langage-panel is-en'>
+<div class='m-page-header'>
+<div class='l-container is-xxl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+COVID-19
+<span class='e-page-title__sub'>
+policy and health measures
+</span>
+</h1>
+<div class='m-language-selector'>
+<ul class='m-language-selector__items'>
+<li class='m-language-selector__item'>
+<label class='m-language-selector__item-inner is-en' for='lang-en'>
+EN
+</label>
+</li>
+<li class='m-language-selector__item'>
+<label class='m-language-selector__item-inner is-ja' for='lang-ja'>
+JA
+</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-lg'>
+<div class='e-long-text'>
+<h1 id="covid-19-policy-and-health-measures">COVID-19 policy and health measures</h1>
+
+<p>The following policy applies to all attendees attending RubyKaigi 2022 in-person, including speakers, organizers, and booth staff.</p>
+
+<p>In summary:</p>
+
+<ul>
+<li><strong>Masks are always required.</strong> We encourage use of disposable masks.</li>
+<li><strong>All attendees have to pass daily temperature check.</strong> Check-in to the reception desk everyday.</li>
+</ul>
+
+<p>We&rsquo;re continuously monitoring the situation of COVID-19 and considering changes in the policy as needed. We&rsquo;ll announce any changes in this policy at <a href="https://twitter.com/RubyKaigi">our Twitter</a> and in emails.</p>
+
+<h2 id="vaccination">Vaccination</h2>
+
+<p>All attendees are recommended to be fully vaccinated.</p>
+
+<p><em>The vaccination requirement is now lifted.</em></p>
+
+<h2 id="exposure-notification-app">Exposure Notification App</h2>
+
+<p>All attendees should install and activate the <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/cocoa_00138.html">COCOA app (新型コロナウイルス接触確認アプリ; COVID-19 Contact-Confirming Application)</a> to their smartphone.</p>
+
+<h2 id="at-the-venue">At the venue</h2>
+
+<h3 id="temperature-check">Temperature check</h3>
+
+<p>We&rsquo;ll conduct daily temperature check for all attendees.</p>
+
+<p><strong>All attendees have to check-in once a day</strong> at the reception desk for temperature check. Please come to the reception before going to the conference halls, foyer and sponsor booths.</p>
+
+<h3 id="masks">Masks</h3>
+
+<p>All attendees must wear a mask at the conference venue, <strong>even at outside.</strong> Masks may be removed while eating and drinking.</p>
+
+<p>Attendees may provide their own mask, or use a mask provided by the conference. Conference staff may ask you to replace a mask if the mask considered not complying with our policy.</p>
+
+<p>And speakers may remove their mask when giving a talk during their session, if they are on a stage alone.</p>
+
+<p>Masks have to cover your nose and mouth. Face shields, bandannas, and masks with ventilation are not allowed. We encourage use of disposable masks instead of reusable ones and you may be asked to replace if you&rsquo;re using a reusable one.</p>
+
+<h3 id="social-distancing">Social distancing</h3>
+
+<p>All attendees should maintain social distancing (staying away at least 1m from other people) while at the conference venue.</p>
+
+<h3 id="maximum-occupancy">Maximum occupancy</h3>
+
+<p>The maximum occupancy of all rooms are limited to approximately 60%. Attendee may not be able to enter a smaller track room while it is fully occupied.</p>
+
+<p>The Middle Auditorium (#rubykaigiB) will work as a overflow session room for keynote sessions; We&rsquo;ll play a live stream of #rubykaigiA in #rubykaigiB while #rubykaigiB has no dedicated session.</p>
+
+<p>You&rsquo;ll be directed to go #rubykaigiB while #rubykaigiA is fully occupied.</p>
+
+<h3 id="other-measures">Other measures</h3>
+
+<ul>
+<li>Hand sanitizers are available throughout the conference venue.</li>
+<li>RubyKaigi will regularly conduct sanitizing of shared items and desks in the venue where possible.</li>
+</ul>
+
+<h2 id="positive-case-reports-during-conference">Positive case reports during conference</h2>
+
+<p>We plan to announce existence of positive cases and possible close contacts on <a href="https://twitter.com/RubyKaigi">Twitter</a>, and relevant Email list as soon as we acknowledge them. People who tested positive or identified as a close contact, are not allowed to enter the venue.</p>
+
+<p>Unless we&rsquo;re instructed to cancel the in-person conference from government agency, or the venue, we plan to continue the conference normally.</p>
+
+<p>If we need to cancel the in-person conference, we would switch the conference to full-virtual and the further access to the venue would be restricted to the speakers and conference staff. And we don&rsquo;t refund any tickets for this case.</p>
+
+<h3 id="if-you-tested-positive-or-identified-as-a-close-contact">If you tested positive, or identified as a close contact</h3>
+
+<p>Please report to <a href="mailto:2022@rubykaigi.org">2022@rubykaigi.org</a>. We never share the details of the case to other attendees. The only exception is the requests from government agencies; see below.</p>
+
+<p>Note that we don&rsquo;t allow people who tested positive or a possible close contact, and we&rsquo;ll offer partial refund for them.</p>
+
+<h3 id="privacy">Privacy</h3>
+
+<p>We may provide a contact list of all attendees to government agencies when requested, in case of COVID-19 suspicious breakout at the conference.</p>
+
+<p><a href="https://www.ppc.go.jp/news/careful_information/covid-19/">https://www.ppc.go.jp/news/careful_information/covid-19/</a></p>
+
+<h2 id="non-japan-based-attendees">Non Japan based attendees</h2>
+
+<p>First of all, we really hesitate to say this, but: we don&rsquo;t recommend attending RubyKaigi 2022 in-person, from abroad.</p>
+
+<p>We&rsquo;ll have a virtual venue and full live stream coverage, please register yourself as a virtual attendee instead of in-person attendee.</p>
+
+<p>Because Japanese government maintains strict border restriction policy and changes in the policy can happen suddenly, including visa. Entry to Japan can be restricted at any time.  Thus it is not recommended to plan visiting the conference from abroad early, as of this writing.</p>
+
+<p>However, we don&rsquo;t decline entry of people coming from abroad as long as they are complying with this policy and the government quarantine policy; and due to the govermental restriction, we can&rsquo;t sponsor Japanese visa for attending RubyKaigi 2022 in-person. If you plan to attend from abroad, please be aware of this situation.</p>
+
+<h3 id="travel-advise-as-of-28-july">Travel Advise as of 28 July</h3>
+
+<p><strong>Everyone without a residential visa or Japanese passport are still difficult to enter Japan.</strong>   We had expected the governmental restriction would be relaxed in July, but unfortunately the restrictive policy is still in effect; including suspension of visa waiver program. Refer to <a href="https://www.mhlw.go.jp/stf/covid-19/border_newentry.html">https://www.mhlw.go.jp/stf/covid-19/border_newentry.html</a> about the current procedure for new entries of foreign nationals.</p>
+
+<p>The current policy for people without a residential visa or Japanese passport (&ldquo;foreign nationals&rdquo;) requires: Obtaining short-term visa, and applying to ERFS system <a href="https://entry.hco.mhlw.go.jp/">https://entry.hco.mhlw.go.jp/</a>. A Japanese legal entity must submit ERFS application to become a <em>receiving organization</em> who are required to own responsibility of applicants&rsquo; whole travel in Japan, including ensuring compliance with the government&rsquo;s COVID-19 related policies.</p>
+
+<p>While we&rsquo;re disappointed on the current government policies, we again regret to say this: <strong>we lack bandwidth to support this for all attendees travelling from abroad.</strong> We&rsquo;re currently exploring a way to support this for our speakers for RubyKaigi 2022 and will make an announcement soon.</p>
+
+<h2 id="violation">Violation</h2>
+
+<p>Violations against this policy, including failure to comply, may result into a ban from the conference venue or decline of entry. We do not refund any ticket even in case of policy violation.</p>
+
+<h2 id="revision">Revision</h2>
+
+<ul>
+<li>6 September 2022: Several updates.
+
+<ul>
+<li>We&rsquo;ll do daily temperture check for all attendees.</li>
+<li>Clarified that we encourage use of disposable masks than reusable ones. You may be asked to replace with a disposable one if you&rsquo;re using it.</li>
+<li>#rubykaigiB will work as a overflow session room when necessary.</li>
+</ul></li>
+<li>28 July 2022: Lifted the vaccination requirement; Added the travel guide from abroad;  Noted the temperture check may be conducted.  Reasons of lifting;
+
+<ul>
+<li>We initially declared the strict policy as it is uneasy to tighten after opening the registration.</li>
+<li>This requirement is now considered uneffective and useless while it involves complex process on onsite registration; Effectivity of vaccination are decreasing due to time and appearance of new variants. We also had believed updated version of vaccines for the latest variants of COVID-19 to come and/or wide availability of 4th shot, but both didn&rsquo;t happen.</li>
+<li>However we still recommend all attendees to take vaccines.</li>
+</ul></li>
+<li>17 May 2022: Approved COVID-19 vaccine information has been updated, aligning with government policy; <a href="https://corona.go.jp/package/assets/pdf/jimu_foreign-governments_sesshureki_20220404.pdf">https://corona.go.jp/package/assets/pdf/jimu_foreign-governments_sesshureki_20220404.pdf</a> and <a href="https://www.mhlw.go.jp/content/000901651.pdf">https://www.mhlw.go.jp/content/000901651.pdf</a></li>
+<li>March 2022: Initial version.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='e-langage-panel is-ja'>
+<div class='m-page-header'>
+<div class='l-container is-xxl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+COVID-19
+<span class='e-page-title__sub'>
+に関するポリシーと対応方針について
+</span>
+</h1>
+<div class='m-language-selector'>
+<ul class='m-language-selector__items'>
+<li class='m-language-selector__item'>
+<label class='m-language-selector__item-inner is-en' for='lang-en'>
+EN
+</label>
+</li>
+<li class='m-language-selector__item'>
+<label class='m-language-selector__item-inner is-ja' for='lang-ja'>
+JA
+</label>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-lg'>
+<div class='e-long-text'>
+<h1 id="covid-19">COVID-19 に関するポリシーと対応方針について</h1>
+
+<p>RubyKaigi 2022 では COVID-19 対応として、全参加者 (スピーカー、ブーススタッフ、オーガナイザー・スタッフを含む) に下記ポリシーを遵守してもらうとともに、RubyKaigi 2022 チームは後述する方針で感染対策を行います。</p>
+
+<p>端的には、下記の通りです:</p>
+
+<ul>
+<li><strong>マスクの着用が必須です。</strong> 使い捨てマスク (不織布マスク) の利用をお願いします。</li>
+<li><strong>毎日、入場時に受付での体温チェックが全員必要です。</strong> ホールやブースへ行く前に受付へ立ち寄ってください。</li>
+</ul>
+
+<p>RubyKaigi 2022 チームは常にCOVID-19 の状況について注視していて、ポリシーや方針については必要に応じて変更されます。変更については <a href="https://twitter.com/RubyKaigi">Twitter @RubyKaigi</a> また E メールにて随時アナウンスします。</p>
+
+<h2 id="part-d2877326347afbed">ワクチン接種について</h2>
+
+<p>全参加者はワクチン接種を完了していることが推奨されています。</p>
+
+<p><em>ワクチン接種完了はオフライン参加における要件ではなくなりました</em></p>
+
+<h2 id="part-5626b22c2819e992">接触確認アプリについて</h2>
+
+<p>全参加者は  <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/cocoa_00138.html">COCOA アプリ (新型コロナウイルス接触確認アプリ)</a> のインストールおよび設定を行っておくのが望ましいです。これは必須ではありませんが、ご協力のほどお願いします。</p>
+
+<h2 id="part-c1090715c01d4287">会場において</h2>
+
+<h3 id="part-8c5e1a21cb767e50">体温チェック</h3>
+
+<p>全参加者は <strong>毎日入場時に体温チェック</strong> を受付で行う必要があります。会場に到着後まずは受付へ立ち寄ってください。</p>
+
+<h3 id="part-3786904bfb2ee3b">マスク</h3>
+
+<p>全参加者はマスクの着用が常に求められます <strong>(屋外でも必要です)</strong>。マスクは飲食の際に取り外しても構いません。</p>
+
+<p>参加者はマスクを持参するか、RubyKaigi チームが用意しているものを利用することができます (なるべく持参してください)。スタッフが不適格とみなしたマスクについて、RubyKaigi チームより提供されたマスクへの取り替えを求めることがあります。</p>
+
+<p>スピーカーについては、壇上に 1 人だけ登壇している時、登壇中に限りマスクを取り外すことができます。</p>
+
+<p>マスクは鼻と口を覆う必要があります。フェイスシールド、バンダナ、また通気孔がついたマスクは認められません。使い捨てマスク (不織布マスク) の利用を推奨します。それ以外のマスクについては不織布マスクへの取り替えをお願いする場合があります。</p>
+
+<h3 id="part-83f6a7c63ffeb6cd">ソーシャルディスタンス</h3>
+
+<p>全参加者は会場において可能な限り他の参加者から 1m 以上離れること (ソーシャルディスタンス) が求められます。</p>
+
+<h3 id="part-c10f3278b991ca88">最大収容人数</h3>
+
+<p>全ホールの定員は 60% 程度に制限されます。満員だと判断されている間はホール内へ入場することはできません。</p>
+
+<p>キーノートセッションなど、中ホール (#rubykaigiB) でセッションが行われていない間は大ホール (#rubykaigiA) のライブ映像を #rubykaigiB で放映します。#rubykaigiA が満員の際は中ホールへ誘導されます。</p>
+
+<h3 id="part-103e17b32ecd836a">その他感染対策</h3>
+
+<ul>
+<li>各所にアルコール消毒液を用意します。</li>
+<li>可能な範囲で定期的に共有物や机の消毒を行います。</li>
+</ul>
+
+<h2 id="part-a0468ca412fd5346">会期中の陽性報告について</h2>
+
+<p>会期中の陽性報告や、濃厚接触者については <a href="https://twitter.com/RubyKaigi">Twitter</a> や E メールでのアナウンスを予定しています。陽性者、濃厚接触者は会場に入ることが認められません。</p>
+
+<p>会場および保健所等から中止を指示されない限り、カンファレンスについては予定通り続行されます。中止とする場合、完全バーチャルなカンファレンスへの切り替えとなり、会場には登壇するスピーカーおよびスタッフのみが入ることを認められます。この場合の返金は行いません。</p>
+
+<h3 id="part-a3730ffbe6f841e6">陽性者、濃厚接触者となった場合の報告先</h3>
+
+<p><a href="mailto:2022@rubykaigi.org">2022@rubykaigi.org</a> までご連絡ください。陽性・濃厚接触者の詳細については口外いたしません (政府・自治体からの依頼を除く; 下記参照)。</p>
+
+<p>陽性・濃厚接触者については会場へ入ることが認められません。この場合、対象者には一部返金を行うことを予定しています。</p>
+
+<h3 id="part-13bbe4a1a49b750e">プライバシー</h3>
+
+<p>RubyKaigi 2022 チームは、政府・自治体や保健所から求められた場合に参加者リストを提供します。</p>
+
+<p><a href="https://www.ppc.go.jp/news/careful_information/covid-19/">https://www.ppc.go.jp/news/careful_information/covid-19/</a></p>
+
+<h2 id="part-79da3048eb2037ae">日本国外からの参加について</h2>
+
+<p>これを伝えなければならないのが苦しいところですが、現時点では RubyKaigi 2022 は日本国外からの参加を推奨しません。</p>
+
+<p>RubyKaigi 2022 はバーチャル会場とセッションのライブ配信について提供予定です。国外からの参加については、バーチャル会場への参加登録を検討してください。</p>
+
+<p>これは日本国政府が非常に厳しい水際対策を実施しているためです。ビザや入国におけるルールがいつ突然変わってもおかしくなく、事前に計画していた通りに渡航ができないリスクが非常に大きいため、現時点で RubyKaigi 2022 への渡航を手配することが推奨できない状況です。</p>
+
+<p>しかしながら、RubyKaigi 2022 は政府や関係省庁が定めている入国や検疫・隔離のルールを遵守する限り、国外からの参加者についても in-person での参加を拒むことはありません。前述した政府の方針の関係で、RubyKaigi 2022 では入国に必要なビザのために招聘などを行うことは出来ない旨、ご了承ください。</p>
+
+<h3 id="2022-7">2022/7 末時点での渡航ガイド</h3>
+
+<p><strong>有効な長期ビザもしくは日本国籍を持たない場合、日本への入国は引き続き困難な状況です。</strong>  RubyKaigi は現時点までに入国制限が緩和されることを期待していましたが、遺憾ながらそうはなりませんでした。Visa waiver program は引き続き中断されていて、  <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00341.html">https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00341.html</a>  に示されるような手続きが求められています。</p>
+
+<p>RubyKaigi の理解では、新規入国にあたり全員ビザの取得 (招聘) が必須、また受入責任者となる法人が <a href="https://entry.hco.mhlw.go.jp/">https://entry.hco.mhlw.go.jp/</a> へ入国者について申請、そして旅程中の行動や COVID-19 関連規則の遵守について責任を負うことが求められています。</p>
+
+<p>入国について厳しいポリシーが引き続き有効であることは RubyKaigi としては予想外で遺憾です。そして、心苦しいですが現在の RubyKaigi では全参加者についてこれをサポートする十分なリソースがありません (通常の招聘以上に責任を求められているのが難しいです)。ただし、RubyKaigi 2022 スピーカーのみなさんについて、これをサポートできないか準備を進めています。こちらについてはアナウンスをお待ちください。</p>
+
+<h2 id="part-9ff29d11bf6fece">違反について</h2>
+
+<p>本ポリシーへの違反や遵守できなかった時、当該参加者は会場からの退場を求められる場合があります。この際の返金は行われません。</p>
+
+<h2 id="part-2caf4f530f5127c8">更新履歴</h2>
+
+<ul>
+<li>2022/9/6: 更新
+
+<ul>
+<li>全参加者は毎日体温チェックを行う必要がある旨明記</li>
+<li>使い捨てマスクの利用を推奨しており、それ以外は不適格と見做される可能性がある旨明記</li>
+<li>人数制限と overflow 時の中ホールについて明記</li>
+</ul></li>
+<li>2022/7/28: ワクチン接種はオフライン参加の要件ではなくなりました; 国外からの渡航ガイドを掲載しました;  体温チェックを実施する可能性があることを掲載しました。ワクチン接種の変更についての背景:
+
+<ul>
+<li>当初の要件のような、厳しいポリシーはチケット販売等を開始して後から規定することが難しいため、初めから厳しいポリシーを設定していました。</li>
+<li>ただし、この要件は現在では意味を成さなくなったと考えています。受付において複雑なプロセスを必要とするのも相俟って意味がありません。ワクチンの有効性は 3 回接種でも時間経過で効果が薄れていること、また現在蔓延している variant へも有効性が低下してきていることが理由です。RubyKaigi は会期までに新たなワクチンや (広く) 4 回目接種が提供されることを期待していましたが、これは発生しませんでした。</li>
+<li>要件からは外れましたが、RubyKaigi は引き続きワクチンの接種を推奨しています。</li>
+</ul></li>
+<li>2022/5/17: <a href="https://corona.go.jp/package/assets/pdf/jimu_foreign-governments_sesshureki_20220404.pdf">https://corona.go.jp/package/assets/pdf/jimu_foreign-governments_sesshureki_20220404.pdf</a> および <a href="https://www.mhlw.go.jp/content/000901651.pdf">https://www.mhlw.go.jp/content/000901651.pdf</a> を踏まえ、認可されている COVID-19 ワクチンの種類をアップデートしました。</li>
+<li>初版</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+</div>
+<div class='l-wrapper__end'>
+<footer class='b-footer'>
+<div class='l-container'>
+<div class='b-footer__inner'>
+<div class='m-footer'>
+<nav class='m-footer-nav'>
+<ul class='m-footer-nav__items'>
+<li class='m-footer-nav__item'>
+<a href="/2022/past_kaigis/" class="e-button is-lg is-border is-block">Past Kaigis
+</a></li>
+</ul>
+</nav>
+<div class='e-license'>
+This work by RubyKaigi 2022 Team is licensed under a Creative Commons Attribution 4.0 Unported License.
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>

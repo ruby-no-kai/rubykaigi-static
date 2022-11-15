@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Past Kaigis - RubyKaigi 2022
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Past Kaigis' property='og:title'>
+<meta content='RubyKaigi 2022' property='og:site_name'>
+<meta content='https://rubykaigi.org/2022' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2022/images/ogp.png' property='og:image'>
+<meta content='RubyKaigi 2022, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, rubykaigi2022' name='keywords'>
+<link href='/2022/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+<link href="/2022/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2022/stylesheets/site-e4d4402d.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='past_kaigis'>
+<div class='l-wrapper'>
+<div class='l-wrapper__start'>
+<header class='b-header'>
+<div class='l-container'>
+<div class='b-header__inner'>
+<div class='b-header__start'>
+<div class='e-header-logo'>
+<a href="/2022" class="e-header-logo__link"><img src="/2022/images/header-logo.svg" class="e-header-logo__image" alt="RubyKaigi2022 logo" />
+</a></div>
+</div>
+<div class='b-header__end'>
+<input class='e-hidden-input' id='toggle-header-nav' type='checkbox'>
+<div class='toggle-header-nav'>
+<label class='e-hamburger' for='toggle-header-nav'>
+<span class='e-hamburger__inner'></span>
+</label>
+<nav class='m-header-nav'>
+<ul class='m-header-nav__items'>
+<li class='m-header-nav__item'>
+<a href="/2022/schedule/" class="m-header-nav__item-link is-text"><span>
+Schedule
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/events/" class="m-header-nav__item-link is-text"><span>
+Events
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/speakers/" class="m-header-nav__item-link is-text"><span>
+Speakers
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/venue/" class="m-header-nav__item-link is-text"><span>
+Venue
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/sponsors/" class="m-header-nav__item-link is-text"><span>
+Sponsors
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/about/" class="m-header-nav__item-link is-text"><span>
+About
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/covid-19/" class="m-header-nav__item-link is-text"><span>
+COVID-19
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/policies/" class="m-header-nav__item-link is-text"><span>
+Policies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/novelties/" class="m-header-nav__item-link is-text"><span>
+Novelties
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="m-header-twitter" rel="noopener" target="_blank"><svg class="e-twitter-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 248 204" fill="#2C2C31">
+  <path class="twitter-logo__inner" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
+    C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66
+    c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64
+    c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76
+    c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26
+    c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
+</svg>
+
+</a></li>
+</ul>
+<label class='e-overlay' for='toggle-header-nav'></label>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<main class='l-main'>
+<div class='m-page-header'>
+<div class='l-container is-xxl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+Past Kaigis
+</h1>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-xxl'>
+<div class='l-grid is-kaigis'>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2021-takeout/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2021-takeout.png" alt="RubyKaigi 2021-takeout" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2021 Takeout
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2020-takeout/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2020-takeout.png" alt="RubyKaigi 2020-takeout" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2020 Takeout
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2020/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2020.png" alt="RubyKaigi 2020" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2020 (cancelled)
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2019/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2019.png" alt="RubyKaigi 2019" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2019
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2018/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2018.png" alt="RubyKaigi 2018" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2018
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2017/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2017.png" alt="RubyKaigi 2017" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2017
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2016/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2016.png" alt="RubyKaigi 2016" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2016
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2015/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2015.png" alt="RubyKaigi 2015" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2015
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2014/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2014.png" alt="RubyKaigi 2014" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2014
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2013/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2013.png" alt="RubyKaigi 2013" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2013
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2011/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2011.png" alt="RubyKaigi 2011" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2011
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2010/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2010.png" alt="RubyKaigi 2010" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2010
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2009/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2009.png" alt="RubyKaigi 2009" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2009
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2008/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2008.png" alt="RubyKaigi 2008" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2008
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2007/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2007.png" alt="RubyKaigi 2007" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2007
+</div>
+</a></div>
+</div>
+<div class='l-grid__item'>
+<div class='m-past-kaigi'>
+<a href="https://rubykaigi.org/2006/" target="_blank" class="m-past-kaigi__inner"><img src="/2022/images/past-kaigis/2006.png" alt="RubyKaigi 2006" class="m-past-kaigi__image" />
+<div class='m-past-kaigi__name'>
+RubyKaigi 2006
+</div>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+</div>
+<div class='l-wrapper__end'>
+<footer class='b-footer'>
+<div class='l-container'>
+<div class='b-footer__inner'>
+<div class='m-footer'>
+<nav class='m-footer-nav'>
+<ul class='m-footer-nav__items'>
+<li class='m-footer-nav__item'>
+<a href="/2022/past_kaigis/" class="e-button is-lg is-border is-block">Past Kaigis
+</a></li>
+</ul>
+</nav>
+<div class='e-license'>
+This work by RubyKaigi 2022 Team is licensed under a Creative Commons Attribution 4.0 Unported License.
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
