@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+How fast really is Ruby 3.x? - RubyKaigi 2022
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='How fast really is Ruby 3.x?' property='og:title'>
+<meta content='RubyKaigi 2022' property='og:site_name'>
+<meta content='https://rubykaigi.org/2022' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2022/images/ogp.png' property='og:image'>
+<meta content='RubyKaigi 2022, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, rubykaigi2022' name='keywords'>
+<link href='/2022/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+<link href="/2022/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2022/stylesheets/site-e4d4402d.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='presentation'>
+<div class='l-wrapper'>
+<div class='l-wrapper__start'>
+<header class='b-header'>
+<div class='l-container'>
+<div class='b-header__inner'>
+<div class='b-header__start'>
+<div class='e-header-logo'>
+<a href="/2022" class="e-header-logo__link"><img src="/2022/images/header-logo.svg" class="e-header-logo__image" alt="RubyKaigi2022 logo" />
+</a></div>
+</div>
+<div class='b-header__end'>
+<input class='e-hidden-input' id='toggle-header-nav' type='checkbox'>
+<div class='toggle-header-nav'>
+<label class='e-hamburger' for='toggle-header-nav'>
+<span class='e-hamburger__inner'></span>
+</label>
+<nav class='m-header-nav'>
+<ul class='m-header-nav__items'>
+<li class='m-header-nav__item'>
+<a href="/2022/schedule/" class="m-header-nav__item-link is-text"><span>
+Schedule
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/events/" class="m-header-nav__item-link is-text"><span>
+Events
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/speakers/" class="m-header-nav__item-link is-text"><span>
+Speakers
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/venue/" class="m-header-nav__item-link is-text"><span>
+Venue
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/sponsors/" class="m-header-nav__item-link is-text"><span>
+Sponsors
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/about/" class="m-header-nav__item-link is-text"><span>
+About
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/covid-19/" class="m-header-nav__item-link is-text"><span>
+COVID-19
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/policies/" class="m-header-nav__item-link is-text"><span>
+Policies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2022/novelties/" class="m-header-nav__item-link is-text"><span>
+Novelties
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="m-header-twitter" rel="noopener" target="_blank"><svg class="e-twitter-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 248 204" fill="#2C2C31">
+  <path class="twitter-logo__inner" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
+    C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66
+    c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64
+    c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76
+    c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26
+    c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
+</svg>
+
+</a></li>
+</ul>
+<label class='e-overlay' for='toggle-header-nav'></label>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<script>
+  var urlHash = location.hash;
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("js-back").setAttribute("href", document.getElementById("js-back").getAttribute("href") + urlHash);
+  }, false);
+</script>
+<main class='l-main'>
+<div class='m-page-header'>
+<div class='l-container is-xl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+Schedule
+</h1>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-xl'>
+<div class='m-page-body__back'>
+<a href="/2022/schedule" class="e-back-link" id="js-back"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path class="left-arrow" d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z"/></svg>
+
+Back
+</a></div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/2e7eb132e9c510f06a1a3140dd105f98?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Fujimoto Seiji" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Fujimoto Seiji
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/fujimotos" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@fujimotos' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@fujimotos
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>A developer at ClearCode Inc. Fluentd Committer.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<header class='m-presentation-content__header'>
+<div class='m-presentation-content__meta'>
+<span>JA</span>
+</div>
+<h1 class='m-presentation-content__title'>
+How fast really is Ruby 3.x?
+</h1>
+</header>
+<div class='m-presentation-content__body'>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>Ruby 3 brings novel improvements such as YJIT and Ractor, but the extent to which these techniques can speed up real applications is unknown. Performance claims should not be accepted solely based on abstract theories or micro benchmarks, but by the supporting evidence from actual applications.</p>
+
+<p>We recently ported a large-scale, open-source Ruby application (Fluentd) to Ruby 3, and conducted a survey to obtain an estimate of the speed improvements over Ruby 2.x. This talk will explain and discuss the results.</p>
+</div>
+</div>
+<section class='m-presentation-section'>
+<h2 class='m-presentation-section__title'>
+Presentation Material
+</h2>
+<div class='m-presentation-materials'>
+<ul class='m-presentation-materials__items'>
+<li class='m-presentation-materials__item'>
+<a href="https://github.com/fujimotos/RubyKaigi2022/blob/master/20220909-RubyKaigi2022.pdf" target="_blank" class="m-presentation-materials__item-link e-button is-lg is-primary is-block"><i class='fa-regular fa-file'></i>
+Slides
+</a></li>
+</ul>
+</div>
+</section>
+<section class='presentation-video m-presentation-section'>
+<h2 class='m-presentation-section__title'>
+Recorded video
+</h2>
+<div class='m-presentation-section__video-embed'>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/x9x169j6xco' width='560'></iframe>
+</div>
+<div class='m-presentation-section__video-link'>
+<a href="https://www.youtube.com/watch?v=x9x169j6xco"></a>
+<nbsp></nbsp>
+from
+<nbsp></nbsp>
+<a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class='m-page-body__back is-mobile'>
+<a href="/2022/schedule" class="e-back-link" id="js-back"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path class="left-arrow" d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z"/></svg>
+
+Back
+</a></div>
+
+</div>
+<div class='l-wrapper__end'>
+<footer class='b-footer'>
+<div class='l-container'>
+<div class='b-footer__inner'>
+<div class='m-footer'>
+<nav class='m-footer-nav'>
+<ul class='m-footer-nav__items'>
+<li class='m-footer-nav__item'>
+<a href="/2022/past_kaigis/" class="e-button is-lg is-border is-block">Past Kaigis
+</a></li>
+</ul>
+</nav>
+<div class='e-license'>
+This work by RubyKaigi 2022 Team is licensed under a Creative Commons Attribution 4.0 Unported License.
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
