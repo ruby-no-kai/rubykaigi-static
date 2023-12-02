@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+Speakers - RubyKaigi 2023
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Speakers' property='og:title'>
+<meta content='RubyKaigi 2023' property='og:site_name'>
+<meta content='https://rubykaigi.org/2023' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2023/images/ogp.png' property='og:image'>
+<meta content='RubyKaigi 2023, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, rubykaigi2023' name='keywords'>
+<link href='/2023/images/apple-touch-icon.png' rel='apple-touch-icon'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+<link href="/2023/images/favicon.png" rel="icon" type="image/png" />
+<link href="/2023/stylesheets/site-60b9f5f6.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static' id='speakers'>
+<div class='l-wrapper'>
+<div class='l-wrapper__start'>
+<header class='b-header'>
+<div class='l-container'>
+<div class='b-header__inner'>
+<div class='b-header__start'>
+<div class='e-header-logo'>
+<a href="/2023" class="e-header-logo__link"><img src="/2023/images/header-logo.svg" class="e-header-logo__image" alt="RubyKaigi 2023 logo" />
+</a></div>
+</div>
+<div class='b-header__end'>
+<input class='e-hidden-input' id='toggle-header-nav' type='checkbox'>
+<div class='toggle-header-nav'>
+<label class='e-hamburger' for='toggle-header-nav'>
+<span class='e-hamburger__inner'></span>
+</label>
+<nav class='m-header-nav'>
+<ul class='m-header-nav__items'>
+<li class='m-header-nav__item'>
+<a href="/2023/schedule/" class="m-header-nav__item-link is-text"><span>
+Schedule
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/speakers/" class="m-header-nav__item-link is-text"><span>
+Speakers
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/matsumoto/" class="m-header-nav__item-link is-text"><span>
+Matsumoto
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/events/" class="m-header-nav__item-link is-text"><span>
+Events
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/sponsors/" class="m-header-nav__item-link is-text"><span>
+Sponsors
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/covid-19/" class="m-header-nav__item-link is-text"><span>
+COVID-19
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/about/" class="m-header-nav__item-link is-text"><span>
+About
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/policies/" class="m-header-nav__item-link is-text"><span>
+Policies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="/2023/novelties/" class="m-header-nav__item-link is-text"><span>
+Novelties
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="https://twitter.com/rubykaigi" class="m-header-twitter" rel="noopener" target="_blank"><svg class="e-twitter-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 248 204" fill="#2C2C31">
+  <path class="twitter-logo__inner" d="M221.95,51.29c0.15,2.17,0.15,4.34,0.15,6.53c0,66.73-50.8,143.69-143.69,143.69v-0.04
+    C50.97,201.51,24.1,193.65,1,178.83c3.99,0.48,8,0.72,12.02,0.73c22.74,0.02,44.83-7.61,62.72-21.66
+    c-21.61-0.41-40.56-14.5-47.18-35.07c7.57,1.46,15.37,1.16,22.8-0.87C27.8,117.2,10.85,96.5,10.85,72.46c0-0.22,0-0.43,0-0.64
+    c7.02,3.91,14.88,6.08,22.92,6.32C11.58,63.31,4.74,33.79,18.14,10.71c25.64,31.55,63.47,50.73,104.08,52.76
+    c-4.07-17.54,1.49-35.92,14.61-48.25c20.34-19.12,52.33-18.14,71.45,2.19c11.31-2.23,22.15-6.38,32.07-12.26
+    c-3.77,11.69-11.66,21.62-22.2,27.93c10.01-1.18,19.79-3.86,29-7.95C240.37,35.29,231.83,44.14,221.95,51.29z"/>
+</svg>
+
+</a></li>
+<li class='m-header-nav__item'>
+<a href="https://ruby.social/@rubykaigi" class="m-header-mastodon" rel="me noopener" target="_blank"><svg class="e-mastodon-logo" width="74" height="79" viewBox="0 0 74 79" fill="#2c2c31" xmlns="http://www.w3.org/2000/svg">
+<path d="M73.7014 17.4323C72.5616 9.05152 65.1774 2.4469 56.424 1.1671C54.9472 0.950843 49.3518 0.163818 36.3901 0.163818H36.2933C23.3281 0.163818 20.5465 0.950843 19.0697 1.1671C10.56 2.41145 2.78877 8.34604 0.903306 16.826C-0.00357854 21.0022 -0.100361 25.6322 0.068112 29.8793C0.308275 35.9699 0.354874 42.0498 0.91406 48.1156C1.30064 52.1448 1.97502 56.1419 2.93215 60.0769C4.72441 67.3445 11.9795 73.3925 19.0876 75.86C26.6979 78.4332 34.8821 78.8603 42.724 77.0937C43.5866 76.8952 44.4398 76.6647 45.2833 76.4024C47.1867 75.8033 49.4199 75.1332 51.0616 73.9562C51.0841 73.9397 51.1026 73.9184 51.1156 73.8938C51.1286 73.8693 51.1359 73.8421 51.1368 73.8144V67.9366C51.1364 67.9107 51.1302 67.8852 51.1186 67.862C51.1069 67.8388 51.0902 67.8184 51.0695 67.8025C51.0489 67.7865 51.0249 67.7753 50.9994 67.7696C50.9738 67.764 50.9473 67.7641 50.9218 67.7699C45.8976 68.9569 40.7491 69.5519 35.5836 69.5425C26.694 69.5425 24.3031 65.3699 23.6184 63.6327C23.0681 62.1314 22.7186 60.5654 22.5789 58.9744C22.5775 58.9477 22.5825 58.921 22.5934 58.8965C22.6043 58.8721 22.621 58.8505 22.6419 58.8336C22.6629 58.8167 22.6876 58.8049 22.714 58.7992C22.7404 58.7934 22.7678 58.794 22.794 58.8007C27.7345 59.9796 32.799 60.5746 37.8813 60.5733C39.1036 60.5733 40.3223 60.5733 41.5447 60.5414C46.6562 60.3996 52.0437 60.1408 57.0728 59.1694C57.1983 59.1446 57.3237 59.1233 57.4313 59.0914C65.3638 57.5847 72.9128 52.8555 73.6799 40.8799C73.7086 40.4084 73.7803 35.9415 73.7803 35.4523C73.7839 33.7896 74.3216 23.6576 73.7014 17.4323ZM61.4925 47.3144H53.1514V27.107C53.1514 22.8528 51.3591 20.6832 47.7136 20.6832C43.7061 20.6832 41.6988 23.2499 41.6988 28.3194V39.3803H33.4078V28.3194C33.4078 23.2499 31.3969 20.6832 27.3894 20.6832C23.7654 20.6832 21.9552 22.8528 21.9516 27.107V47.3144H13.6176V26.4937C13.6176 22.2395 14.7157 18.8598 16.9118 16.3545C19.1772 13.8552 22.1488 12.5719 25.8373 12.5719C30.1064 12.5719 33.3325 14.1955 35.4832 17.4394L37.5587 20.8853L39.6377 17.4394C41.7884 14.1955 45.0145 12.5719 49.2765 12.5719C52.9614 12.5719 55.9329 13.8552 58.2055 16.3545C60.4017 18.8574 61.4997 22.2371 61.4997 26.4937L61.4925 47.3144Z" fill="inherit"/>
+</svg>
+
+</a></li>
+</ul>
+<label class='e-overlay' for='toggle-header-nav'></label>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<main class='l-main'>
+<div class='m-page-header'>
+<div class='l-container is-xl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+Speakers
+</h1>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-speakers'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-xxl'>
+<section class='speakers__division'>
+<h2 class='e-section-title'>
+Keynote Speakers
+</h2>
+<div class='m-speakers__members is-keynote'>
+<div class='m-member is-keynote'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yukihiro &quot;Matz&quot; Matsumoto" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yukihiro "Matz" Matsumoto
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/matz" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@matz' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/yukihiro_matz" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @yukihiro_matz' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@yukihiro_matz
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>The Creator of Ruby</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-keynote'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/f1457acc3f8d176db1d28e9f30779ae6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Maxime Chevalier-Boisvert" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Maxime Chevalier-Boisvert
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/maximecb" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@maximecb' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@maximecb
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Maxime Chevalier-Boisvert obtained a PhD in compiler design at the University of Montreal in 2016, where she developed Basic Block Versioning (BBV), a JIT compiler architecture optimized for dynamically-typed programming languages. She went on to lead a project at Shopify to build YJIT, a new JIT compiler built inside CRuby, and to win the Ruby Prize in 2021 for her work on optimizing Ruby’s performance.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-keynote'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/1fab9d01b25e99522f3dfd01e3d4cb51?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Soutaro Matsumoto" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Soutaro Matsumoto
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/soutaro" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@soutaro' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/soutaro" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @soutaro' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@soutaro
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Soutaro is the designer of RBS, the developer of Steep, a Ruby core committer, and a software engineer at Block. He received his PhD in engineering about type checking Ruby programs in 2010, and he is still working for it.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class='m-page-body__row'>
+<div class='l-container is-xxl'>
+<section class='speakers__division'>
+<h2 class='e-section-title'>
+Speakers
+</h2>
+<div class='m-speakers__members is-speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/a32c78e5547baf884bf35ec9bec3233f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Alan Wu" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Alan Wu
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/alanwusx" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @alanwusx' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@alanwusx
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Alan maintains YJIT with the Ruby and Rails infrastructure team at Shopify and is a Ruby committer. Alan is able to read some Japanese.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/45235bde1575071487435f6b0c4e44d7?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Alexandre Terrasa" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Alexandre Terrasa
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/Morriar" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@Morriar' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@Morriar
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Alexandre has a PhD in computer science about compiling and code documentation. He specializes in typing specifications and implementations. He currently works as a Staff Production Engineer on the Ruby and Rails Infrastructure team at Shopify. He uses his expertise for the adoption of better Ruby tooling and practices including Sorbet and gradual typing.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/0ea7f61aec8fee539be0cf39b7bab77c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Benoit Daloze" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Benoit Daloze
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/eregon" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@eregon' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/eregontp" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @eregontp' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@eregontp
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Benoit Daloze is the TruffleRuby lead. He has contributed to many Ruby implementations, including MRI, TruffleRuby and JRuby. He is the maintainer of ruby/spec, a test suite for the behavior of the Ruby programming language.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/f1d37642fdaa1662ff46e4c65731e9ab?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Charles Nutter" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Charles Nutter
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/headius" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@headius' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/headius" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @headius' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@headius
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Charles works on JVM languages at Red Hat.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/eb7f91e7b7b3457ca57701a40f920f2a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Chris Salzberg" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Chris Salzberg
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/shioyama" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@shioyama' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/shioyama" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @shioyama' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@shioyama
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Rubyist and writer from Montreal living and working in Hakodate, Japan. I&#39;m the author of Mobility, a pluggable translation framework for Ruby, and a committer to many open-source projects including Rails. I am a Staff engineer in the Ruby and Rails Infrastructure team at Shopify.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/ce6d997265cefede13ee7e7e2a2cf9b2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="CRuby Committers" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+CRuby Committers
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/rubylangorg" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @rubylangorg' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@rubylangorg
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/0a675bac15087f05fbd68411c2a603ce?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Daisuke Aritomo" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Daisuke Aritomo
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/osyoyu" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@osyoyu' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/osyoyu" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @osyoyu' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@osyoyu
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Computer lover</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/6b2b0c8aed66cbacbf5a49f944e3256f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Emily Samp" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Emily Samp
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/egiurleo" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@egiurleo' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@egiurleo
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Emily Samp (she/her) is a Senior Developer at Shopify, where she helps improve the Ruby development experience with open-source tools like Sorbet and the Ruby Extension Pack for VS Code. She is also an organizer of WNB.rb (<a href="https://wnb-rb.dev">https://wnb-rb.dev</a>), a virtual community for women and non-binary Ruby developers. She lives in Lawrence, KS with her husband and their pets.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/09befb5c07e24f52c13e8c350b4e3b74?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Fable Tales" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Fable Tales
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/fables-tales" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@fables-tales' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@fables-tales
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Fable (She/Her) is a director at Ruby Central, a former RSpec maintainer, and the author of Rubyfmt! She loves Ruby and has been working in it for over a decade, and wants to hug every cat!</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/b6f4cf2fa5c3e1f57ce47d06a7148bdb?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Frederico Linhares" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Frederico Linhares
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/fredlinhares" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@fredlinhares' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/fredolinhares" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @fredolinhares' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@fredolinhares
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>I am a Brazilian software developer. I saw the Ruby language for the first time in 2006 through the RPGMaker XP. After that, I started to use it for web development. Despite being a web developer who loves Ruby, I am also passionate about game development.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/1ac5a00efa41cd58c421d3cd98dda7b9?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Genadi Samokovarov" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Genadi Samokovarov
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/gsamokovarov" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@gsamokovarov' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@gsamokovarov
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Genadi is a Ruby developer from Sofia, Bulgaria. I work for Dext (dext.com) and run our local meet-up called <a href="https://rubybanitsa.com">Ruby Banitsa</a>. I&#39;m an occasional Rails and RuboCop contributor, maintaining the web-console gem.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/2b680c5f22146e764e2998dd4595ec93?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Go Sueyoshi" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Go Sueyoshi
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/sue445" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@sue445' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/sue445" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @sue445' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@sue445
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>I was born and raised in Fukuoka. My body is made of Tonkotsu-Ramen 🍜</p>
+
+<p>I&#39;m a maintainer of rubicure, Itamae, chatwork-ruby and many many OSS.</p>
+
+<p>I&#39;m an engineer of pixiv.inc. My main jobs are SRE (web application, infrastructure and CI) , AWS and GCP Solution Architect, maintainer of In-house GitLab, etc etc...</p>
+
+<p>Pretty Cure is my life, and Cure Peace is my wife💛</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/341b2b9a76d4870d875e470603c14728?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hirokazu SUZUKI" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hirokazu SUZUKI
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/heronshoes" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@heronshoes' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@heronshoes
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Author of RedAmber, a DataFrame library in Ruby.
+A member of Red Data Tools.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/eabad423977cfc6873b8f5df62b848a6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hiroshi SHIBATA" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hiroshi SHIBATA
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/hsbt" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@hsbt' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/hsbt" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @hsbt' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@hsbt
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>OSS programmer, Ruby committer, maintainer of many OSS such as ruby, rubygems, bundler, rake, rbenv, ruby-build, psych, and administrator of ruby-lang.org. He maintains the infrastructure that supports the development of the Ruby programming language. He is working in public relations of technology for ANDPAD Inc. and full time OSS developer for the Ruby programming language.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/db1b7e3c6fe6f6a0e9752b2c19bf5473?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hiroya FUJINAMI" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hiroya FUJINAMI
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/makenowjust" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@makenowjust' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@makenowjust
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Ph.D. student at SOKENDAI (NII, National Institute of Informatics). Researcher for information security and formal language. Ruby committer.
+I am the author of Regexp optimization to prevent ReDoS in Ruby 3.2.0.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/d62b18efd2549587e712cebf6403861a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hitoshi HASUMI" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hitoshi HASUMI
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/hasumikin" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@hasumikin' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/hasumikin" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @hasumikin' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@hasumikin
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Creator of <a href="https://github.com/picoruby/picoruby">PicoRuby</a> and <a href="https://github.com/picoruby/prk_firmware">PRK Firmware</a>.
+Maintainer of ruby/irb, ruby/reline, and mrubyc/mrubyc.
+Programmer at Monstarlab Shimane office.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/5dc208dd24c298889640fb4d1f6e431c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Ivo Anjo" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Ivo Anjo
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ivoanjo" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ivoanjo' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/KnuX" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @KnuX' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@KnuX
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>I love to work on Ruby performance and that&#39;s how I ended up at Datadog where I&#39;m building a new production open-source Ruby profiler for the <code>ddtrace</code> gem. I believe in bringing profiling to the masses: profilers should be easy to use and understandable by everyone, and I&#39;m working hard on delivering this vision.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/cae3948facb482f85043d095cf954013?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Jemma Issroff" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Jemma Issroff
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/jemmaissroff" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@jemmaissroff' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@jemmaissroff
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Jemma Issroff works on Shopify&#39;s Ruby Infrastructure team. She is also a co-founder of WNB.rb, a women / non-binary Ruby community and a co-host on The Ruby on Rails Podcast. She has been working on an implementation of Object Shapes in MRI and is excited to share it with you!</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/f183bcc4176b308c9edabe79299e448f?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Jeremy Evans" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Jeremy Evans
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/jeremyevans" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@jeremyevans' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/jeremyevans0" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @jeremyevans0' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@jeremyevans0
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Jeremy Evans is a Ruby committer who focuses on fixing bugs in Ruby. He the lead developer of the Sequel database library, the Roda web toolkit, the Rodauth authentication framework, and many other Ruby libraries. He is the author of &quot;Polished Ruby Programming&quot;. He is the maintainer of Ruby ports for the OpenBSD operating system.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/303aae3354beb438eaa44000b1f2f3fd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kevin Menard" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Kevin Menard
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/nirvdrum" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@nirvdrum' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/nirvdrum" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @nirvdrum' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@nirvdrum
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Kevin is a Staff Engineer at Shopify where he works as part of a team developing a high performance Ruby implementation called TruffleRuby. He’s been involved with the Ruby community since 2008 and has been doing open source in some capacity since 1999. In his spare time he’s a father of two and enjoys playing drums.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/944780427713649edff38f53df53b6e1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kevin Newton" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Kevin Newton
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/kddnewton" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@kddnewton' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/kddnewton" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @kddnewton' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@kddnewton
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Kevin is a staff engineer at Shopify, based out of Boston, Massachusetts. He is passionate about music and open-source software.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/0cad0568651dbea482d80104ee3bf9b3?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Kohei Yamada" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Kohei Yamada
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/iberianpig" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@iberianpig' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/nukumaro22" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @nukumaro22' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@nukumaro22
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>I have been using Linux desktop as my primary for about 10 years, and now I use Ubuntu Wayland. 
+I met Ruby in 2014 and have been programming with Ruby ever since.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/023b04c98f39cc041293d780352432ff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi ITO" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Koichi ITO
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/koic" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@koic' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/koic" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @koic' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@koic
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Koichi Ito is a member of RuboCop core team and open source software maintainer. He is a long time practitioner of Ruby/Rails application development with eXtreme Programming. He is also Engineering Manager and Distinguished Engineer at ESM, Inc.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/990397e8b38d6f5f4ae8ff343e8b883a?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Koichi Sasada" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Koichi Sasada
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ko1" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ko1' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ko1
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Koichi Sasada is a programmer who mainly develops the Ruby interpreter (CRuby/MRI). He received his Ph.D. (Information Science and Technology) from the University of Tokyo in 2007. Now he is still working on MRI development at Cookpad Inc. He is also a director of Ruby Association.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/c571205817eabfe7ae22de3b74ffe900?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Maciej Mensfeld" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Maciej Mensfeld
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/mensfeld" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@mensfeld' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/maciejmensfeld" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @maciejmensfeld' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@maciejmensfeld
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>I&#39;m a Software Architect at Mend and a member of the RubyGems security team. In RubyGems, I&#39;m responsible for the detection of malicious packages as well as post-incident impact analysis of critical vulnerabilities posing threats to the Ruby gems users. I&#39;ve detected and reported over 20 000 malicious packages in various ecosystems and on GitHub. I&#39;m also an active OSS contributor to various Ruby projects.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/74b5a82b8710accc1e6189a19f0b4935?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Mari Imaizumi" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Mari Imaizumi
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ima1zumi" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ima1zumi' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/ima1zumi" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @ima1zumi' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ima1zumi
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Maintainer of IRB, Reline. A software engineer at ESM, Inc.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/f52e87b92cafb1e8c6d155076b56ecff?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Martin J. Dürst" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Martin J. Dürst
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/duerst" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@duerst' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@duerst
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Martin is a Professor of Computer Science at Aoyama Gakuin University in Japan. He has been one of the main drivers of Internationalization (I18N) and the use of Unicode on the Web and the Internet. He published the first proposals for DNS I18N and NFC character normalization, and is the main author of the W3C Character Model and the IRI specification (RFC 3987). Since 2007, he and his students have contributed to the implementation of Ruby, mostly in the area of I18N.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/7f432d4a8aaadcea1ca77ec81a200121?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masataka Kuwabara" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Masataka Kuwabara
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/pocke" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@pocke' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/p_ck_" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @p_ck_' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@p_ck_
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>A maintainer of RBS, a Ruby committer. Works for Money Forward, Inc.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/40f4d1f2e77078955bd01e9fb4a503ba?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Masatoshi SEKI" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Masatoshi SEKI
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/seki" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@seki' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/m_seki" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @m_seki' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@m_seki
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Masatoshi Seki is a Ruby committer and the author of several Ruby standard libraries including dRuby, ERB, and Rinda. He’s an expert in object-oriented programming, distributed systems, and eXtreme programming. He has been speaking at RubyKaigi every year since 2006 when the Kaigi first started. He is also Principal Engineer at Canon Medical Systems corp.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/43f0363b6c12155c36d0c06043c268fd?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Matt Valentine-House" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Matt Valentine-House
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/eightbitraptor" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@eightbitraptor' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@eightbitraptor
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Matt has been working with Ruby in various capacities since 2007. He is currently a Senior Developer at Shopify working in the Ruby Infrastructure team, predominantly working on garbage collection and memory management. When he&#39;s not scratching his head over segmentation faults he can be found brewing beer and building mechanical keyboards.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/7d1849ae4886b43d9a4f6b08e53d1e20?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Michael Milewski" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Michael Milewski
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/saramic" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@saramic' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/saramic" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @saramic' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@saramic
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Developer keen on the people side of things. I love pairing, I love coding with people new to writing software and especially driving out software with tests. I am about scaling development through the team and their practices. I love new technology and the challenge of assimilating to how my pair wants to write code and together we should be greater then just the sum of the parts.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/5b3338b3676d4f7091a575e584f3a4f4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Misaki Shioi" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Misaki Shioi
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/shioimm" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@shioimm' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/coe401_" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @coe401_' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@coe401_
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Web application developer. Rubyist. Member of Asakusa.rb &amp; Fukuoka.rb.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/6ad4e29b60eb3fbdf98051f27628ce8e?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Naoto Ono" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Naoto Ono
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ono-max" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ono-max' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ono-max
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>A contributor to ruby/debug, ruby/vscode-rdbg. He has been developing the test frameworks and Chrome Integration in debug.gem.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/13c60e2a5806406b537daa542d3495da?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Richard Huang" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Richard Huang
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/flyerhzm" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@flyerhzm' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@flyerhzm
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>As the creator of <a href="https://synvert.net/">Synvert</a>, I&#39;m a senior software engineer with a passion for code quality, server performance, and scalability. I enjoy giving back to the open source community.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/1373435a1059a97614969ab154c5b224?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Samuel Williams" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Samuel Williams
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ioquatix" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ioquatix' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/ioquatix" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @ioquatix' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ioquatix
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Samuel Williams is a Ruby core team member and the creator of Falcon, an open source web server which uses fibers for improved concurrency. He is passionate about programming languages and wants to build systems that are both easy to use and scalable by default. When he is not working as a freelance consultant solving difficult problems, he enjoys gardening, woodworking, and cooking with his two children.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/a9819055f15ebff8702b823bea9fd598?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Selena Small" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Selena Small
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/selenasmall" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@selenasmall' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/selenasmall88" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @selenasmall88' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@selenasmall88
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Selena is a full-stack software developer at Fresho! in Melbourne, Australia. As a self-taught coder, she has become particularly passionate about testing and writing beautiful code. In her spare time, she is a nak muay ying, a professional kickboxer.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/4f8c3a1aedaf9aafd6c74ab077d9ad18?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="SHIGERU NAKAJIMA" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+SHIGERU NAKAJIMA
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ledsun" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@ledsun' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/ledsun" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @ledsun' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ledsun
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Software Engineer with over 10 years of experience in developing web applications using Ruby and JavaScript. I mainly create applications for client companies.
+I have doubts about script dependency resolution by module bundlers like WebPack in JavaScript, and am interested in spreading import map.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/90eb4343c490d4fe855eec64e1b1eaa3?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Stan Lo" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Stan Lo
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/st0012" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@st0012' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/_st0012" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @_st0012' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@_st0012
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Stan is a senior developer at Shopify and is a major contributor of the Ruby debugger and a maintainer of IRB. He and his teammates at the Ruby Developer Experience Team are dedicated to helping Ruby developers feel happy and productive.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/2d9386b1504e581be390af978e05a8b9?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Sutou Kouhei" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Sutou Kouhei
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/kou" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@kou' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/ktou" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @ktou' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@ktou
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>He is a free software programmer and the president of <a href="https://www.clear-code.com/">ClearCode Inc.</a> He was the 3rd <a href="https://arrow.apache.org/">Apache Arrow</a> PMC chair. He is the founder of <a href="https://red-data-tools.github.io/">Red Data Tools</a>, a project that provides data processing tools for Ruby.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/08d5432a5bc31e6d9edec87b94cb1db1?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Takashi Kokubun" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Takashi Kokubun
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/k0kubun" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@k0kubun' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/k0kubun" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @k0kubun' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@k0kubun
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Takashi Kokubun is a Staff Developer at Shopify, based in the San Francisco Bay Area. As a Ruby committer, he has worked on JIT compilers for Ruby for 5 years. He optimizes YJIT at work and RJIT in his spare time.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/86d807e3aed36153438f960d8bdfc4e3?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Takashi Yoneuchi" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Takashi Yoneuchi
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/lmt-swallow" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@lmt-swallow' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/lmt_swallow" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @lmt_swallow' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@lmt_swallow
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Takashi is CTO at Flatt Security Inc. He is currently working on implementing WebAssembly-based Policy as Code platforms towards reproducible and productive security/compliance operations. He’s an expert in application security and proposed new attack vectors in his career, including regexp-based ones (“blind regexp injection“).</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/3f1fb8caddbb5cf8958c8b82a7bf84c6?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="tomoya ishida" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+tomoya ishida
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/tompng" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@tompng' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/tompng" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @tompng' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@tompng
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>TRICK 2022 Gold Medalist.
+Maintainer of IRB and Reline.
+CTO at codeTakt Inc.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/63a02648b33347d954c02cbfa9da4c5d?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Vinicius Stock" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Vinicius Stock
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/vinistock" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@vinistock' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/vinistock" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @vinistock' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@vinistock
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Vinicius Stock is a Senior Software Developer working on the Ruby developer experience team at Shopify. Vini started his journey writing Ruby on Rails applications in 2015 and now dedicates his time to improve developer tools, language servers, gradual typing and debuggers in the Ruby ecosystem.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/b3ba3ccedfbf4d605f00bafd1a732529?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yuichiro Kaneko" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yuichiro Kaneko
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/yui-knk" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@yui-knk' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/spikeolaf" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @spikeolaf' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@spikeolaf
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Ruby committer.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/c67596c92e9d161d314f69de3f05f00c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yuki Torii" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yuki Torii
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/yakitorii" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@yakitorii' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/yotii23" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @yotii23' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@yotii23
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Ruby and Rails Programmer. She has translated &quot;Programming Elixir&quot; by Dave Thomas (Ohmsha, co-translated with Koichi Sasada) and fell in love with the idea of Pattern Matching of Elixir. Her new own book &quot;You and the magical programing note&quot; (O&#39;Reilly Japan) is coming in May 2023.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/48d47ea5a5aa3549d37c43be35161af4?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yuma Sawai" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yuma Sawai
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/aaaa777" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@aaaa777' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/3yUma_rb" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @3yUma_rb' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@3yUma_rb
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Hokkaido joho Univ. B3
+interested in Network and Security
+Hardening Decade 2022 player</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/e73159002200b33d51b7a6a312f2440e?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Endoh" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yusuke Endoh
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/mame" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@mame' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/mametter" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @mametter' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@mametter
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>&#39;A full-time MRI committer at Cookpad Inc.  He has been interested in testing, analyzing, abusing of Ruby.  He is an advocate of &quot;transcendental programming&quot; that creates a useless program like this bio. (<code>_</code>)&#39;.yield_self{|s|eval(t=%q(puts&quot;&#39;#{s.sub(?<em>,?</em>+?_)}&#39;.yield_self{|s|eval(t=%q(#{t}))}&quot;))}</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/858f777cffa7e215697ff78db4e52791?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yusuke Nakamura" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yusuke Nakamura
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/unasuke" target="_blank" class="m-speaker__channels-item-link is-github"><span aria-label='GitHub:@unasuke' class='fab fa-github-square'></span>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/yu_suke1994" target="_blank" class="m-speaker__channels-item-link is-twitter"><span aria-label='Twitter: @yu_suke1994' class='fab fa-twitter-square'></span>
+</a></li>
+<li class='m-member__sns-item is-id'>
+@yu_suke1994
+</li>
+</ul>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Web application developer working in Tokyo as a freelance.</p>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+</div>
+<div class='l-wrapper__end'>
+<footer class='b-footer'>
+<div class='l-container'>
+<div class='b-footer__inner'>
+<div class='m-footer'>
+<nav class='m-footer-nav'>
+<ul class='m-footer-nav__items'>
+<li class='m-footer-nav__item'>
+<a href="/2023/past_kaigis/" class="e-button is-lg is-border is-block">Past Kaigis
+</a></li>
+</ul>
+</nav>
+<div class='e-license'>
+This work by RubyKaigi 2023 Team is licensed under a Creative Commons Attribution 4.0 Unported License.
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
