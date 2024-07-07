@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="EUC-JP" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja-JP">
   <channel rdf:about="/2008/recent">
     <title>日本 Ruby 会議 2008 : 更新日時順</title>
