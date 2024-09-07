@@ -1,0 +1,658 @@
+---
+yukihiro_matz:
+  title: Matz Keynote
+  type: keynote
+  language: JA
+  description: Matz in Matsumoto!
+  speakers:
+  - id: yukihiro_matz
+mametter:
+  title: 'Type Profiler: a Progress Report of a Ruby 3 Type Analyzer'
+  type: presentation
+  language: JA
+  description: Type Profiler is a type inference tool for plain Ruby code. It analyzes
+    Ruby code that has no type information and guesses a type of the modules and methods
+    in the code. The output will serve as a signature for external type checkers like
+    Sorbet and Steep. Since 2019, we have been developing the tool as one of the key
+    features for Ruby 3 static analysis, and now it works with some practical applications.
+    In this talk, we briefly explain what and how Type Profiler works, present a roadmap
+    and progress of the development, and discuss how useful it is for practical applications
+    with some demos.
+  speakers:
+  - id: mametter
+shashank_date:
+  title: Controlling multiple drones using mruby
+  type: presentation
+  language: EN
+  description: |-
+    mruby is a lightweight implementation of the Ruby language. In this talk we will see how the mruby build system works, how to optimize its configuration for controlling drones, and use it to control a certain class (Tello) of programmable drones. It will include code for:
+    - flight control (using UDP sockets)
+    - camera control (using OpenCV)
+    - multiple drone control (using Fibers)
+    The talk will end with a live demo of multi-drone acrobatics followed by a group activity involving crowd coding.
+  speakers:
+  - id: shashank_date
+etagwerker:
+  title: 'RubyMem: The Leaky Gems Database for Bundler'
+  type: presentation
+  language: EN
+  description: "Out of memory errors are quite tricky. Our first reaction is always
+    the same: \"It can't be my code, it must be one of my dependencies!\" What if
+    you could quickly check that with bundler? \n\nIn this talk you will learn about
+    memory leaks, out of memory errors, and leaky dependencies. You will learn how
+    to use `bundler-leak`, a community-driven, open source tool that will make your
+    life easier when debugging memory leaks."
+  speakers:
+  - id: etagwerker
+jeremyevans0:
+  title: 'Keyword Arguments: Past, Present, and Future'
+  type: presentation
+  language: EN
+  description: Ruby 3 will separate keyword arguments from positional arguments, which
+    causes the biggest backwards compatibility issues in Ruby since Ruby 1.9.  This
+    presentation will discuss the history of keyword arguments, how keyword arguments
+    are handled internally, how keyword arguments were separated from positional arguments
+    internally, and possible future improvements in the handling of keyword arguments.
+  speakers:
+  - id: jeremyevans0
+tetiana_chupryna:
+  title: Graphics programming with Ruby and OpenGL
+  type: presentation
+  language: EN
+  description: 'Ruby is commonly considered as a backend language. We''ll try to go
+    beyond this thesis and explore how Ruby can be applicable to something different
+    like creating graphics. We''ll focus on OpenGL, explore its tools for controlling
+    the scene and drawing objects: from primitive to triangle meshes and more. Graphics
+    programming is such a fun activity and Ruby is such a beautiful language, let’s
+    see how good are they together!'
+  speakers:
+  - id: tetiana_chupryna
+kishima:
+  title: Now is the time to create your own (m)Ruby computer
+  type: presentation
+  language: EN
+  description: mruby has been known as a good tool for supporting server applications
+    and embedded softwares like an IoT application on a small CPU whose resource is
+    limited. Now times are changing. mruby gets more power from recent micro processors.
+    I believe now Ruby engineers can create their own computer as per their wish.
+    Basic process and essential technique how to create an original (m)Ruby computer
+    will be shown in the talk with a live demonstration of the computer.
+  speakers:
+  - id: kishima
+k0kubun:
+  title: Hacking Ruby's Performance for Production
+  type: presentation
+  language: JA
+  description: |-
+    Sometimes production Ruby applications get mysterious performance problems.
+    Your customers complain about it. Your company loses money. You start to hate operating your Ruby application.
+
+    However, once you get the power to demystify and solve the difficult problems, optimizing your Ruby application will become full of joy.
+    In this talk, you'll learn techniques to debug and solve Ruby performance problems from system levels to pure Ruby layers.
+    Welcome to the art of performance optimization.
+  speakers:
+  - id: k0kubun
+paracycle:
+  title: Reflecting on Ruby Reflection for Rendering RBIs
+  type: presentation
+  language: EN
+  description: |-
+    As part of our adoption process of Sorbet at Shopify, we needed an automated way to teach Sorbet about our ~400 gem dependencies. We decided to tackle this problem by generating interface files (RBI) for each gem via runtime reflection.
+
+    However, this turns out to not be as simple as it sounds; the flexible nature of Ruby allows gem authors to do many wild things that make this Hard. Come and hear about all the lessons that we learnt about runtime reflection in Ruby while building `tapioca`.
+  speakers:
+  - id: paracycle
+yuji_yokoo:
+  title: Developing your Dreamcast apps and games with mruby
+  type: presentation
+  language: EN
+  description: |-
+    What would you make, if you can run your Ruby code on Dreamcast?
+
+    Well, now you can! I have been working on my development setup for running mruby code on Dreamcast. I would like to show you what I have developed so far and how you can get started. I would also like to tell you why development on Dreamcast is a great idea and share a few things I learned along the way.
+  speakers:
+  - id: yuji_yokoo
+shyouhei:
+  title: On sending methods
+  type: presentation
+  language: JA
+  description: As you have noticed 2.7 is faster than older ruby versions.  One of
+    the main reason for this is my optimisation around method invocations.  Let me
+    share what was suboptimal, and how was that fixed.
+  speakers:
+  - id: shyouhei
+lara:
+  title: Benchmarking 9 Flavors of Ruby
+  type: presentation
+  language: EN
+  description: We benchmarked 9 alternative Ruby implementations for the same compute-heavy
+    algorithm that is easy to migrate to from an existing Ruby codebase. Our comparison
+    looks at ease-of-use, gotchas, performance, and memory usage of JRuby, Crystal,
+    Rust, Ruby-to-WebAssembly, C-extensions, MRuby, CRuby JIT, and Goby. Each implementation
+    provides Dockerfiles to play with.
+  speakers:
+  - id: lara
+  - id: grosser
+johnlinvc:
+  title: 'mruby-rr: Time Traveling Debugger For mruby Using rr'
+  type: presentation
+  language: EN
+  description: |-
+    Debugging bugs that don't happen every time is painful. It needs both technique and luck.
+    When dealing with these, a mistyped `continue` command is irreversible and will take us a whole afternoon just to reproduce the issue again.
+
+    [mruby-rr](https://github.com/johnlinvc/mruby-rr) comes to rescue! It's a Time Traveling Debugger for mruby that based on Mozilla's rr. `mruby-rr` supports record and replay of mruby program execution. We can record the tough bug using mruby-rr for just once. Afterwards we can playback the execution as many times as we want. `mruby-rr` can also do time traveling operations like `reverse-next` and evaluating expressions.
+  speakers:
+  - id: johnlinvc
+ko1:
+  title: Guild Implementation
+  type: presentation
+  language: EN
+  description: |-
+    This talk will introduce the design and implementation of Guild, the concurrency system for Ruby 3 based on actual implementation.
+
+    One of big goals of Ruby 3 is better concurrency support. At RubyKaigi 2016, I proposed Guild to achieve better concurrent programming on parallel computers ([A proposal of new concurrency model for Ruby 3](http://rubykaigi.org/2016/presentations/ko1.html)). At RubyKaigi 2018, I introduced prototype of Guild system ([Guild Prototype - RubyKaigi 2018](https://rubykaigi.org/2018/presentations/ko1.html)). However, only a few code are working on the prototype.
+
+    Guild achieves easier concurrent program and utilize parallel computers by the idea (mostly) no implicit object sharing. To develop Guild system, we need to introduce many hacks to achieve both thread-safty and good performance. In this talk, I will introduce the design of Guild system and the implementation techniques on the actual implementation.
+  speakers:
+  - id: ko1
+jonatas:
+  title: 'Live coding: Grepping Ruby code like a boss'
+  type: presentation
+  language: EN
+  description: |-
+    Our favorite language allows us to implement the same code in a few different ways. Because of that, it becomes tough to search and find the target code only with regular expressions.
+
+    I'd like to present fast, a searching DSL that can help you build complex
+    searches directly in the AST nodes as regexes does for plain strings.
+
+    The presentation will be a live coding tour of how to use the tool and create your searching patterns.
+
+    I'll also show how to manipulate the code in the target AST nodes,
+    allowing us to refactor the source code in an automated way.
+    I'll share a few funny stories about how I refactored thousands of files in a week.
+  speakers:
+  - id: jonatas
+hasumikin:
+  title: 'mruby machine: An Operating System for Microcontoller'
+  type: presentation
+  language: JA
+  description: |-
+    There are different approaches to make an operating system.
+
+    I take an approach which takes advantage of mruby/c's VM then makes my own mruby compiler and shell program.
+
+    Though my purpose is making an useful and effective development platform for microcontroller with Ruby, I will also share some universal knowledge on how to make an OS with you.
+  speakers:
+  - id: hasumikin
+shugomaeda:
+  title: Magic is organizing chaos
+  type: presentation
+  language: JA
+  description: |-
+    The power of Law (e.g., type signatures, type checkers, type profilers) is growing toward Ruby 3.
+    We need the power of Chaos for the Cosmic Balance.
+
+    In this talk, I propose Proc#using to extend area where Refinements can be used.
+  speakers:
+  - id: shugomaeda
+jhawthorn:
+  title: Parsing and Rewriting ERB
+  type: presentation
+  language: EN
+  description: ERB templates are compiled into Ruby, and we have parsers for Ruby.
+    We can use this to determine their hierarchy, eager load them, make them faster,
+    or even replace some of Ruby's fundamentals.
+  speakers:
+  - id: jhawthorn
+youchan:
+  title: Asynchronous Opal
+  type: presentation
+  language: JA
+  description: |-
+    Opal is a compiler convert from Ruby to JavaScript. JavaScript has async/await syntax for asynchronous processing.
+    But Opal hasn't implemented it yet.
+    The Opal community had been discussed mapping `Fiber` semantics to JavaScript async/await. The conclusion was it is impossible to map coroutine such as `Fiber` because async/await is just a syntax sugar that expresses nested callbacks into flat statements.
+    I'm going to talk about the idea I'm trying to incorporate easy-to-use asynchronous processing into Opal.
+  speakers:
+  - id: youchan
+alanwusx:
+  title: Optimizing CRuby bytecode dispatch for modern CPUs
+  type: keynote
+  language: EN
+  description: Since CRuby spends a lot of its time jumping between bytecode handlers,
+    reducing overhead in this area can be very profitable. Join me on a trip to explore
+    techniques that help modern CPUs dispatch bytecode efficiently. Everyone is welcome;
+    you don’t need to be a chip design wizard to attend this session.
+  speakers:
+  - id: alanwusx
+DarkDimius:
+  title: Moving fast and fixing things with Sorbet
+  type: presentation
+  language: EN
+  description: "In June 2019 we open sourced Sorbet at RubyKaigi. \n\nWe’ve built
+    quality editor tools like jump-to-def and seen many contributions from a growing
+    community. Within Stripe, we've used Sorbet to drive code quality via measurable,
+    concrete indicators. \nThis talk will show how to use Sorbet and Sorbet features
+    to speedup your iteration time and fix bugs in legacy codebases.\n\nWe’ll also
+    share these improvements and give an update on our collaboration with Matz and
+    the Ruby 3 Types working group. Suitable for anyone using Ruby—no familiarity
+    with Sorbet needed! Come follow in the footsteps of the many companies already
+    using Sorbet."
+  speakers:
+  - id: DarkDimius
+ChrisBr:
+  title: Digesting MRI by Studying Alternative Ruby Implementations
+  type: presentation
+  language: EN
+  description: |-
+    Pointers, managing memory and static typing - writing C code is hard! However, most programming languages, including Matz's Ruby Interpreter (MRI), are implemented in a low level programming language. So you think without knowing these concepts, you can not contribute to Ruby? Wrong! Although MRI is implemented in C, fortunately there are Ruby's in Java, Rust and even Ruby itself.
+
+    If you ever wanted to learn about Ruby internals without being a C expert, this talk is for you. Join me on my journey of re-implementing hash maps in JRuby, breaking bundler and actually learn to write (some) C code.
+  speakers:
+  - id: ChrisBr
+elct9620:
+  title: Is it time run Ruby on Web via WebAssembly?
+  type: presentation
+  language: EN
+  description: The W3C is starting to recommend to use WebAssembly, and we can compile
+    mruby to WebAssembly very easy in now day. But we have Opal and it works well,
+    we really need to use WebAssembly? Let me share my experience about trying to
+    add mruby to HTML5 game, and discuss the pros and cons when we use Ruby in WebAssembly
+    way in Web.
+  speakers:
+  - id: elct9620
+spikeolaf:
+  title: What is expected?
+  type: presentation
+  language: JA
+  description: |-
+    CRuby uses Bison to generate its parser. The parser is called LALR(1) parser in which we can determine what should do (shift/reduce/accept/error) next based on current state and next input token.
+
+    But current CRuby does not have "expected_tokens" method because it is more difficult than expected. Then I will talk what is difficulty and how to implement it.
+  speakers:
+  - id: spikeolaf
+Prakriti-nith:
+  title: All-in-one interactive plotting using daru-view
+  type: presentation
+  language: EN
+  description: Why only other languages have web app/Jupyter notebook plotting libraries?
+    Need interactive plotting? No JavaScript code again, please! With daru-view,  you
+    get to plot Google charts, Highcharts, HighMaps, HighStock, Datatables, D3.js
+    and compare them using only a few lines of Ruby. Amazing, Right?
+  speakers:
+  - id: Prakriti-nith
+sue445:
+  title: Ruby on CI
+  type: presentation
+  language: JA
+  description: |-
+    I'm a CI nerd.
+
+    I have made many apps and gems so far and have used many CIs. (e.g. Jenkins, Travis CI, Wercker, CircleCI, GitLab CI, GitHub Actions...)
+
+    Which CI should we use? How do we solve the slow build?
+
+    I'll talk about followings.
+
+    * History of CI
+    * Which CI should we use when ruby app and gem development
+    * How/What we should do CI when ruby app and gem development
+    * vs Slow build
+    * and more!
+  speakers:
+  - id: sue445
+keystonelemur:
+  title: Pattern Matching in Practice
+  type: presentation
+  language: EN
+  description: Ruby 2.7 introduces the new Pattern Matching syntax, but to some this
+    may be a very foreign concept. We'll be exploring ways to use Pattern Matching
+    in your code today to solve real-world problems and help build an understanding
+    for when and where you can use it.
+  speakers:
+  - id: keystonelemur
+jashmatthews:
+  title: Experiments in Building a Tracing JIT for CRuby
+  type: presentation
+  language: EN
+  description: How would we build an optimizing compiler for CRuby? What optimizations
+    work on generated C code with a traditional compiler? What doesn't work and needs
+    a high level Intermediate Representation and Ruby-specific optimizations?
+  speakers:
+  - id: jashmatthews
+jimlock:
+  title: 'msgraph: Microsoft Graph API Client with Ruby'
+  type: presentation
+  language: JA
+  description: |-
+    [msgraph](https://github.com/jinroq/msgraph) is the unofficial Microsoft Graph API Client with Ruby.
+    The official Microsoft Graph Client Library for Ruby is [microsoft_graph](https://rubygems.org/gems/microsoft_graph). However, since its release on August 1, 2016, the preview version has been continued and has not been maintained. So, I created an API client that I can maintain on my own.
+
+    In this talk, I will talk about why I created the unofficial API Client.
+  speakers:
+  - id: jimlock
+m_seki:
+  title: Rinda in the real-world embedded systems.
+  type: presentation
+  language: JA
+  description: |-
+    組み込み／ハードウェア制御分野におけるCRuby／dRuby周辺技術の応用事例を二つ紹介する。
+    一つは国立天文台岡山観測所にある91㎝望遠鏡をロボット望遠鏡に改造した事例である。
+    非常に多くのサブシステムで構成されるロボット望遠鏡はRindaのタプルスペースを利用して制御されている。
+    LindaにはないRinda独自の機能である、時限つきタプルを利用して実用的なシステムを構築している。
+    もう一つは小さな組み込み計測装置の事例である。GUIはSPAのWebアプリケーションである。
+    WEBrickにServer Sent Eventsを組み込み、ユーザー操作と計測装置からのイベントを処理している。
+    SSEのために新たに作成した同期メカニズムを紹介する。
+  speakers:
+  - id: m_seki
+jvilk-stripe:
+  title: Ruby IDE Features Powered by Sorbet Static Types
+  type: presentation
+  language: EN
+  description: |-
+    Many languages benefit from smart Integrated Development Environments (IDEs) and many devs have grown to like them. Unfortunately, existing Ruby IDEs weren’t good for Stripe: they lack features, use imprecise heuristics, and are too slow on our codebase.
+
+    This talk presents how we implemented IDE features for Ruby and how they make writing Ruby even more fun. Features include:
+
+    - error squiggles
+    - go to definition
+    - autocomplete
+    - docs on hover
+    - and more!
+
+    We also have an exciting announcement!
+
+    The talk does not require prior knowledge of types and will be accessible to a broad audience.
+  speakers:
+  - id: jvilk-stripe
+eregontp:
+  title: Running Rack and Rails Faster with TruffleRuby
+  type: presentation
+  language: EN
+  description: |-
+    Optimizing Rack and Rails applications with a just-in-time (JIT) compiler is a challenge. For example, MJIT does not speed up Rails currently.
+    TruffleRuby tackles this challenge. We have been running the Rails Simpler Benchmarks with TruffleRuby and now achieve higher performance than any other Ruby implementation.
+
+    In this talk we’ll show how we got there and what TruffleRuby optimizations are useful for Rack and Rails applications.
+    TruffleRuby is getting ready to speed up your applications, will you try it?
+  speakers:
+  - id: eregontp
+knu:
+  title: Language Choices Between Flexibility and Restriction
+  type: presentation
+  language: JA
+  description: |-
+    Programmers will love and value flexibility and mightiness in languages they use, not to speak of Ruby programmers who know more than well that a powerful language can do a lot more with much less effort.
+
+    However, there are many situations where less is more.  Good constraints and restrictions can make some sorts of things work better, where human errors must be avoided, security concern minimized, or future extensibility reserved.
+
+    In this talk will be discussed with real examples what are the trade-offs an implementer should consider, to help the audience make the right choice in their API and product feature design.
+  speakers:
+  - id: knu
+_st0012:
+  title: Optimize your debugging workflow with tapping_device
+  type: presentation
+  language: EN
+  description: |-
+    Have you ever examined your debugging process before? Do you know how efficient/inefficient your debugging strategy is? If the answers are “no”, this talk is for you.
+
+    In this talk, I will explain the way most of us debug programs, and why is it an O(log n) operation. And then, I will introduce a concept called “Object-Oriented Tracing” along with my tool: [tapping_device](https://github.com/st0012/tapping_device). By adopting the concept and with the help of my tool, I’ve been able to make debugging an O(1) operation. Here’s an [example](http://bit.ly/object-oriented-tracing) that I used this strategy to debug a Rails issue.
+
+    Of course, I’m not saying I’ve found a silver bullet for debugging, so I will also show you its limitation and where it suits best.
+  speakers:
+  - id: _st0012
+koic:
+  title: Ride on RuboCop 1.0 for safe static analysis
+  type: presentation
+  language: JA
+  description: "RuboCop 1.0 is coming soon.\n\nRuboCop 1.0 introduces several new
+    features and breaking changes to go to the stable major version 1.0!\nIn this
+    presentation, we will talk about how the milestones for RuboCop 1.0 has been implemented. For
+    examples, gemified departments, safe annotate, new cop status, and others. \n\nRuboCop
+    1.0 will provide the safest static analysis in the all‐time previous releases.
+    The pragmatic meaning of them has emerged during the implementation process. This
+    talk will help you ride on RuboCop 1.0.\n\nAnd, we will show you a new RuboCop
+    plugin that integrates RuboCop and the Ruby 3 Static Types."
+  speakers:
+  - id: koic
+  - id: p_ck_
+mrkn:
+  title: Data visualization and machine learning using Ruby
+  type: presentation
+  language: JA
+  description: |-
+    Ruby finally had ready-to-use visualization and machine learning libraries. They are Charty and Rumale.
+    I'd like to introduce them and demonstrate how to use them.
+
+    Using Charty, you get cool visualization results of your data by the smallest amount of code. The code amount is about 1 line in almost cases because Charty supports different types of data structures to visualize. You no longer need a conversion for visualization.
+
+    Rumale is a machine learning framework like scikit-learn. Rumale supports a lot of machine learning models. Rumale is written in Ruby so you don't need pycall.rb and Python environment to use machine learning models. If you want to do machine learning in your Ruby script, you must know how to use Rumale.
+
+    I'd like to realize the usefulness of Charty and Rumale by demonstration. You will realize that Ruby is no longer a programming language that cannot be used for data science.
+  speakers:
+  - id: mrkn
+bovi:
+  title: Ruby-defined Hardware
+  type: presentation
+  language: EN
+  description: |-
+    A common conception of most people is that hardware is a hard-problem. Few people approach due to that the challenge to develop new hardware systems.
+
+    What if we could simplify the development of hardware and make it more like software development? What if we could generate hardware directly out of software?
+
+    This talk will propose the concept of Ruby-defined Hardware where Ruby code is the input for a hardware development system.
+  speakers:
+  - id: bovi
+tenderlove:
+  title: Don't @ me!  Instance Variable Performance in Ruby
+  type: presentation
+  language: JA
+  description: 'How do instance variables work?  We''ve all used instance variables
+    in our programs, but how do they actually work?  In this presentation we''ll look
+    at how instance variables are implemented in Ruby.  We''ll start with a very strange
+    benchmark, then dive in to Ruby internals to understand why the code behaves the
+    way it does.  Once we''ve figured out this strange behavior, we''ll follow up
+    with a patch to increase instance variable performance.  Be prepared for a deep
+    dive in to a weird area of Ruby, and remember: don''t @ me!'
+  speakers:
+  - id: tenderlove
+rubylangorg:
+  title: Ruby Committers vs the World
+  type: discussion
+  language: JA
+  description: Ruby core all starts on stage!
+  speakers:
+  - id: rubylangorg
+palkan_tula:
+  title: The whys and hows of transpiling Ruby
+  type: presentation
+  language: EN
+  description: |-
+    Transpiling is a source-to-source compiling. Why might we need it in Ruby? Compatibility and experiments.
+
+    Ruby is evolving fast nowadays. The latest MRI release introduced, for example, the pattern matching syntax. Unfortunately, not everyone is ready to use it yet: gems authors have to support older versions, Ruby implementations are lagging. And it's still experimental, which raises the question: how to evaluate proposals? By backporting them to older Rubies!
+
+    I want to discuss these problems and share the story of the Ruby transpiler — Ruby Next. A decent amount of Ruby hackery is guaranteed.
+  speakers:
+  - id: palkan_tula
+kddeisz:
+  title: Prettier Ruby
+  type: presentation
+  language: EN
+  description: |-
+    Prettier was created in 2017 and has since seen a meteoric rise within the JavaScript community. It differentiated itself from other code formatters and linters by supporting minimal configuration, eliminating the need for long discussions and arguments by enforcing an opinionated style on its users. That enforcement ended up resonating well, as it allowed developers to get back to work on the more important aspects of their job.
+
+    Since then, it has expanded to support other languages and markup, including Ruby. The Ruby plugin is now in use in dozens of applications around the world, and better formatting is being worked on daily. This talk will give you a high-level overview of prettier and how to wield it in your project. It will also dive into the nitty gritty, showing how the plugin was made and how you can help contribute to its growth. You’ll come away with a better understanding of Ruby syntax, knowledge of a new tool and how it can be used to help your team.
+  speakers:
+  - id: kddeisz
+yuri_at_earth:
+  title: Writing mruby bytecode by yourself
+  type: presentation
+  language: JA
+  description: |-
+    Unlike MRI, mruby uses a binary bytecode format file "*.mrb".  When we build the mruby processor, we compile the standard Ruby libraries with the mrbc bytecode compiler.
+
+    On the other hand, there are few tools to support this bytecode format. This presentation proposes an assembly language for bytecode, and introduce an assembler for converting assembly language to bytecode and a disassembler for converting bytecode to assembly language. Then try editing the bytecode directly using them.
+  speakers:
+  - id: yuri_at_earth
+  - id: takahashim
+ioquatix:
+  title: Don't Wait For Me! Scalable Concurrency for Ruby 3!
+  type: presentation
+  language: EN
+  description: We have proven that fibers are useful for building scalable systems.
+    In order to develop this further, we need to add hooks into the various Ruby VMs
+    so that we can improve the concurrency of existing code without changes. There
+    is an outstanding PR for this work, but additional effort is required to bring
+    this to completion and show its effectiveness in real world situations. We will
+    discuss the implementation of this PR, the implementation of the corresponding
+    Async Scheduler, and how they work together to improve the scalability of Ruby
+    applications.
+  speakers:
+  - id: ioquatix
+anton_davydov:
+  title: How to visualize a ruby project
+  type: presentation
+  language: EN
+  description: |-
+    Code visualization is an important part of coding. Usually, we use our imagination but what will happen if we ask ruby to do this work?
+
+    In my talk, I'll show a tool that we build in dry-rb and which exists only in the ruby ecosystem. This tool will help us to see all project component associations on the one page. I'll explain why other tools work terribly and how to visualize important things. Also, I'll explain how this visualization can help with onboarding new developers, find "god" objects in the system and use a heatmap of dependency usage for finding unused parts of the project.
+  speakers:
+  - id: anton_davydov
+ktou:
+  title: Goodbye fat gem
+  type: presentation
+  language: JA
+  description: Fat gem mechanism is useful to install extension library without any
+    compiler. Fat gem mechanism is especially helpful for Windows rubyists because
+    Windows rubyists don't have compiler. But there are some downsides. For example,
+    fat gem users can't use Ruby 2.7 (the latest Ruby) until fat gem developers release
+    a new gem for Ruby 2.7. As of 2020, pros of fat gem mechanism is decreasing and
+    cons of it is increasing. This talk describes the details of pros and cons of
+    it then says thanks and goodbye to fat gem.
+  speakers:
+  - id: ktou
+hsbt:
+  title: Dependency Resolution with Standard Libraries
+  type: presentation
+  language: JA
+  description: "I maintain the RubyGems, Bundler and the standard libraries of the
+    Ruby language. So, I have a plan to make all of the standard libraries to default
+    gems at Ruby 3. In the past, I described the detail of default gems and bundled
+    gems at RubyKaigi and the Ruby conferences in the world. But the users still confused
+    the differences standard libraries and default/bundled gems.\n\nAfter releasing
+    Ruby 3, We need to learn about the dependency is not only \"Versioning\" with
+    default gems. It caused by the between library and library over the versioning.
+    For that reason, I need to describe the motivation of \"Promoting/Demoting the
+    Default Gems or Bundle Gems\" continuously. You will learn the resolution mechanism
+    on RubyGems/Bundler and the standard libraries of the Ruby language with my talk. "
+  speakers:
+  - id: hsbt
+chrisseaton:
+  title: Towards TruffleRuby in Production at Scale
+  type: presentation
+  language: EN
+  description: Shopify is looking at what it takes to put the TruffleRuby optimising
+    implementation of Ruby into production at scale. TruffleRuby builds on sophisticated
+    just-in-time compiler technology and shows extremely strong results on benchmarks,
+    but what does it take to get those results on a application at the scale of Shopify?
+    We have been building tools to understand how TruffleRuby optimizes, building
+    compatibility with the Shopify technology stack, and improving the performance
+    of TruffleRuby for real applications. We’ll pass on what we’ve achieved and learned
+    so far.
+  speakers:
+  - id: chrisseaton
+ohrdev:
+  title: dRuby in the Serverless World
+  type: presentation
+  language: JA
+  description: |-
+    AWS Lambda's support for Ruby Runtime makes Serverless programming using Ruby easy.
+    Distributed programming with Ruby is possible by using dRuby, Combined AWS Lambda, large-scale distributed processing can be easily implemented.
+    In this session, we explain Serverless Programming and Serverless architecture using AWS Lambda and dRuby as examples, and introduce implementation of large-scale distributede processing using dRuby.
+    This session is for the following Rubyist.
+
+    * Rubyist who wants to know about Serverless
+    * Rubyist who wants to know about distributed processing
+    * Rubyist who wants to use dRuby more
+  speakers:
+  - id: ohrdev
+headius:
+  title: 'JRuby in 2020: Faster, Smaller, More Compatible'
+  type: presentation
+  language: EN
+  description: |-
+    JRuby 9.3 is out with support for Ruby 2.6 features! Meanwhile we've been working hard to improve JRuby's usability and to improve the JRuby ecosystem. This talk will cover our recent work to clean up the "rough edges" of JRuby:
+
+    * Startup time improvements across various JVM versions
+    * Reduced memory consumption at boot and during execution
+    * Better peak performance across many Ruby features, utilizing state-of-the-art JVM optimizations
+    * Expanding support for mainstream Ruby libraries and frameworks
+  speakers:
+  - id: headius
+  - id: tom_enebo
+maciejmensfeld:
+  title: A complete guide to Ruby gems security
+  type: presentation
+  language: EN
+  description: |-
+    Ruby gems aren't fundamentally safe. Several gems were infected last year, and constant attempts are being made to do the same with others.  It's not only the execution that is a problem but the installation process as well.
+
+    Are there any ways for OSS users to regain control over what is being executed on their machines and their servers? Are there any ways for libraries maintainers to provide higher transparency over what they ship? Come, find out and let's exploit the Ruby gems world together!
+  speakers:
+  - id: maciejmensfeld
+kurotaky:
+  title: 'Ethereum.rb: Library for linking Ruby and Blockchain'
+  type: presentation
+  language: EN
+  description: Ethereum.rb is a library that can be easily connected to the Ethereum
+    blockchain from Ruby. In this talk, we will explain the basic mechanism of blockchain
+    and learn how to create blockchain applications (DApps) using Ruby. I will explain
+    how to process inside Ethereum.rb. And also the latest updates. By listening to
+    this talk, anyone will be able to create a blockchain application using Ruby.
+  speakers:
+  - id: kurotaky
+miura1729:
+  title: Ruby to C Translator by AI
+  type: presentation
+  language: JA
+  description: |-
+    I am developing Ruby to C Translator  "MMC". This uses AI (i.e. Abstract Interpretation) for Type Profiling and Escape Analysis. MMC generates very efficient C code  by AI. For example , MMC gains about 50 times faster than CRuby for ao-bench  (faster than C version).
+    I will presentation the technical detail of MMC especially escape analysis.　Further, I will talk about Ruby extension of MMC for Low Level Programming.
+  speakers:
+  - id: miura1729
+schneems:
+  title: The Life-Changing Magic of Tidying Active Record Allocations
+  type: presentation
+  language: EN
+  description: Your app is slow. It does not spark joy. In this talk, we will use
+    memory allocation profiling tools to discover performance hotspots, even when
+    they're coming from inside a library. We will use this technique with a real-world
+    application to identify a piece of optimizable code in Active Record that ultimately
+    leads to a patch with a substantial impact on page speed.
+  speakers:
+  - id: schneems
+aycabta:
+  title: Alpine Programming - Talk to You About Terminal Nightmare
+  type: presentation
+  language: EN
+  description: |-
+    I lost all I need to develop because I started to try radically new. There ware no conventional ways to move forward. There ware no methods to look ahead clearly. I had to create an entirely new style to go little by little.
+
+    At Christmas, 2019, Ruby 2.7 was released with the brand-new IRB what I improved. Last 2 years, other Ruby committers always said to me, "Good luck. But you'll not be able to complete it". I think this is a kind of Alpinism.
+
+    In Japan, Alpinism is being done in the mountains of the Japanese Alps around Matsumoto, it is to climb higher and more difficult. There are no conventional ways to move forward. There are no methods to look ahead clearly. I'll talk to you about Alpine Programming in Ruby 2.7.
+  speakers:
+  - id: aycabta
+soutaro:
+  title: Ruby3 Typing, 2020
+  type: keynote
+  language: EN
+  description: |-
+    Recall the Matz's keynote in 2016, *Ruby3 Typing*. It was three years ago and everything started. We build a team. We had a lot of discussions and wrote code. We discovered things that changed the original plan. Now we have a set of conclusions for type checking in Ruby3.
+
+    It's time to see how our effort lands.
+  speakers:
+  - id: soutaro

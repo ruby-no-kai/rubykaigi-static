@@ -1,0 +1,124 @@
+---
+sep04:
+  events:
+  - type: break
+    begin: '10:00'
+    end: '10:15'
+    name: Opening
+  - type: talk
+    begin: '10:15'
+    end: '10:40'
+    talks:
+      A: ko1
+  - type: talk
+    begin: '10:45'
+    end: '11:10'
+    talks:
+      A: mametter
+      B: kddeisz
+  - type: talk
+    begin: '11:15'
+    end: '11:40'
+    talks:
+      A: shyouhei
+      B: etagwerker
+  - type: talk
+    begin: '11:45'
+    end: '12:10'
+    talks:
+      A: youchan
+      B: paracycle
+  - type: break
+    begin: '12:10'
+    end: '13:00'
+    name: Lunch Break
+  - type: talk
+    begin: '13:00'
+    end: '13:25'
+    talks:
+      A: ktou
+      B: palkan_tula
+  - type: talk
+    begin: '13:30'
+    end: '13:55'
+    talks:
+      A: ioquatix
+      B: hasumikin
+  - type: talk
+    begin: '14:00'
+    end: '14:25'
+    talks:
+      A: koic
+      B: soutaro
+  - type: talk
+    begin: '14:30'
+    end: '14:50'
+    talks:
+      A: m_seki
+      B: eregontp
+  - type: talk
+    begin: '15:00'
+    end: '15:30'
+    talks:
+      A: rubylangorg
+
+sep05:
+  events:
+  - type: break
+    begin: '10:00'
+    end: '10:05'
+    name: Opening
+  - type: talk
+    begin: '10:05'
+    end: '10:45'
+    talks:
+      A: rubylangorg
+  - type: talk
+    begin: '10:50'
+    end: '11:10'
+    talks:
+      A: shugomaeda
+      B: yuji_yokoo
+  - type: talk
+    begin: '11:15'
+    end: '11:40'
+    talks:
+      A: jimlock
+      B: elct9620
+  - type: talk
+    begin: '11:45'
+    end: '12:10'
+    talks:
+      A: tenderlove
+      B: johnlinvc
+  - type: break
+    begin: '12:10'
+    end: '13:00'
+    name: Lunch Break
+  - type: talk
+    begin: '13:00'
+    end: '13:25'
+    talks:
+      A: hsbt
+      B: jonatas
+  - type: talk
+    begin: '13:30'
+    end: '13:55'
+    talks:
+      A: aycabta
+      B: kishima
+  - type: talk
+    begin: '14:00'
+    end: '14:25'
+    talks:
+      A: miura1729
+      B: jeremyevans0
+  - type: keynote
+    begin: '14:30'
+    end: '15:05'
+    talks:
+      A: yukihiro_matz
+  - type: break
+    begin: '15:05'
+    end: '15:20'
+    name: Closing

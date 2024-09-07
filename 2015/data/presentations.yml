@@ -1,0 +1,664 @@
+matz:
+  title: Keynote
+  type: keynote
+  language: JA
+  description: ''
+  speakers:
+    - id: matz
+  video:
+    youtube_id: E9bO1uqs4Oc
+
+evanphx:
+  title: Keynote
+  type: keynote
+  language: EN
+  description: ''
+  speakers:
+    - id: evanphx
+  video:
+    youtube_id: QaLvtNpoc5o
+
+kosaki:
+  title: Keynote
+  type: keynote
+  language: JA
+  description: ''
+  speakers:
+    - id: kosaki
+  video:
+    youtube_id: idmfWkP5lOw
+
+trick:
+  title: 'TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi'
+  type: discussion
+  language: JA
+  description: "The result presentation of TRICK 2015, an esoteric Ruby programming contest, will take place.
+    You can (perhaps) enjoy some winning entries of unearthly Ruby code selected by esoteric judges."
+  speaker: "@mametter & the judges"
+  video:
+    youtube_id: dmHqtr_GNtg
+  materials:
+    - title: 'TRICK 2015: The second Transcendental Ruby Imbroglio Contest for RubyKaigi'
+      url: http://www.slideshare.net/mametter/trick2015-results
+
+lt:
+  title: Lightning Talks
+  type: lt
+  language: EN/JA
+  description: In Lightning Talks, JA -> EN interpreters won't be available.
+  speaker: LT speakers (JA -> EN interpreters won't be available)
+
+keiju:
+  title: Usage and implementation of Reish which is an Unix shell for Rubyist
+  type: presentation
+  language: JA
+  description: "Reish is an Unix shell for Rubyist. It was a language that was realized
+    Ruby in the syntax of the shell. I will introduce usage and implementation of Reish."
+  speakers:
+    - id: keiju
+  video:
+    youtube_id: xiAyp97ElA8
+
+ngoto:
+  title: Running Ruby on Solaris
+  type: presentation
+  language: JA
+  description: |
+    I'm using Fujitsu SPARC Enterprise server whose OS is Oracle (former Sun) Solaris 10. In Solaris, there is a number of minor differences from other major OS like Linux and Mac OS X, and a number of changes have been made to run Ruby (CRuby) without failure. I'd like to talk about these changes as a user of the Solaris OS.
+
+    The following topics will be included in this presentation.
+
+    Tips to build Ruby and other free software on Solaris
+    Recent changes to Ruby (CRuby) needed for Solaris
+    Bugs potentially affected to all platforms but revealed by running on Solaris
+  speakers:
+    - id: ngoto
+  video:
+    youtube_id: LlcEduexIcU
+  materials:
+    - title: Running Ruby on Solaris
+      url: http://www.slideshare.net/ngotogenome/running-ruby-on-solaris-rubykaigi-2015-12dec2015-56073698
+
+tagomoris:
+  title: Data Analytics Service Company and Its Ruby Usage
+  type: presentation
+  language: JA
+  description: |
+    This talk describes the architecture of data analytics platform service of Treasure Data, what we use Ruby/JRuby for and what we don't use Ruby for. We will discuss the many reasons, not only for productivity and performance.
+
+    Data analytics platform architecture is very far from well-known web service architecture. There are huge scale queues, workers, schedulers and distributed processing clusters, besides well-known parts like web application servers written in RoR and RDBMSs.
+  speakers:
+    - id: tagomoris
+  video:
+    youtube_id: 6qrdqLlgTo8
+  materials:
+    - title: Data Analytics Service Company and Its Ruby Usage
+      url: http://www.slideshare.net/tagomoris/data-analytics-service-company-and-its-ruby-usage-56073823
+
+franckverrot:
+  title: Ruby and PostgreSQL, a love story
+  type: presentation
+  language: EN
+  description: |
+    <code>PostgreSQL</code> 9.1 introduced <code>Foreign Data Wrappers</code>, as an implementation of <code>SQL/MED</code> foreign tables, to provide transparent access to external data. Restricted to being written in <code>C</code>, writing <code>FDW</code>s can be a hard task.
+
+    In this talk we will learn just enough of <code>mruby</code>'s (the ISO-compliant version of <code>Ruby</code>) internals to understand how one can embed <code>mruby</code> in an external program (like <code>PostgreSQL</code>), and start writing <code>Foreign Data Wrappers</code> in <code>Ruby</code>.
+  speakers:
+    - id: franckverrot
+  video:
+    youtube_id: bchlcxAZ9tU
+
+lrz:
+  title: The future of Ruby is in motion!
+  type: presentation
+  language: EN
+  description: "In this presentation we will give a quick and gentle introduction
+    to RubyMotion, a Ruby toolchain to write cross-platform apps for iOS and Android.
+  Then, we will cover 3 of its latest features: Apple Watch, Apple TV and a cross-platform
+    game engine. We will do live demos and coding."
+  speakers:
+    - id: lrz
+  video:
+    youtube_id: uzUmUmEX-Ls
+
+nirvdrum:
+  title: Fast Metaprogramming with Truffle
+  type: presentation
+  language: EN
+  description: |
+    "Metaprogramming is a powerful technique that sets Ruby apart from other contemporary languages. It allows compact and elegant solutions to seemingly intractable problems. Serving as the foundation of some of the mostly widely used frameworks and DSLs in the Ruby ecosystem, it’s arguably the single most defining feature of Ruby. Unfortunately, that expressive power has traditionally come at the expense of performance.
+
+    We’ll show you how JRuby+Truffle has eliminated the cost of metaprogramming so Rubyists can write idiomatic Ruby without having to worry about hidden performance trade-offs."
+  speakers:
+    - id: nirvdrum
+  video:
+    youtube_id: lRMWwjqbXUo
+
+ko1:
+  title: Compiling Ruby scripts
+  type: presentation
+  language: JA
+  description: Ruby (MRI) 2.2 compiles Ruby scripts into bytecode (instruction sequences)
+    at run time. This approach is simple, but has several problems such as overhead
+    of compile time. We are working on making an Ahead of Time compiler which compiles
+    Ruby script before executing the script. This compiler will help to reduce boot
+    time and to reduce memory consumption on multiple Ruby processes. In this presentation,
+    we will introduce the compiler and that mechanism.
+  speakers:
+    - id: ko1
+  video:
+    youtube_id: sFfwQ1-PFt0
+
+hone02_zzak:
+  title: Building CLI Apps for Everyone
+  type: presentation
+  language: EN
+  description: |
+    Many projects rely on command-line tools to provide an efficient and powerful interface to work.
+
+    Building tools for everyone can be difficult, because of conflicting environment or OS.
+
+    How can we build command-line apps that work for everyone and still write Ruby?
+
+    This talk will discuss how to use mruby-cli to build cross-platform apps in Ruby.
+
+    Our goal will be to build a CLI app using mruby and produce a self-contained binary that can be shipped to end users.
+
+    Since mruby is designed to be embedded and statically compiled, it's also really good at packaging ruby code.
+  speakers:
+    - id: hone02
+    - id: zzak
+  video:
+    youtube_id: EhEWn5Uudow
+  materials:
+    - title: Building CLI Apps for Everyone
+      url: https://speakerdeck.com/zzak/rubykaigi2015-building-cli-apps-for-everyone
+
+nusco:
+  title: Refinements - the Worst Feature You Ever Loved
+  type: presentation
+  language: EN
+  description: |
+    Refinements are cool. They are the biggest new language feature in Ruby 2. They help you avoid some of Ruby's most dangerous pitfalls. They make your code cleaner and safer.
+
+    Oh, and some people really hate them.
+
+    Are Refinements the best idea since blocks and modules, or a terrible mistake? Decide for yourself. I'll tell you the good, the bad and the ugly about refinements. At the end of this speech, you'll understand the trade-offs of this controversial feature, and know what all the fuss is about.
+  speakers:
+    - id: nusco
+  video:
+    youtube_id: _gLgE3c5jTU
+
+kazeburo:
+  title: Rhebok, High Performance Rack Handler
+  type: presentation
+  language: JA
+  description: |
+    Rhebok is High Performance Rack Handler/Web Server. 2x performance when compared against Unicorn.
+
+    In this presentation, I'll introduce the Rack interface spec, the architecture of widely used rack servers, and technology that supports performance of Rhebok includes prefork_engine, picohttpparser, system calls.
+  speakers:
+    - id: kazeburo
+  video:
+    youtube_id: EPxWD_2Yekg
+  materials:
+    - title: Rhebok, High Performance Rack Handler
+      url: http://www.slideshare.net/kazeburo/rhebok-high-performance-rack-handker-rubykaigi-2015
+
+juliancheal:
+  title: Charming Robots
+  type: presentation
+  language: EN
+  description: "Web apps are great and everything, but imagine using Ruby to fly drones
+    and make them dance to the sounds of dubstep! Or to control disco lights and other
+    robots! Sounds fun, right? In this talk, we will not only explore how we can write
+    code to make this possible, but it will also be full of exciting, interactive
+    (and possibly dangerous ;) ) demos!"
+  speakers:
+    - id: juliancheal
+  video:
+    youtube_id: t2NoXELaF0E
+
+hsbt:
+  title: Pragmatic Testing of Ruby Core
+  type: presentation
+  language: JA
+  description: |
+    When you need to understand a new library or framework, you might try to invoke the test suite with "rake test" or "rake spec". CRuby also has a test suite like many libraries and frameworks, written in Ruby. But, It's different from typical ruby libraries. Therefore many Rubyists don't know how to run the CRuby test suite.
+    This is because CRuby's test suite has historical and complex structures. In this talk, I explain the details of the CRuby test suite and protips for CRuby's testing technology.
+  speakers:
+    - id: hsbt
+  video:
+    youtube_id: Tgtprqw8_IQ
+  materials:
+    - title: Pragmatic Testing of Ruby Core
+      url: http://www.slideshare.net/hsbt/practical-testing-of-ruby-core
+
+estolfo:
+  title: DIY (Do-it-Yourself) Testing
+  type: presentation
+  language: EN
+  description: |
+    There are so many testing frameworks available to us that we sometimes overlook a completely valid, and sometimes preferable option: writing our own.
+
+    The drivers team at MongoDB focused over the last year on conforming to common APIs and algorithms but we needed a way to validate our consistency. We therefore ended up building our own testing DSL, REST service, and individual test frameworks.
+
+    Using these common tests and the Ruby driver's test suite as examples, this talk will demonstrate when existing test frameworks aren't the best choice and show how you can build your own.
+  speakers:
+    - id: estolfo
+  video:
+    youtube_id: MrfdHpz0-AQ
+
+leinweber:
+  title: Introducing the Crystal Programming Language
+  type: presentation
+  language: EN
+  description: |
+    Developer happiness is what brought me to Ruby in the first place. And of all the new compiled languages, Crystal is the only one that shares this value. The syntax and idioms are entirely Ruby inspired.
+
+    Although Crystal looks very similar to Ruby, there are big differences between the two. Crystal is statically typed and dispatched. While there are no runtime dynamic features, the compile-time macros solve many of the same problems.
+
+    In this session, we’ll take a close look at these differences as well as the similarities, and what Ruby developers can learn from this exciting language.
+  speakers:
+    - id: leinweber
+  video:
+    youtube_id: 7dwDzlVI7OU
+
+toch:
+  title: Prepare yourself against Zombie epidemic
+  type: presentation
+  language: EN
+  description: |
+    The news is everywhere: some weird disease makes the dead walking. We do not know yet if it is highly contagious. What should we do? What we do everyday: writing code.
+
+    This couldn't be a better moment to use an agent based model — a technique that simulates interactions between agents in a environment to understand their effects as a whole. For such, we'll visit its minimal Ruby implementation, address some common design, simulate the Zombie epidemic, visualize it, and test different survival strategies to hopefully find the best one.
+
+    We can code, we'll be prepared ... or not.
+  speakers:
+    - id: toch
+  video:
+    youtube_id: erx00WTzvcY
+
+seki:
+  title: Actor, Thread and me
+  type: presentation
+  language: JA
+  description_ja: |
+    Everybody says. Actor helps to solve the multithreading problem. Actor is awesome. Threads are 💩
+
+    Really?
+
+    An actor model is "just a model", just like MVC.
+
+    Today, Recap what Actor Model is.
+  speakers:
+    - id: seki
+  video:
+    youtube_id: EdB-s2GX-68
+  materials:
+    - title: Actor, Thread and me
+      url: https://speakerdeck.com/m_seki/actor-thread-and-me-rubykaigi2015
+
+eagletmt_k0kubun:
+  title: 'High Performance Template Engine: Guide to optimize your Ruby code'
+  type: presentation
+  language: JA
+  description: |
+    Have you ever thought about performance of your Ruby code? If not, you might write ineffective code and slow down your application. Poor performance disappoints the users of your app causing you to lose their confidence.
+
+    In this talk, we show the process of creating faster Haml implementations: Faml and Hamlit. You will see how to improve the performance of your code.
+    We will show you the typical structure of template engines first, so experience with them is not required. After this talk, you'll be able to optimize your application using the techniques we will show you.
+  speakers:
+    - id: eagletmt
+    - id: k0kubun
+  video:
+    youtube_id: vM9XfqlqyNw
+  materials:
+    - title: 'High Performance Template Engine: Guide to optimize your Ruby code'
+      url: https://speakerdeck.com/k0kubun/high-performance-template-engine
+
+yurie:
+  title: making robot with mruby
+  type: presentation
+  language: JA
+  description: |
+    Linuxの入っているハードウェアをあえてLinuxを使わないでTOPPERS EV3RT というRTOS を入れたり、bare metal の状態にしてmrubyを動かします。
+    今回の対象はLEGO Mindstorms EV3とraspberry pi。
+    Cに比べて遅いのでハードウェア制御には向かないのでは？と言われがちなmrubyを使って倒立振子の制御をします。
+  speakers:
+    - id: yurie
+  video:
+    youtube_id: u7WCIN5HMDI
+  materials:
+    - title: making robot with mruby
+      url: http://www.slideshare.net/yamanekko/rubykaigi2015-making-robotswithmruby
+
+shotantan:
+  title: mruby on the minimal embedded resource
+  type: presentation
+  language: JA
+  description: |
+    Introducing how mruby comes to term with the embedded board's poor resource.
+    I suggest a solution that they can mount an external NOR Flash chip as RAM cache.
+    Although mruby is a minimal implementation of Ruby, it requires huge RAM as is Embed field. A lot of embedded board has poor RAM less than 128KB, except for rich embedded board, like Raspberry Pi.
+    An external NOR Flash as mruby RAM cache is cheap solution. Typically, NOR Flash's writing frequency is limited, 100 thousand times. I also introduce performance measurement to reduce mruby RAM writting.
+  speakers:
+    - id: shotantan
+  video:
+    youtube_id: EXvDKb2LTYM
+
+youchan:
+  title: Writing web application in Ruby
+  type: presentation
+  language: JA
+  description: |
+    Does this happen to you?
+    You were developing web application with Ruby on Rails, but somehow you ended up writing front-end in JavaScript.
+    Ruby on Rails seemed very cool to me! And Rubyists are always happy to build applications with it!
+    However, front-end development is becoming important today.
+    Then I found Opal, and my dream of writing Ruby on the front-end is possible!
+    Recently, React.js, a kind of Virtual DOM, has become very popular in the front-end community.
+    It's not only intended for front-end web, there is also ReactNative for other platforms too.
+    I think many Rubyists are still lost, so I created a Virtual DOM implementation in Ruby called Hyalite.
+    All right, Opal, Hyalite ... tools have been gathered. Let's build web applications on server-side and front-end with Ruby!
+  speakers:
+    - id: youchan
+  video:
+    youtube_id: xEK1hg8noSc
+
+kou:
+  title: The history of testing framework in Ruby
+  type: presentation
+  language: JA
+  description: |
+    This talk describes about the history of testing framework in Ruby.
+
+    Ruby 2.2 bundles two testing frameworks. They are minitest and test-unit. Do you know why two testing frameworks are bundled? Do you know that test-unit was bundled and then removed from Ruby distribution? If you can't answer these questions and you're interested in testing framework, this talk will help you.
+
+    This talk describes about the history of bundled testing framework in Ruby and some major testing frameworks for Ruby in chronological order.
+  speakers:
+    - id: kou
+  video:
+    youtube_id: g33d9SSbvd8
+
+emorima:
+  title: Discussion on Thread between version 1.8.6 and 2.2.3
+  type: presentation
+  language: JA
+  description: |
+    Thread in Ruby 1.8.6 often got stuck and I had to implement my own Thread monitoring framework. How is it improved in the latest release, Ruby 2.2.3? Now can we use an implementation that I couldn't use with 1.8.6 because of the broken Thread?
+  description_ja: |
+    Ruby1.8.6 のThreadはよく刺さり、自前でのThread監視機能を作成を余儀なくされた。では、最新のRuby2.2.3ではどうだろうか？
+    またRuby1.8.6では、Threadが高確率で刺さるために回避せざるを得なかった、あの実装方法は、Ruby2.2.3では使えるのだろうか？
+  speakers:
+    - id: emorima
+  video:
+    youtube_id: 9C98Eyr9jOY
+
+joshk:
+  title: 'Beyond Saas: Building for Enterprise'
+  type: presentation
+  language: EN
+  description: |
+    Travis CI found itself growing a great SaaS product, when Enterprise users began unexpectedly asking to use our product on-premise. Our small team had to quickly understand:
+
+    The maintenance implications for different ways to package our app.
+    How to provide enterprise customers great support, despite the new constraints.
+    How to prioritize Enterprise-specific features.
+
+    This talk is the story of how we added an Enterprise offering to our existing hosted Continuous Integration service, the bumps we hit along the way, and what we would do differently now.
+  speakers:
+    - id: joshk
+  video:
+    youtube_id: gVm7dd2G7CQ
+
+prodis:
+  title: The worst Ruby codes I've seen in my life
+  type: presentation
+  language: EN
+  description: |
+    Most applications written in Ruby are great, but also exists evil code applying WOP techniques. There are many workarounds in several programming languages, but in Ruby, when it happens, the proportion is bigger. It's very easy to write Ruby code with collateral damage.
+
+    You will see a collection of bad Ruby codes, with a description of how these codes affected negatively their applications and the solutions to fix and avoid them. Long classes, coupling, misapplication of OO, illegible code, tangled flows, naming issues and other things you can ever imagine are examples what you'll get.
+  speakers:
+    - id: prodis
+  video:
+    youtube_id: jLAFXQ1Av50
+  materials:
+    - title: The worst Ruby codes I've seen in my life
+      url: http://www.slideshare.net/Prodis/the-worst-ruby-codes-ive-seen-in-my-life-rubykaigi-2015
+
+tenderlove:
+  title: Request and Response
+  type: presentation
+  language: JA
+  description: |
+    What goes in to a request and response in a Rails application?  Where does the
+    application get its data, and how does that data get to the client when you are
+    done?  In this talk we'll look at the request and response lifecycle in Rails.
+    We'll start with how a request and response are serviced today, then move on
+    to more exciting topics like adding HTTP2 support and what that means for
+    developing Rails applications.
+  speakers:
+    - id: tenderlove
+  video:
+    youtube_id: 0cmXVXMdbs8
+
+yuki24:
+  title: Saving people from typos
+  type: presentation
+  language: JA
+  description: |
+    Whenever you make a typo on Google or a <code>git …</code> cmd, they’ll automagically correct it for you. It’s great, but have you ever wondered why programming languages don’t have such a cool feature? The next major version of Ruby will! The <code>did_you_mean</code> gem was built to add on a “Did you mean?” experience and Ruby 2.3 will ship with it.
+
+    So what does the whole story look like? How can you use it in your app or gem? How does it correct typos? What even is a typo?
+
+    Let's learn how to take advantage of this new feature in Ruby 2.3 and save ourselves from typos forever!
+  speakers:
+    - id: yuki24
+  video:
+    youtube_id: b9621w7_vxc
+
+yhara:
+  title: Let's make a functional language!
+  type: presentation
+  language: JA
+  description: Recently, functional programming with type inference has become popular, let's try to make it! But what if you don't know where to start...? For such a Rubyist, this talk will explain from basics of language implementation to the Hindley-Milner type inference. We can make a functional language!
+  speakers:
+    - id: yhara
+  video:
+    youtube_id: NNsX92hKirM
+  materials:
+    - title: Let's make a functional language!
+      url: https://speakerdeck.com/yhara/lets-make-a-functional-language
+
+youngrw_CraigLehmann:
+  title: It's dangerous to GC alone. Take this!
+  type: presentation
+  language: EN
+  description: |
+    Every language community implements the same core components. Things like garbage collection, just-in-time compilation and threading. Wouldn't it be great if these were shared between languages? An improvement to one language would mean an improvement to all.
+
+    We’re actually doing it: open sourcing the core components of IBM’s Java Virtual Machine into an open language toolkit. Our first proof of concept language is Ruby. This talk will discuss the process and results of integrating a new garbage collector into Ruby.
+  speakers:
+    - id: youngrw
+    - id: CraigLehmann
+  video:
+    youtube_id: nhqNaZxHbHY
+  materials:
+    - title: It's dangerous to GC alone. Take this!
+      url: http://www.slideshare.net/craiglehmann/the-omr-gc-talk-ruby-kaigi-2015
+
+ohai:
+  title: Ruby for one day game programming camp for beginners
+  type: presentation
+  language: JA
+  description: |
+    KMC, Kyoto university Microcomputer Club, a computer circle in Kyoto University, holds one day game programming camp for newcomers (undergraduate students interested in KMC and programming) in April and May to invite an enjoyable programming world.
+
+    As you know, Ruby is one of the best languages to learn programming itself and used in the camp to build a simple game within one day. This talk provides experiences and messages coming from the events, and explains the history of frameworks used in the event.  This talk give you a hint to educate beginners.
+  speakers:
+    - id: ohai
+  video:
+    youtube_id: bvXYCpcOQ3E
+
+MattStudies:
+  title: Experiments in sharing Java VM technology with CRuby
+  type: presentation
+  language: EN
+  description: |
+    What happens you have a virtual machine full of powerful technology and you start pulling out the language independent parts, with plans to open source these technologies?
+
+    You get the ability to experiment! This talk covers a set of experiments where IBM has tested out language-agnostic runtime technologies inside of CRuby, including a GC, JIT and more-- all while still running real Ruby applications, including Rails.
+
+    We want to share results from these experiments, talk about how we connected to CRuby, and discuss how this may one day become a part of everyone's CRuby.
+  speakers:
+    - id: MattStudies
+  video:
+    youtube_id: EDxoaEdR-_M
+  materials:
+    - title: Experiments in Sharing Java VM Technology with CRuby
+      url: http://www.slideshare.net/MatthewGaudet/experiments-in-sharing-java-vm-technology-with-cruby
+
+matsumotory:
+  title: The future of mruby in HTTP Server
+  type: presentation
+  language: JA
+  description: "As the HTTP/2 RFC was published, implementations of HTTP/2 have been
+    actively developed. In this session, from the standpoint of an author of an extension
+    mechanism using mruby for typical HTTP/1.x and HTTP/2 servers like apache, nginx
+    and H2O, I show the possibility of design using mruby in HTTP server with new
+    special features of HTTP/2 like server push.  I explain how to design the complex
+    web service system using both HTTP/1.x and HTTP/2 servers based on the need for
+    HTTP/2 considering the changes in the architecture of Web service systems."
+  speakers:
+    - id: matsumotory
+
+frsyuki:
+  title: Plugin-based software design with Ruby and RubyGems
+  type: presentation
+  language: EN
+  description: |
+    Plugin architecture is known as a technique that brings extensibility to a program. Ruby has good language features for plugins. RubyGems.org is an excellent platform for plugin distribution. However, creating plugin architecture is not as easy as writing code without it: plugin loader, packaging, loosely-coupled API, and performance. Loading two versions of a gem is a unsolved challenge that is solved in Java on the other hand.
+      I have designed some open-source software such as Fluentd and Embulk. They provide most of functions by plugins. I will talk about their plugin-based architecture.
+  speakers:
+    - id: frsyuki
+  video:
+    youtube_id: C6SP3CzCb5k
+
+wycats_chancancode:
+  title: Turbo Rails with Rust
+  type: presentation
+  language: EN
+  description: |
+    Ruby is not the fastest language in the world, there is no doubt about it. This doesn't turn out to matter all that much – Ruby and its ecosystem has so much more to offer, making it a worthwhile tradeoff a lot of the times.
+
+    However, you might occasionally encounter workloads that are simply not suitable for Ruby. In this talk, we will explore building a native extension with Rust to speed up parts of Rails. (No prior experience with Rust required!) What does Rust has to offer in this scenario over plain-old C? Let's find out!
+  speakers:
+    - id: wycats
+    - id: chancancode
+  video:
+    youtube_id: uiNpoDB4dA0
+
+mmasaki:
+  title: Ruby meets Go
+  type: presentation
+  language: JA
+  description: |
+    In this talk, I will present how to extend your Ruby code with Golang.
+    Since Go 1.5, you can build C compatible binaries by using buildmode c-shared/c-archive. This is a very exciting feature for rubyists.
+    First, I'd like to show you how to use Go code from Ruby with FFI and fiddle.
+    Then, I will talk about how to build gems with Golang.
+  speakers:
+    - id: mmasaki
+  video:
+    youtube_id: xIVrUWmmass
+  materials:
+    - title: Ruby meets Go
+      url: http://www.slideshare.net/td-nttcom/ruby-meets-go
+
+SoManyHs:
+  title: 'Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good'
+  type: presentation
+  language: EN
+  description: |
+    When you type <code>print "Hello, world!"</code>, how does your computer
+    know what to do? Humans are able to naturally parse spoken language by
+    analyzing the role and meaning of each word in context of its
+    sentence, but we usually take for granted the way computers make sense
+    of the code we write.
+
+    By exploring the way our brains construct grammars to parse sentences,
+    we can better understand how parsers are used for computering --
+    whether it be in the way Ruby and other languages are implemented or
+    in webserver routing -- and recognize when they may be the right tool
+    to use in our own code.
+  speakers:
+    - id: SoManyHs
+  video:
+    youtube_id: a_mJIR0Rk9U
+  materials:
+    - title: 'Time flies like an arrow; Fruit flies like a banana: Parsers for Great Good'
+      url: https://speakerdeck.com/somanyhs/time-flies-like-an-arrow-fruit-flies-like-a-banana-parsers-for-great-good-1
+
+headius_enebo:
+  title: Upcoming Improvements to JRuby 9000
+  type: presentation
+  language: EN
+  description: "JRuby 9000 is here! After years of work, JRuby now supports Ruby 2.2
+    and ships with a redesigned optimizing runtime. The first update release improved
+    performance and compatibility, and we've only just begun. In this talk we'll
+    show you where we stand today and cover upcoming work that will keep JRuby moving
+  forward: profiling, inlining, unboxing...oh my!"
+  speakers:
+    - id: headius
+    - id: enebo
+  video:
+    youtube_id: QAqjtdExtJw
+
+committers:
+  title: Ruby Committers vs the World
+  type: discussion
+  language: JA
+  description: TBA
+  speaker: Ruby committers
+  video:
+    youtube_id: LcXKSHsniTY
+
+lightning_talks:
+
+  - JuanitoFatas:
+    language: EN
+    title: Update Early, Update Often
+
+  - meriy100:
+    language: EN
+    title: Automating View Internationalization in Ruby on Rails
+
+  - _ksss_:
+    language: JA
+    title: A new testing framework Rgot
+
+  - a_turl:
+    title: Building an Unbreakable MRI-based Embedded Computer Appliance
+
+  - zunda:
+    title: Do you trust that certificate?
+
+  - k0kubun:
+    title: How I debugged debugger
+
+  - namusyaka:
+    title: Padrino Travel Guide
+
+  - johnlinvc:
+    title: What I learned by implementing a Ruby VM in Erlang
+
+  - joker1007:
+    title: Rubygemsで作るお手軽データ分析基盤 〜あるいは 私はどうやって他人の褌で相撲を取ったか〜
+
+  - _tad_:
+    title: Rationalを最適化してみた
+
+  - Althaire:
+    title: The Mythical Creatures of Summer of Code

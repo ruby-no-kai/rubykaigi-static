@@ -1,0 +1,214 @@
+dec11:
+  events:
+  - type: break
+    begin: '09:30'
+    end: ''
+    name: 'Door open'
+
+  - type: break
+    begin: '10:30'
+    end: '10:55'
+    name: 'Opening & Ruby 2.3 Preview Release'
+
+  - type: talk
+    begin: '11:00'
+    end: '12:00'
+    talks:
+      hall_a: matz
+
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch on your own
+
+  - type: talk
+    begin: '13:30'
+    end: '14:05'
+    talks:
+      hall_a: ko1
+
+  - type: talk
+    begin: '14:10'
+    end: '14:45'
+    talks:
+      hall_a: MattStudies
+      hall_b: yuki24
+
+  - type: talk
+    begin: '14:50'
+    end: '15:25'
+    talks:
+      hall_a: shotantan
+      hall_b: SoManyHs
+
+  - type: break
+    begin: '15:30'
+    end: '16:00'
+    name: Afternoon Break
+
+  - type: talk
+    begin: '16:00'
+    end: '16:35'
+    talks:
+      hall_a: nirvdrum
+      hall_b: estolfo
+
+  - type: talk
+    begin: '16:40'
+    end: '17:15'
+    talks:
+      hall_a: eagletmt_k0kubun
+      hall_b: leinweber
+
+  - type: talk
+    begin: '17:20'
+    end: '18:20'
+    talks:
+      hall_a: trick
+
+
+dec12:
+  events:
+  - type: talk
+    begin: '9:40'
+    end: '10:35'
+    talks:
+      hall_a: kosaki
+
+  - type: talk
+    begin: '10:40'
+    end: '11:15'
+    talks:
+      hall_a: kou
+      hall_b: juliancheal
+
+  - type: talk
+    begin: '11:20'
+    end: '11:55'
+    talks:
+      hall_a: wycats_chancancode
+      hall_b: ngoto
+
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch on your own
+
+  - type: talk
+    begin: '13:30'
+    end: '14:05'
+    talks:
+      hall_a: tagomoris
+      hall_b: prodis
+
+  - type: talk
+    begin: '14:10'
+    end: '14:45'
+    talks:
+      hall_a: lrz
+      hall_b: ohai
+
+  - type: talk
+    begin: '14:50'
+    end: '15:25'
+    talks:
+      hall_a: mmasaki
+      hall_b: franckverrot
+
+  - type: break
+    begin: '15:30'
+    end: '16:00'
+    name: Afternoon Break
+
+  - type: talk
+    begin: '16:00'
+    end: '16:35'
+    talks:
+      hall_a: hone02_zzak
+      hall_b: kazeburo
+
+  - type: talk
+    begin: '16:40'
+    end: '17:15'
+    talks:
+      hall_a: yurie
+      hall_b: hsbt
+
+  - type: talk
+    begin: '17:20'
+    end: '18:20'
+    talks:
+      hall_a: lt
+
+
+dec13:
+  events:
+  - type: talk
+    begin: '10:20'
+    end: '11:15'
+    talks:
+      hall_a: committers
+
+  - type: talk
+    begin: '11:20'
+    end: '11:55'
+    talks:
+      hall_a: youngrw_CraigLehmann
+      hall_b: youchan
+
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch on your own
+
+
+  - type: talk
+    begin: '13:30'
+    end: '14:05'
+    talks:
+      hall_a: keiju
+      hall_b: nusco
+
+  - type: talk
+    begin: '14:10'
+    end: '14:45'
+    talks:
+      hall_a: headius_enebo
+      hall_b: emorima
+
+  - type: talk
+    begin: '14:50'
+    end: '15:25'
+    talks:
+      hall_a: frsyuki
+      hall_b: toch
+
+  - type: break
+    begin: '15:30'
+    end: '16:00'
+    name: Afternoon Break
+
+  - type: talk
+    begin: '16:00'
+    end: '16:35'
+    talks:
+      hall_a: tenderlove
+      hall_b: yhara
+
+  - type: talk
+    begin: '16:40'
+    end: '17:15'
+    talks:
+      hall_a: seki
+      hall_b: joshk
+
+  - type: talk
+    begin: '17:20'
+    end: '18:20'
+    talks:
+      hall_a: evanphx
+
+  - type: break
+    begin: '18:20'
+    end: '18:40'
+    name: Closing

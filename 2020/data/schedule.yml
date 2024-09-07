@@ -1,0 +1,190 @@
+---
+sep03:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '10:00'
+    name: Registration
+  - type: keynote
+    begin: '10:00'
+    end: '11:00'
+    talks:
+      Main Hall: yukihiro_matz
+  - type: talk
+    begin: '11:10'
+    end: '11:50'
+    talks:
+      Main Hall: mametter
+      Small Hall: shashank_date
+      Open Studio: etagwerker
+  - type: break
+    begin: '11:50'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall: jeremyevans0
+      Small Hall: tetiana_chupryna
+      Open Studio: kishima
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall: k0kubun
+      Small Hall: paracycle
+      Open Studio: yuji_yokoo
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall: shyouhei
+      Small Hall: lara
+      Open Studio: johnlinvc
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall: ko1
+      Small Hall: jonatas
+      Open Studio: hasumikin
+  - type: talk
+    begin: '17:20'
+    end: '18:00'
+    talks:
+      Main Hall: shugomaeda
+      Small Hall: jhawthorn
+      Open Studio: youchan
+  - type: lt
+    begin: '18:10'
+    end: '19:10'
+    name: Lightning Talks
+sep04:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '10:00'
+    name: Door Open
+  - type: keynote
+    begin: '10:00'
+    end: '11:00'
+    talks:
+      Main Hall: alanwusx
+  - type: talk
+    begin: '11:10'
+    end: '11:50'
+    talks:
+      Main Hall: DarkDimius
+      Small Hall: ChrisBr
+      Open Studio: elct9620
+  - type: break
+    begin: '11:50'
+    end: '13:30'
+    name: Lunch break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall: spikeolaf
+      Small Hall: Prakriti-nith
+      Open Studio: sue445
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall: keystonelemur
+      Small Hall: jashmatthews
+      Open Studio: jimlock
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall: m_seki
+      Small Hall: jvilk-stripe
+      Open Studio: eregontp
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall: knu
+      Small Hall: _st0012
+      Open Studio: koic
+  - type: talk
+    begin: '17:20'
+    end: '18:00'
+    talks:
+      Main Hall: mrkn
+      Small Hall: bovi
+      Open Studio: tenderlove
+sep05:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '10:00'
+    name: Door Open
+  - type: talk
+    begin: '10:00'
+    end: '11:00'
+    talks:
+      Main Hall: rubylangorg
+  - type: talk
+    begin: '11:10'
+    end: '11:50'
+    talks:
+      Main Hall: palkan_tula
+      Small Hall: kddeisz
+      Open Studio: yuri_at_earth
+  - type: break
+    begin: '11:50'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall: ioquatix
+      Small Hall: anton_davydov
+      Open Studio: ktou
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall: hsbt
+      Small Hall: chrisseaton
+      Open Studio: ohrdev
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall: headius
+      Small Hall: maciejmensfeld
+      Open Studio: kurotaky
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall: miura1729
+      Small Hall: schneems
+      Open Studio: aycabta
+  - type: keynote
+    begin: '17:20'
+    end: '18:20'
+    talks:
+      Main Hall: soutaro
+  - type: break
+    begin: '18:20'
+    end: '18:35'
+    name: Closing
