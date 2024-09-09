@@ -1,0 +1,204 @@
+---
+apr18:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '10:00'
+    name: Registration
+  - type: keynote
+    begin: '10:00'
+    end: '11:10'
+    talks:
+      Main Hall (3F): yukihiro_matz
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      Main Hall (3F): matzbot
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: "Lunch \U0001F35C"
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall (3F): k0kubun
+      Multi-purpose Hall (2F): maciejmensfeld
+      409 + 410 (4F): aycabta
+      International Conference Room (5F): ota42y
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall (3F): ko1
+      Multi-purpose Hall (2F): nateberkopec
+      409 + 410 (4F): giosakti
+      International Conference Room (5F): joker1007
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall (3F): mametter
+      Multi-purpose Hall (2F): alehander42
+      409 + 410 (4F): gsamokovarov
+      International Conference Room (5F): youchan
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall (3F): ioquatix
+      Multi-purpose Hall (2F): _matthewd
+      409 + 410 (4F): nusco
+      International Conference Room (5F): watson1978
+  - type: talk
+    begin: '17:20'
+    end: '18:00'
+    talks:
+      Main Hall (3F): k_tsj
+      Multi-purpose Hall (2F): alexwwood
+      409 + 410 (4F): gao_shawnee
+      International Conference Room (5F): tenderlove
+apr19:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '10:00'
+    name: Breakfast
+  - type: keynote
+    begin: '10:00'
+    end: '11:10'
+    talks:
+      Main Hall (3F): nagachika
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      Main Hall (3F): samphippen
+      Multi-purpose Hall (2F): codefolio
+      409 + 410 (4F): hasumikin
+      International Conference Room (5F): ktou
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: "Lunch \U0001F35C"
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall (3F): Hir0_IC
+      Multi-purpose Hall (2F): fxn
+      409 + 410 (4F): Envek
+      International Conference Room (5F): yhara
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall (3F): jez
+      Multi-purpose Hall (2F): grosser
+      International Conference Room (5F): shugomaeda
+  - type: talk
+    begin: '14:20'
+    end: '15:30'
+    talks:
+      409 + 410 (4F): mrkn_workshop
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall (3F): vnmakarov
+      Multi-purpose Hall (2F): amirrajan
+      409 + 410 (4F): p0deje
+      International Conference Room (5F): udzura
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall (3F): estolfo
+      Multi-purpose Hall (2F): nirvdrum
+      409 + 410 (4F): MikeMcQuaid
+      International Conference Room (5F): tanaka_akr
+  - type: lt
+    begin: '17:20'
+    end: '18:20'
+    name: Lightning Talks
+apr20:
+  events:
+  - type: break
+    begin: '08:30'
+    end: '10:00'
+    name: Breakfast
+  - type: talk
+    begin: '10:00'
+    end: '11:10'
+    talks:
+      Main Hall (3F): rubylangorg
+  - type: talk
+    begin: '11:20'
+    end: '12:00'
+    talks:
+      Main Hall (3F): yuri_at_earth
+      Multi-purpose Hall (2F): zelivans
+      409 + 410 (4F): searls
+      International Conference Room (5F): riseshia
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: "Lunch \U0001F35C"
+  - type: talk
+    begin: '13:30'
+    end: '14:10'
+    talks:
+      Main Hall (3F): soutaro
+      Multi-purpose Hall (2F): headius
+      409 + 410 (4F): PeterQuines
+      International Conference Room (5F): sue445
+  - type: talk
+    begin: '14:20'
+    end: '15:00'
+    talks:
+      Main Hall (3F): hsbt
+      Multi-purpose Hall (2F): kddeisz
+      International Conference Room (5F): frsyuki
+  - type: talk
+    begin: '14:20'
+    end: '15:30'
+    talks:
+      409 + 410 (4F): m_seki
+  - type: break
+    begin: '15:00'
+    end: '15:40'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:40'
+    end: '16:20'
+    talks:
+      Main Hall (3F): mrkn
+      Multi-purpose Hall (2F): tongueroo
+      409 + 410 (4F): ujm
+      International Conference Room (5F): n0kada
+  - type: talk
+    begin: '16:30'
+    end: '17:10'
+    talks:
+      Main Hall (3F): shyouhei
+      Multi-purpose Hall (2F): pitr_ch
+      409 + 410 (4F): oceanicpanda
+      International Conference Room (5F): sonots
+  - type: keynote
+    begin: '17:20'
+    end: '18:30'
+    talks:
+      Main Hall (3F): jeremyevans0
+  - type: break
+    begin: '18:30'
+    end: '18:45'
+    name: Closing

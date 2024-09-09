@@ -1,0 +1,190 @@
+---
+may31:
+  events:
+  - type: break
+    begin: '09:30'
+    end: '10:30'
+    name: Registration
+  - type: keynote
+    begin: '10:30'
+    end: '11:30'
+    talks:
+      Main Hall: yukihiro_matz
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: "Lunch (Bento! \U0001F371)"
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Main Hall: tenderlove
+      Tachibana: maciejmensfeld
+      Hagi: kurotaky
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Main Hall: mrkn
+      Tachibana: DarkDimius
+      Hagi: joker1007
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Main Hall: bbatsov
+      Tachibana: _st0012
+      Hagi: piotr_murach
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Main Hall: sonots
+      Tachibana: thibaut_barrere
+      Hagi: hsbt
+  - type: talk
+    begin: '16:40'
+    end: '17:20'
+    talks:
+      Main Hall: Yuryu
+      Tachibana: anton_davydov
+      Hagi: p_ck_
+  - type: lt
+    begin: '17:30'
+    end: '18:30'
+    name: Lightning Talks
+jun01:
+  events:
+  - type: break
+    begin: '08:00'
+    end: '09:40'
+    name: Breakfast
+  - type: keynote
+    begin: '09:40'
+    end: '10:40'
+    talks:
+      Main Hall: ktou
+  - type: talk
+    begin: '10:50'
+    end: '11:30'
+    talks:
+      Main Hall: hone02
+      Tachibana: codefolio
+      Hagi: wyhaines
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: "Lunch (Bento! \U0001F371)"
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Main Hall: ko1
+      Tachibana: Edouard-chin
+      Hagi: koic
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Main Hall: m_seki
+      Tachibana: jules2689
+      Hagi: yuri_at_earth
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Main Hall: soutaro
+      Tachibana: v0dro
+      Hagi: hasumon
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Main Hall: spikeolaf
+      Tachibana: gsamokovarov
+      Hagi: udzura
+      Shirakashi: mrkn2
+  - type: talk
+    begin: '16:40'
+    end: '17:20'
+    talks:
+      Main Hall: mametter
+      Tachibana: palkan_tula
+      Hagi: scalone
+      Shirakashi: ktou2
+  - type: talk
+    begin: '17:30'
+    end: '18:30'
+    talks:
+      Main Hall: rubylangorg
+jun02:
+  events:
+  - type: break
+    begin: '08:00'
+    end: '09:40'
+    name: Breakfast
+  - type: keynote
+    begin: '09:40'
+    end: '10:40'
+    talks:
+      Main Hall: eregontp
+  - type: talk
+    begin: '10:50'
+    end: '11:30'
+    talks:
+      Main Hall: sugiyama-k
+      Tachibana: aycabta
+      Hagi: kn1kn1
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: "Lunch (Bento! \U0001F371)"
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Main Hall: k0kubun
+      Tachibana: drbrain
+      Hagi: keiju
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Main Hall: shugomaeda
+      Tachibana: malafortune
+      Hagi: take-cheeze
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Main Hall: youchan
+      Tachibana: prasun_anand
+      Hagi: i110
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Main Hall: vnmakarov
+      Tachibana: tom_enebo
+      Hagi: matsumotory
+  - type: talk
+    begin: '16:40'
+    end: '17:40'
+    talks:
+      Main Hall: tric
+  - type: break
+    begin: '17:40'
+    end: '18:00'
+    name: Closing

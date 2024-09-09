@@ -1,0 +1,190 @@
+---
+sep18:
+  events:
+  - type: break
+    begin: '09:30'
+    end: '10:30'
+    name: Door Open
+  - type: keynote
+    begin: '10:30'
+    end: '11:30'
+    talks:
+      Phoenix: n0kada
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: Lunch
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Phoenix: ko1
+      Dahlia: onk
+      Cosmos: matschaffer
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Phoenix: codefolio
+      Dahlia: shugomaeda
+      Cosmos: v0dro
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Phoenix: youchan
+      Dahlia: hsbt
+      Cosmos: kddeisz
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Phoenix: juliancheal
+      Dahlia: watson1978
+      Cosmos: anton_davydov
+  - type: talk
+    begin: '16:40'
+    end: '17:20'
+    talks:
+      Phoenix: mrkn
+      Dahlia: narittan
+      Cosmos: _st0012
+  - type: talk
+    begin: '17:30'
+    end: '18:30'
+    talks:
+      Phoenix: rubylangorg
+sep19:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '09:40'
+    name: Door Open
+  - type: keynote
+    begin: '09:40'
+    end: '10:40'
+    talks:
+      Phoenix: yukihiro_matz
+  - type: talk
+    begin: '10:50'
+    end: '11:30'
+    talks:
+      Phoenix: mametter
+      Dahlia: yhara
+      Cosmos: shioyama
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: Lunch
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Phoenix: ktou
+      Dahlia: nishimotz
+      Cosmos: zverok
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Phoenix: rubymine
+      Dahlia: duerst
+      Cosmos: yuki24
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Phoenix: soutaro
+      Dahlia: emorima
+      Cosmos: codefinger
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Phoenix: chancancode
+      Dahlia: mtsmfm
+      Cosmos: happywinebot
+  - type: talk
+    begin: '16:40'
+    end: '17:20'
+    talks:
+      Phoenix: yuri_at_earth
+      Dahlia: masa16tanaka
+      Cosmos: jmettraux
+  - type: lt
+    begin: '17:30'
+    end: '18:30'
+    name: Lightning Talks
+sep20:
+  events:
+  - type: break
+    begin: '09:00'
+    end: '10:00'
+    name: Door Open
+  - type: talk
+    begin: '10:00'
+    end: '10:40'
+    talks:
+      Phoenix: tenderlove
+      Dahlia: i2y_
+      Cosmos: lctseng
+  - type: talk
+    begin: '10:50'
+    end: '11:30'
+    talks:
+      Phoenix: keiju
+      Dahlia: tagomoris
+      Cosmos: DeltonDing
+  - type: break
+    begin: '11:30'
+    end: '13:00'
+    name: Lunch
+  - type: talk
+    begin: '13:00'
+    end: '13:40'
+    talks:
+      Phoenix: yotii23
+      Dahlia: aycabta
+      Cosmos: 0xColby
+  - type: talk
+    begin: '13:50'
+    end: '14:30'
+    talks:
+      Phoenix: headius
+      Dahlia: gotoken
+      Cosmos: nateberkopec
+  - type: talk
+    begin: '14:40'
+    end: '15:20'
+    talks:
+      Phoenix: tanaka_akr
+      Dahlia: p_ck_
+      Cosmos: jules2689
+  - type: break
+    begin: '15:20'
+    end: '15:50'
+    name: Afternoon Break
+  - type: talk
+    begin: '15:50'
+    end: '16:30'
+    talks:
+      Phoenix: m_seki
+      Dahlia: takaokouji
+      Cosmos: nirvdrum
+  - type: keynote
+    begin: '16:40'
+    end: '17:40'
+    talks:
+      Phoenix: vnmakarov
+  - type: break
+    begin: '17:40'
+    end: '18:00'
+    name: Closing
