@@ -66,6 +66,13 @@ speakers:
     github_id: chrisarcand
     twitter_id: chrisarcand
     avatar_url: https://www.gravatar.com/avatar/956593b947dfddf6d89168fe09aa628a
+  cruby_committers:
+    id: cruby_committers
+    name: CRuby Committers
+    bio: CRuby committers all stars
+    github_id: 
+    twitter_id: rubylangorg
+    gravatar_hash: ce6d997265cefede13ee7e7e2a2cf9b2
   drbrain:
     id: drbrain
     name: Eric Hodel
