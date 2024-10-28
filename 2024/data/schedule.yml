@@ -1,0 +1,171 @@
+---
+may15:
+  events:
+  - type: break
+    begin: '10:00'
+    end: '11:00'
+    name: Door Open
+  - type: keynote
+    begin: '11:00'
+    end: '12:00'
+    talks:
+      Large Hall: tompng
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Large Hall: spikeolaf
+      Small Hall: ohbarye
+      Large Studio: segiddins
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Large Hall: eightbitraptor
+      Small Hall: hsbt
+      Large Studio: yujiyokoo
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Large Hall: tagomoris
+      Small Hall: kokuyouwind
+      Large Studio: osyoyu
+  - type: break
+    begin: '15:20'
+    end: '16:00'
+    name: Afternoon Break
+  - type: talk
+    begin: '16:00'
+    end: '16:30'
+    talks:
+      Large Hall: jhawthorn
+      Small Hall: ima1zumi
+      Large Studio: mullermp
+  - type: talk
+    begin: '16:40'
+    end: '17:10'
+    talks:
+      Large Hall: ko1
+      Small Hall: coe401_
+      Large Studio: keystonelemur
+may16:
+  events:
+  - type: keynote
+    begin: '10:20'
+    end: '11:20'
+    talks:
+      Large Hall: ioquatix
+  - type: talk
+    begin: '11:30'
+    end: '12:00'
+    talks:
+      Large Hall: peterzhu2118
+      Small Hall: ydah_
+      Large Studio: p_ck_
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Large Hall: soutaro
+      Small Hall: kateinoigakukun
+      Large Studio: KnuX
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Large Hall: jeremyevans0
+      Small Hall: hasumikin
+      Large Studio: qnighy
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Large Hall: maximecb
+      Small Hall: koic
+      Large Studio: udzura
+  - type: break
+    begin: '15:20'
+    end: '16:00'
+    name: Afternoon Break
+  - type: talk
+    begin: '16:00'
+    end: '16:30'
+    talks:
+      Large Hall: mametter
+      Small Hall: ahogappa0613
+      Large Studio: eregontp
+  - type: talk
+    begin: '16:40'
+    end: '17:10'
+    talks:
+      Large Hall: duerst
+      Small Hall: s_isshiki1969
+      Large Studio: sylph01
+  - type: lt
+    begin: '17:20'
+    end: '18:20'
+    name: Lightning Talks
+may17:
+  events:
+  - type: talk
+    begin: '10:10'
+    end: '11:20'
+    talks:
+      Large Hall: rubylangorg
+  - type: talk
+    begin: '11:30'
+    end: '12:00'
+    talks:
+      Large Hall: k0kubun
+      Small Hall: m3m0r7
+      Large Studio: remore
+  - type: break
+    begin: '12:00'
+    end: '13:30'
+    name: Lunch Break
+  - type: talk
+    begin: '13:30'
+    end: '14:00'
+    talks:
+      Large Hall: tenderlove
+      Small Hall: MikeMcQuaid
+      Large Studio: headius
+  - type: talk
+    begin: '14:10'
+    end: '14:40'
+    talks:
+      Large Hall: m_seki
+      Small Hall: junk0612
+      Large Studio: Yuryu
+  - type: talk
+    begin: '14:50'
+    end: '15:20'
+    talks:
+      Large Hall: KJTsanaktsidis
+      Small Hall: gedorinku
+      Large Studio: palkan_tula
+  - type: break
+    begin: '15:20'
+    end: '16:00'
+    name: Afternoon Break
+  - type: talk
+    begin: '16:00'
+    end: '16:30'
+    talks:
+      Large Hall: makenowjust
+      Small Hall: ledsun
+      Large Studio: vinistock
+  - type: keynote
+    begin: '16:40'
+    end: '17:40'
+    talks:
+      Large Hall: yukihiro_matz
