@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+LT - RubyKaigi 2024
+</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='LT' property='og:title'>
+<meta content='RubyKaigi 2024' property='og:site_name'>
+<meta content='https://rubykaigi.org/2024' property='og:url'>
+<meta content='activity' property='og:type'>
+<meta content='https://rubykaigi.org/2024/images/ogp-2e830974.png' property='og:image'>
+<meta content='RubyKaigi 2024, #rubykaigi' name='description' property='og:description'>
+<meta content='@rubykaigi' name='twitter:site'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='rubykaigi, ruby会議, rubykaigi2024' name='keywords'>
+<link href='../../images/apple-touch-icon-8e33ae9b.png' rel='apple-touch-icon'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;800;900&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+<link href="../../images/favicon-a9c87a8f.png" rel="icon" type="image/png" />
+<link href="../../stylesheets/site-89f08426.css" rel="stylesheet" />
+<script crossorigin='anonymous' integrity='sha512-bwD3VD/j6ypSSnyjuaURidZksoVx3L1RPvTkleC48SbHCZsemT3VKMD39KknPnH728LLXVMTisESIBOAb5/W0Q==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-TU4ndEYOqql+pMXn14M8RDWsjjD+VPUA2RoWSuuFd+blPJW4oLrL1w1zAGdlrk4jsE2FEBH5CU3+fmogVYEqIQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/utc.min.js'></script>
+<script crossorigin='anonymous' integrity='sha512-72V2JNSAxd3rsQIpDSAbCTQXD6gi91Cd/IFZ6NYwRjZSiIlIJfDrJLXq+UomWstOg+zGHWFfkTDl3APEUMoqlw==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/plugin/timezone.min.js'></script>
+<script>
+  dayjs.extend(window.dayjs_plugin_utc);
+  dayjs.extend(window.dayjs_plugin_timezone);
+</script>
+</head>
+<body class='static is-lt' id='presentation'>
+<div class='l-wrapper'>
+<div class='l-wrapper__start'>
+<header class='b-header'>
+<div class='l-container'>
+<div class='b-header__inner'>
+<div class='b-header__start'>
+<div class='e-header-logo'>
+<a href="/2024/" class="e-header-logo__link"><img src="../../images/header-logo-f5e73464.svg" class="e-header-logo__image" alt="RubyKaigi 2024 logo" />
+</a></div>
+</div>
+<div class='b-header__end'>
+<input class='e-hidden-input' id='toggle-header-nav' type='checkbox'>
+<div class='toggle-header-nav'>
+<label class='e-hamburger' for='toggle-header-nav'>
+<span class='e-hamburger__inner'></span>
+</label>
+<nav class='m-header-nav'>
+<ul class='m-header-nav__items'>
+<li class='m-header-nav__item'>
+<a href="../../schedule/" class="m-header-nav__item-link is-text"><span>
+Schedule
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../speakers/" class="m-header-nav__item-link is-text"><span>
+Speakers
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../events/" class="m-header-nav__item-link is-text"><span>
+Events
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../sponsors/" class="m-header-nav__item-link is-text"><span>
+Sponsors
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../venue/" class="m-header-nav__item-link is-text"><span>
+Venue
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../onsite/" class="m-header-nav__item-link is-text"><span>
+Onsite
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../goodies/" class="m-header-nav__item-link is-text"><span>
+Goodies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../policies/" class="m-header-nav__item-link is-text"><span>
+Policies
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a href="../../about/" class="m-header-nav__item-link is-text"><span>
+About
+</span>
+</a></li>
+<li class='m-header-nav__item'>
+<a aria-label='RubyKaigi on X' class='m-header-x' href='https://x.com/RubyKaigi' rel='me noopener' target='_blank'>
+<svg class="e-x-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1200 1227" fill="#2C2C31">
+<path d="M714.2,519.3L1160.9,0H1055L667.1,450.9L357.3,0H0l468.5,681.8L0,1226.4h105.9l409.6-476.2l327.2,476.2H1200
+	L714.2,519.3L714.2,519.3z M569.2,687.8l-47.5-67.9L144,79.7h162.6l304.8,436l47.5,67.9l396.2,566.7H892.5L569.2,687.8L569.2,687.8z
+	"/>
+</svg>
+
+</a>
+</li>
+<li class='m-header-nav__item'>
+<a aria-label='RubyKaigi on Fediverse (Mastodon)' class='m-header-mastodon' href='https://ruby.social/@rubykaigi' rel='me noopener' target='_blank'>
+<svg class="e-mastodon-logo" width="74" height="79" viewBox="0 0 74 79" fill="#2c2c31" xmlns="http://www.w3.org/2000/svg">
+<path d="M73.7014 17.4323C72.5616 9.05152 65.1774 2.4469 56.424 1.1671C54.9472 0.950843 49.3518 0.163818 36.3901 0.163818H36.2933C23.3281 0.163818 20.5465 0.950843 19.0697 1.1671C10.56 2.41145 2.78877 8.34604 0.903306 16.826C-0.00357854 21.0022 -0.100361 25.6322 0.068112 29.8793C0.308275 35.9699 0.354874 42.0498 0.91406 48.1156C1.30064 52.1448 1.97502 56.1419 2.93215 60.0769C4.72441 67.3445 11.9795 73.3925 19.0876 75.86C26.6979 78.4332 34.8821 78.8603 42.724 77.0937C43.5866 76.8952 44.4398 76.6647 45.2833 76.4024C47.1867 75.8033 49.4199 75.1332 51.0616 73.9562C51.0841 73.9397 51.1026 73.9184 51.1156 73.8938C51.1286 73.8693 51.1359 73.8421 51.1368 73.8144V67.9366C51.1364 67.9107 51.1302 67.8852 51.1186 67.862C51.1069 67.8388 51.0902 67.8184 51.0695 67.8025C51.0489 67.7865 51.0249 67.7753 50.9994 67.7696C50.9738 67.764 50.9473 67.7641 50.9218 67.7699C45.8976 68.9569 40.7491 69.5519 35.5836 69.5425C26.694 69.5425 24.3031 65.3699 23.6184 63.6327C23.0681 62.1314 22.7186 60.5654 22.5789 58.9744C22.5775 58.9477 22.5825 58.921 22.5934 58.8965C22.6043 58.8721 22.621 58.8505 22.6419 58.8336C22.6629 58.8167 22.6876 58.8049 22.714 58.7992C22.7404 58.7934 22.7678 58.794 22.794 58.8007C27.7345 59.9796 32.799 60.5746 37.8813 60.5733C39.1036 60.5733 40.3223 60.5733 41.5447 60.5414C46.6562 60.3996 52.0437 60.1408 57.0728 59.1694C57.1983 59.1446 57.3237 59.1233 57.4313 59.0914C65.3638 57.5847 72.9128 52.8555 73.6799 40.8799C73.7086 40.4084 73.7803 35.9415 73.7803 35.4523C73.7839 33.7896 74.3216 23.6576 73.7014 17.4323ZM61.4925 47.3144H53.1514V27.107C53.1514 22.8528 51.3591 20.6832 47.7136 20.6832C43.7061 20.6832 41.6988 23.2499 41.6988 28.3194V39.3803H33.4078V28.3194C33.4078 23.2499 31.3969 20.6832 27.3894 20.6832C23.7654 20.6832 21.9552 22.8528 21.9516 27.107V47.3144H13.6176V26.4937C13.6176 22.2395 14.7157 18.8598 16.9118 16.3545C19.1772 13.8552 22.1488 12.5719 25.8373 12.5719C30.1064 12.5719 33.3325 14.1955 35.4832 17.4394L37.5587 20.8853L39.6377 17.4394C41.7884 14.1955 45.0145 12.5719 49.2765 12.5719C52.9614 12.5719 55.9329 13.8552 58.2055 16.3545C60.4017 18.8574 61.4997 22.2371 61.4997 26.4937L61.4925 47.3144Z" fill="inherit"/>
+</svg>
+
+</a>
+</li>
+</ul>
+<label class='e-overlay' for='toggle-header-nav'></label>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<script>
+  var urlHash = location.hash;
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("js-back").setAttribute("href", document.getElementById("js-back").getAttribute("href") + urlHash);
+  }, false);
+</script>
+<main class='l-main'>
+<div class='m-page-header'>
+<div class='l-container is-xl'>
+<div class='m-page-header__inner'>
+<h1 class='e-page-title'>
+Lightning Talks
+</h1>
+</div>
+</div>
+</div>
+<div class='m-page-body'>
+<div class='m-page-body__rows'>
+<div class='m-page-body__row'>
+<div class='l-container is-xl'>
+<div class='m-page-body__back'>
+<a href="/2024/schedule" class="e-back-link" id="js-back"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path class="left-arrow" d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z"/></svg>
+
+Back
+</a></div>
+<div class='m-lt-presentations'>
+<div class='m-lt-presentation-video'>
+<div class='m-lt-presentation-video-inner'>
+<h2 class='m-presentation-section__title'>
+Recorded video
+</h2>
+<div class='m-page-header__inner'>
+<div class='m-lt-presentation-section__video-embed'>
+<iframe allowfullscreen frameborder='0' height='315' src='https://www.youtube.com/embed/w1AodsHYT_o' width='560'></iframe>
+</div>
+<div class='m-presentation-section__video-link'>
+<a href="https://www.youtube.com/watch?v=w1AodsHYT_o">Lightning Talks</a>
+<nbsp></nbsp>
+from
+<nbsp></nbsp>
+<a href="https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A">RubyKaigi on YouTube</a>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/8313c7d2124a05b77483f1535915ecdb?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="hogelog" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+hogelog
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@hogelog
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/hogelog" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/hogelog" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Software engineer at STORES Inc. I like Ruby and programming.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Visualize the internal state of ruby processes in Real-Time
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>MetricsMonitor is a gem that visualizes the internal metrics of ruby processes.</p>
+
+<p>What are the CPU utilization trends for each process of a program that launches multiple processes?
+What is the timing of GC execution and how is the memory usage trending?
+How many Ruby objects of what class are being generated inside each process?</p>
+
+<p>Therefore, I created MetricsMonitor, a tool that attaches directly to a running Ruby program and can observe its internal state.
+By simply embedding this tool in your Ruby program, you can visualize and observe the internal state of your program.
+This tool has been instrumental in visualizing and resolving real problems, such as bloated memory usage in large applications.</p>
+
+<p>In this talk, I will show how my MetricsMonitor visualizes the internal state of a Ruby program and how I find problems in Ruby programs based on that visualization.</p>
+
+<p>This talk will be enjoyable for Ruby developers who are looking to gain deeper insights about their Ruby applications.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/ee8f34a3a2e0a0cd3d6b76a40f7d4235?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Andi Idogawa" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Andi Idogawa
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@largo
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/largo" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/largo" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>A Swiss Software Engineer living in sunny Miyazaki, Japan. Dreams of using Ruby everywhere!</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+The Frontend Rubyist
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>An introduction how to use Ruby on the frontend instead of JavaScript. We will look at how to make apps with HTML, CSS and Ruby, which run on the web and on the desktop.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/618ca491dc06ae0a7cd84153ff236d70?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Miyuki Koshiba" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Miyuki Koshiba
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@chobishiba
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/ksbmyk" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/chobishiba" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Rubyist &amp; Creative Coder. 
+Software engineer at SmartBank, Inc.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Enjoy Creative Coding with Ruby
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>In the field of programming, there is a discipline called &quot;Creative Coding,&quot; which involves creating art using code. It&#39;s not just about still images; you can also create videos, interactive pieces, and works where the outcome varies each time they&#39;re executed.
+While programming is often pursued to solve specific problems, Creative Coding involves programming as a means of expression, simply for one&#39;s own enjoyment.
+Creative Coding like that is achievable with Ruby as well.
+Why not add some color to your daily life with a little coding for yourself?
+In this lightning talk, everyone in the audience will get to experience Creative Coding firsthand :)</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/b3ba3ccedfbf4d605f00bafd1a732529?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Yuichiro Kaneko" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Yuichiro Kaneko
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@spikeolaf
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/yui-knk" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/spikeolaf" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>The author of <a href="https://github.com/ruby/lrama">Lrama</a> LALR parser generator. Ruby committer.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Rearchitect Ripper
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>Ripper has longstanding bugs like <a href="https://bugs.ruby-lang.org/issues/10436">Bug #10436</a>.
+The root cause of the bug is the limitation of Bison. However we can fix the issue now.
+Only on the Lrama.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/bae60c0ef4080447ba2111e308ae10b2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Fohte (Hayato Kawai)" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Fohte (Hayato Kawai)
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@fohte
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/fohte" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/fohte" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Software Engineer at Wantedly, Inc., specializing in infrastructure engineering with a passion for Kubernetes, AWS, containers, and Ruby.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+The Journey of rubocop-daemon into RuboCop
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>rubocop-daemon was developed independently as a personal project before being integrated into the RuboCop core as a Server Mode. In this LT, I will discuss how rubocop-daemon came into being and the process leading to its integration into the RuboCop core, sharing the lessons learned along the way. Specifically, I will focus on the challenges faced as an OSS project owner and the effective strategies for engaging with OSS projects.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/9f1ae00befda4678d688bcb41db6390c?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hashino Mikiko" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hashino Mikiko
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@mikiko_bridge
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/mikik0" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/mikiko_bridge" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Web application developer.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+The test code generator using static analysis and LLM
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>In the Ruby on Rails development, ensuring comprehensive test coverage through proper specification is very important. However,  amidst the rapid pace of development, we skip writing some test cases realistically. Therefore, leading to the potential risk of releasing unverified methods. Omochi solves this pain point. Omochi leverages static analysis techniques to scrutinize Ruby codebases and identify methods that lack associated spec files. By using static analysis, Omochi parses the AST of Ruby code, enabling it to traverse through the codebase and pinpoint methods without accompanying specifications. This approach eliminates the need for manual inspection of spec files, streamlining the process of ensuring comprehensive test coverage. In this presentation, I will delve into the potential for further efficiency gains in Ruby programming through static analysis techniques. I hope that Omochi will serve as a catalyst for the adoption of static analysis approaches in the Ruby community.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/4d4a1d2c975c1216a6005c07cca77baa?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="S.H." class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+S.H.
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@S-H-GAMELINKS
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/S-H-GAMELINKS" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Software engineer at ESM, Inc.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Contributing to the Ruby Parser
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>How I learned to stop worrying and contributed the Ruby parser.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/7dd50c456191c49bdfe3dc73a94eddc2?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="NAITOH Jun" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+NAITOH Jun
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@naitoh
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/naitoh" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/naitoh" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>A member of <a href="https://red-data-tools.github.io/ja/">Red Data Tools</a>.
+Software Engineer at <a href="https://medpeer.co.jp">MedPeer, Inc.</a>.
+I am the <a href="https://rubygems.org/gems/rbpdf">RBPDF gem</a> owner of the PDF library used by <a href="https://www.redmine.org">Redmine</a>.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Improved REXML XML parsing performance using StringScanner
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>REXML is a standard XML library (Bundled Gem) for Ruby, implemented in Ruby.</p>
+
+<p>Pure Ruby is easy to install, but has the problem of slow processing performance.
+I rewrote this REXML parsing process with StringScanner to speed up the process.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/0f54aa7d6df3dbcbde91a02d0e2f75d5?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Sangyong Sim" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Sangyong Sim
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@riseshia
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/riseshia" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/riseshia" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Software engineer at STORES Inc.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Hotspot on Coverage
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>Coverage is useful in many ways. It can detect code that isn&#39;t executed in production and also helps identify unnecessary tests based on the changes in pull requests. In this presentation, I will show how I used Coverage library to find hotspots in code execution.</p>
+
+<p>Coverage は何かと便利です。本番で動かして実行されないコードも検出できますし、過去のテスト実行履歴から変わったコードに使われたテストを絞ることも可能です。この発表ではコード実行のホットスポットを探すためにカバレッジを使ってみた話をします。</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/c9c3a6acd907b66995c09a3f56a7985d?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Hayao Kimura" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Hayao Kimura
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@hachiblog
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/hayaokimura" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/hachiblog" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Co-Founder of <a href="https://kyobashirb.connpass.com/">Kyobashi.rb</a>. Organizer of Kaigi on Rails. A Software engineer at freee K.K.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+Drive Your Code: Building an RC Car by Writing Only Ruby
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>Electronics projects often come with the daunting task of setting up development environments, which can deter many from getting started. However, as Rubyists, we have PicoRuby and the software implemented with it, called R2P2. With R2P2, you can embark on electronics projects by simply writing Ruby code in your editor, no setup required. This Talk will introduce you to the basics of electronic projects using R2P2 and showcase how to create a functioning RC car using this technology. Learn how effortlessly you can bring your code to life and drive an RC car, bridging the gap between software and hardware with Ruby&#39;s simplicity and power.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation'>
+<div class='m-presentation__speakers'>
+<div class='m-presentation__speaker'>
+<div class='m-member is-speaker'>
+<div class='m-member__inner'>
+<img src="https://www.gravatar.com/avatar/ddf99b5289eb4ce09415f031929a599e?s=268&amp;d=https%3A%2F%2Frubykaigi.org%2F2020%2Fimages%2Fspeakers%2Fdummy-avatar.png" alt="Gui Heurich" class="m-member__image" />
+<div class='m-speaker__body'>
+<div class='m-speaker__meta'>
+<div class='m-member__name'>
+Gui Heurich
+</div>
+<div class='lt-speaker__meta speaker__meta'>
+<div class='speaker__id'>
+@@anthrolanguage
+</div>
+<ul class='m-member__sns'>
+<li class='m-member__sns-item is-icon'>
+<a href="https://github.com/GuiHeurich" class="m-speaker__channels-item-link is-github" target="_blank"><i class='fab fa-github-square'></i>
+</a></li>
+<li class='m-member__sns-item is-icon'>
+<a href="https://twitter.com/@anthrolanguage" class="m-speaker__channels-item-link is-twitter" target="_blank"><i class='fab fa-twitter-square'></i>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='m-member__description'>
+<p>
+<p>Gui Heurich is a programmer with a PhD in Anthropology. He is currently a Software Engineer at the BBC.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='m-presentation-content'>
+<div class='m-presentation-content__header'>
+<div class='m-presentation-content__title'>
+An anthropological view of the Ruby community
+</div>
+</div>
+<div class='m-presentation-content__description'>
+<div class='e-long-text is-sm'>
+<p>
+<p>A programming language is made of two things: the language itself and its community. There is plenty of documentation about the first one, but how much do we know about the second? In order to find out more about the Ruby community, I interviewed Ruby programmers all over the world for a major research project at the University of London for a period of 2 years. I listened to their stories and tried to understand how Ruby shaped the way they code and see the world. I dug into online archives, explored old codebases, and learned about the myths and legends of the Ruby world. In this talk, I reveal what I learned as an anthropologist and researcher of the nicest coding community of them all.</p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+</div>
+<div class='l-wrapper__end'>
+<footer class='b-footer'>
+<div class='l-container'>
+<div class='b-footer__inner'>
+<div class='m-footer'>
+<nav class='m-footer-nav'>
+<ul class='m-footer-nav__items'>
+<li class='m-footer-nav__item'>
+<a href="../../past_kaigis/" class="e-button is-lg is-border is-block">Past Kaigis
+</a></li>
+</ul>
+</nav>
+<div class='e-license'>
+This work by RubyKaigi 2024 Team is licensed under a Creative Commons Attribution 4.0 Unported License.
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
