@@ -555,3 +555,7 @@ footer {
     text-decoration: underline; }
     footer a:hover img {
       text-decoration: none; }
+
+#content iframe[src*="youtube.com"] {
+  width: 540px;
+  aspect-ratio: 16 / 9; }
